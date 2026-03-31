@@ -2020,270 +2020,240 @@ export const MOCK_COURSES = [
       }
     ] }
   },
-  {
+ {
     id: 'sk3', title: 'Handloom Weaving Techniques', category: 'Skill',
     description: 'Learn the traditional methods of weaving fabrics using a handloom.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/weaving,loom?lock=112',
+    thumbnailUrl: 'https://loremflickr.com/640/360/weaving,fabric?lock=112',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Setting up the Loom', videoUrl: 'https://www.youtube.com/embed/9_3aF_80sRw', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Handloom Basics', videoUrl: 'https://www.youtube.com/embed/c8xyBWyDA6U', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Handloom Weaving Techniques\"?",
+            "text": "Which town in Andhra Pradesh is famously known across India for its unique, highly specialized Khadi weaving?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Mangalagiri",
+                  "Dharmavaram",
+                  "Ponduru",
+                  "Pochampally"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The video title and the big green signboards at the beginning clearly welcome you to \"Ponduru.\""
       },
       {
-            "text": "In the context of Skill, why is this topic important?",
+            "text": "Ponduru is located in which district of Andhra Pradesh?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Visakhapatnam",
+                  "Srikakulam",
+                  "East Godavari",
+                  "Chittoor"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Srikakulam is the northernmost coastal district of AP, the proud home of this historic craft."
       },
       {
-            "text": "Which tool or method is most commonly associated with Handloom Weaving Techniques?",
+            "text": "Which iconic Indian freedom fighter historically preferred wearing Khadi specifically made in Ponduru?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Jawaharlal Nehru",
+                  "Subhas Chandra Bose",
+                  "Mahatma Gandhi",
+                  "Sardar Vallabhbhai Patel"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: There is a prominent statue of Mahatma Gandhi right inside the weaving society's campus because he famously loved Ponduru Khadi."
       },
       {
-            "text": "Question 4 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "text": "What is the name of the main Khadi association/society in Ponduru shown on the entry boards?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "National Handloom Society",
+                  "A.F.K.K. Sangham (Andhra Fine Khadi Karmikabhivruddhi Sangham)",
+                  "Srikakulam Weavers Union",
+                  "Gandhi Textile Group"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A.F.K.K. stands for \"Andhra Fine Khadi.\" They make the finest khadi in the state!"
       },
       {
-            "text": "Question 5 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "text": "According to the welcome board shown at the A.F.K.K. Sangham, which prominent Indian Union Minister visited this facility?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Smt. Nirmala Sitharaman",
+                  "Smt. Smriti Irani",
+                  "Shri Amit Shah",
+                  "Shri Nitin Gadkari"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The big welcome banner explicitly bears the name of Finance Minister Nirmala Sitharamanjee."
       },
       {
-            "text": "Question 6 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "text": "What is the primary raw material used to weave Ponduru Khadi?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Synthetic Nylon",
+                  "Raw Punasa Cotton",
+                  "Silk worms",
+                  "Jute fiber"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Khadi is always made from pure, natural cotton. In this region, short-staple hill cotton is often used."
       },
       {
-            "text": "Question 7 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "text": "In the traditional Ponduru process, what unique natural tool do the women use to comb and clean the raw cotton?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "A plastic brush",
+                  "An iron comb",
+                  "The jawbone of the Valuga fish",
+                  "A wooden spatula"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: This is the most unique fact about Ponduru! The sharp, natural teeth of the Valuga fish jawbone clean the cotton without breaking the delicate fibers."
       },
       {
-            "text": "Question 8 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "text": "What hand-cranked wooden device is used by the women to separate the seeds from the raw cotton?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "A Power loom",
+                  "A Ginning roller (Charkha mechanism)",
+                  "A Sewing machine",
+                  "A Grinding stone"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The small wooden rollers squeeze the cotton, popping the hard seeds out while letting the soft cotton pass through."
       },
       {
-            "text": "Question 9 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "text": "What tool is used by the women sitting in the village to spin the fluffy cotton into fine yarn?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "The traditional Charkha (Spinning Wheel)",
+                  "An electric motor spindle",
+                  "A drop spindle",
+                  "A hand drill"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The Charkha is the ultimate symbol of Khadi and the Swadeshi movement."
       },
       {
-            "text": "Question 10 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "text": "In the middle of the documentary, where are the men seen washing and treating the long bundles of cotton yarn?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Inside modern washing machines",
+                  "In a local natural pond/water body",
+                  "In chemical acid tanks",
+                  "In boiling oil"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The yarn is treated naturally by soaking and washing it in village ponds, keeping the process 100% eco-friendly."
       },
       {
-            "text": "Question 11 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "text": "What type of looms do the artisans of Ponduru use to weave the final cloth?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Automated Power Looms",
+                  "Traditional wooden handlooms (Pit looms)",
+                  "Solar-powered looms",
+                  "3D Printing looms"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: To be authentic Khadi, the weaving must be done entirely by human hands and feet on a handloom."
       },
       {
-            "text": "Question 12 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "text": "What makes Ponduru Khadi entirely unique compared to regular factory-made cotton clothes?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "It is 100% hand-spun and hand-woven",
+                  "It is entirely waterproof",
+                  "It is made of plastic threads",
+                  "It only comes in black color"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: From cleaning to spinning to weaving, no electricity or modern machinery is used."
       },
       {
-            "text": "Question 13 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "text": "What is the name of the official retail showroom shown in the video where the finished clothes are sold?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Reliance Trends",
+                  "Gandhi Khadi Vastralayam",
+                  "Ponduru Silks",
+                  "Srikakulam Cottons"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: \"Vastralayam\" means clothing store. It honors Gandhi, the biggest ambassador of Khadi."
       },
       {
-            "text": "Question 14 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "text": "How is the skill of Ponduru Khadi weaving primarily kept alive today?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Through large corporate training centers",
+                  "By foreign universities",
+                  "It is passed down from generation to generation within the weaver families",
+                  "Through online internet courses"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: It is a heritage family craft. Elders teach the children right inside their homes."
       },
       {
-            "text": "Question 15 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "text": "Which of the following garments is a staple product made by the Ponduru weavers?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Leather jackets",
+                  "Woolen sweaters",
+                  "Fine cotton sarees and dhotis",
+                  "Nylon tracksuits"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The video beautifully showcases the finished cotton sarees with colorful borders alongside traditional white dhotis."
       },
       {
-            "text": "Question 16 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "text": "What physical characteristic makes wearing Ponduru Khadi highly desirable in the Indian climate?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "It traps heat and makes you sweat",
+                  "It is highly breathable, keeping you cool in summer and warm in winter",
+                  "It is heavier than denim",
+                  "It reflects sunlight like a mirror"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Hand-spun fabric has natural air pockets, making it the perfect climate-control clothing."
       },
       {
-            "text": "Question 17 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "text": "What is the main objective of the A.F.K.K. Sangham in Ponduru?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "To export fish",
+                  "To protect traditional weavers, provide employment, and preserve authentic Khadi",
+                  "To build IT parks",
+                  "To manufacture chemical dyes"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: \"Sangham\" means society/union. They exist to protect the rights and livelihoods of the local artisans."
       },
       {
-            "text": "Question 18 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "text": "The Ponduru Khadi process is a perfect example of which historical Indian movement?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "The Green Revolution",
+                  "The Swadeshi Movement (Self-reliance)",
+                  "The White Revolution",
+                  "The Industrial Revolution"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Making your own cloth using local cotton and a Charkha is the very definition of Swadeshi."
       },
       {
-            "text": "Question 19 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "text": "At what stage of the process is the raw cotton transformed into yarn?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Ginning",
+                  "Weaving",
+                  "Spinning",
+                  "Dyeing"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The Charkha \"spins\" the loose cotton fibers into a strong, continuous thread (yarn)."
       },
       {
-            "text": "Question 20 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "text": "Why do the women repeatedly roll the cotton into small cylindrical shapes before spinning?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "To change its color",
+                  "To make \"Punis\" (cotton slivers) which are easier to feed into the spinning wheel",
+                  "To extract oil from the cotton",
+                  "To weigh the cotton accurately"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: To make \"Punis\" (cotton slivers) which are easier to feed into the spinning wheel."
       }
-] }
+    ] }
   },
   {
     id: 'sk4', title: 'Organic Farming Basics', category: 'Skill',
     description: 'Understand the principles of growing crops without synthetic chemicals.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/farming,agriculture?lock=113',
+    thumbnailUrl: 'https://asmitaorganicfarm.com/cdn/shop/articles/feature-image-1_b457f0a8-5ab3-4a06-b2f2-2df2c0dfc024.png?v=1758022340&width=1100',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'Composting and Soil Health', videoUrl: 'https://www.youtube.com/embed/oHeJv8RCenA', duration: '1:30:00' }],
