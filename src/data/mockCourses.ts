@@ -1836,265 +1836,125 @@ export const MOCK_COURSES = [
     ] }
   },
   // --- SKILL (10) ---
-  {
+ {
     id: 'sk1', title: 'Advanced Bamboo Crafting', category: 'Skill',
     description: 'Learn to create intricate baskets, furniture, and decorative items using bamboo.',
     thumbnailUrl: 'https://loremflickr.com/640/360/bamboo,craft?lock=110',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Bamboo Preparation', videoUrl: 'https://www.youtube.com/embed/yqe6R4uWzQo', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Bamboo Preparation', videoUrl: 'https://www.youtube.com/embed/RdWBiiIgX0M', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Advanced Bamboo Crafting\"?",
+            "text": "What is the primary natural material used by the tribals to make the handicrafts and furniture shown in the video?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Teak wood",
+                  "Bamboo",
+                  "Plastic",
+                  "Iron"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The video title and the core focus of the program is all about transforming simple bamboo grass into valuable art."
       },
       {
-            "text": "In the context of Skill, why is this topic important?",
+            "text": "According to the video title, what is the impressive investment-to-return ratio for this bamboo handicraft skill?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Rs 100 investment for a Rs 1,000 return",
+                  "Rs 500 investment for a Rs 2,000 return",
+                  "Rs 200 investment for a Rs 4,000 return",
+                  "Rs 1,000 investment for a Rs 5,000 return"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Just remember \"2 to 40\" (200 turns into 4000). It is a highly profitable skill with very low capital cost."
       },
       {
-            "text": "Which tool or method is most commonly associated with Advanced Bamboo Crafting?",
+            "text": "Which specific region or mandal in Andhra Pradesh is highlighted in the video for these tribal agricultural and handicraft activities?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Araku",
+                  "Seethampeta",
+                  "Paderu",
+                  "Lambasingi"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The news tickers at the bottom of the video repeatedly flash \"Seethampeta\" as the center of these tribal development activities."
       },
       {
-            "text": "Question 4 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "text": "Which organization is mentioned as spreading awareness and providing training to the tribals on nurseries, orchards, and vegetable cultivation?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "WHO",
+                  "UNESCO",
+                  "ARTS Organization",
+                  "Green Peace"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: They are teaching the \"art\" of farming and handicrafts, so the organization is suitably named ARTS."
       },
       {
-            "text": "Question 5 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "text": "Why is bamboo highly recommended for modern lifestyle furniture?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "It is extremely heavy and hard to move",
+                  "It is a natural, eco-friendly, and sustainable alternative to plastic",
+                  "It melts easily in the sun",
+                  "It is more expensive than gold"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Bamboo grows fast and leaves zero carbon footprint, making it the perfect \"green\" choice for modern homes."
       },
       {
-            "text": "Question 6 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "text": "What type of farming are the tribal farmers of Seethampeta primarily practicing, as shown in the video captions?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Heavy chemical farming",
+                  "Corporate hydroponics",
+                  "Comprehensive natural farming (Samagra Prakruthi Vyavasayam)",
+                  "Genetically modified farming"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Tribals stay close to nature, so they rely entirely on natural, chemical-free agricultural methods."
       },
       {
-            "text": "Question 7 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "text": "Which of the following forest fruits do the tribals naturally collect from the hills to sell?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Apples",
+                  "Strawberries",
+                  "Custard apples (Seethaphalalu)",
+                  "Pineapples"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Connect the name of the place \"Seethampeta\" with the fruit \"Seethaphalalu\" (Custard apples)."
       },
       {
-            "text": "Question 8 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "text": "Which of the following rare spices is specifically mentioned as being grown and sold by these tribal farmers?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Saffron",
+                  "Black Turmeric (Nalla Pasupu)",
+                  "Green Cardamom",
+                  "White Pepper"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Regular turmeric is yellow, but they grow a special, highly medicinal variety called Black Turmeric."
       },
       {
-            "text": "Question 9 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "text": "According to the experts in the video, how does bamboo furniture benefit the human body?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "It causes radiation",
+                  "It increases physical stress",
+                  "It is human-friendly, supports the backbone, and provides relaxation",
+                  "It causes allergic reactions"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Bamboo naturally flexes and breathes, offering excellent ergonomic support and cooling for the back."
       },
       {
-            "text": "Question 10 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "text": "What is the ultimate goal of teaching these inherent bamboo skills to the tribal communities?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "To make them leave the forest and move to cities",
+                  "To encourage entrepreneurship and improve their financial livelihood",
+                  "To force them to work in factories",
+                  "To stop them from doing any farming"
             ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 11 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 12 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 13 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 14 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 15 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The ultimate goal is to encourage entrepreneurship and improve their financial livelihood."
       }
-] }
+    ] }
   },
   {
     id: 'sk2', title: 'Traditional Pottery Making', category: 'Skill',
