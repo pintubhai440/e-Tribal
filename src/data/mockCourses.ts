@@ -2253,7 +2253,7 @@ export const MOCK_COURSES = [
   {
     id: 'sk4', title: 'Organic Farming Basics', category: 'Skill',
     description: 'Understand the principles of growing crops without synthetic chemicals.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/weaving,fabric?lock=112',
+    thumbnailUrl: 'https://asmitaorganicfarm.com/cdn/shop/articles/feature-image-1_b457f0a8-5ab3-4a06-b2f2-2df2c0dfc024.png?v=1758022340&width=1100',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'Composting and Soil Health', videoUrl: 'https://www.youtube.com/embed/oHeJv8RCenA', duration: '1:30:00' }],
