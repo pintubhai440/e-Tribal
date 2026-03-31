@@ -1,0 +1,5 @@
+{
+  "name": "e-Tribal Andhra",
+  "description": "A Digital Initiative for Tribal Welfare, Education, and E-Commerce in Visakhapatnam, Vizianagaram, and Srikakulam.",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"]
+}

@@ -1,0 +1,159 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ===============================================================
+    // Helper Functions
+    // ===============================================================
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isDocOwner() {
+      return isAuthenticated() && request.auth.uid == resource.data.uid;
+    }
+
+    function uidUnchanged() {
+      return !('uid' in request.resource.data) || request.resource.data.uid == request.auth.uid;
+    }
+
+    function uidNotModified() {
+      return !('uid' in request.resource.data) || request.resource.data.uid == resource.data.uid;
+    }
+
+    function hasRequiredFields(fields) {
+      return request.resource.data.keys().hasAll(fields);
+    }
+
+    function hasOnlyAllowedFields(fields) {
+      return request.resource.data.keys().hasOnly(fields);
+    }
+
+    function isValidEmail(email) {
+      return email is string && email.matches("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$");
+    }
+
+    function isAdmin() {
+      return isAuthenticated() && (
+        ('email' in request.auth.token && (
+          request.auth.token.email.lower() == "p7431309@gmail.com" || 
+          request.auth.token.email.lower() == "yampaatiyogeshpavan@gmail.com" ||
+          request.auth.token.email.lower() == "kotaiah.bonthu@ctuap.ac.in" ||
+          request.auth.token.email.lower() == "head.cs@ctuap.ac.in"
+        )) ||
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) && 
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin')
+      );
+    }
+
+    // ===============================================================
+    // Domain Validators
+    // ===============================================================
+    function isValidUser(data) {
+      return hasOnlyAllowedFields(['uid', 'name', 'role', 'email', 'phone', 'createdAt']) &&
+             data.uid is string && data.uid.size() > 0 && data.uid.size() < 100 &&
+             data.name is string && data.name.size() > 0 && data.name.size() < 100 &&
+             data.role in ['admin', 'student', 'tribal_person'] &&
+             data.email is string && isValidEmail(data.email) &&
+             (!('phone' in data) || (data.phone is string && data.phone.size() < 20)) &&
+             data.createdAt is string;
+    }
+
+    function isValidCourse(data) {
+      return hasOnlyAllowedFields(['title', 'description', 'videoUrl', 'category', 'createdAt']) &&
+             data.title is string && data.title.size() > 0 && data.title.size() < 200 &&
+             data.description is string && data.description.size() > 0 && data.description.size() < 5000 &&
+             (!('videoUrl' in data) || (data.videoUrl is string && data.videoUrl.size() < 1000)) &&
+             data.category is string && data.category.size() > 0 && data.category.size() < 100 &&
+             data.createdAt is string;
+    }
+
+    function isValidHealthRecord(data) {
+      return hasOnlyAllowedFields(['userId', 'symptoms', 'aiDiagnosis', 'createdAt']) &&
+             data.userId is string && data.userId.size() > 0 && data.userId.size() < 100 &&
+             data.symptoms is string && data.symptoms.size() > 0 && data.symptoms.size() < 5000 &&
+             data.aiDiagnosis is string && data.aiDiagnosis.size() > 0 && data.aiDiagnosis.size() < 5000 &&
+             data.createdAt is string;
+    }
+
+    function isValidProduct(data) {
+      return true;
+    }
+
+    function isValidScheme(data) {
+      return hasOnlyAllowedFields(['title', 'description', 'eligibility', 'createdAt']) &&
+             data.title is string && data.title.size() > 0 && data.title.size() < 200 &&
+             data.description is string && data.description.size() > 0 && data.description.size() < 5000 &&
+             data.eligibility is string && data.eligibility.size() > 0 && data.eligibility.size() < 5000 &&
+             data.createdAt is string;
+    }
+
+    function isValidRegistration(data) {
+      return hasOnlyAllowedFields(['name', 'sonOfFather', 'address', 'mobileNumber', 'aadharNumber', 'email', 'status', 'createdAt', 'village']) &&
+             data.name is string && data.name.size() > 0 && data.name.size() < 100 &&
+             data.sonOfFather is string && data.sonOfFather.size() > 0 && data.sonOfFather.size() < 100 &&
+             data.address is string && data.address.size() > 0 && data.address.size() < 1000 &&
+             data.mobileNumber is string && (data.mobileNumber == "" || data.mobileNumber.matches("^[0-9]{10}$")) &&
+             data.aadharNumber is string && (data.aadharNumber == "" || data.aadharNumber.matches("^[0-9]{12}$")) &&
+             (!('email' in data) || data.email == '' || isValidEmail(data.email)) &&
+             (!('village' in data) || data.village is string) &&
+             data.status in ['pending', 'approved', 'rejected'] &&
+             data.createdAt is string;
+    }
+
+    // ===============================================================
+    // Rules
+    // ===============================================================
+
+    match /users/{userId} {
+      allow read: if isOwner(userId) || isAdmin();
+      allow create: if isAuthenticated() && isValidUser(request.resource.data) && (
+        (isOwner(userId) && request.resource.data.role != 'admin') || isAdmin()
+      );
+      allow update: if isAuthenticated() && isValidUser(request.resource.data) && (
+        (isOwner(userId) && request.resource.data.role == resource.data.role) || isAdmin()
+      );
+      allow delete: if isAdmin();
+    }
+
+    match /courses/{courseId} {
+      allow read: if true;
+      allow create: if isAdmin() && isValidCourse(request.resource.data);
+      allow update: if isAdmin() && isValidCourse(request.resource.data);
+      allow delete: if isAdmin();
+    }
+
+    match /health_records/{recordId} {
+      allow read: if isAuthenticated() && (isAdmin() || request.auth.uid == resource.data.userId);
+      allow create: if isAuthenticated() && isValidHealthRecord(request.resource.data) && request.resource.data.userId == request.auth.uid;
+      allow update: if isAuthenticated() && isValidHealthRecord(request.resource.data) && request.resource.data.userId == resource.data.userId && request.auth.uid == resource.data.userId;
+      allow delete: if isAdmin();
+    }
+
+    match /products/{productId} {
+      allow read: if true;
+      allow create: if isAuthenticated();
+      allow update: if isAuthenticated() && isValidProduct(request.resource.data) && request.resource.data.sellerId == resource.data.sellerId && request.auth.uid == resource.data.sellerId;
+      allow delete: if isAdmin() || (isAuthenticated() && request.auth.uid == resource.data.sellerId);
+    }
+
+    match /schemes/{schemeId} {
+      allow read: if isAuthenticated();
+      allow create: if isAdmin() && isValidScheme(request.resource.data);
+      allow update: if isAdmin() && isValidScheme(request.resource.data);
+      allow delete: if isAdmin();
+    }
+
+    match /registrations/{registrationId} {
+      allow read: if isAdmin();
+      allow create: if isValidRegistration(request.resource.data);
+      allow update: if isAdmin() && isValidRegistration(request.resource.data);
+      allow delete: if isAdmin();
+    }
+  }
+}

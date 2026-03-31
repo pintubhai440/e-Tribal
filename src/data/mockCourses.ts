@@ -1,0 +1,15189 @@
+export const MOCK_COURSES = [
+  // --- CULTURE (10) ---
+  {
+    id: 'cul1', title: 'Tribal History of Eastern Ghats', category: 'Culture',
+    description: 'Explore the ancient roots and history of the indigenous tribes of the Eastern Ghats.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/history,tribal?lock=100',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Origins and Migration', videoUrl: 'https://www.youtube.com/embed/ICVXHkOy-tQ', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "According to the Geological Survey of India (GSI), approximately when were the Eastern Ghats formed?",
+            "options": [
+                  "170 Million years ago",
+                  "520 Million years ago",
+                  "2 Billion years ago",
+                  "2.5 Billion years ago"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Aravalli is the oldest (2.5B), Eastern Ghats is second (2B), and Western Ghats are the \"youngest\" kids here (only 170M)."
+      },
+      {
+            "text": "Which mountain range is considered the oldest in India, formed around 2.5 billion years ago?",
+            "options": [
+                  "Western Ghats",
+                  "Eastern Ghats",
+                  "Himalayas",
+                  "Aravalli Mountain Ranges"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": "\"A\" for Aravalli, \"A\" for Ancient (the very first)."
+      },
+      {
+            "text": "How old are the Western Ghats according to geological estimates?",
+            "options": [
+                  "170 Million years ago",
+                  "520 Million years ago",
+                  "2 Billion years ago",
+                  "2.5 Billion years ago"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Compared to the billions of years of the Eastern Ghats, the Western Ghats are just a few \"Million\" years old."
+      },
+      {
+            "text": "What is the geographical extent of the Eastern Ghats?",
+            "options": [
+                  "Narmada River to Kerala",
+                  "Mahanadi River Valley to Tamil Nadu",
+                  "Ganga River to Karnataka",
+                  "Godavari River to Kanyakumari"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Starts from Odisha's biggest river (Mahanadi) and goes down to the southern state (Tamil Nadu). \"M to T\"."
+      },
+      {
+            "text": "What geographical feature is located to the immediate east of the Eastern Ghats?",
+            "options": [
+                  "Deccan Plateau",
+                  "Thar Desert",
+                  "Fertile Eastern Coastal Plains",
+                  "Arabian Sea"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Between the mountains and the Bay of Bengal lies the flat, fertile coast."
+      },
+      {
+            "text": "What is located to the western side of the Eastern Ghats?",
+            "options": [
+                  "Eastern Coastal Plains",
+                  "Deccan Plateau",
+                  "Himalayas",
+                  "Bay of Bengal"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "The massive central tableland of South India sits right behind (west of) the Eastern Ghats."
+      },
+      {
+            "text": "Why are the Eastern Ghats a discontinuous mountain chain compared to the Western Ghats?",
+            "options": [
+                  "Earthquakes shifted the mountains",
+                  "They are older, leading to more erosion and weathering by rivers",
+                  "Volcanic eruptions broke them apart",
+                  "Lack of rainfall caused them to shrink"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Older things get worn out and broken over time by the continuous flow of water."
+      },
+      {
+            "text": "In which direction does the Indian Peninsula naturally slope?",
+            "options": [
+                  "East to West",
+                  "North to South",
+                  "South to North",
+                  "West to East"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": "Think of the water flow—most major southern rivers start near the Arabian Sea (West) but drain into the Bay of Bengal (East)."
+      },
+      {
+            "text": "Which of the following groups of rivers cut through the Eastern Ghats to form gaps?",
+            "options": [
+                  "Narmada and Tapti",
+                  "Indus and Sutlej",
+                  "Godavari, Mahanadi, Krishna, and Cauvery",
+                  "Ganga and Yamuna"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "The \"Big 4\" East-flowing rivers of Peninsular India."
+      },
+      {
+            "text": "What is the name of the highest peak in the entire Eastern Ghats?",
+            "options": [
+                  "Mahendragiri",
+                  "Anamudi",
+                  "Doddabetta",
+                  "Jindhagada Peak"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": "The peak is standing tall and \"Zinda\" (Alive) above all others."
+      },
+      {
+            "text": "What is the approximate height of the Jindhagada Peak?",
+            "options": [
+                  "1500 meters",
+                  "1700 meters",
+                  "2695 meters",
+                  "8848 meters"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Just remember the number 17. (1500 is for the second highest, Mahendragiri)."
+      },
+      {
+            "text": "In which Indian state is the Jindhagada Peak located?",
+            "options": [
+                  "Odisha",
+                  "Tamil Nadu",
+                  "Andhra Pradesh",
+                  "Karnataka"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "AP is right in the middle of the Eastern Ghats' stretch."
+      },
+      {
+            "text": "Which peak in the Maliya Range was previously considered the highest peak of the Eastern Ghats?",
+            "options": [
+                  "Anamudi",
+                  "Mahendragiri",
+                  "Doddabetta",
+                  "Jindhagada"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "\"Maha\" means great, so people used to think it was the greatest (highest) until Jindhagada was accurately measured."
+      },
+      {
+            "text": "The Jindhagada Peak is specifically located in which hill range?",
+            "options": [
+                  "Maliya Range",
+                  "Madugula Konda Range",
+                  "Velikonda Range",
+                  "Seshachalam Hills"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "\"Madugula\" sounds massive, fitting for the highest peak."
+      },
+      {
+            "text": "Which river flows through the Velikonda Range in Andhra Pradesh?",
+            "options": [
+                  "Palar River",
+                  "Penneru River",
+                  "Cauvery River",
+                  "Mahanadi River"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "\"Pen\" in Penneru matches with Velikonda."
+      },
+      {
+            "text": "The Nallamala Hills are one of India's oldest. They were formed during the Cambrian age, which was approximately how long ago?",
+            "options": [
+                  "170 Million years ago",
+                  "520 Million years ago",
+                  "1 Billion years ago",
+                  "2 Billion years ago"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Half a billion years roughly equals 520 Million."
+      },
+      {
+            "text": "The famous religious site, Tirupati Temple, is located in which hill range of the Eastern Ghats?",
+            "options": [
+                  "Palkonda Hills",
+                  "Ramalla Hills",
+                  "Seshachalam Hills",
+                  "Javadhi Hills"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "\"Sesha\" refers to the divine serpent, closely linked to the deity at Tirupati."
+      },
+      {
+            "text": "Which hill range's name literally translates to \"Milk Hill\" in the local language?",
+            "options": [
+                  "Palkonda Hills",
+                  "Shevaroy Hills",
+                  "Melagiri Hills",
+                  "Pachamalai Hills"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "\"Pal\" means milk in Tamil/Telugu."
+      },
+      {
+            "text": "Which upland region is located to the west of the Palkonda Hills?",
+            "options": [
+                  "Deccan Plateau",
+                  "Rayalaseema Upland",
+                  "Malwa Plateau",
+                  "Chota Nagpur Plateau"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Rayalaseema is a famous inland region of Andhra Pradesh, sitting just west of the coastal hills."
+      },
+      {
+            "text": "Which river flows through the Javadhi Hills in northern Tamil Nadu?",
+            "options": [
+                  "Cauvery River",
+                  "Krishna River",
+                  "Palar River",
+                  "Penneru River"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Javadhi and Palar go together in Northern Tamil Nadu."
+      },
+      {
+            "text": "Which hills in Tamil Nadu are particularly popular for their rich mineral reserves and coffee plantations?",
+            "options": [
+                  "Javadhi Hills",
+                  "Shevaroy Hills",
+                  "Pachamalai Hills",
+                  "Melagiri Hills"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Sip your \"Coffee\" at Shevaroy."
+      },
+      {
+            "text": "The Cauvery river flows along the southern side of which hill range, resulting in dense vegetation?",
+            "options": [
+                  "Shevaroy Hills",
+                  "Javadhi Hills",
+                  "Pachamalai Hills",
+                  "Biligiriranga Hills"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "\"Pacha\" means green in Tamil. Cauvery water makes it green and dense."
+      },
+      {
+            "text": "Which hill range acts as an Elephant Reserve, has two elephant corridors, and houses the Bannerghatta National Park?",
+            "options": [
+                  "Melagiri Hills",
+                  "Ramalla Hills",
+                  "Nallamala Hills",
+                  "Seshachalam Hills"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Elephants \"Mela\" (gather) at Melagiri."
+      },
+      {
+            "text": "Which hill range is located just south of the Melagiri Hills and is famous for its lofty peaks?",
+            "options": [
+                  "Javadhi Hills",
+                  "Biligiriranga Hills",
+                  "Palkonda Hills",
+                  "Velikonda Range"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "BR Hills (Biligiriranga) are the stepping stones as we move further south towards the convergence point."
+      },
+      {
+            "text": "Where do the Eastern Ghats and Western Ghats finally converge, creating a region of extremely rich biodiversity?",
+            "options": [
+                  "Annamalai Hills",
+                  "Cardamom Hills",
+                  "Nilgiri Mountains",
+                  "Shevaroy Hills"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": ""
+      }
+] }
+  },
+  {
+    id: 'cul2', title: 'Introduction to Kui Language', category: 'Culture',
+    description: 'Learn the basics of the Kui language spoken by the Kondh tribe.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/language,learning?lock=101',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Basic Greetings', videoUrl: 'https://www.youtube.com/embed/jvYYBRjoFhc', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "Which language's basics are being taught in this video?",
+            "options": [
+                  "Santhali",
+                  "Kui",
+                  "Bodo",
+                  "Maithili"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "What is the main topic of the video?",
+            "options": [
+                  "Consonants (Vyanjan Varna)",
+                  "Vowels (Swarabarna)",
+                  "Numbers",
+                  "Sentences"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "According to the video, how many main vowels (Swarabarna) are used in the Kui language?",
+            "options": [
+                  "3",
+                  "5",
+                  "7",
+                  "10"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Based on pronunciation time, into how many main categories are the vowels divided?",
+            "options": [
+                  "2 (Short/Hrasva and Long/Dirgha)",
+                  "3 (Hrasva, Dirgha, Pluta)",
+                  "4",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "How much time does it take to pronounce a \"Short Vowel\" (Hrasva Swar)?",
+            "options": [
+                  "2 seconds",
+                  "The time it takes to blink an eye",
+                  "5 seconds",
+                  "A long time"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "How is a \"Long Vowel\" (Dirgha Swar) pronounced?",
+            "options": [
+                  "Very quickly",
+                  "With a suppressed voice",
+                  "Stretched out / elongated",
+                  "Without making a sound"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "In the Kui language, what happens if a short vowel is mistakenly pronounced as a long vowel?",
+            "options": [
+                  "Nothing happens",
+                  "The meaning of the word changes completely",
+                  "The language sounds better",
+                  "The listener cannot understand at all"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Which word example is used in the video to explain the difference between a short and a long vowel?",
+            "options": [
+                  "Konda / Kooda",
+                  "Adda / Aadda",
+                  "Penu / Peenu",
+                  "Basa / Baasa"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "While writing, which symbol is mentioned to indicate that a vowel is long (Dirgha)?",
+            "options": [
+                  "Question mark (?)",
+                  "Full stop (.)",
+                  "A mark like an English hyphen (-)",
+                  "Comma (,)"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Which is the first vowel written on the board by the teacher?",
+            "options": [
+                  "I",
+                  "U",
+                  "A",
+                  "E"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Which is the second vowel written on the board?",
+            "options": [
+                  "Aa",
+                  "E",
+                  "O",
+                  "U"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Which is the third vowel written on the board?",
+            "options": [
+                  "E",
+                  "I",
+                  "A",
+                  "U"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Which is the fourth vowel written on the board?",
+            "options": [
+                  "Aa",
+                  "I",
+                  "E",
+                  "U"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which of these is mentioned as the last (fifth) vowel in the list of main vowels?",
+            "options": [
+                  "A",
+                  "I",
+                  "E",
+                  "U"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "If a word is written as \"A-dda\" (with a hyphen), how will the 'A' be pronounced?",
+            "options": [
+                  "Short (Hrasva)",
+                  "Long (Dirgha)",
+                  "Silent",
+                  "Rapidly"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "If a word is written as \"Adda\" (without a hyphen), how will the first vowel be pronounced?",
+            "options": [
+                  "Long (Dirgha)",
+                  "With pauses",
+                  "Short / Quick (Hrasva)",
+                  "Very long"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Towards the end of the video, which vowel is mentioned as not being needed as much separately in Kui?",
+            "options": [
+                  "O / Au",
+                  "I",
+                  "A",
+                  "E"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "According to the teacher, the 'meaning' of a word heavily depends on what?",
+            "options": [
+                  "Writing speed",
+                  "The duration of the vowel pronunciation (Short vs. Long)",
+                  "The color of the pen",
+                  "The volume of the reader's voice"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Which part of the \"Kui Learning\" series is this video?",
+            "options": [
+                  "Part 05",
+                  "Part 10",
+                  "Part 01",
+                  "Part 02"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "When reading, what should one understand upon seeing the hyphen (-) type symbol?",
+            "options": [
+                  "To stop there",
+                  "To stretch the sound of that vowel like a rubber band",
+                  "To skip to the next word",
+                  "To shorten the sound"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'cul3', title: 'Savara Art and Painting', category: 'Culture',
+    description: 'Master the ancient Savara wall painting techniques using natural colors.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/painting,art?lock=102',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Preparing Natural Colors', videoUrl: 'https://www.youtube.com/embed/GURPmSFJNKs', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "Which tribal community does the art form shown in the video belong to?",
+            "options": [
+                  "Gond Tribe",
+                  "Santhal Tribe",
+                  "Savara Tribe",
+                  "Bhil Tribe"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "In ancient times, what material did the tribal people use to coat their walls before painting on them?",
+            "options": [
+                  "White chalk",
+                  "Charcoal paste",
+                  "Yellow clay",
+                  "Red mud (Ochre/Jeguru)"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "How was the traditional white paint prepared for these tribal paintings?",
+            "options": [
+                  "By crushing sea shells",
+                  "By grinding rice grains into flour and mixing it with water",
+                  "By mixing limestone and milk",
+                  "By extracting white sap from trees"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Since modern paintbrushes were not available in the remote hilly areas, what did the tribes use to paint?",
+            "options": [
+                  "Animal hair tied to bones",
+                  "Carved stones",
+                  "Twigs and small sticks",
+                  "Cotton swabs"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "What is the primary theme or subject matter depicted in traditional Savara paintings?",
+            "options": [
+                  "Portraits of ancient kings",
+                  "Abstract geometric patterns",
+                  "Modern machinery and vehicles",
+                  "Their daily lifestyle, customs, festivals, and dances"
+            ],
+            "correctAnswerIndex": 3
+      }
+] }
+  },
+  {
+    id: 'cul4', title: 'Traditional Festivals of Araku', category: 'Culture',
+    description: 'Understand the significance and rituals of major tribal festivals in the Araku valley.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/festival,celebration?lock=103',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Tribal Festival', videoUrl: 'https://www.youtube.com/embed/FUO_a1_7KhE', duration: '1:30:00' }],
+    quiz: { questions: 
+[
+      {
+            "text": "Which tribal community's festival is featured in this video?",
+            "options": [
+                  "Gond Tribe",
+                  "Kuvi Tribe",
+                  "Chenchu Tribe",
+                  "Savara Tribe"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Remember the channel name mentions AP Tribal Culture, and the focus here is the \"Kuvi\" (sounds like 'Kavi' or poet) tribe of Araku."
+      },
+      {
+            "text": "On which specific day of the week is the \"Dasara Roggo\" festival celebrated?",
+            "options": [
+                  "Sunday",
+                  "Monday",
+                  "Tuesday",
+                  "Friday"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "'T' for Tribal, 'T' for Tuesday."
+      },
+      {
+            "text": "Which deities or natural entities are primarily worshipped during this festival?",
+            "options": [
+                  "Sun God and Moon God",
+                  "Lord Shiva and Parvati",
+                  "Nature, Mother Earth (Bhumatha), and Jakari Devatha",
+                  "Only the Village River"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Tribals have the deepest connection with what surrounds them—Nature and Mother Earth."
+      },
+      {
+            "text": "Which specific leaves are mentioned as being used in their traditional pooja?",
+            "options": [
+                  "Mango leaves",
+                  "Neem leaves",
+                  "Neredu (Jamun) leaves",
+                  "Banana leaves"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Unlike regular city poojas that use mango leaves, they use leaves from the forest's fruit tree—Neredu."
+      },
+      {
+            "text": "What ritual is performed with the rice collected from every household to ward off the evil eye (Dishti)?",
+            "options": [
+                  "It is cooked into a massive feast",
+                  "It is thrown into a sacred fire",
+                  "It is scattered outside the village boundaries",
+                  "It is fed to the village cattle"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "To keep the \"evil\" outside, you throw the enchanted rice \"outside\" the village."
+      },
+      {
+            "text": "How does the village elder (Ooru Pedda) determine the exact date and time for the festival?",
+            "options": [
+                  "By consulting a printed Hindu calendar",
+                  "By looking at the stars in the sky",
+                  "By tracking the phases of the moon",
+                  "By observing the blooming of specific flowers"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "They don't need printed calendars; the sky is their natural calendar."
+      },
+      {
+            "text": "What is a strict rule that all villagers must follow on the day of the festival?",
+            "options": [
+                  "Everyone must fast completely",
+                  "No one should leave the village or do regular work",
+                  "Only the elders are allowed to speak",
+                  "Everyone must wear only green clothes"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "It's a day of total village unity—nobody goes out, nobody works."
+      },
+      {
+            "text": "What is the main reason for celebrating the Dasara Roggo festival?",
+            "options": [
+                  "To celebrate the birth of an ancient king",
+                  "To mark the beginning of a new year",
+                  "For the well-being of the village, a good harvest, and the health of the cattle",
+                  "To prepare for hunting season"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "It is a Thanksgiving festival for the three most important things for survival: Village safety, Food (crops), and Wealth (cattle)."
+      },
+      {
+            "text": "In which language do the tribal priests chant their prayers during the pooja?",
+            "options": [
+                  "Sanskrit",
+                  "Pure Telugu",
+                  "Hindi",
+                  "Their own native tribal language"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": "The deities of the tribe understand the language of the tribe!"
+      },
+      {
+            "text": "What does the word \"Roggo\" literally mean in their native language?",
+            "options": [
+                  "A special type of traditional drum",
+                  "A traditional dance form",
+                  "Pooja or a traditional sacred celebration/thanksgiving",
+                  "The village elder"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Roggo = Pooja"
+      }
+] }
+  },
+  {
+    id: 'cul5', title: 'Tribal Storytelling and Folklore', category: 'Culture',
+    description: 'Dive into the rich oral traditions, myths, and legends passed down through generations.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/storytelling,village?lock=104',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'The Art of Oral Tradition', videoUrl: 'https://www.youtube.com/embed/0J8RLVZu38s', duration: '1:30:00' }],
+    quiz: { questions: 
+[
+      {
+            "text": "According to the video, the arrival of the Andhra tribe is clearly described in which ancient Indian epic?",
+            "options": [
+                  "Ramayana",
+                  "Mahabharata",
+                  "Bhagavad Gita",
+                  "Upanishads"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Think of the biggest, most \"Maha\" (great) war in ancient history."
+      },
+      {
+            "text": "During the Mahabharata War, the Andhra tribe arrived at the banks of which famous river?",
+            "options": [
+                  "Ganga",
+                  "Godavari",
+                  "Yamuna",
+                  "Saraswati"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "\"Y\" comes near the end of the alphabet, and the Andhras traveled far to the Yamuna."
+      },
+      {
+            "text": "In the Mahabharata war, the Andhra tribe made up the infantry for which warrior?",
+            "options": [
+                  "Arjuna",
+                  "Satyaki",
+                  "Bhishma",
+                  "Karna"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Both Satyaki and the Andhra infantry fought for the \"Satya\" (truth)."
+      },
+      {
+            "text": "For how long did the ancient Andhra tribes live as nomads before settling down?",
+            "options": [
+                  "A few decades",
+                  "One century",
+                  "Several centuries",
+                  "A thousand years"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "It took them hundreds of years (several centuries) of wandering to finally find their permanent home."
+      },
+      {
+            "text": "Around what time did some of the Andhra tribes inhabit the banks of the Yamuna river?",
+            "options": [
+                  "1500 BC",
+                  "1000 BC",
+                  "700 BC",
+                  "300 BC"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Picture the number 7 as a boomerang, showing they eventually migrated back down South around 700 BC."
+      },
+      {
+            "text": "When the Andhras migrated to the South, where did one group of them settle?",
+            "options": [
+                  "The Eastern Himalayas",
+                  "The west side of the Vindhya mountains",
+                  "The Thar Desert",
+                  "The Malabar Coast"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "\"V\" for Vindhya. They moved down to the central \"V\" dividing North and South India."
+      },
+      {
+            "text": "Another tribe crossed which mountain range to reach the Kalinga kingdom?",
+            "options": [
+                  "Western Ghats",
+                  "Aravalli Range",
+                  "Eastern Ghats",
+                  "Satpura Range"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Kalinga (modern-day Odisha) is on the East coast, so they naturally had to cross the Eastern Ghats."
+      },
+      {
+            "text": "According to ancient texts, what is the relationship between the Andhras and the Kalingas?",
+            "options": [
+                  "They were bitter enemies",
+                  "They spoke completely different languages",
+                  "They are two branches of a single tribe",
+                  "They never interacted"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Think of them as two branches growing from the exact same ancient family tree."
+      },
+      {
+            "text": "Which Buddhist Jataka tale explains that the Andhras built a settlement called Anuram?",
+            "options": [
+                  "The Monkey King Jataka",
+                  "Serivanija Jataka",
+                  "The Golden Goose Jataka",
+                  "The Banyan Deer Jataka"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "\"Seri\" sounds like series. This tale is part of a series of stories about their early settlements."
+      },
+      {
+            "text": "The Andhras built the settlement of Anuram on the banks of which river?",
+            "options": [
+                  "Krishna River",
+                  "Tel River",
+                  "Cauvery River",
+                  "Penna River"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "\"Tel\" sounds like Telugu! It is easy to connect the Telugu people to the Tel river."
+      },
+      {
+            "text": "The Tel river is a sub-river (tributary) of which major river in Odisha?",
+            "options": [
+                  "Mahanadi",
+                  "Godavari",
+                  "Brahmaputra",
+                  "Narmada"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "\"Maha\" means great. The Tel river flows into the \"Great River\" of Odisha."
+      },
+      {
+            "text": "Where can you find the earliest visual descriptions (sculptures) of the people from the present Andhra region?",
+            "options": [
+                  "Ajanta Caves",
+                  "Ellora Caves",
+                  "Buddhist sculptures at Amaravati",
+                  "Sanchi Stupa"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "\"Amara\" means immortal. Their earliest faces are immortally carved in Amaravati."
+      },
+      {
+            "text": "In the Amaravati sculptures, how are the local Andhra people symbolically depicted?",
+            "options": [
+                  "With wings of eagles",
+                  "With the heads of snakes",
+                  "Riding elephants",
+                  "Holding lotus flowers"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Snakes represent earth and mystery in ancient art."
+      },
+      {
+            "text": "Because of this snake symbolism, what was the ancient Andhra region also referred to as?",
+            "options": [
+                  "Garuda Desa",
+                  "Naga Desa",
+                  "Surya Desa",
+                  "Vayu Desa"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "\"Naga\" literally means snake. Naga Desa means the Land of Snakes."
+      },
+      {
+            "text": "Who were the ancient kings of Naga Desa commonly referred to as?",
+            "options": [
+                  "The Asuras",
+                  "The Devas",
+                  "The Nagas",
+                  "The Cholas"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "The kings took the name of their land. Kings of Naga Desa = Nagas."
+      },
+      {
+            "text": "The migrating Andhra tribes established relationships with which two tribes already living in the Vindhya mountains?",
+            "options": [
+                  "Naga and Yaksha tribes",
+                  "Bhil and Gond tribes",
+                  "Santhal and Munda tribes",
+                  "Koli and Mina tribes"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Picture a snake (Naga) and a nature spirit (Yaksha) welcoming the Andhras to the mountains."
+      },
+      {
+            "text": "Which ancient Vedic text states that the Andhras left Northern India from the Yamuna to migrate south?",
+            "options": [
+                  "Mundaka Upanishad",
+                  "Aitareya Brahmana",
+                  "Samaveda",
+                  "Atharvaveda"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "\"A\" for Aitareya and \"A\" for Andhras."
+      },
+      {
+            "text": "The Aitareya Brahmana is a part of which major Veda?",
+            "options": [
+                  "Rigveda",
+                  "Samaveda",
+                  "Yajurveda",
+                  "Atharvaveda"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Rigveda is the oldest Veda, fitting for the oldest recorded history of the tribe."
+      },
+      {
+            "text": "In historical records, the earliest mention of the specific word for the region was found in a novel by which Jain monk?",
+            "options": [
+                  "Mahavira",
+                  "Bhadrabahu",
+                  "Udyotana Suri",
+                  "Hemachandra"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Think of the sun rising. \"Uday\" means sunrise, similar to Udyotana shedding light on the name."
+      },
+      {
+            "text": "In what year of the Common Era (CE) was the Jain monk Udyotana Suri's novel composed?",
+            "options": [
+                  "300 CE",
+                  "550 CE",
+                  "779 CE",
+                  "1000 CE"
+            ],
+            "correctAnswerIndex": 2
+      }
+] }
+  },
+  {
+    id: 'cul6', title: 'Indigenous Clothing and Attire', category: 'Culture',
+    description: 'Learn about the traditional garments, weaving patterns, and their cultural meanings.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/clothing,traditional?lock=105',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Significance of Colors', videoUrl: 'https://www.youtube.com/embed/vcN0khsFvyg', duration: '1:30:00' }],
+    quiz: { questions: 
+[
+      {
+            "text": "Where is Andhra Pradesh located in India?",
+            "options": [
+                  "Northwestern coastal region",
+                  "Southeastern coastal region",
+                  "Central region",
+                  "Northeastern hill region"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Remember the map of India—AP hugs the Bay of Bengal on the lower right (Southeast)."
+      },
+      {
+            "text": "What is the primary traditional wear for women in Andhra Pradesh and Telangana?",
+            "options": [
+                  "Salwar Kameez",
+                  "Lehenga Choli",
+                  "Saree (specifically original handloom)",
+                  "Anarkali Suit"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "South India is world-renowned for its rich, traditional handloom sarees."
+      },
+      {
+            "text": "How are most of the famous saree varieties in Andhra Pradesh and Telangana named?",
+            "options": [
+                  "After the weaver who designed them",
+                  "After the kings who ruled the region",
+                  "After the district or town they are made in",
+                  "After the type of thread used"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Just like Kanjeevaram comes from Kanchipuram, these sarees carry their hometown's name!"
+      },
+      {
+            "text": "The famous \"Uppada Jamdani\" saree belongs to which district of Andhra Pradesh?",
+            "options": [
+                  "Anantapur",
+                  "Chittoor",
+                  "East Godavari",
+                  "Visakhapatnam"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "\"Uppada\" is a coastal village in the prosperous East Godavari district."
+      },
+      {
+            "text": "What is the unique specialty of the Uppada Jamdani saree?",
+            "options": [
+                  "It is completely waterproof",
+                  "The design looks exactly the same on both sides",
+                  "It is made of pure gold threads",
+                  "It changes color in the sunlight"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Uppada sarees are like a mirror—no \"wrong side\" to the design!"
+      },
+      {
+            "text": "Pochampally Art Sarees are made in Bhoodan Pochampally, which is located in which state?",
+            "options": [
+                  "Andhra Pradesh",
+                  "Karnataka",
+                  "Telangana",
+                  "Tamil Nadu"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Pochampally is close to Hyderabad, placing it right in the heart of Telangana."
+      },
+      {
+            "text": "What kind of traditional patterns are Pochampally sarees most famous for?",
+            "options": [
+                  "Floral embroidery",
+                  "Geometric patterns",
+                  "Animal prints",
+                  "Plain solid colors"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Think of Pochampally designs as beautiful math—full of sharp angles and geometric shapes."
+      },
+      {
+            "text": "Pochampally sarees are well known for which specific style of dyeing?",
+            "options": [
+                  "Tie and Dye (Bandhani)",
+                  "Block Printing",
+                  "Ikkat style of dyeing",
+                  "Batik"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Pochampally is synonymous with Ikkat (where threads are dyed before weaving)."
+      },
+      {
+            "text": "The official cabin crew of which Indian airline wear specially designed Pochampally sarees?",
+            "options": [
+                  "IndiGo",
+                  "SpiceJet",
+                  "Air India",
+                  "Vistara"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Air India, the national carrier, takes the pride of Indian handlooms (Pochampally) to the skies."
+      },
+      {
+            "text": "Pochampally sarees are handwoven using which types of fabric?",
+            "options": [
+                  "Silk and Cotton",
+                  "Nylon and Polyester",
+                  "Jute and Khadi",
+                  "Wool and Velvet"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "The two most classic, natural, and breathable Indian fabrics."
+      },
+      {
+            "text": "Gadwal sarees are made in the Jogulamba Gadwal district. Which state is this in?",
+            "options": [
+                  "Andhra Pradesh",
+                  "Telangana",
+                  "Kerala",
+                  "Maharashtra"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Gadwal is a historic region in modern-day Telangana."
+      },
+      {
+            "text": "What are Dharmavaram sarees (from Anantapur district, AP) extremely well known for?",
+            "options": [
+                  "Being very lightweight and transparent",
+                  "Gold-plated borders and artwork imprinted on them",
+                  "Using only black and white colors",
+                  "Being woven entirely by machines"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "\"Dharma\" means righteousness/duty, and gold is the most \"righteous\" and pure metal for borders."
+      },
+      {
+            "text": "Dharmavaram sarees are mostly used by dancers of which classical dance forms?",
+            "options": [
+                  "Kathak and Odissi",
+                  "Bharatanatyam and Kuchipudi",
+                  "Manipuri and Sattriya",
+                  "Mohiniyattam and Kathakali"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Kuchipudi is AP's native dance, and Bharatanatyam is from neighboring TN—both use rich Dharmavaram silks!"
+      },
+      {
+            "text": "If someone is looking for a heavy silk saree with golden zari for a function, which saree does the video recommend?",
+            "options": [
+                  "Uppada Jamdani",
+                  "Pochampally Cotton",
+                  "Dharmavaram Saree",
+                  "Plain Chiffon Saree"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Heavy silk + Golden Zari = The royal Dharmavaram look."
+      },
+      {
+            "text": "Which of the following is a famous Andhra-style saree draping method mentioned in the video?",
+            "options": [
+                  "Nivi style",
+                  "Gujarati drape",
+                  "Bengali style",
+                  "Maharashtrian Nauvari"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "The \"Nivi\" drape is the modern, universally popular way to wear a saree, and its roots are tied to Andhra!"
+      },
+      {
+            "text": "Besides the Nivi style, which of the following is another traditional saree draping style in this region?",
+            "options": [
+                  "Seedha Pallu",
+                  "Gochi kattu (or Gochi Kattu style)",
+                  "Mekhela Chador",
+                  "Pheran"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "\"Kattu\" means \"to tie\" in Telugu."
+      },
+      {
+            "text": "What do young, unmarried girls in Andhra Pradesh traditionally wear?",
+            "options": [
+                  "Saree",
+                  "Salwar suit",
+                  "Half saree",
+                  "Jeans and Kurti"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "A beautiful transition dress—halfway between a skirt-blouse and a full saree."
+      },
+      {
+            "text": "What is the traditional lower garment for men in Andhra Pradesh and Telangana?",
+            "options": [
+                  "Jeans",
+                  "Dhoti or Pancha",
+                  "Trousers",
+                  "Lungi exclusively"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "\"Pancha\" is the traditional Telugu word for the elegant white Dhoti."
+      },
+      {
+            "text": "What do men typically wear as an upper garment along with the Dhoti/Pancha?",
+            "options": [
+                  "T-shirt",
+                  "Kurta",
+                  "Blazer",
+                  "Sweater"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "The classic Indian combination—Kurta on top, Pancha on the bottom."
+      },
+      {
+            "text": "According to the video, what underlying role do these traditional clothes play in society?",
+            "options": [
+                  "They divide people based on wealth",
+                  "They bind communities together and show respect to roots",
+                  "They are only meant to be sold to foreigners",
+                  "They are completely outdated and no longer worn"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'cul7', title: 'Traditional Tribal Cuisine', category: 'Culture',
+    description: 'Discover the unique recipes, cooking methods, and ingredients of tribal food.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/cooking,food?lock=106',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Cooking with Bamboo Shoots', videoUrl: 'https://www.youtube.com/embed/43auLLVHNnk', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Traditional Tribal Cuisine\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Culture, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Traditional Tribal Cuisine?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'cul8', title: 'Forest Conservation Traditions', category: 'Culture',
+    description: 'Explore how tribal communities have protected the forests through sacred groves and beliefs.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/forest,nature?lock=107',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Sacred Groves', videoUrl: 'https://www.youtube.com/embed/cXP9r3LVxWk', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Forest Conservation Traditions\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Culture, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Forest Conservation Traditions?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'cul9', title: 'Tribal Wedding Customs', category: 'Culture',
+    description: 'A detailed look into the unique marriage rituals and celebrations in tribal societies.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/wedding,traditional?lock=108',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Pre-wedding Rituals', videoUrl: 'https://www.youtube.com/embed/YGpINhghJVE', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Tribal Wedding Customs\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Culture, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Tribal Wedding Customs?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Tribal Wedding Customs: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'cul10', title: 'Ancient Tribal Architecture', category: 'Culture',
+    description: 'Learn about the sustainable and climate-resilient housing designs of the tribes.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/architecture,hut?lock=109',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Building with Mud and Thatch', videoUrl: 'https://www.youtube.com/embed/7Q5-B3X7_8g', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Ancient Tribal Architecture\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Culture, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Ancient Tribal Architecture?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Culture",
+                  "Concept B related to Culture",
+                  "Concept C related to Culture",
+                  "Concept D related to Culture"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+
+  // --- SKILL (10) ---
+  {
+    id: 'sk1', title: 'Advanced Bamboo Crafting', category: 'Skill',
+    description: 'Learn to create intricate baskets, furniture, and decorative items using bamboo.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/bamboo,craft?lock=110',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Bamboo Preparation', videoUrl: 'https://www.youtube.com/embed/yqe6R4uWzQo', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Advanced Bamboo Crafting\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Skill, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Advanced Bamboo Crafting?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Advanced Bamboo Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'sk2', title: 'Traditional Pottery Making', category: 'Skill',
+    description: 'Master the art of shaping clay into beautiful and functional pots and vessels.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/pottery,clay?lock=111',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Using the Potter Wheel', videoUrl: 'https://www.youtube.com/embed/LXb3EKWsInQ', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Traditional Pottery Making\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Skill, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Traditional Pottery Making?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'sk3', title: 'Handloom Weaving Techniques', category: 'Skill',
+    description: 'Learn the traditional methods of weaving fabrics using a handloom.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/weaving,loom?lock=112',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Setting up the Loom', videoUrl: 'https://www.youtube.com/embed/9_3aF_80sRw', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Handloom Weaving Techniques\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Skill, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Handloom Weaving Techniques?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Handloom Weaving Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'sk4', title: 'Organic Farming Basics', category: 'Skill',
+    description: 'Understand the principles of growing crops without synthetic chemicals.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/farming,agriculture?lock=113',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Composting and Soil Health', videoUrl: 'https://www.youtube.com/embed/oHeJv8RCenA', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Organic Farming Basics\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Skill, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Organic Farming Basics?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'sk5', title: 'Forest Honey Collection', category: 'Skill',
+    description: 'Learn the safe and sustainable methods of collecting wild honey from the forest.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/honey,forest?lock=114',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Identifying Beehives safely', videoUrl: 'https://www.youtube.com/embed/yqe6R4uWzQo', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Forest Honey Collection\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Skill, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Forest Honey Collection?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'sk6', title: 'Natural Dye Extraction', category: 'Skill',
+    description: 'Extract vibrant colors from plants, roots, and flowers for dyeing fabrics.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/dye,color?lock=115',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Extracting Indigo', videoUrl: 'https://www.youtube.com/embed/LXb3EKWsInQ', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Natural Dye Extraction\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Skill, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Natural Dye Extraction?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'sk7', title: 'Wood Carving Fundamentals', category: 'Skill',
+    description: 'Learn how to carve intricate designs and figures out of locally sourced wood.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/woodcarving,wood?lock=116',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Choosing the Right Tools', videoUrl: 'https://www.youtube.com/embed/9_3aF_80sRw', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Wood Carving Fundamentals\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Skill, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Wood Carving Fundamentals?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'sk8', title: 'Tailoring and Stitching', category: 'Skill',
+    description: 'Master the basics of measuring, cutting, and stitching garments.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/tailoring,sewing?lock=117',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Using a Sewing Machine', videoUrl: 'https://www.youtube.com/embed/oHeJv8RCenA', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Tailoring and Stitching\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Skill, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Tailoring and Stitching?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'sk9', title: 'Leaf Plate Making', category: 'Skill',
+    description: 'Learn to stitch sal or adda leaves together to make eco-friendly plates (vistaraku).',
+    thumbnailUrl: 'https://loremflickr.com/640/360/leaves,craft?lock=118',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Selecting and Cleaning Leaves', videoUrl: 'https://www.youtube.com/embed/yqe6R4uWzQo', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Leaf Plate Making\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Skill, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Leaf Plate Making?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'sk10', title: 'Herbal Soap Crafting', category: 'Skill',
+    description: 'Create natural, skin-friendly soaps using forest herbs and essential oils.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/soap,handmade?lock=119',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Mixing Lye and Oils', videoUrl: 'https://www.youtube.com/embed/LXb3EKWsInQ', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Herbal Soap Crafting\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Skill, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Herbal Soap Crafting?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Herbal Soap Crafting: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Skill",
+                  "Concept B related to Skill",
+                  "Concept C related to Skill",
+                  "Concept D related to Skill"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+
+  // --- DANCE (10) ---
+  {
+    id: 'dan1', title: 'Introduction to Dhimsa Dance', category: 'Dance',
+    description: 'Learn the basic steps and rhythm of the famous Dhimsa dance of the Araku valley.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/dance,tribal?lock=120',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Basic Footwork', videoUrl: 'https://www.youtube.com/embed/p8laSR1TwNQ', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Introduction to Dhimsa Dance\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Dance, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Introduction to Dhimsa Dance?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'dan2', title: 'Advanced Dhimsa Formations', category: 'Dance',
+    description: 'Master the complex group formations and synchronized movements of Dhimsa.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/dance,group?lock=121',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'The Snake Formation', videoUrl: 'https://www.youtube.com/embed/3b3_2_5_8_g', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Advanced Dhimsa Formations\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Dance, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Advanced Dhimsa Formations?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'dan3', title: 'Savara Traditional Dance', category: 'Dance',
+    description: 'Explore the energetic and rhythmic dance forms of the Savara tribe.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/dance,traditional?lock=122',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Rhythm and Posture', videoUrl: 'https://www.youtube.com/embed/p8laSR1TwNQ', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Savara Traditional Dance\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Dance, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Savara Traditional Dance?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'dan4', title: 'Lambadi Dance Basics', category: 'Dance',
+    description: 'Learn the graceful movements and hand gestures of the Lambadi (Banjara) dance.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/dance,folk?lock=123',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Hand Gestures (Mudras)', videoUrl: 'https://www.youtube.com/embed/3b3_2_5_8_g', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Lambadi Dance Basics\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Dance, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Lambadi Dance Basics?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'dan5', title: 'Tribal Drumming (Thudumbu)', category: 'Dance',
+    description: 'Master the beats of the Thudumbu, the traditional drum that drives tribal dances.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/drum,music?lock=157',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Basic Drum Beats', videoUrl: 'https://www.youtube.com/embed/p8laSR1TwNQ', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Tribal Drumming (Thudumbu)\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Dance, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Tribal Drumming (Thudumbu)?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'dan6', title: 'Flute Playing (Venu)', category: 'Dance',
+    description: 'Learn to play the traditional bamboo flute that accompanies many tribal dances.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/flute,music?lock=158',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Holding and Blowing Techniques', videoUrl: 'https://www.youtube.com/embed/3b3_2_5_8_g', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Flute Playing (Venu)\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Dance, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Flute Playing (Venu)?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'dan7', title: 'Rhythmic Footwork in Tribal Dance', category: 'Dance',
+    description: 'Focus entirely on the complex and fast-paced footwork required for tribal performances.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/feet,dance?lock=124',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Heel and Toe Taps', videoUrl: 'https://www.youtube.com/embed/p8laSR1TwNQ', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Rhythmic Footwork in Tribal Dance\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Dance, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Rhythmic Footwork in Tribal Dance?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'dan8', title: 'Dance Costumes and Makeup', category: 'Dance',
+    description: 'Learn how to prepare the traditional attire, jewelry, and natural makeup for a performance.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/makeup,costume?lock=125',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Wearing Traditional Jewelry', videoUrl: 'https://www.youtube.com/embed/3b3_2_5_8_g', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Dance Costumes and Makeup\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Dance, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Dance Costumes and Makeup?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'dan9', title: 'Festival Dance Choreography', category: 'Dance',
+    description: 'Learn how to choreograph a full dance sequence for village festivals and celebrations.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/choreography,dance?lock=126',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Structuring a Performance', videoUrl: 'https://www.youtube.com/embed/p8laSR1TwNQ', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Festival Dance Choreography\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Dance, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Festival Dance Choreography?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Festival Dance Choreography: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'dan10', title: 'Koya Dance Techniques', category: 'Dance',
+    description: 'Discover the unique Permakok (Bison Horn) dance of the Koya tribe.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/dance,culture?lock=127',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Dancing with the Bison Horn Headgear', videoUrl: 'https://www.youtube.com/embed/3b3_2_5_8_g', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Koya Dance Techniques\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Dance, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Koya Dance Techniques?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Dance",
+                  "Concept B related to Dance",
+                  "Concept C related to Dance",
+                  "Concept D related to Dance"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+
+  // --- TECHNOLOGY (10) ---
+  {
+    id: 'tech1', title: 'Basic Computer Skills & MS Word (Full Course)', category: 'Technology',
+    description: 'A comprehensive full course on Microsoft Word. Learn everything from basic typing to advanced formatting and document creation.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/computer,typing?lock=128',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'MS Word Full Course Tutorial', videoUrl: 'https://www.youtube.com/embed/HxjwTXlKpzU', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary purpose of Microsoft Word?",
+            "options": [
+                  "Spreadsheets",
+                  "Word Processing",
+                  "Presentations",
+                  "Database Management"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Which tab contains the option to change the font style and size?",
+            "options": [
+                  "Insert",
+                  "Home",
+                  "Layout",
+                  "View"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "What is the keyboard shortcut to save a document?",
+            "options": [
+                  "Ctrl + S",
+                  "Ctrl + C",
+                  "Ctrl + V",
+                  "Ctrl + P"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "How can you undo your last action in MS Word?",
+            "options": [
+                  "Ctrl + Y",
+                  "Ctrl + Z",
+                  "Ctrl + U",
+                  "Ctrl + X"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Which feature allows you to copy formatting from one place and apply it to another?",
+            "options": [
+                  "Format Painter",
+                  "Copy Paste",
+                  "Styles",
+                  "Themes"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "What is the default file extension for a saved MS Word document?",
+            "options": [
+                  ".txt",
+                  ".pdf",
+                  ".docx",
+                  ".xlsx"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Which tab would you use to insert a table into your document?",
+            "options": [
+                  "Home",
+                  "Insert",
+                  "Design",
+                  "Layout"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "What does the \"B\" icon in the font group stand for?",
+            "options": [
+                  "Border",
+                  "Background",
+                  "Bold",
+                  "Bullet"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "How do you select an entire paragraph quickly?",
+            "options": [
+                  "Single click",
+                  "Double click",
+                  "Triple click",
+                  "Right click"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Which tool is used to check for spelling and grammar errors?",
+            "options": [
+                  "Thesaurus",
+                  "Word Count",
+                  "Spelling & Grammar",
+                  "Translate"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "What is the shortcut to print a document?",
+            "options": [
+                  "Ctrl + P",
+                  "Ctrl + PrtScn",
+                  "Alt + P",
+                  "Shift + P"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Where can you find the option to adjust page margins?",
+            "options": [
+                  "Home",
+                  "Insert",
+                  "Layout",
+                  "Review"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Which feature is used to create a list with dots or symbols?",
+            "options": [
+                  "Numbering",
+                  "Bullets",
+                  "Multilevel List",
+                  "Indent"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "What does \"Ctrl + B\" do to selected text?",
+            "options": [
+                  "Makes it italic",
+                  "Underlines it",
+                  "Makes it bold",
+                  "Highlights it"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "How can you insert a page break?",
+            "options": [
+                  "Ctrl + Enter",
+                  "Shift + Enter",
+                  "Alt + Enter",
+                  "Tab + Enter"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Which view is best for reading a document without editing distractions?",
+            "options": [
+                  "Print Layout",
+                  "Web Layout",
+                  "Read Mode",
+                  "Outline"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "What is the purpose of the \"Find and Replace\" feature?",
+            "options": [
+                  "To find errors",
+                  "To search for text and replace it with other text",
+                  "To find images",
+                  "To replace the document name"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Which tab contains the \"Header & Footer\" options?",
+            "options": [
+                  "Home",
+                  "Insert",
+                  "Design",
+                  "Layout"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "What does the \"Align Center\" option do?",
+            "options": [
+                  "Aligns text to the left",
+                  "Aligns text to the right",
+                  "Centers text horizontally",
+                  "Justifies text"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "How do you add a watermark to a document?",
+            "options": [
+                  "Insert > Watermark",
+                  "Design > Watermark",
+                  "Layout > Watermark",
+                  "View > Watermark"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Which shortcut is used to copy selected text?",
+            "options": [
+                  "Ctrl + X",
+                  "Ctrl + C",
+                  "Ctrl + V",
+                  "Ctrl + Z"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "What is a \"Template\" in MS Word?",
+            "options": [
+                  "A pre-designed document format",
+                  "A type of font",
+                  "A spelling tool",
+                  "A printing option"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "How can you change the line spacing in a paragraph?",
+            "options": [
+                  "Home > Line and Paragraph Spacing",
+                  "Insert > Spacing",
+                  "Layout > Margins",
+                  "Design > Effects"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "What does the \"Word Count\" feature display?",
+            "options": [
+                  "Number of words only",
+                  "Number of pages, words, characters, and lines",
+                  "Number of images",
+                  "Number of errors"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Which option allows you to save a document with a new name or in a different location?",
+            "options": [
+                  "Save",
+                  "Save As",
+                  "Export",
+                  "Share"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'tech2', title: 'Data Entry with MS Excel (Full Course)', category: 'Technology',
+    description: 'Master Microsoft Excel from basics to advanced formulas and data analysis.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/spreadsheet,data?lock=129',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'MS Excel Full Course', videoUrl: 'https://www.youtube.com/embed/Vl0H-qTclOg', duration: '2:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is Microsoft Excel primarily used for?",
+            "options": [
+                  "Word Processing",
+                  "Spreadsheets",
+                  "Presentations",
+                  "Database Management"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "What is the intersection of a row and a column called?",
+            "options": [
+                  "Box",
+                  "Cell",
+                  "Grid",
+                  "Block"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Which symbol is used to start a formula in Excel?",
+            "options": [
+                  "+",
+                  "-",
+                  "=",
+                  "*"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "What function is used to add a range of numbers?",
+            "options": [
+                  "ADD()",
+                  "SUM()",
+                  "TOTAL()",
+                  "PLUS()"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "How do you select an entire column in Excel?",
+            "options": [
+                  "Click the column letter",
+                  "Click the row number",
+                  "Ctrl + A",
+                  "Shift + Space"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Which feature allows you to automatically fill a series of data?",
+            "options": [
+                  "AutoFill",
+                  "AutoSum",
+                  "AutoFormat",
+                  "AutoCorrect"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "What is the default file extension for an Excel workbook?",
+            "options": [
+                  ".docx",
+                  ".pptx",
+                  ".xlsx",
+                  ".txt"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Which function finds the highest value in a range?",
+            "options": [
+                  "HIGH()",
+                  "MAX()",
+                  "TOP()",
+                  "PEAK()"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "How do you freeze the top row so it stays visible when scrolling?",
+            "options": [
+                  "View > Freeze Panes > Freeze Top Row",
+                  "Home > Freeze",
+                  "Insert > Freeze",
+                  "Data > Freeze"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "What does the VLOOKUP function do?",
+            "options": [
+                  "Looks up a value vertically",
+                  "Looks up a value horizontally",
+                  "Calculates variance",
+                  "Validates data"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Which chart type is best for showing parts of a whole?",
+            "options": [
+                  "Line Chart",
+                  "Bar Chart",
+                  "Pie Chart",
+                  "Scatter Plot"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "How can you quickly format a range of cells as a table?",
+            "options": [
+                  "Ctrl + T",
+                  "Ctrl + F",
+                  "Ctrl + B",
+                  "Ctrl + P"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "What is the shortcut to save a workbook?",
+            "options": [
+                  "Ctrl + S",
+                  "Ctrl + C",
+                  "Ctrl + V",
+                  "Ctrl + Z"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Which tab contains the option to sort and filter data?",
+            "options": [
+                  "Home",
+                  "Insert",
+                  "Data",
+                  "Review"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "What does the COUNT function do?",
+            "options": [
+                  "Counts all cells",
+                  "Counts cells with numbers",
+                  "Counts empty cells",
+                  "Counts text cells"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "How do you merge multiple cells into one?",
+            "options": [
+                  "Home > Merge & Center",
+                  "Insert > Merge",
+                  "Data > Merge",
+                  "View > Merge"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Which function returns the current date and time?",
+            "options": [
+                  "TODAY()",
+                  "NOW()",
+                  "CURRENT()",
+                  "DATE()"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "What is a PivotTable used for?",
+            "options": [
+                  "Creating charts",
+                  "Summarizing and analyzing large amounts of data",
+                  "Formatting cells",
+                  "Printing documents"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "How can you apply conditional formatting?",
+            "options": [
+                  "Home > Conditional Formatting",
+                  "Insert > Formatting",
+                  "Data > Conditions",
+                  "View > Format"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Which shortcut is used to copy a cell?",
+            "options": [
+                  "Ctrl + X",
+                  "Ctrl + C",
+                  "Ctrl + V",
+                  "Ctrl + Z"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "What does the IF function do?",
+            "options": [
+                  "Checks a condition and returns one value if true, another if false",
+                  "Finds errors",
+                  "Inserts a formula",
+                  "Iterates through cells"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "How do you insert a new row?",
+            "options": [
+                  "Right-click row number > Insert",
+                  "Home > New Row",
+                  "Insert > Row",
+                  "Data > Add Row"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Which symbol is used for absolute cell references?",
+            "options": [
+                  "#",
+                  "@",
+                  "$",
+                  "%"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "What is the purpose of the \"Wrap Text\" feature?",
+            "options": [
+                  "Makes text bold",
+                  "Fits long text into multiple lines within a cell",
+                  "Changes text color",
+                  "Aligns text to the right"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "How can you protect a worksheet with a password?",
+            "options": [
+                  "Review > Protect Sheet",
+                  "Home > Protect",
+                  "Insert > Password",
+                  "Data > Secure"
+            ],
+            "correctAnswerIndex": 0
+      }
+] }
+  },
+  {
+    id: 'tech3', title: 'Python Programming (Full Course)', category: 'Technology',
+    description: 'Learn Python programming from scratch. Covers basics, data structures, and algorithms.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/code,python?lock=130',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Python Full Course', videoUrl: 'https://www.youtube.com/embed/rfscVS0vtbw', duration: '4:00:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is Python?",
+            "options": [
+                  "A snake",
+                  "A high-level programming language",
+                  "A database",
+                  "An operating system"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Which keyword is used to define a function in Python?",
+            "options": [
+                  "func",
+                  "define",
+                  "def",
+                  "function"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "How do you print \"Hello World\" in Python?",
+            "options": [
+                  "echo \"Hello World\"",
+                  "print(\"Hello World\")",
+                  "console.log(\"Hello World\")",
+                  "System.out.println(\"Hello World\")"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Which symbol is used for single-line comments in Python?",
+            "options": [
+                  "//",
+                  "/*",
+                  "#",
+                  "--"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "What data type is the result of: 5 / 2?",
+            "options": [
+                  "int",
+                  "float",
+                  "str",
+                  "bool"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Which of the following is a mutable data type?",
+            "options": [
+                  "tuple",
+                  "string",
+                  "list",
+                  "int"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "How do you create a list in Python?",
+            "options": [
+                  "[]",
+                  "{}",
+                  "()",
+                  "<>"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "What is the output of: len(\"Python\")?",
+            "options": [
+                  "5",
+                  "6",
+                  "7",
+                  "Error"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Which operator is used for exponentiation?",
+            "options": [
+                  "^",
+                  "**",
+                  "//",
+                  "%"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "How do you check if a key exists in a dictionary?",
+            "options": [
+                  "key in dict",
+                  "dict.has(key)",
+                  "dict.exists(key)",
+                  "key.in(dict)"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "What does the \"append\" method do on a list?",
+            "options": [
+                  "Removes an item",
+                  "Adds an item to the end",
+                  "Sorts the list",
+                  "Reverses the list"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Which loop is used to iterate over a sequence?",
+            "options": [
+                  "while",
+                  "for",
+                  "do-while",
+                  "repeat"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "What is the correct way to import a module named \"math\"?",
+            "options": [
+                  "include math",
+                  "import math",
+                  "require math",
+                  "using math"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "How do you handle exceptions in Python?",
+            "options": [
+                  "try-catch",
+                  "try-except",
+                  "catch-throw",
+                  "error-handle"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "What does the \"range(5)\" function generate?",
+            "options": [
+                  "0, 1, 2, 3, 4",
+                  "1, 2, 3, 4, 5",
+                  "0, 1, 2, 3, 4, 5",
+                  "1, 2, 3, 4"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Which method is used to convert a string to lowercase?",
+            "options": [
+                  "lower()",
+                  "toLowerCase()",
+                  "downcase()",
+                  "small()"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "What is a tuple?",
+            "options": [
+                  "A mutable sequence",
+                  "An immutable sequence",
+                  "A dictionary",
+                  "A set"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "How do you open a file for reading?",
+            "options": [
+                  "open(\"file.txt\", \"r\")",
+                  "open(\"file.txt\", \"w\")",
+                  "read(\"file.txt\")",
+                  "file(\"file.txt\")"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Which keyword is used to return a value from a function?",
+            "options": [
+                  "yield",
+                  "return",
+                  "output",
+                  "send"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "What is the output of: 3 == \"3\"?",
+            "options": [
+                  "True",
+                  "False",
+                  "Error",
+                  "None"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "How do you create a dictionary?",
+            "options": [
+                  "[]",
+                  "{}",
+                  "()",
+                  "<>"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Which function is used to get user input?",
+            "options": [
+                  "scan()",
+                  "read()",
+                  "input()",
+                  "get()"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "What does the \"break\" statement do?",
+            "options": [
+                  "Skips the current iteration",
+                  "Exits the loop entirely",
+                  "Pauses the program",
+                  "Throws an error"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "How do you define a class in Python?",
+            "options": [
+                  "class MyClass:",
+                  "def MyClass:",
+                  "create class MyClass:",
+                  "new class MyClass:"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "What is the purpose of the \"__init__\" method?",
+            "options": [
+                  "To initialize a class instance",
+                  "To destroy an object",
+                  "To print output",
+                  "To import modules"
+            ],
+            "correctAnswerIndex": 0
+      }
+] }
+  },
+  {
+    id: 'tech4', title: 'Internet Basics & Online Safety', category: 'Technology',
+    description: 'Learn how to browse the web safely, use search engines, and protect your personal information online.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/internet,security?lock=131',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Browsing Safely', videoUrl: 'https://www.youtube.com/embed/2MCmnr2L50o', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Internet Basics & Online Safety\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Technology, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Internet Basics & Online Safety?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'tech5', title: 'Digital Payment & Banking Basics', category: 'Technology',
+    description: 'Understand how to use UPI, mobile banking apps, and digital wallets securely for everyday transactions.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/mobile,payment?lock=132',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Using UPI Safely', videoUrl: 'https://www.youtube.com/embed/2MCmnr2L50o', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Digital Payment & Banking Basics\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Technology, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Digital Payment & Banking Basics?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'tech6', title: 'Creating Presentations with MS PowerPoint', category: 'Technology',
+    description: 'Learn how to design engaging slides and deliver effective presentations using Microsoft PowerPoint.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/presentation,screen?lock=133',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Designing Your First Slide', videoUrl: 'https://www.youtube.com/embed/2MCmnr2L50o', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Creating Presentations with MS PowerPoint\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Technology, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Creating Presentations with MS PowerPoint?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'tech7', title: 'Advanced MS Excel for Small Businesses', category: 'Technology',
+    description: 'Take your Excel skills to the next level with formulas, pivot tables, and data analysis for business.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/excel,business?lock=134',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Introduction to Formulas', videoUrl: 'https://www.youtube.com/embed/HxjwTXlKpzU', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Advanced MS Excel for Small Businesses\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Technology, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Advanced MS Excel for Small Businesses?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'tech8', title: 'Web Development Basics (HTML & CSS)', category: 'Technology',
+    description: 'Learn the building blocks of the web. Create your first webpage using HTML and style it with CSS.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/web,code?lock=159',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'HTML Structure', videoUrl: 'https://www.youtube.com/embed/mU6anWqZJcc', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Web Development Basics (HTML & CSS)\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Technology, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Web Development Basics (HTML & CSS)?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'tech9', title: 'Graphic Design Basics using Canva', category: 'Technology',
+    description: 'Create stunning posters, social media posts, and flyers easily using the Canva design tool.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/design,computer?lock=135',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Designing a Poster', videoUrl: 'https://www.youtube.com/embed/un5I9vMBFls', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Graphic Design Basics using Canva\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Technology, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Graphic Design Basics using Canva?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'tech10', title: 'Smartphone Troubleshooting & Maintenance', category: 'Technology',
+    description: 'Learn how to fix common smartphone issues, manage storage, and keep your device running smoothly.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/smartphone,repair?lock=136',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Clearing Cache and Storage', videoUrl: 'https://www.youtube.com/embed/Vl0H-qTclOg', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Smartphone Troubleshooting & Maintenance\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Technology, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Smartphone Troubleshooting & Maintenance?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Technology",
+                  "Concept B related to Technology",
+                  "Concept C related to Technology",
+                  "Concept D related to Technology"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+
+  // --- BUSINESS (10) ---
+  {
+    id: 'bus1', title: 'Marketing Tribal Handicrafts', category: 'Business',
+    description: 'Learn how to effectively market and sell your handmade products to a wider audience.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/market,handicraft?lock=137',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Identifying Your Target Market', videoUrl: 'https://www.youtube.com/embed/rwbho0CgEAE', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Marketing Tribal Handicrafts\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Business, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Marketing Tribal Handicrafts?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'bus2', title: 'Pricing Your Products', category: 'Business',
+    description: 'Understand how to calculate costs and set a fair and profitable price for your goods.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/money,business?lock=138',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Calculating Material and Labor Costs', videoUrl: 'https://www.youtube.com/embed/EngW7tCbLHY', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Pricing Your Products\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Business, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Pricing Your Products?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Pricing Your Products: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'bus3', title: 'Basic Accounting for Artisans', category: 'Business',
+    description: 'Keep track of your income, expenses, and profits using simple accounting methods.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/accounting,calculator?lock=139',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Maintaining a Ledger', videoUrl: 'https://www.youtube.com/embed/un5I9vMBFls', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Basic Accounting for Artisans\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Business, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Basic Accounting for Artisans?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'bus4', title: 'Starting a Cooperative', category: 'Business',
+    description: 'Learn the benefits and steps to form a cooperative society with fellow villagers.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/team,business?lock=140',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Power of Collective Bargaining', videoUrl: 'https://www.youtube.com/embed/rwbho0CgEAE', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Starting a Cooperative\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Business, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Starting a Cooperative?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'bus5', title: 'E-commerce for Rural Business', category: 'Business',
+    description: 'Step-by-step guide to listing and selling your products online.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/ecommerce,laptop?lock=141',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Setting up an Online Store', videoUrl: 'https://www.youtube.com/embed/EngW7tCbLHY', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"E-commerce for Rural Business\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Business, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with E-commerce for Rural Business?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'bus6', title: 'Negotiation Skills', category: 'Business',
+    description: 'Improve your communication skills to negotiate better prices with buyers and suppliers.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/handshake,business?lock=142',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Win-Win Negotiation', videoUrl: 'https://www.youtube.com/embed/un5I9vMBFls', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Negotiation Skills\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Business, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Negotiation Skills?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Negotiation Skills: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'bus7', title: 'Packaging and Branding', category: 'Business',
+    description: 'Learn how attractive packaging and a strong brand name can increase your sales.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/packaging,box?lock=143',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Importance of Good Packaging', videoUrl: 'https://www.youtube.com/embed/rwbho0CgEAE', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Packaging and Branding\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Business, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Packaging and Branding?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Packaging and Branding: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'bus8', title: 'Managing Inventory', category: 'Business',
+    description: 'Keep track of your raw materials and finished goods to avoid shortages or overstocking.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/inventory,warehouse?lock=144',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Stock Keeping Units (SKUs)', videoUrl: 'https://www.youtube.com/embed/EngW7tCbLHY', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Managing Inventory\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Business, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Managing Inventory?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Managing Inventory: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'bus9', title: 'Accessing Government Loans', category: 'Business',
+    description: 'Understand the various government schemes and loans available for rural entrepreneurs.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/bank,document?lock=145',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Applying for Mudra Loan', videoUrl: 'https://www.youtube.com/embed/un5I9vMBFls', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Accessing Government Loans\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Business, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Accessing Government Loans?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'bus10', title: 'Customer Service Basics', category: 'Business',
+    description: 'Learn how to treat customers well to build loyalty and get repeat business.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/customer,service?lock=146',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Handling Complaints Gracefully', videoUrl: 'https://www.youtube.com/embed/rwbho0CgEAE', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Customer Service Basics\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Business, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Customer Service Basics?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Customer Service Basics: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Business",
+                  "Concept B related to Business",
+                  "Concept C related to Business",
+                  "Concept D related to Business"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+
+  // --- HEALTH (10) ---
+  {
+    id: 'hlt1', title: 'First Aid in the Forest', category: 'Health',
+    description: 'Essential first aid skills for treating minor injuries, cuts, and sprains in remote areas.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/firstaid,forest?lock=147',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Cleaning and Bandaging Wounds', videoUrl: 'https://www.youtube.com/embed/ea1ndCWZEDo', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"First Aid in the Forest\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Health, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with First Aid in the Forest?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'hlt2', title: 'Maternal Health and Nutrition', category: 'Health',
+    description: 'Important dietary and health guidelines for pregnant women and new mothers.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/mother,health?lock=148',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Iron-Rich Foods', videoUrl: 'https://www.youtube.com/embed/3QIfkeA6HBY', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Maternal Health and Nutrition\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Health, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Maternal Health and Nutrition?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'hlt3', title: 'Identifying Medicinal Plants', category: 'Health',
+    description: 'Learn to identify and use common medicinal plants found in the Eastern Ghats.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/plant,medicine?lock=149',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Neem and Tulsi Benefits', videoUrl: 'https://www.youtube.com/embed/LXb3EKWsInQ', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Identifying Medicinal Plants\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Health, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Identifying Medicinal Plants?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'hlt4', title: 'Clean Water and Hygiene', category: 'Health',
+    description: 'Methods for purifying drinking water and maintaining personal and community hygiene.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/water,hygiene?lock=150',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Boiling and Filtering Water', videoUrl: 'https://www.youtube.com/embed/ea1ndCWZEDo', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Clean Water and Hygiene\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Health, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Clean Water and Hygiene?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'hlt5', title: 'Child Immunization Awareness', category: 'Health',
+    description: 'Understand the importance of vaccines in protecting children from deadly diseases.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/vaccine,child?lock=151',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'The Vaccination Schedule', videoUrl: 'https://www.youtube.com/embed/3QIfkeA6HBY', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Child Immunization Awareness\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Health, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Child Immunization Awareness?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'hlt6', title: 'Managing Common Fevers', category: 'Health',
+    description: 'Learn how to identify symptoms of Malaria, Dengue, and Typhoid, and when to seek a doctor.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/fever,health?lock=152',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Preventing Mosquito Bites', videoUrl: 'https://www.youtube.com/embed/LXb3EKWsInQ', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Managing Common Fevers\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Health, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Managing Common Fevers?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'hlt7', title: 'Traditional Herbal Remedies', category: 'Health',
+    description: 'A deep dive into preparing decoctions and pastes from local herbs for minor ailments.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/herbal,medicine?lock=153',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Making a Turmeric Paste', videoUrl: 'https://www.youtube.com/embed/ea1ndCWZEDo', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Traditional Herbal Remedies\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Health, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Traditional Herbal Remedies?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'hlt8', title: 'Mental Health in Communities', category: 'Health',
+    description: 'Understanding stress, anxiety, and the importance of community support for mental well-being.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/mentalhealth,community?lock=154',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Talking About Feelings', videoUrl: 'https://www.youtube.com/embed/3QIfkeA6HBY', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Mental Health in Communities\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Health, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Mental Health in Communities?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'hlt9', title: 'Snakebite Prevention and Care', category: 'Health',
+    description: 'Crucial information on avoiding snakebites and the correct first aid steps if bitten.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/snake,forest?lock=155',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Do\'s and Don\'ts of Snakebites', videoUrl: 'https://www.youtube.com/embed/LXb3EKWsInQ', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Snakebite Prevention and Care\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Health, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Snakebite Prevention and Care?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  },
+  {
+    id: 'hlt10', title: 'Healthy Cooking Practices', category: 'Health',
+    description: 'Learn how to cook food in a way that preserves nutrients and prevents foodborne illnesses.',
+    thumbnailUrl: 'https://loremflickr.com/640/360/cooking,healthy?lock=156',
+    instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Washing Vegetables Properly', videoUrl: 'https://www.youtube.com/embed/ea1ndCWZEDo', duration: '1:30:00' }],
+    quiz: { questions: [
+      {
+            "text": "What is the primary focus of the course \"Healthy Cooking Practices\"?",
+            "options": [
+                  "Understanding the basics",
+                  "Advanced techniques",
+                  "Historical context",
+                  "Practical application"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "In the context of Health, why is this topic important?",
+            "options": [
+                  "Cultural preservation",
+                  "Economic growth",
+                  "Skill development",
+                  "All of the above"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Which tool or method is most commonly associated with Healthy Cooking Practices?",
+            "options": [
+                  "Traditional methods",
+                  "Modern technology",
+                  "Hybrid approach",
+                  "None of the above"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 4 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 5 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 6 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 7 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 8 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 9 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 10 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 11 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 12 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 13 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 14 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 15 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 16 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 17 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 18 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 19 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 20 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 21 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Question 22 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "Question 23 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 3
+      },
+      {
+            "text": "Question 24 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Question 25 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "options": [
+                  "Concept A related to Health",
+                  "Concept B related to Health",
+                  "Concept C related to Health",
+                  "Concept D related to Health"
+            ],
+            "correctAnswerIndex": 1
+      }
+] }
+  }
+];

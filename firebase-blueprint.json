@@ -1,0 +1,238 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "A user of the e-Tribal app (Tribal Person, Student, or Admin).",
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string",
+          "description": "The unique identifier of the user (from Firebase Auth)."
+        },
+        "name": {
+          "type": "string",
+          "description": "The full name of the user."
+        },
+        "role": {
+          "type": "string",
+          "enum": ["admin", "student", "tribal_person"],
+          "description": "The role of the user."
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "The email address of the user."
+        },
+        "phone": {
+          "type": "string",
+          "description": "The phone number of the user."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The timestamp when the user was created."
+        }
+      },
+      "required": ["uid", "name", "role", "email", "createdAt"]
+    },
+    "Course": {
+      "title": "Course",
+      "description": "A learning module (video, quiz, certification).",
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "The title of the course."
+        },
+        "description": {
+          "type": "string",
+          "description": "The description of the course."
+        },
+        "videoUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "The URL of the course video."
+        },
+        "category": {
+          "type": "string",
+          "description": "The category of the course (e.g., Agriculture, Skills)."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The timestamp when the course was created."
+        }
+      },
+      "required": ["title", "description", "category", "createdAt"]
+    },
+    "HealthRecord": {
+      "title": "HealthRecord",
+      "description": "A health record or AI symptom check result.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "The ID of the user this record belongs to."
+        },
+        "symptoms": {
+          "type": "string",
+          "description": "The symptoms reported by the user."
+        },
+        "aiDiagnosis": {
+          "type": "string",
+          "description": "The AI-generated diagnosis or advice."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The timestamp when the record was created."
+        }
+      },
+      "required": ["userId", "symptoms", "aiDiagnosis", "createdAt"]
+    },
+    "Product": {
+      "title": "Product",
+      "description": "A tribal product listed in the e-commerce module.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the product."
+        },
+        "description": {
+          "type": "string",
+          "description": "The description of the product."
+        },
+        "price": {
+          "type": "number",
+          "description": "The price of the product."
+        },
+        "sellerId": {
+          "type": "string",
+          "description": "The ID of the user selling the product."
+        },
+        "imageUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "The URL of the product image."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The timestamp when the product was created."
+        }
+      },
+      "required": ["name", "description", "price", "sellerId", "createdAt"]
+    },
+    "Scheme": {
+      "title": "Scheme",
+      "description": "A government welfare scheme.",
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "The title of the scheme."
+        },
+        "description": {
+          "type": "string",
+          "description": "The description of the scheme."
+        },
+        "eligibility": {
+          "type": "string",
+          "description": "The eligibility criteria for the scheme."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The timestamp when the scheme was created."
+        }
+      },
+      "required": ["title", "description", "eligibility", "createdAt"]
+    },
+    "Registration": {
+      "title": "Registration",
+      "description": "A member registration request.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Full name of the member."
+        },
+        "sonOfFather": {
+          "type": "string",
+          "description": "Father's name."
+        },
+        "address": {
+          "type": "string",
+          "description": "Residential address."
+        },
+        "mobileNumber": {
+          "type": "string",
+          "description": "10-digit mobile number."
+        },
+        "aadharNumber": {
+          "type": "string",
+          "description": "12-digit Aadhar card number."
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "Optional email address."
+        },
+        "status": {
+          "type": "string",
+          "enum": ["pending", "approved", "rejected"],
+          "description": "Status of the registration."
+        },
+        "village": {
+          "type": "string",
+          "description": "The village the registration belongs to."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The timestamp when the registration was created."
+        }
+      },
+      "required": ["name", "sonOfFather", "address", "mobileNumber", "aadharNumber", "status", "createdAt"]
+    }
+  },
+  "firestore": {
+    "users/{userId}": {
+      "schema": {
+        "$ref": "#/entities/User"
+      },
+      "description": "Stores user profiles."
+    },
+    "courses/{courseId}": {
+      "schema": {
+        "$ref": "#/entities/Course"
+      },
+      "description": "Stores learning courses."
+    },
+    "health_records/{recordId}": {
+      "schema": {
+        "$ref": "#/entities/HealthRecord"
+      },
+      "description": "Stores user health records."
+    },
+    "products/{productId}": {
+      "schema": {
+        "$ref": "#/entities/Product"
+      },
+      "description": "Stores tribal products for sale."
+    },
+    "schemes/{schemeId}": {
+      "schema": {
+        "$ref": "#/entities/Scheme"
+      },
+      "description": "Stores public welfare schemes."
+    },
+    "registrations/{registrationId}": {
+      "schema": {
+        "$ref": "#/entities/Registration"
+      },
+      "description": "Stores member registration requests."
+    }
+  }
+}
