@@ -1962,259 +1962,63 @@ export const MOCK_COURSES = [
     thumbnailUrl: 'https://loremflickr.com/640/360/pottery,clay?lock=111',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Using the Potter Wheel', videoUrl: 'https://www.youtube.com/embed/LXb3EKWsInQ', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Pottery Basics', videoUrl: 'https://www.youtube.com/embed/YXva7re5YkQ', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Traditional Pottery Making\"?",
+            "text": "What is the primary natural material being used to make the pot in the video?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Plaster of Paris",
+                  "Clay",
+                  "Glass",
+                  "Metal"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The video title literally says \"Making a Clay Pot.\" Clay is the universal natural earth material used for traditional pottery."
       },
       {
-            "text": "In the context of Skill, why is this topic important?",
+            "text": "What is the traditional spinning tool used by the artisan to shape the pot?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Handloom",
+                  "Pottery Wheel",
+                  "Grinding Stone",
+                  "Sewing Machine"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A wheel spins round and round, allowing the potter to create perfectly round shapes!"
       },
       {
-            "text": "Which tool or method is most commonly associated with Traditional Pottery Making?",
+            "text": "In which famous tourist and tribal region of Andhra Pradesh is this video shot?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Araku Valley",
+                  "Spiti Valley",
+                  "Lambasingi",
+                  "Tirupati"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The title highlights #Araku Valley, a place very famous for its rich tribal culture and traditional crafts."
       },
       {
-            "text": "Question 4 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "text": "What is the primary motion of the pottery wheel that helps in shaping the clay?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Bouncing up and down",
+                  "Moving side to side",
+                  "Spinning continuously in a circular motion",
+                  "Vibrating slowly"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Centrifugal force! The continuous circular spin is what pulls the clay upwards and outwards to form a hollow pot."
       },
       {
-            "text": "Question 5 regarding Traditional Pottery Making: Which of the following is a key concept?",
+            "text": "What does the artisan primarily use to mold and shape the wet clay while it is spinning on the wheel?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 6 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "A sharp metal knife",
+                  "A wooden hammer",
+                  "Their bare hands and fingers",
+                  "A hot iron rod"
             ],
             "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 7 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 8 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 9 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 10 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 11 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 12 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 13 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 14 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 15 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Traditional Pottery Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
       }
-] }
+    ] }
   },
   {
     id: 'sk3', title: 'Handloom Weaving Techniques', category: 'Skill',
