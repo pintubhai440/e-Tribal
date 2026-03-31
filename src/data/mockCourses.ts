@@ -1142,259 +1142,64 @@ export const MOCK_COURSES = [
     thumbnailUrl: 'https://loremflickr.com/640/360/cooking,food?lock=106',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Cooking with Bamboo Shoots', videoUrl: 'https://www.youtube.com/embed/43auLLVHNnk', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Traditional Bamboo Chicken', videoUrl: 'https://www.youtube.com/embed/SWqfWz_9syE', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Traditional Tribal Cuisine\"?",
+            "text": "What is the very first step in preparing the traditional Bamboo Chicken as shown in the video?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Roasting the empty bamboo",
+                  "Cutting the chicken into pieces",
+                  "Plucking the leaves for sealing",
+                  "Washing the bamboo sticks"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: You always have to prepare the star of the show (the chicken) before you can dress it up with spices."
       },
       {
-            "text": "In the context of Culture, why is this topic important?",
+            "text": "According to the chef, which ingredients are mixed with the chicken pieces during marination?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Soy sauce and vinegar",
+                  "Coconut milk and sugar",
+                  "Ginger paste and various masala items",
+                  "Tomato puree and butter"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Think of classic Indian flavors. Ginger and dry masalas are the absolute heartbeat of the marinade."
       },
       {
-            "text": "Which tool or method is most commonly associated with Traditional Tribal Cuisine?",
+            "text": "What item serves as the main cooking vessel for this traditional tribal dish?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "A large iron skillet",
+                  "Empty bamboo stems",
+                  "A clay pot",
+                  "Wrapped banana leaves"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The name of the dish gives the secret away instantly. You cannot make Bamboo Chicken without bamboo!"
       },
       {
-            "text": "Question 4 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "text": "After filling the bamboo completely with the marinated chicken, how is the open end sealed?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "With a wooden cork",
+                  "By closing it tightly with leaves",
+                  "With wet mud clay",
+                  "By tying a cotton cloth around it"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Nature provides the pot (the bamboo) and nature provides the lid (the leaves)."
       },
       {
-            "text": "Question 5 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
+            "text": "How is the stuffed bamboo actually cooked in this traditional method?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "It is boiled in a large pot of water",
+                  "It is baked inside a closed oven",
+                  "It is deep-fried in hot oil",
+                  "It is roasted directly over an open fire"
             ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 6 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 7 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 8 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 9 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 10 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 11 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 12 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 13 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 14 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 15 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Traditional Tribal Cuisine: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: It is roasted directly over an open fire."
       }
-] }
+    ] }
   },
   {
     id: 'cul8', title: 'Forest Conservation Traditions', category: 'Culture',
