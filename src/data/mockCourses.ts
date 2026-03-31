@@ -1611,261 +1611,230 @@ export const MOCK_COURSES = [
     thumbnailUrl: 'https://loremflickr.com/640/360/architecture,hut?lock=109',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Building with Mud and Thatch', videoUrl: 'https://www.youtube.com/embed/7Q5-B3X7_8g', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Tribal Housing Designs', videoUrl: 'https://www.youtube.com/embed/HHRUUP5770o', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Ancient Tribal Architecture\"?",
+            "text": "Which tribal community's traditional house is featured in this video?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Gond",
+                  "Jatapu",
+                  "Santhal",
+                  "Chenchu"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The video's title and entire focus is on the Jatapu tribe."
       },
       {
-            "text": "In the context of Culture, why is this topic important?",
+            "text": "What is the local name given to the traditional house of the Jatapu tribe?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Kutir",
+                  "Purilu",
+                  "Bhunga",
+                  "Machan"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Imagine a \"Puri\" (the food) shaped like a small hut. \"Purilu\" is their traditional house."
       },
       {
-            "text": "Which tool or method is most commonly associated with Ancient Tribal Architecture?",
+            "text": "The Jatapu tribe primarily lives in the north coastal region of which Indian state?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Odisha",
+                  "Kerala",
+                  "Andhra Pradesh",
+                  "Tamil Nadu"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Dr. Shankar Rao explicitly mentions they are from the Vizianagaram district of Andhra Pradesh."
       },
       {
-            "text": "Question 4 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "text": "What language do the Jatapu people speak when they are in the hills?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Kui / Kuvi language",
+                  "Pure Telugu",
+                  "Hindi",
+                  "Tamil"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: In the plains, they speak Telugu to communicate with others, but in the hills (their core area), they speak their native Dravidian language, Kuvi."
       },
       {
-            "text": "Question 5 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "text": "What are the principal, locally available materials used to construct a \"Purilu\"?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Cement, iron rods, and glass",
+                  "Mud bricks, bamboo wattle, wooden poles, and grass",
+                  "Burned clay tiles and limestone",
+                  "Corrugated tin sheets and plastic"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Tribal architecture relies purely on nature. Mud, bamboo, wood, and grass are the foundation of a traditional eco-friendly home."
       },
       {
-            "text": "Question 6 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "text": "What specific type of locally available grass is considered highly important for roofing the Jatapu house?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Elephant grass",
+                  "Bamboo leaves",
+                  "Dharba Gaddi (Dharmagadhi)",
+                  "Palm leaves"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: \"Dharma\" means duty/religion. This grass does its \"duty\" of protecting the house from weather."
       },
       {
-            "text": "Question 7 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "text": "According to Jatapu belief, what is the main benefit of using Dharba grass for the roof?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "It is fireproof",
+                  "It gives a good, healthy environment (warm in winter, cool in summer)",
+                  "It keeps wild animals away",
+                  "It changes color every season"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Nature's air conditioner! It insulates the house perfectly."
       },
       {
-            "text": "Question 8 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "text": "The traditional Jatapu house is mainly divided into how many portions?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Two",
+                  "Three",
+                  "Four",
+                  "Five"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Think of a basic timeline: Past, Present, Future. The house has three main parts: Front (leisure), Center (main living/agreements), and Back (cooking)."
       },
       {
-            "text": "Question 9 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "text": "What is the front portion of the house called, which is mainly used for leisure activities and sitting after work?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Gadapa",
+                  "Vantagadhi",
+                  "Aynilu",
+                  "Veranda"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: \"Gadapa\" in Telugu means threshold or doorstep. It's the front entrance area where people sit."
       },
       {
-            "text": "Question 10 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "text": "What is the central, most prominent room of the house called?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Gadapa",
+                  "Vantagadhi",
+                  "Aynilu (Inlaw)",
+                  "Kitchen"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Think of it as the \"Eye\" (Ayn) of the house. It is the center of all major family and social events."
       },
       {
-            "text": "Question 11 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "text": "Inside the central room (Aynilu), there is a grinding hole (Royal gunta). What is its major social significance?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "It is only used to grind expensive spices",
+                  "All strict social agreements, promises, and money exchanges are finalized in its presence",
+                  "It is a secret hiding place for gold",
+                  "It is a place to worship rain gods"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The grinding stone is the ultimate \"witness.\" If a promise is made near the grinding hole, a Jatapu will never break it."
       },
       {
-            "text": "Question 12 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "text": "What is the back portion of the house called, which is meant for cooking food?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Gadapa",
+                  "Aynilu",
+                  "Vantagadhi",
+                  "Royal gunta"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: \"Vanta\" means cooking in Telugu, and \"Gadhi\" means room. So, Vantagadhi = Cooking room."
       },
       {
-            "text": "Question 13 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "text": "How often does the wild Dharba grass (used for the roof) grow in the forest, acting as a sign of a healthy ecosystem?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Every month",
+                  "Once in 2 years",
+                  "Once in 10 years",
+                  "Twice a year"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It's rare! It takes two full years for a healthy forest to produce this special grass."
       },
       {
-            "text": "Question 14 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "text": "How often do the Jatapu people replace and retouch the grass roof of their house?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Every 1 year",
+                  "Every 5 years",
+                  "Every 10 years",
+                  "Never, it lasts forever"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Just like the government has a 5-year plan, the Jatapu have a 5-year roof replacement plan!"
       },
       {
-            "text": "Question 15 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "text": "As the children grow up and get married, how does the Jatapu house expand?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "They build extra floors on top (vertically)",
+                  "They build a completely separate house in another village",
+                  "It gradually expands linearly from both sides (left and right) of the main house",
+                  "They build underground rooms"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: They value family bonding. Instead of moving away, the sons build rooms attached to the left and right of the parents' house, creating a long line (linear expansion)."
       },
       {
-            "text": "Question 16 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "text": "Why is the roof of the Purilu designed with a \"slant\" (slope)?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Because it looks modern",
+                  "To prevent the house from being damaged by frequent high winds in the coastal, cyclone-prone area",
+                  "Because flat roofs are too expensive",
+                  "So that monkeys can slide off"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A slanted roof acts like an aerodynamic shield against heavy coastal storms."
       },
       {
-            "text": "Question 17 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "text": "What do the Jatapu people use every day to clean their house floors and walls, keeping it ecologically friendly?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Chemical bleach",
+                  "Cow dung",
+                  "Synthetic paint",
+                  "Saltwater"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Cow dung has natural antiseptic properties and is the traditional Indian way to purify a mud house."
       },
       {
-            "text": "Question 18 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "text": "What do the Jatapu people do with all their collected bio-waste and cattle dung?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "They throw it in the river",
+                  "They burn it immediately",
+                  "They dump it in a compost pit 20-25 meters away and use it as organic manure for agriculture",
+                  "They sell it to factories"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Zero waste! Today's \"modern\" composting has been a traditional practice for them for centuries."
       },
       {
-            "text": "Question 19 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "text": "Why do the Jatapu people NOT treat their house purely as a \"property\" or real estate?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Because the government owns it",
+                  "Because it is a collective community effort where relatives bring wood and grass to build it together",
+                  "Because they only live in it for a few months",
+                  "Because it has no monetary value"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A house built by the love and labor of the community belongs to the community, not just a single owner."
       },
       {
-            "text": "Question 20 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
+            "text": "In the front portion of the house (outside), what do the Jatapu people usually plant due to their aesthetic sense?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Poisonous thorny bushes",
+                  "Large timber trees",
+                  "Flowering species like roses and marigolds",
+                  "Only medicinal herbs"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Ancient Tribal Architecture: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: They love beauty! While they grow vegetables and jackfruit in the back, the front is reserved for beautiful, welcoming flowers."
       }
-] }
+    ] }
   },
-
   // --- SKILL (10) ---
   {
     id: 'sk1', title: 'Advanced Bamboo Crafting', category: 'Skill',
