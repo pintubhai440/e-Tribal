@@ -1431,265 +1431,179 @@ export const MOCK_COURSES = [
       }
     ] }
   },
-  {
+ {
     id: 'cul9', title: 'Tribal Wedding Customs', category: 'Culture',
     description: 'A detailed look into the unique marriage rituals and celebrations in tribal societies.',
     thumbnailUrl: 'https://loremflickr.com/640/360/wedding,traditional?lock=108',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Pre-wedding Rituals', videoUrl: 'https://www.youtube.com/embed/YGpINhghJVE', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Tribal Wedding Customs', videoUrl: 'https://www.youtube.com/embed/sb46Ml7YkKI', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Tribal Wedding Customs\"?",
+            "text": "What specific type of traditional wedding is showcased in this documentary?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Court marriage",
+                  "Love marriage",
+                  "Daari Pelli (Path Wedding)",
+                  "Arranged marriage"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: 'Daari' means 'Path/Way' in Telugu. It is a unique symbolic wedding tradition of the tribes."
       },
       {
-            "text": "In the context of Culture, why is this topic important?",
+            "text": "What are the ages of the children participating in this symbolic tribal wedding?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "15-year-old boy and 15-year-old girl",
+                  "25-year-old boy and 20-year-old girl",
+                  "20-year-old boy and 18-year-old girl",
+                  "10-year-old boy and 5-year-old girl"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Remember the narrator's opening line stating the wedding is between a 10-year-old \"babu\" and a 5-year-old \"papa.\""
+      },
+      {
+            "text": "In which district of Andhra Pradesh is this tribal village located?",
+            "options": [
+                  "Visakhapatnam",
+                  "Alluri Sitarama Raju (ASR) district",
+                  "East Godavari",
+                  "Srikakulam"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: ASR! This tribal district is named after the legendary freedom fighter Alluri Sitarama Raju."
+      },
+      {
+            "text": "What is the core concept and purpose behind the \"Daari Pelli\" (Path Wedding)?",
+            "options": [
+                  "To forcefully unite two enemy tribes",
+                  "To receive financial aid from the government",
+                  "To tie a knot of permanent friendship between two families so they can support each other during hardships",
+                  "To avoid paying a dowry"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: By matching their stars, two families form a 'Sneham' (Friendship) bond to act as a lifelong support system for each other."
+      },
+      {
+            "text": "Instead of sacrificing animals or breaking coconuts, what vow (mokku) do these tribes make when their wishes come true?",
+            "options": [
+                  "To donate gold and silver",
+                  "To bathe in a holy river",
+                  "To sacrifice goats and chickens",
+                  "To perform a 'Daari Pelli' (Path Wedding) for their children"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: While outsiders might offer physical sacrifices to gods, these tribes offer to create a beautiful bond of friendship (Daari Pelli) between two children."
+      },
+      {
+            "text": "What is the title of the spiritual person who guides the village in marriages, festivals, and medicine?",
+            "options": [
+                  "Gurumaya",
+                  "Sarpanch",
+                  "Collector",
+                  "Village Doctor"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: 'Guru' (teacher/guide) + 'Maya' (magic/spirit). They are the spiritual guides for all major village events."
+      },
+      {
+            "text": "How do the Gurumayas find out the exact auspicious time for the wedding?",
+            "options": [
+                  "By searching the internet",
+                  "By sitting with some women and performing a puja until they go into a spiritual trance (possessed by deities)",
+                  "By checking a printed calendar",
+                  "By asking the village elders to vote"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: They rely entirely on spiritual connection. The deities themselves announce the time when the women enter a trance (poonakalu)."
+      },
+      {
+            "text": "Which three types of saplings are planted in the hole dug at the center of the wedding pandal?",
+            "options": [
+                  "Neem, Tulsi, and Rose",
+                  "Banyan, Peepal, and Ashoka",
+                  "Banana, Mango, and Neredu (Jamun)",
+                  "Coconut, Papaya, and Guava"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Think of sweet, forest-grown fruits! Banana, Mango, and Jamun saplings are brought straight from the hills."
+      },
+      {
+            "text": "According to the documentary, what is the biggest infrastructure problem these three villages have faced for the last 10 years?",
+            "options": [
+                  "Lack of mobile network",
+                  "There is no bridge over the river, forcing them to walk through dangerous waters",
+                  "Lack of electricity",
+                  "Lack of a shopping mall"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The bridge was destroyed in a cyclone 10 years ago, leaving them dangerously disconnected during medical emergencies and monsoons."
+      },
+      {
+            "text": "Where are the children of this village currently studying?",
+            "options": [
+                  "In a neighboring city's boarding school",
+                  "Sitting on the mud near their broken school, surrounded by a makeshift wall of tin sheets and leaves",
+                  "Online via smartphones",
+                  "Inside a large concrete government building"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A storm destroyed their school building, so the villagers built a small, fragile temporary shelter for the kids to sit on the mud and study."
+      },
+      {
+            "text": "What is the main source of drinking water for these villagers?",
+            "options": [
+                  "Bottled mineral water",
+                  "Regular municipal water tankers",
+                  "Deep borewells with electric pumps",
+                  "Natural spring water flowing down from the hills (Oota neeru)"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: They have a water tank, but it doesn't work. They survive on the natural, raw water trickling down from the mountains."
+      },
+      {
+            "text": "When the Gurumaya and the women go into a midnight trance, what do they hold in their hands while dancing?",
+            "options": [
+                  "Flowers",
+                  "Swords/Knives (Kattelu)",
+                  "Bamboo sticks",
+                  "Oil lamps"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The spiritual possession is intense and fierce. They dance energetically with sharp swords to the beat of the traditional drums (Dappu)."
+      },
+      {
+            "text": "In one of the villages shown, everyone moved away except for how many families?",
+            "options": [
+                  "Only 1 family",
+                  "10 families",
+                  "5 families",
+                  "Half the village"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Because their old houses were destroyed by storms, the government gave them new houses elsewhere. However, exactly one family did not get a new house and lives completely alone in the abandoned village."
+      },
+      {
+            "text": "What is the main highlight on the second day of the wedding involving the Gurumayas?",
+            "options": [
+                  "Riding a decorated horse",
+                  "Swinging on a swing made out of sharp thorns (Mullulatho kattina uyyala)",
+                  "Swimming across the river",
+                  "Driving a car through the village"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: To demonstrate the power of the deities possessing them, they comfortably sit and swing on a seat made entirely of piercing thorns."
+      },
+      {
+            "text": "What ritual marks the end of the Daari Pelli ceremony?",
+            "options": [
+                  "Cutting a wedding cake",
+                  "Lighting a large bonfire",
+                  "Bursting firecrackers",
+                  "The villagers collectively pouring water from pots over the children"
             ],
             "correctAnswerIndex": 3
-      },
-      {
-            "text": "Which tool or method is most commonly associated with Tribal Wedding Customs?",
-            "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 4 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 5 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 6 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 7 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 8 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 9 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 10 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 11 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 12 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 13 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 14 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 15 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Tribal Wedding Customs: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 1
       }
-] }
+    ] }
   },
   {
     id: 'cul10', title: 'Ancient Tribal Architecture', category: 'Culture',
