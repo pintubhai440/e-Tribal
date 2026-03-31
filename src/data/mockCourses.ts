@@ -1207,259 +1207,229 @@ export const MOCK_COURSES = [
     thumbnailUrl: 'https://loremflickr.com/640/360/forest,nature?lock=107',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Sacred Groves', videoUrl: 'https://www.youtube.com/embed/cXP9r3LVxWk', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Sacred Groves', videoUrl: 'https://www.youtube.com/embed/tI4_wOlFtQk', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Forest Conservation Traditions\"?",
+            "text": "According to the video, why do farmers leave their tools and produce at the farm without fear of theft?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "The local police patrol the area constantly",
+                  "They believe a forest deity protects their farmlands",
+                  "They have hidden cameras installed",
+                  "The farms are surrounded by high electric fences"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The ultimate, invisible security guard is their faith."
       },
       {
-            "text": "In the context of Culture, why is this topic important?",
+            "text": "What do the locals believe will happen if they stay back at the farm to guard their produce after dusk?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Wild animals will attack them",
+                  "They will be arrested for trespassing",
+                  "The gods will get annoyed and scare them away",
+                  "The crops will magically wither"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The night shift belongs exclusively to the gods."
       },
       {
-            "text": "Which tool or method is most commonly associated with Forest Conservation Traditions?",
+            "text": "Because the forest is considered the deity's home, what self-imposed rule do the communities follow?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "They never enter the forest without shoes",
+                  "They strictly ban the felling of trees or even collecting dead wood",
+                  "They only cut trees during full moon nights",
+                  "They burn a small patch of forest every year"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: If it is God's house, you do not even take a broken twig from the furniture."
       },
       {
-            "text": "Question 4 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "text": "According to local belief, what specific comfort do the forest trees provide to the Gods?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Fruit to eat",
+                  "Flowers for decoration",
+                  "Shade",
+                  "Music from the rustling leaves"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Just like humans need a roof, the deities need the green shade of the canopy."
       },
       {
-            "text": "Question 5 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "text": "Which country holds the record for having the highest number of sacred groves in the world?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Brazil",
+                  "Indonesia",
+                  "India",
+                  "Japan"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: India's deep roots in nature worship give it the global number one spot here."
       },
       {
-            "text": "Question 6 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "text": "The researcher in the video travels to which specific location in Karnataka to study these groves?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Bengaluru",
+                  "Siddapur",
+                  "Mysuru",
+                  "Hampi"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: \"Siddapur\" sounds like a place of \"Siddhas\" (enlightened beings), fitting for sacred forests."
       },
       {
-            "text": "Question 7 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "text": "How is the landscape of Siddapur described in the documentary?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "A barren desert with isolated oases",
+                  "A pure, unbroken dense jungle",
+                  "A heterogeneous mosaic landscape of villages, farmlands, forests, and spice gardens",
+                  "A massive industrial concrete zone"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: \"Mosaic\" means a mix of different colorful tiles. Siddapur is a mix of different land types."
       },
       {
-            "text": "Question 8 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "text": "What crucial ecosystem service do the grove trees perform regarding rainfall?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "They block rain from flooding the farms",
+                  "They collect monsoon rains and gradually release water in the summer",
+                  "They completely absorb all water, leaving the farms dry",
+                  "They purify acid rain"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Think of the forest as a giant natural water tank that fills up in the monsoon and leaks slowly in the summer."
       },
       {
-            "text": "Question 9 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "text": "Aside from water, what important creatures find a safe home inside these sacred groves?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Dangerous invasive pests",
+                  "Crop pollinators",
+                  "Deep sea birds",
+                  "Domestic cattle"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Without the forest bees and butterflies, the nearby farmlands would fail to grow food."
       },
       {
-            "text": "Question 10 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "text": "Sacred groves act as essential \"banks\" for what specific biological material?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Fossil fuels",
+                  "Medicinal animal venom",
+                  "Seeds for the enrichment of degraded secondary forests",
+                  "Rare types of soil"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: When the outside forest gets destroyed, the sacred grove is the \"seed bank\" used to replant it."
       },
       {
-            "text": "Question 11 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "text": "How do the local communities describe the temperature of the sacred grove during the hot season?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "It is dangerously humid",
+                  "It is prone to intense forest fires",
+                  "It is the only cool place in summer",
+                  "It traps heat like a greenhouse"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Pure, dense tree cover acts as nature's absolute best air conditioner."
       },
       {
-            "text": "Question 12 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "text": "The documentary reveals a worrying trend about the cultural values protecting these groves. What is it?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "The beliefs are becoming too extreme",
+                  "The beliefs are weakening across generations",
+                  "The beliefs are spreading to big cities",
+                  "The beliefs have remained exactly the same for millennia"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: As modern times roll in, the younger generation's faith in the old forest gods is slowly fading."
       },
       {
-            "text": "Question 13 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "text": "What is one of the modern threats causing the disappearance of sacred groves in India?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Ambiguous property rights and market forces",
+                  "Overpopulation of wild tigers",
+                  "Excessive rainfall causing root rot",
+                  "Strict new government protection laws"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: When it is unclear who legally owns the land, greedy market forces sweep in to clear it."
       },
       {
-            "text": "Question 14 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "text": "What is the economic reality of the people who protect these natural sacred groves?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "They are wealthy plantation owners",
+                  "They are highly paid government rangers",
+                  "They are economically weak daily wage workers or subsistence farmers",
+                  "They are rich corporate investors"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The greatest wealth of nature is protected by people with the least amount of money."
       },
       {
-            "text": "Question 15 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "text": "Despite preserving rich ecosystems, what basic amenities do these protector villages currently lack?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Movie theaters and malls",
+                  "Adequate health facilities and connectivity",
+                  "Fast food chains",
+                  "International airports"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: They save the environment, but struggle to find a basic doctor or a paved road for themselves."
       },
       {
-            "text": "Question 16 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "text": "To sustain their conservation efforts, what economic solution does the video suggest exploring?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Heavily taxing the villagers",
+                  "Valuation and payment of ecosystem services",
+                  "Selling the timber to the highest bidder",
+                  "Turning the groves into luxury resorts"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: We must literally \"pay\" them for the invisible services (water, air, pollinators) their forest provides to the world."
       },
       {
-            "text": "Question 17 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "text": "Beyond just economic support, what is considered quintessential for these protectors?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Giving them modern weapons",
+                  "Moving them to urban cities",
+                  "Basic recognition and appreciation of their cultural values",
+                  "Forcing them to adopt mainstream religions"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Money helps, but genuine respect for their ancient traditions is the true key to success."
       },
       {
-            "text": "Question 18 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "text": "What combination does the documentary propose as a sustainable model for nature protection?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Total corporate takeover",
+                  "Complete abandonment of the land",
+                  "Formal means coupled with informal community-led protection",
+                  "Replacing natural forests with artificial parks"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Teamwork wins. Mix official government support with the powerful traditional faith of the locals."
       },
       {
-            "text": "Question 19 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "text": "At the beginning of the video, what specific ratio of farmland to forest is mentioned as an example?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "100 hectares of farm to 50 hectares of forest",
+                  "20 hectares of farmland with 2 hectares of pristine natural forest at the center",
+                  "5 hectares of farm to 10 hectares of forest",
+                  "1000 hectares of farm to 1 hectare of forest"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Just a tiny 2-hectare heart of forest is enough to pump life into 20 hectares of farmland."
       },
       {
-            "text": "Question 20 regarding Forest Conservation Traditions: Which of the following is a key concept?",
+            "text": "The video concludes by stating that the \"essence of India\" is found in what?",
             "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
+                  "Rapid industrial growth",
+                  "Its massive software industry",
+                  "Diversity in flora, fauna, and culture",
+                  "Its unified, single language system"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Forest Conservation Traditions: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Forest Conservation Traditions: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Forest Conservation Traditions: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Forest Conservation Traditions: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Forest Conservation Traditions: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Culture",
-                  "Concept B related to Culture",
-                  "Concept C related to Culture",
-                  "Concept D related to Culture"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The beauty of India lies in its rich mixture of nature, animals, and diverse tribal traditions."
       }
-] }
+    ] }
   },
   {
     id: 'cul9', title: 'Tribal Wedding Customs', category: 'Culture',
