@@ -679,7 +679,7 @@ export const MOCK_COURSES = [
   {
     id: 'cul5', title: 'Tribal Storytelling and Folklore', category: 'Culture',
     description: 'Dive into the rich oral traditions, myths, and legends passed down through generations.',
-    thumbnailUrl: 'https://cdn.exoticindia.com/images/products/thumbnails/t800x600/books/idd736.jpg',
+    thumbnailUrl: 'https://tehelka.com/media/2023/06/Deepanwita-oral-1-1024x682.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'The Art of Oral Tradition', videoUrl: 'https://www.youtube.com/embed/0J8RLVZu38s', duration: '1:30:00' }],
