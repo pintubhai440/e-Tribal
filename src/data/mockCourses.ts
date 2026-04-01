@@ -4351,262 +4351,67 @@ export const MOCK_COURSES = [
   {
     id: 'dan7', title: 'Rhythmic Footwork in Tribal Dance', category: 'Dance',
     description: 'Focus entirely on the complex and fast-paced footwork required for tribal performances.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/feet,dance?lock=124',
+    thumbnailUrl: 'https://www.deccanchronicle.com/h-upload/2024/12/02/1868485-30pnm03.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Heel and Toe Taps', videoUrl: 'https://www.youtube.com/embed/p8laSR1TwNQ', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Advanced Footwork', videoUrl: 'https://www.youtube.com/embed/nkCch_s1kzI', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Rhythmic Footwork in Tribal Dance\"?",
+            "text": "Which region in Andhra Pradesh is famous for the Dhimsa dance?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Thar Desert",
+                  "Araku Valley and Paderu",
+                  "Backwaters of Kerala",
+                  "Himalayan Mountains"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Araku Valley and Paderu are the twin tribal heartlands famous for preserving the Dhimsa culture."
       },
       {
-            "text": "In the context of Dance, why is this topic important?",
+            "text": "Who primarily performs the Dhimsa dance during festivals and weddings?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Only male elders",
+                  "Professional theater artists",
+                  "Mostly women of the tribe",
+                  "Only young children"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Women take center stage, forming beautiful circles and holding hands in unity."
       },
       {
-            "text": "Which tool or method is most commonly associated with Rhythmic Footwork in Tribal Dance?",
+            "text": "Roughly how many types of movements are involved in the Dhimsa dance?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "2 to 5",
+                  "15 to 20",
+                  "40 to 50",
+                  "Over 100"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Think of a 15-20 minute performance where they showcase 15 to 20 unique step patterns!"
       },
       {
-            "text": "Question 4 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "text": "What does the Dhimsa dance primarily symbolize for the community?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Unity and joy",
+                  "War and victory",
+                  "Wealth and trade",
+                  "Sorrow and mourning"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Dancing in an unbroken circle hand-in-hand is the ultimate symbol of community unity and happiness."
       },
       {
-            "text": "Question 5 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
+            "text": "Which of the following is a traditional instrument used to provide rhythm for the Dhimsa dance?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Piano",
+                  "Guitar",
+                  "Saxophone",
+                  "Dappu"
             ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 6 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 7 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 8 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 9 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 10 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 11 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 12 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 13 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 14 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 15 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Rhythmic Footwork in Tribal Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: The strong, heartbeat-like thump of the 'Dappu' drum sets the fast pace for their footwork."
       }
-] }
+    ] }
   },
   {
     id: 'dan8', title: 'Dance Costumes and Makeup', category: 'Dance',
