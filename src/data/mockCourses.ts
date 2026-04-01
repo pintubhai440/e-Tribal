@@ -3753,7 +3753,7 @@ export const MOCK_COURSES = [
     description: 'Master the complex group formations and synchronized movements of Dhimsa.',
     thumbnailUrl: 'https://currentaffairs.chinmayaias.com/wp-content/uploads/2024/01/Dhimsa-Dance.webp',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Patha Rega',
+    village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'Complex Group Formations', videoUrl: 'https://www.youtube.com/embed/miVL6TpO8t4', duration: '1:30:00' }],
     quiz: { questions: [
       {
@@ -3983,7 +3983,7 @@ export const MOCK_COURSES = [
     description: 'Explore the energetic and rhythmic dance forms of the Savara tribe.',
     thumbnailUrl: 'https://i.ytimg.com/vi/ecDg5gWKdfM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDKrDM4k_ASBqYX4ynyecbyXf5lVw',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Patha Rega',
+    village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'Savara Dance Forms', videoUrl: 'https://www.youtube.com/embed/XAXLo6prtWo', duration: '1:30:00' }],
     quiz: { questions: [
       {
@@ -4103,7 +4103,7 @@ export const MOCK_COURSES = [
     description: 'Learn the graceful movements and hand gestures of the Lambadi (Banjara) dance.',
     thumbnailUrl: 'https://www.auchitya.com/wp-content/uploads/2020/08/lambadi-dance.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Patha Rega',
+    village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'Lambadi Dance Techniques', videoUrl: 'https://www.youtube.com/embed/zx47Esgan7I', duration: '1:30:00' }],
     quiz: { questions: [
       {
@@ -4168,7 +4168,7 @@ export const MOCK_COURSES = [
     description: 'Master the beats of the Thudumbu, the traditional drum that drives tribal dances.',
     thumbnailUrl: 'https://th-i.thgim.com/public/society/10hsxv/article28795411.ece/alternates/FREE_1200/02MPMAKINGOFTHUDUMBU3',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Patha Rega',
+    village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'Thudumbu Beats and Rhythms', videoUrl: 'https://www.youtube.com/embed/6xwPEDZuN5g', duration: '1:30:00' }],
     quiz: { questions: [
       {
@@ -4536,7 +4536,7 @@ export const MOCK_COURSES = [
   {
     id: 'dan9', title: 'Festival Dance Choreography', category: 'Dance',
     description: 'Learn how to choreograph a full dance sequence for village festivals and celebrations.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/choreography,dance?lock=126',
+    thumbnailUrl: 'https://i.ytimg.com/vi/YMKGBqBaP4w/hqdefault.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
     modules: [{ id: 'm1', title: 'Structuring a Performance', videoUrl: 'https://www.youtube.com/embed/p8laSR1TwNQ', duration: '1:30:00' }],
@@ -4796,262 +4796,177 @@ export const MOCK_COURSES = [
   {
     id: 'dan10', title: 'Koya Dance Techniques', category: 'Dance',
     description: 'Discover the unique Permakok (Bison Horn) dance of the Koya tribe.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/dance,culture?lock=127',
+    thumbnailUrl: 'https://l450v.alamy.com/450v/ay782p/koya-tribal-women-performing-laya-dance-andhra-pradesh-ay782p.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Dancing with the Bison Horn Headgear', videoUrl: 'https://www.youtube.com/embed/3b3_2_5_8_g', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Kommu Koya Performance', videoUrl: 'https://www.youtube.com/embed/PoVeRbKLv6E', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Koya Dance Techniques\"?",
+            "text": "Which Indian state is the Kommu Koya dance primarily associated with?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Kerala",
+                  "Andhra Pradesh",
+                  "Rajasthan",
+                  "Gujarat"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Koya tribes heavily populate the Godavari river regions of Andhra Pradesh."
       },
       {
-            "text": "In the context of Dance, why is this topic important?",
+            "text": "In which district is the Tummala village, famous for the Kommu Koya dance, located?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "East Godavari",
+                  "Kurnool",
+                  "Chittoor",
+                  "Anantapur"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: East Godavari is a major hub for tribal culture in AP, including the famous Tummala village."
       },
       {
-            "text": "Which tool or method is most commonly associated with Koya Dance Techniques?",
+            "text": "What does the Telugu word \"Kommu\" mean in the context of this dance?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Feather",
+                  "Drum",
+                  "Horn",
+                  "Crown"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: \"Kommu\" literally translates to animal horn in Telugu, which is the main prop worn on their heads."
       },
       {
-            "text": "Question 4 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "text": "What does the word \"Koya\" translate to?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Farmer",
+                  "Tribe",
+                  "Dancer",
+                  "Hunter"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: \"Koya\" simply means a hill-dweller or tribe in their native tongue."
       },
       {
-            "text": "Question 5 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "text": "During which festival is the Kommu Koya dance traditionally performed?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Diwali",
+                  "Pongal",
+                  "Bhumi Panduga",
+                  "Holi"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: \"Bhumi\" means Earth and \"Panduga\" means festival. They dance to celebrate the Earth!"
       },
       {
-            "text": "Question 6 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "text": "What is the primary purpose of performing the dance during the Bhumi Panduga festival?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "To celebrate a marriage",
+                  "To pray for rain and a good harvest",
+                  "To prepare for war",
+                  "To welcome the spring season"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Since it's an Earth festival (Bhumi Panduga), the main prayer is naturally for rain and successful farming."
       },
       {
-            "text": "Question 7 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "text": "Which three languages are primarily spoken by the Koya tribe?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Hindi, English, and Tamil",
+                  "Koya, Telugu, and Odia",
+                  "Kannada, Malayalam, and Telugu",
+                  "Marathi, Gujarati, and Hindi"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: They live near the border of AP (Telugu) and Odisha (Odia), while maintaining their native Koya language."
       },
       {
-            "text": "Question 8 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "text": "How old is the art of the Kommu Koya dance believed to be?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "100 years old",
+                  "500 years old",
+                  "Over 1,000 years old",
+                  "2,000 years old"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: This isn't a modern dance; it's an ancient tribal tradition passed down for over a millennium."
       },
       {
-            "text": "Question 9 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "text": "What is the current primary occupation of the Koya tribe?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Fishing",
+                  "Mining",
+                  "Agriculture and farming",
+                  "Textile weaving"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Like most settled forest tribes today, they rely on farming the land to survive."
       },
       {
-            "text": "Question 10 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "text": "What unique item do the male dancers wear on their heads like a crown?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Gold helmets",
+                  "Real animal horns",
+                  "Bamboo hats",
+                  "Flower garlands"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The dance is literally called \"Kommu\" (Horn) Koya because of the massive bison/bull horns they wear!"
       },
       {
-            "text": "Question 11 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "text": "The movements in the Kommu Koya dance often mimic the behavior of which animal?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Tigers",
+                  "Elephants",
+                  "Bulls fighting",
+                  "Snakes striking"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Wearing bull horns on their heads, the men naturally mimic the powerful clashing and fighting of wild bulls."
       },
       {
-            "text": "Question 12 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "text": "Besides animal horns, what type of feathers do the men typically wear on their heads?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Eagle feathers",
+                  "Peacock feathers",
+                  "Crow feathers",
+                  "Parrot feathers"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The tall, majestic peacock feathers add height and vibrant color to the heavy horns."
       },
       {
-            "text": "Question 13 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "text": "What type of feathers do the women typically use to decorate their attire?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Peacock feathers",
+                  "Chicken or rooster feathers",
+                  "Ostrich feathers",
+                  "Swan feathers"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: While men wear the grand peacock feathers, women traditionally use easily accessible domestic bird feathers."
       },
       {
-            "text": "Question 14 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "text": "What are the traditional drums used in the dance made from?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Plastic",
+                  "Metal sheets",
+                  "Cowhide",
+                  "Synthetic rubber"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Ancient tribal instruments rely on nature. They use stretched cowhide (leather) to get that deep, booming drum sound."
       },
       {
-            "text": "Question 15 regarding Koya Dance Techniques: Which of the following is a key concept?",
+            "text": "What is the approximate size of the traditional drums used by the Koya men?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "1 meter long and 1 foot wide",
+                  "2 meters long and 2 feet wide",
+                  "1 foot long and 1 foot wide",
+                  "3 meters long and 1 meter wide"
             ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Koya Dance Techniques: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Koya Dance Techniques: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Koya Dance Techniques: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Koya Dance Techniques: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Koya Dance Techniques: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Koya Dance Techniques: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Koya Dance Techniques: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Koya Dance Techniques: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Koya Dance Techniques: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Koya Dance Techniques: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: It's a long, cylindrical drum—about the length of a guitar (1 meter) but narrow enough to hold."
       }
-] }
+    ] }
   },
 
   // --- TECHNOLOGY (10) ---
