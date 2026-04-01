@@ -2020,7 +2020,7 @@ export const MOCK_COURSES = [
       }
     ] }
   },
- {
+  {
     id: 'sk3', title: 'Handloom Weaving Techniques', category: 'Skill',
     description: 'Learn the traditional methods of weaving fabrics using a handloom.',
     thumbnailUrl: 'https://loremflickr.com/640/360/weaving,fabric?lock=112',
