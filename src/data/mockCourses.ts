@@ -1139,7 +1139,7 @@ export const MOCK_COURSES = [
   {
     id: 'cul7', title: 'Traditional Tribal Cuisine', category: 'Culture',
     description: 'Discover the unique recipes, cooking methods, and ingredients of tribal food.',
-    thumbnailUrl: 'https://assets.vogue.in/photos/6034b5d10cd1a7ee5dc515e0/2:3/w_2560%2Cc_limit/Tribal%2520Andhra%2520Recipes.jpg',
+    thumbnailUrl: 'https://assets.vogue.in/photos/6034b5d10cd1a7ee5dc515e0/4:3/w_2664,h_1998,c_limit/Tribal%20Andhra%20Recipes.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
     modules: [{ id: 'm1', title: 'Traditional Bamboo Chicken', videoUrl: 'https://www.youtube.com/embed/SWqfWz_9syE', duration: '1:30:00' }],
