@@ -3632,262 +3632,121 @@ export const MOCK_COURSES = [
   {
     id: 'dan1', title: 'Introduction to Dhimsa Dance', category: 'Dance',
     description: 'Learn the basic steps and rhythm of the famous Dhimsa dance of the Araku valley.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/dance,tribal?lock=120',
+    thumbnailUrl: 'https://d35xcwcl37xo08.cloudfront.net/current-affairs-wp-uploads/2025/04/dhimsa_dance.webp',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'Basic Footwork', videoUrl: 'https://www.youtube.com/embed/p8laSR1TwNQ', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Introduction to Dhimsa Dance\"?",
+            "text": "What is the name of the traditional tribal dance featured in the video?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Kuchipudi",
+                  "Dhimsa",
+                  "Bharatanatyam",
+                  "Kathakali"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The video title explicitly names the \"Dhimsa\" dance, which is the signature folk dance of this region."
       },
       {
-            "text": "In the context of Dance, why is this topic important?",
+            "text": "The Dhimsa dance is a traditional art form originating from which famous valley?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Araku Valley",
+                  "Spiti Valley",
+                  "Kangra Valley",
+                  "Silent Valley"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Araku is renowned for its lush green hills, coffee plantations, and its vibrant tribal Dhimsa dance."
       },
       {
-            "text": "Which tool or method is most commonly associated with Introduction to Dhimsa Dance?",
+            "text": "In which Indian state is the Araku Valley located?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Kerala",
+                  "Karnataka",
+                  "Andhra Pradesh",
+                  "Tamil Nadu"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The wall painting behind the dancers explicitly mentions the Government of Andhra Pradesh."
       },
       {
-            "text": "Question 4 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "text": "Who primarily performs the actual dancing in the Dhimsa tradition shown in the video?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Only men",
+                  "Tribal women",
+                  "Young school children",
+                  "Professional classical dancers"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The visual center of the dance is always the group of tribal women in matching bright clothing."
       },
       {
-            "text": "Question 5 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "text": "What is the primary dancing formation of the women during the Dhimsa dance?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Standing far apart in straight lines",
+                  "Sitting on the ground",
+                  "Forming a continuous human chain or circle by holding each other",
+                  "Dancing solo on a stage"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Holding hands or waists in a circle symbolizes an unbroken chain of friendship and community strength."
       },
       {
-            "text": "Question 6 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
+            "text": "What color sarees are the tribal women uniformly wearing during this performance?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Bright Yellow",
+                  "Pure White",
+                  "Dark Blue",
+                  "Crimson Red"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The bright yellow perfectly contrasts with the green forest environment of the Araku hills."
+      },
+      {
+            "text": "Which government agency's name is painted on the background wall to support tribal culture?",
+            "options": [
+                  "Department of Outer Space",
+                  "Ministry of Urban Planning",
+                  "Integrated Tribal Development Agency (ITDA)",
+                  "National Highway Authority"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The ITDA works specifically to protect and develop the welfare of tribal populations in areas like Paderu and Araku."
+      },
+      {
+            "text": "What natural prop do the women hold in their hands during specific parts of the dance?",
+            "options": [
+                  "Steel swords",
+                  "Lighted candles",
+                  "Peacock feathers",
+                  "Wooden sticks"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Peacock feathers add a touch of natural forest beauty and grace to their hand movements."
+      },
+      {
+            "text": "To showcase their incredible balance and skill, what do the dancers place on their heads during the performance?",
+            "options": [
+                  "Heavy stones",
+                  "Baskets or earthen pots",
+                  "Glass cups",
+                  "Books"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Carrying pots of water or harvest baskets is a daily tribal activity transformed into a graceful dance element."
+      },
+      {
+            "text": "How is the rhythmic music generated for the Dhimsa dance?",
+            "options": [
+                  "By playing a digital track on a laptop",
+                  "By women singing without any instruments",
+                  "By men playing traditional live acoustic instruments like drums",
+                  "By tapping spoons on glass bottles"
             ],
             "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 7 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 8 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 9 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 10 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 11 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 12 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 13 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 14 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 15 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Introduction to Dhimsa Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
       }
-] }
+    ] }
   },
   {
     id: 'dan2', title: 'Advanced Dhimsa Formations', category: 'Dance',
