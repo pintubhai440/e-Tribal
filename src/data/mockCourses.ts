@@ -2253,262 +2253,212 @@ export const MOCK_COURSES = [
   {
     id: 'sk4', title: 'Organic Farming Basics', category: 'Skill',
     description: 'Understand the principles of growing crops without synthetic chemicals.',
-    thumbnailUrl: 'https://asmitaorganicfarm.com/cdn/shop/articles/feature-image-1_b457f0a8-5ab3-4a06-b2f2-2df2c0dfc024.png?v=1758022340&width=1100',
+    thumbnailUrl: 'https://loremflickr.com/640/360/farming,agriculture?lock=113',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Composting and Soil Health', videoUrl: 'https://www.youtube.com/embed/oHeJv8RCenA', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Composting and Soil Health', videoUrl: 'https://www.youtube.com/embed/rx26ucQsIYQ', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Organic Farming Basics\"?",
+            "text": "Which district is primarily featured in this video for its natural farming initiatives?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "In the context of Skill, why is this topic important?",
-            "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Which tool or method is most commonly associated with Organic Farming Basics?",
-            "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 4 regarding Organic Farming Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 5 regarding Organic Farming Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Visakhapatnam",
+                  "Parvathipuram Manyam",
+                  "East Godavari",
+                  "Srikakulam"
             ],
             "correctAnswerIndex": 1
       },
       {
-            "text": "Question 6 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "text": "Which mandal's tribal farmers are highlighted in the program?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Seethampeta",
+                  "Araku",
+                  "Paderu",
+                  "Chintapalli"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Which organization partnered with NABARD to implement the JIVA program?",
+            "options": [
+                  "GREEN Foundation",
+                  "ARTS NGO (Voluntary Organization)",
+                  "SERP",
+                  "Naandi Foundation"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "How many villages in the Seethampeta mandal are part of the JIVA program?",
+            "options": [
+                  "10",
+                  "20",
+                  "30",
+                  "50"
             ],
             "correctAnswerIndex": 2
       },
       {
-            "text": "Question 7 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "text": "How many tribal farmers are participating in this organic farming initiative?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 8 regarding Organic Farming Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 9 regarding Organic Farming Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 10 regarding Organic Farming Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "100",
+                  "250",
+                  "500",
+                  "1000"
             ],
             "correctAnswerIndex": 2
       },
       {
-            "text": "Question 11 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "text": "What type of farming are the tribal farmers encouraged to practice under this program?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 12 regarding Organic Farming Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 13 regarding Organic Farming Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 14 regarding Organic Farming Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Chemical-intensive farming",
+                  "Hydroponics",
+                  "Agro-ecological / Natural farming",
+                  "Genetically Modified (GM) farming"
             ],
             "correctAnswerIndex": 2
       },
       {
-            "text": "Question 15 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "text": "What is the core three-fold objective (concept) of the JIVA program for the tribal farmers?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Organic Farming Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Organic Farming Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Housing, Education, and Roads",
+                  "Food, Health, and Income",
+                  "Water, Electricity, and Subsidies",
+                  "Exports, Imports, and Trading"
             ],
             "correctAnswerIndex": 1
       },
       {
-            "text": "Question 18 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "text": "What specific natural fertilizers do the farmers prepare using local resources?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Urea and DAP",
+                  "Jeevamrutham (Drava and Ghana)",
+                  "Chemical NPK mixtures",
+                  "Synthetic growth hormones"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Through which specific centers is the natural liquid fertilizer (Drava Jeevamrutham) made accessible to the farmers?",
+            "options": [
+                  "Chemical Fertilizer Shops",
+                  "Bio-Resource Centers",
+                  "Urban Supermarkets",
+                  "Corporate Warehouses"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "How is the management of these Bio-Resource Centers designed?",
+            "options": [
+                  "Managed entirely by the government",
+                  "Managed by foreign investors",
+                  "Managed by the farmers themselves as an entrepreneurship model",
+                  "Managed by private pesticide companies"
             ],
             "correctAnswerIndex": 2
       },
       {
-            "text": "Question 19 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "text": "Before this intervention, how often did the farmers usually get a successful crop yield?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Organic Farming Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Organic Farming Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Three times a year",
+                  "Once a year (during Kharif season)",
+                  "Every month",
+                  "Once in two years"
             ],
             "correctAnswerIndex": 1
       },
       {
-            "text": "Question 22 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "text": "What farming system allows these farmers to earn an income for all 365 days of the year?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Monocropping",
+                  "Integrated Farming System (Diverse cropping)",
+                  "Slash-and-burn agriculture",
+                  "Contract farming"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Alongside cultivating vegetables and fruits, what other livelihood activity do the farmers practice to boost their income?",
+            "options": [
+                  "Mining",
+                  "Backyard poultry rearing (Perati Kolla Pempakam)",
+                  "Heavy machinery manufacturing",
+                  "Commercial fishing"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Which of the following is NOT mentioned as a source of income for the farmers in the video?",
+            "options": [
+                  "Pineapples",
+                  "Papayas",
+                  "Cotton",
+                  "Turmeric"
             ],
             "correctAnswerIndex": 2
       },
       {
-            "text": "Question 23 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "text": "To control pests, what type of natural remedy (Kashayam) do the farmers prepare?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Organic Farming Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "A mixture of 5 local forest leaves and cow urine",
+                  "A mixture of bleach and water",
+                  "Imported synthetic pesticides",
+                  "Boiled salt water"
             ],
             "correctAnswerIndex": 0
       },
       {
-            "text": "Question 25 regarding Organic Farming Basics: Which of the following is a key concept?",
+            "text": "Which of the following leaves is used in making the natural pest-control Kashayam?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Eucalyptus",
+                  "Neem (Vepa)",
+                  "Tea leaves",
+                  "Oak leaves"
             ],
             "correctAnswerIndex": 1
+      },
+      {
+            "text": "What major benefit did the farmers experience regarding their investment costs after adopting these natural methods?",
+            "options": [
+                  "Their investment costs doubled",
+                  "Their investment costs remained the same but yielded less",
+                  "Their investment costs reduced significantly",
+                  "They had to take large bank loans"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "How did the ARTS NGO improve the traditional farming methods already used by the tribes?",
+            "options": [
+                  "By replacing them completely with foreign machinery",
+                  "By making them more scientific and robust",
+                  "By discouraging them from farming altogether",
+                  "By making them use chemical fertilizers"
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "What agricultural practice helps prevent soil erosion (Matti kottukupokunda) according to the program experts?",
+            "options": [
+                  "Deep chemical tilling",
+                  "Leaving the land completely barren",
+                  "Natural soil conservation methods and green manure (Pachirotta)",
+                  "Concreting the farm edges"
+            ],
+            "correctAnswerIndex": 2
+      },
+      {
+            "text": "What is the ultimate result of the diverse cropping and natural methods for the tribal farmers?",
+            "options": [
+                  "They abandoned their lands",
+                  "They became highly dependent on market chemicals",
+                  "Their living standards improved and they became financially stable",
+                  "Their crop yields dropped to zero"
+            ],
+            "correctAnswerIndex": 2
       }
-] }
+    ] }
   },
   {
     id: 'sk5', title: 'Forest Honey Collection', category: 'Skill',
@@ -2516,519 +2466,459 @@ export const MOCK_COURSES = [
     thumbnailUrl: 'https://loremflickr.com/640/360/honey,forest?lock=114',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Identifying Beehives safely', videoUrl: 'https://www.youtube.com/embed/yqe6R4uWzQo', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Identifying Beehives safely', videoUrl: 'https://www.youtube.com/embed/EkV7VPB18_Q', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Forest Honey Collection\"?",
+            "text": "Where does the wild honey hunting shown in this documentary take place?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Western Ghats",
+                  "Nallamala Forest, Andhra Pradesh",
+                  "Sundarbans, West Bengal",
+                  "Araku Valley"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The video title and the introduction specifically mention the tribal honey hunters of the Nallamala Forest."
       },
       {
-            "text": "In the context of Skill, why is this topic important?",
+            "text": "Who are the people primarily engaged in extracting this wild honey?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Commercial factory workers",
+                  "Local village farmers",
+                  "Forest Tribals (like Mallanna and Venkatesh)",
+                  "Government forest rangers"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The host introduces two local tribal experts, Mallanna and Venkatesh, who have traditional knowledge of honey hunting."
       },
       {
-            "text": "Which tool or method is most commonly associated with Forest Honey Collection?",
+            "text": "According to the tribals, what happens if you throw a small stone to disturb a beehive?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "The bees fly away permanently",
+                  "The bees die instantly",
+                  "The bees will immediately attack you",
+                  "The bees drop the honey"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Bees are highly protective of their hives. A sudden physical disturbance like a stone triggers their defense mechanism to attack."
       },
       {
-            "text": "Question 4 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "text": "What is the preferred time for the tribals to extract honey, especially when dealing with multiple hives?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Early morning",
+                  "Mid-day",
+                  "Night time",
+                  "Late afternoon"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Bees are generally less active and less aggressive in the dark, making night time the safest for the honey hunters."
       },
       {
-            "text": "Question 5 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "text": "What traditional method do the tribals use to protect themselves from bee attacks while climbing the tree?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Wearing modern plastic bee suits",
+                  "Using chemical bug spray",
+                  "Creating thick smoke (Poga) using dry twigs and green leaves",
+                  "Playing loud music"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Smoke is a natural bee repellent. It masks their alarm pheromones and makes them docile."
       },
       {
-            "text": "Question 6 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "text": "Why are green leaves (Pachi aakulu) specifically added to the fire bundle?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "To make the fire burn hotter",
+                  "To produce a thick, dense smoke",
+                  "To create a sweet smell",
+                  "To cool down the honey"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Dry wood creates flames, but adding fresh green leaves creates the heavy, thick white smoke needed to drive the bees away."
       },
       {
-            "text": "Question 7 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "text": "What tool do the tribals carry up the tree to cut the honeycomb?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "A pair of scissors",
+                  "A chainsaw",
+                  "A traditional knife (Katthi)",
+                  "A metal spoon"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: They use a simple, sharp traditional knife to precisely slice the comb off the branch."
       },
       {
-            "text": "Question 8 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "text": "How does the honey hunter lower the cut honeycomb safely to the ground?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "He throws it down to his partner",
+                  "He climbs down holding it in his mouth",
+                  "He places it in a basket attached to a rope and lowers it down",
+                  "He drops it into a net on the ground"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: To keep the delicate honeycomb intact and save the honey, it is slowly lowered using a long rope."
       },
       {
-            "text": "Question 9 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "text": "When the host and his crew are waiting on the ground, what safety measure do they take?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "They hide inside a car",
+                  "They light their own smoke fire covered with green leaves",
+                  "They wear thick helmets",
+                  "They stand in a river"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The angry bees will fly down, so the crew on the ground also needs a \"smoke shield\" to avoid getting stung."
       },
       {
-            "text": "Question 10 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "text": "How long did it take the tribal expert to cut the honeycomb once he reached it?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "30 minutes",
+                  "1 hour",
+                  "Just 2 minutes",
+                  "15 minutes"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Because of the danger of bee attacks, the tribal works with lightning speed, finishing the cut in just two minutes."
       },
       {
-            "text": "Question 11 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "text": "What kind of bees are shown in the video?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Very small, harmless bees",
+                  "Large, wild forest bees that give a severe sting",
+                  "Stingless bees",
+                  "Domesticated farm bees"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The host specifically points out how large the bees are, noting that a single sting can make a person sick and bedridden for four days."
       },
       {
-            "text": "Question 12 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "text": "What was lowered in the basket first, which did NOT contain honey?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Dry leaves",
+                  "The \"Pala Ketta\" (the pollen/brood part of the comb with no honey)",
+                  "Dead bees",
+                  "Tree bark"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The hive has different sections. \"Pala ketta\" literally translates to the milk/brood section, which doesn't contain the sweet honey."
       },
       {
-            "text": "Question 13 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "text": "How is the wild honey extracted from the comb once it is brought down?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "By boiling the comb in water",
+                  "By crushing and squeezing (squeezing/pindutaru) it with bare hands",
+                  "Using an electric centrifuge",
+                  "By leaving it in the sun to melt"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It is a completely raw, manual process. They simply squeeze the rich honey directly out of the wax comb."
       },
       {
-            "text": "Question 14 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "text": "How does the host describe the taste of the freshly extracted raw honey?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Very bitter",
+                  "Sour and watery",
+                  "Excellent and incredibly sweet",
+                  "Tasteless"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Nothing beats the taste of pure, unadulterated nature. He loved it so much he ate nearly 100ml right there!"
       },
       {
-            "text": "Question 15 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "text": "According to the tribal expert, how can you identify duplicate (adulterated) honey when heated?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "It evaporates completely",
+                  "It turns green",
+                  "It forms solid lumps/crystallizes heavily (Gadda kattaddi)",
+                  "It smells like plastic"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Sugar syrup or adulterated honey thickens and forms hard lumps when heated, unlike pure wild honey."
       },
       {
-            "text": "Question 16 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "text": "What happens to pure, original honey when it is heated (kaagabettithe)?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "It forms hard lumps",
+                  "It does not form lumps, but forms a froth/foam (nuruga) on top",
+                  "It explodes",
+                  "It turns completely black"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Original honey will just produce a layer of froth that can be skimmed off, but it will never turn into hard sugar lumps."
       },
       {
-            "text": "Question 17 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "text": "What is the tribals' advice regarding heating pure honey?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "You must boil it for an hour before eating",
+                  "It is better NOT to heat it, as heating destroys its natural power/quality",
+                  "It should be microwaved daily",
+                  "It must be mixed with hot milk immediately"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Raw honey contains natural enzymes. Heating it kills the \"power\" and reduces its medicinal quality."
       },
       {
-            "text": "Question 18 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "text": "What is the best type of container to store pure wild honey for a long time?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Plastic bottles",
+                  "Iron jugs",
+                  "Glass jars/bottles (Gaaju seesalu)",
+                  "Clay pots"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Glass is non-reactive. Pure honey can stay unspoiled for years in a glass jar."
       },
       {
-            "text": "Question 19 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "text": "What happens if you store pure honey in a plastic container for a very long time?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "The honey becomes sweeter",
+                  "The honey spoils/goes bad (Bhangam aipotundi)",
+                  "The plastic turns into glass",
+                  "The honey increases in volume"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Plastic can react with the natural acids in the honey over time, ruining its quality."
       },
       {
-            "text": "Question 20 regarding Forest Honey Collection: Which of the following is a key concept?",
+            "text": "Why is this specific wild honey highly valued compared to store-bought honey?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "It is cheaper",
+                  "It is available everywhere",
+                  "It is completely raw, pure, and free from any adulteration or factory processing",
+                  "It comes in artificial flavors"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Forest Honey Collection: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Forest Honey Collection: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Forest Honey Collection: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Forest Honey Collection: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Forest Honey Collection: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: It is completely raw, pure, and free from any adulteration or factory processing."
       }
-] }
+    ] }
   },
   {
     id: 'sk6', title: 'Natural Dye Extraction', category: 'Skill',
     description: 'Extract vibrant colors from plants, roots, and flowers for dyeing fabrics.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/dye,color?lock=115',
+    thumbnailUrl: 'https://www.muezart.com/cdn/shop/articles/Natural-dyes-the-color-of-nature-Muezart-Meghalaya.jpg?v=1555344877',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Extracting Indigo', videoUrl: 'https://www.youtube.com/embed/LXb3EKWsInQ', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Extracting Indigo', videoUrl: 'https://www.youtube.com/embed/394EBhnO1UQ', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Natural Dye Extraction\"?",
+            "text": "What is the literal meaning of the word \"Kalamkari\"?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Color and Fabric",
+                  "Pen worker / Pen work",
+                  "Temple art",
+                  "Hand weaving"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: \"Kalam\" translates directly to pen. The entire art relies on a bamboo pen."
       },
       {
-            "text": "In the context of Skill, why is this topic important?",
+            "text": "Which of the following is considered the Hindu version of Kalamkari that revolves around temples and epics?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Masulipatnam style",
+                  "Dharmavaram style",
+                  "Sri Kalahasti style",
+                  "Pochampally style"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Sri Kalahasti is a famous temple town, making it the perfect hub for temple-based epic storytelling."
       },
       {
-            "text": "Which tool or method is most commonly associated with Natural Dye Extraction?",
+            "text": "The Masulipatnam style of Kalamkari is heavily influenced by which culture?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Persian",
+                  "Roman",
+                  "Chinese",
+                  "Greek"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Masulipatnam was an ancient port city with heavy trade ties to the Persian empire."
       },
       {
-            "text": "Question 4 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "text": "The town of Sri Kalahasti got its name from the devotees of Lord Shiva. Which three creatures do these represent?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Lion, Tiger, Bear",
+                  "Spider, Snake, Elephant",
+                  "Eagle, Fish, Dog",
+                  "Cow, Monkey, Peacock"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Sri (Spider) + Kala (Snake) + Hasti (Elephant)."
       },
       {
-            "text": "Question 5 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "text": "What was the original, ancient name of this craft before it was called Kalamkari?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Vratapani",
+                  "Chitrakala",
+                  "Rangoli",
+                  "Pattachitra"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: \"Vrata\" means writing and \"Panee\" means work. It literally means the work of writing."
       },
       {
-            "text": "Question 6 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "text": "Which 13th-century nomadic group of singers and painters originally started depicting Hindu epics on large cloths?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Banjaras",
+                  "Chitrakatis",
+                  "Gonds",
+                  "Bhils"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: \"Chitra\" means picture/painting. They were the original picture-storytellers."
       },
       {
-            "text": "Question 7 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "text": "What mixture is fermented for 20 days to create the black outline color?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Charcoal and oil",
+                  "Jaggery, iron filings, and water",
+                  "Crushed black rocks and milk",
+                  "Squid ink and salt"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Iron gives the dark black rust, and jaggery acts as the natural fermenting agent to lock it in."
       },
       {
-            "text": "Question 8 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "text": "Why is the cloth soaked evenly in milk during the preparation stage?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "To make the cloth smell good",
+                  "To turn the cloth pure white",
+                  "The fat content acts as wax and prevents the colors from spreading",
+                  "To make the cloth completely fireproof"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Think of milk fat like a natural boundary wall that traps the liquid dyes in their place."
       },
       {
-            "text": "Question 9 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "text": "Approximately how much milk is required to treat a single Kalamkari saree at one time?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Half a liter",
+                  "One liter",
+                  "Two and a half liters",
+                  "Five liters"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: A saree is 6 yards long; it drinks up exactly 2.5 liters of milk to get fully coated!"
       },
       {
-            "text": "Question 10 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "text": "Which colorless solution is painted onto the areas meant to be colored Red?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Alum solution",
+                  "Salt water",
+                  "Baking soda",
+                  "Vinegar"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Alum acts as a \"mordant\"—a chemical magnet that permanently binds the red dye to the fabric during boiling."
       },
       {
-            "text": "Question 11 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "text": "Because the alum solution is colorless, what is added to it so the artist can see where they are painting?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "White chalk",
+                  "A fugitive (temporary) red color",
+                  "Black charcoal dust",
+                  "Green leaf juice"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: \"Fugitive\" means it runs away. It is a temporary color that washes off once the real red is boiled in."
       },
       {
-            "text": "Question 12 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "text": "What temperature is required when boiling the cloth with red coloring material to permanently fix the dye?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "20 to 30 degrees Celsius",
+                  "40 to 50 degrees Celsius",
+                  "80 to 100 degrees Celsius",
+                  "Over 200 degrees Celsius"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: It requires a near-boiling or fully boiling temperature (100 degrees) to force the color into the fabric fibers."
       },
       {
-            "text": "Question 13 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "text": "How is the green color obtained in traditional Kalamkari?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "By crushing green grass",
+                  "By applying yellow over blue",
+                  "By mixing black and white",
+                  "By boiling neem leaves"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Basic art class rules apply! Yellow + Blue always makes Green."
       },
       {
-            "text": "Question 14 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "text": "What is the specialty of the colors used in this natural art form?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "They glow in the dark",
+                  "They wash away completely after one use",
+                  "The colors change according to the temperature of water and climatic conditions",
+                  "They are highly toxic"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Since the dyes are 100% natural, they react to the weather like living plants!"
       },
       {
-            "text": "Question 15 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "text": "How many specific stages are involved in the traditional, tedious process of making a Kalamkari piece?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "5 stages",
+                  "10 stages",
+                  "17 stages",
+                  "25 stages"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: It is a prime number. 17 complex stages of washing, treating, and painting."
       },
       {
-            "text": "Question 16 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "text": "How many days does it take to complete the entire Kalamkari process for a piece?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "7 days",
+                  "15 days",
+                  "30 days",
+                  "45 days"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: It takes exactly a month and a half (45 days) of patience to create one masterpiece."
       },
       {
-            "text": "Question 17 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "text": "Which global event in the 18th century caused a massive decline in the export of Indian Kalamkari to Europe?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "World War I",
+                  "The Industrial Revolution in London",
+                  "The French Revolution",
+                  "The discovery of America"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Machines in London started mass-producing cheap, printed cloth, heavily damaging the slow, hand-painted Indian craft market."
       },
       {
-            "text": "Question 18 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "text": "According to the video, what natural fibers are used as the canvas for these paintings?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Only pure Silk",
+                  "Tussar silk, Malabari silk, cotton, and jute",
+                  "Polyester and Nylon",
+                  "Wool and Velvet"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Natural dyes only bond with natural plant or animal fibers. Synthetic plastic fibers (like nylon) reject them."
       },
       {
-            "text": "Question 19 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "text": "In 1991, what was set up in Sri Kalahasti to help support and organize the artists?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "A giant mechanized factory",
+                  "A cooperative known as the Sri Kalahasti Kalamkari Kalarula Sangam",
+                  "A completely foreign-owned company",
+                  "A modern digital printing press"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: \"Sangam\" means union. The artists united to protect their 3,000-year-old legacy."
       },
       {
-            "text": "Question 20 regarding Natural Dye Extraction: Which of the following is a key concept?",
+            "text": "Why is the cloth heavily washed in water and dried before the very first step of preparation begins?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "To make it shrink",
+                  "To remove starch from the fabric",
+                  "To make it smell like the river",
+                  "To change its base color"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Natural Dye Extraction: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Natural Dye Extraction: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Natural Dye Extraction: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Natural Dye Extraction: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Natural Dye Extraction: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: To remove starch from the fabric."
       }
-] }
+    ] }
   },
   {
     id: 'sk7', title: 'Wood Carving Fundamentals', category: 'Skill',
