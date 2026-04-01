@@ -4416,262 +4416,122 @@ export const MOCK_COURSES = [
   {
     id: 'dan8', title: 'Dance Costumes and Makeup', category: 'Dance',
     description: 'Learn how to prepare the traditional attire, jewelry, and natural makeup for a performance.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/makeup,costume?lock=125',
+    thumbnailUrl: 'https://i.ytimg.com/vi/yVSbyueKkpY/sddefault.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Wearing Traditional Jewelry', videoUrl: 'https://www.youtube.com/embed/3b3_2_5_8_g', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'DIY Tribal Jewelry', videoUrl: 'https://www.youtube.com/embed/t46fY9Sgins', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Dance Costumes and Makeup\"?",
+            "text": "What is the primary base material used to create the shape of the jewelry in the video?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Cardboard",
+                  "Newspaper",
+                  "Plastic bottles",
+                  "Fabric"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Newspaper is the cheapest, most accessible paper to roll up and build a solid base for DIY crafts."
       },
       {
-            "text": "In the context of Dance, why is this topic important?",
+            "text": "What material is inserted inside the rolled paper to give the jewelry structure and flexibility?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Wooden sticks",
+                  "Rubber bands",
+                  "Jewelry wire",
+                  "Plastic string"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Paper is soft, so a wire acts as the \"skeleton\" to help the jewelry hold its bent shape."
       },
       {
-            "text": "Which tool or method is most commonly associated with Dance Costumes and Makeup?",
+            "text": "Which material is wrapped around the base to give the jewelry a shiny, metallic silver finish?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Silver paint",
+                  "Aluminum foil",
+                  "Glitter glue",
+                  "Silver fabric"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Aluminum foil instantly transforms dull paper into shining, authentic-looking silver metal."
       },
       {
-            "text": "Question 4 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "text": "What tool is used to bend and cut the jewelry wire during the crafting process?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Scissors",
+                  "Hammer",
+                  "Tweezers",
+                  "Nose pliers"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Nose pliers are the standard tool to grip, bend, and snip tough jewelry wire safely."
       },
       {
-            "text": "Question 5 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "text": "How are the ends of the rolled newspaper secured together to form circular shapes like bangles?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "With hot glue",
+                  "With a stapler",
+                  "With cello tape",
+                  "By tying a knot"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Cello tape tightly wraps the ends together without adding bulky bumps like glue or staples would."
       },
       {
-            "text": "Question 6 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "text": "What specific style of jewelry is the creator making in this tutorial?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Modern minimalist jewelry",
+                  "Tribal and folk dance jewelry",
+                  "Fine diamond jewelry",
+                  "Floral resin jewelry"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The rustic, heavy silver look created by the foil perfectly matches traditional tribal ornaments."
       },
       {
-            "text": "Question 7 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "text": "Which of the following items is NOT used as a material or tool in this DIY project?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Hot glue gun",
+                  "Aluminum foil",
+                  "Scissors",
+                  "Cello tape"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: This is a completely heat-free, kid-friendly craft using just paper, wire, tape, and foil."
       },
       {
-            "text": "Question 8 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "text": "What is the first step the creator takes with the newspaper to begin making the jewelry?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Folding it into an origami shape",
+                  "Tearing it into strips and rolling it",
+                  "Painting it black",
+                  "Gluing it to a piece of cardboard"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: You have to make the basic \"building blocks\" first by rolling strips of paper into tight tubes."
       },
       {
-            "text": "Question 9 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "text": "Why does the creator use aluminum foil in this craft?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "To make the jewelry waterproof",
+                  "To add weight to the bangles",
+                  "To mimic the look of traditional silver tribal jewelry",
+                  "To make the base easier to paint"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Authentic tribal jewelry is heavily made of oxidized silver, and foil gives that exact metallic illusion."
       },
       {
-            "text": "Question 10 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
+            "text": "What is the overall benefit of this DIY jewelry method as shown in the video?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "It uses expensive materials for a premium look",
+                  "It requires advanced metalworking skills",
+                  "It is a fast, easy, and inexpensive way to make tribal-style jewelry",
+                  "It creates jewelry that requires a kiln to set"
             ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 11 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 12 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 13 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 14 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 15 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Dance Costumes and Makeup: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The best part of DIY is looking stunning on stage without spending any real money!"
       }
-] }
+    ] }
   },
   {
     id: 'dan9', title: 'Festival Dance Choreography', category: 'Dance',
