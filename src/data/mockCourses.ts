@@ -2253,10 +2253,10 @@ export const MOCK_COURSES = [
   {
     id: 'sk4', title: 'Organic Farming Basics', category: 'Skill',
     description: 'Understand the principles of growing crops without synthetic chemicals.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/farming,agriculture?lock=113',
+    thumbnailUrl: 'https://imgs.mongabay.com/wp-content/uploads/sites/30/2023/07/31114045/Agriculture-field-work.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Composting and Soil Health', videoUrl: 'https://www.youtube.com/watch?v=rx26ucQsIYQ#:~:text=Natural%20farming%20techniques%20at%20tribal,app.goo....', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Composting and Soil Health', videoUrl: 'https://www.youtube.com/watch?v=KQxMEtGAoAk', duration: '1:30:00' }],
     quiz: { questions: [
       {
             "text": "Which district is primarily featured in this video for its natural farming initiatives?",
