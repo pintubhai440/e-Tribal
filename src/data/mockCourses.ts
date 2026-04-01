@@ -3813,7 +3813,7 @@ export const MOCK_COURSES = [
   {
     id: 'sk10', title: 'Herbal Soap Crafting', category: 'Skill',
     description: 'Create natural, skin-friendly soaps using forest herbs and essential oils.',
-    thumbnailUrl: 'https://www.amazon.in/Crafting-Herbs-Do-Yourself-Essentials-ebook/dp/B08CF5334N',
+    thumbnailUrl: 'https://m.media-amazon.com/images/I/81GRcfUUuGL._UF1000,1000_QL80_.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
     modules: [{ id: 'm1', title: 'Mixing Lye and Oils', videoUrl: 'https://www.youtube.com/embed/LXb3EKWsInQ', duration: '1:30:00' }],
