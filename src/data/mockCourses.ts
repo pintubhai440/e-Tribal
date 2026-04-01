@@ -3,7 +3,7 @@ export const MOCK_COURSES = [
   {
     id: 'cul1', title: 'Tribal History of Eastern Ghats', category: 'Culture',
     description: 'Explore the ancient roots and history of the indigenous tribes of the Eastern Ghats.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/history,tribal?lock=100',
+    thumbnailUrl: 'https://d35xcwcl37xo08.cloudfront.net/current-affairs-wp-uploads/2025/12/Eastern-Ghats.webp',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'Origins and Migration', videoUrl: 'https://www.youtube.com/embed/ICVXHkOy-tQ', duration: '1:30:00' }],
