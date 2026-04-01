@@ -3981,262 +3981,122 @@ export const MOCK_COURSES = [
   {
     id: 'dan3', title: 'Savara Traditional Dance', category: 'Dance',
     description: 'Explore the energetic and rhythmic dance forms of the Savara tribe.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/dance,traditional?lock=122',
+    thumbnailUrl: 'https://i.ytimg.com/vi/XAXLo6prtWo/hqdefault.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Rhythm and Posture', videoUrl: 'https://www.youtube.com/embed/p8laSR1TwNQ', duration: '1:30:00' }],
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Savara Dance Forms', videoUrl: 'https://www.youtube.com/embed/XAXLo6prtWo', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Savara Traditional Dance\"?",
+            "text": "According to the video, what does the word \"Savara\" literally translate to?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "People who live near the ocean",
+                  "People who live on mountains",
+                  "People who farm wheat",
+                  "People who travel constantly"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The Savara tribe has a deep, ancient connection to the high hills and forests, which gave them their name."
       },
       {
-            "text": "In the context of Dance, why is this topic important?",
+            "text": "Historically, the Savara people were forest dwellers (Vanvasis). What major occupation have they primarily adopted in recent times?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Software engineering",
+                  "Deep-sea fishing",
+                  "Farming and agriculture",
+                  "Mining"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: As forests changed, these traditional forest dwellers naturally transitioned into farming the land to survive."
       },
       {
-            "text": "Which tool or method is most commonly associated with Savara Traditional Dance?",
+            "text": "Apart from Andhra Pradesh, in which neighboring Indian state does the Savara (or Saora/Sabara) tribe mostly live?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Kerala",
+                  "Gujarat",
+                  "Odisha",
+                  "Punjab"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Srikakulam district (where the video is shot) shares a direct border with Odisha, so the tribe spans across both states."
       },
       {
-            "text": "Question 4 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "text": "What is the traditional dance attire for the men of the Savara tribe?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Bright red sarees",
+                  "Pure white clothes and a turban (Pagdi)",
+                  "Heavy metal armor",
+                  "Black shirts and jeans"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: While the women wear bright, shiny colors, the men provide a sharp contrast in simple, elegant white clothes and turbans."
       },
       {
-            "text": "Question 5 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "text": "Which of the following is a traditional musical instrument used during the Savara dance?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Electric Guitar",
+                  "Tudum",
+                  "Piano",
+                  "Synthesizer"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The Tudum and Kating are ancient, acoustic tribal instruments made using local forest materials like coconut shells."
       },
       {
-            "text": "Question 6 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "text": "Based on the occasion, the Savara traditional dance (Tongsing/Tumse) is divided into how many different forms?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "2 forms",
+                  "3 forms",
+                  "5 forms",
+                  "10 forms"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Think of the 5 fingers on a hand. They have 5 specific dances for different life events."
       },
       {
-            "text": "Question 7 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "text": "Which specific form of the dance is performed to pray for the peace of a departed soul when someone dies?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Jambo Tumse",
+                  "Abdur Tumse",
+                  "Sir Tumse",
+                  "Gawar Tumse"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Connect \"Jambo\" with a solemn journey of the soul finding peace."
       },
       {
-            "text": "Question 8 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "text": "The \"Abdur Tumse\" dance form is performed to celebrate which specific occasion?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "The birth of a child",
+                  "After harvesting the crops",
+                  "Before going to war",
+                  "To bring rain"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: \"Abdur\" celebrates Abundance! It is the joyful dance they do after cutting the fully grown crops."
       },
       {
-            "text": "Question 9 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "text": "Which form of the dance is performed to honor ancestors during the Agam festival?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Sir Tumse",
+                  "Jambo Tumse",
+                  "Gawar Tumse",
+                  "Abdur Tumse"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: \"Gawar\" is performed to show Gratitude to the ancestors who came before them."
       },
       {
-            "text": "Question 10 regarding Savara Traditional Dance: Which of the following is a key concept?",
+            "text": "Which dance form is performed specifically during marriage ceremonies?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Sir Tumse",
+                  "Jambo Tumse",
+                  "Gawar Tumse",
+                  "Abdur Tumse"
             ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 11 regarding Savara Traditional Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 12 regarding Savara Traditional Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 13 regarding Savara Traditional Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 14 regarding Savara Traditional Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 15 regarding Savara Traditional Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Savara Traditional Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Savara Traditional Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Savara Traditional Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Savara Traditional Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Savara Traditional Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Savara Traditional Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Savara Traditional Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Savara Traditional Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Savara Traditional Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Savara Traditional Dance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: \"Sir Tumse\" represents the joyful union and celebration of starting a new life together."
       }
-] }
+    ] }
   },
   {
     id: 'dan4', title: 'Lambadi Dance Basics', category: 'Dance',
