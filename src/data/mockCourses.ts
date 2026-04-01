@@ -4101,262 +4101,67 @@ export const MOCK_COURSES = [
   {
     id: 'dan4', title: 'Lambadi Dance Basics', category: 'Dance',
     description: 'Learn the graceful movements and hand gestures of the Lambadi (Banjara) dance.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/dance,folk?lock=123',
+    thumbnailUrl: 'https://www.auchitya.com/wp-content/uploads/2020/08/lambadi-dance.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Hand Gestures (Mudras)', videoUrl: 'https://www.youtube.com/embed/3b3_2_5_8_g', duration: '1:30:00' }],
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Lambadi Dance Techniques', videoUrl: 'https://www.youtube.com/embed/zx47Esgan7I', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Lambadi Dance Basics\"?",
+            "text": "What is the name of the traditional folk dance performed in the video?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Kuchipudi",
+                  "Lambadi Dance",
+                  "Bharatanatyam",
+                  "Kathak"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The video title explicitly highlights the \"Lambadi Dance\" as the core performance."
       },
       {
-            "text": "In the context of Dance, why is this topic important?",
+            "text": "Which traditional tribal/nomadic community is famous for performing this specific dance?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Santhal",
+                  "Toda",
+                  "Banjara",
+                  "Bhil"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The Lambadi dance is the signature, vibrant folk dance of the Banjara community."
       },
       {
-            "text": "Which tool or method is most commonly associated with Lambadi Dance Basics?",
+            "text": "This vibrant folk dance is traditionally associated with which Indian state?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Kerala",
+                  "Punjab",
+                  "Assam",
+                  "Andhra Pradesh"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: The title and the Telugu folk lyrics clearly identify it as a proud cultural dance of Andhra Pradesh."
       },
       {
-            "text": "Question 4 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "text": "What is a signature characteristic of the costumes worn by the women performing the Lambadi dance?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Plain white cotton sarees",
+                  "Brightly colored clothes with heavy mirror work and embroidery",
+                  "Heavy metal armor",
+                  "Simple black robes"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Banjara women are famous worldwide for their dazzling, mirror-studded outfits (mentioned in the lyrics as \"Addala\" meaning mirrors) and heavy jewelry."
       },
       {
-            "text": "Question 5 regarding Lambadi Dance Basics: Which of the following is a key concept?",
+            "text": "Which dance school is credited with the performance shown in this video?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Kalakshetra Foundation",
+                  "Natya Tarangini",
+                  "Spandana Nrutya Keli School of Dance",
+                  "Andhra Dance Academy"
             ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 6 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 7 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 8 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 9 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 10 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 11 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 12 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 13 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 14 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 15 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Lambadi Dance Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The YouTube channel and the title proudly state that this performance is presented by the Spandana Nrutya Keli school."
       }
-] }
+    ] }
   },
   {
     id: 'dan5', title: 'Tribal Drumming (Thudumbu)', category: 'Dance',
