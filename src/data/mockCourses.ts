@@ -4231,262 +4231,122 @@ export const MOCK_COURSES = [
   {
     id: 'dan6', title: 'Flute Playing (Venu)', category: 'Dance',
     description: 'Learn to play the traditional bamboo flute that accompanies many tribal dances.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/flute,music?lock=158',
+    thumbnailUrl: 'https://cdn-jjicb.nitrocdn.com/aIJeLndxfQAwuPmJmtuiQVXbATsjornW/assets/images/optimized/rev-ad93908/soundversemusic.com/wp-content/uploads/2023/07/carnatic_close-1.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Holding and Blowing Techniques', videoUrl: 'https://www.youtube.com/embed/3b3_2_5_8_g', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Bamboo Flute Basics', videoUrl: 'https://www.youtube.com/embed/gEyEtp9WBtg', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Flute Playing (Venu)\"?",
+            "text": "What material is the flute featured in the video primarily made of?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Silver",
+                  "Wood",
+                  "Bamboo",
+                  "Plastic"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The name \"Venu\" traditionally refers to a bamboo flute. Bamboo is nature's perfect hollow tube for music."
       },
       {
-            "text": "In the context of Dance, why is this topic important?",
+            "text": "How many fingering holes are located on the front of the bamboo flute?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "4",
+                  "6",
+                  "8",
+                  "10"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Most traditional Asian and Indian bamboo flutes have exactly 6 main fingering holes to play the musical notes."
       },
       {
-            "text": "Which tool or method is most commonly associated with Flute Playing (Venu)?",
+            "text": "What are the two functional holes located near the top end of the bamboo flute?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "The blow hole and the film hole",
+                  "The thumb hole and the pinky hole",
+                  "The breath hole and the water hole",
+                  "The tuning hole and the pitch hole"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: You need a hole to blow air into, and a special film hole (often found in traditional bamboo flutes) to give it a buzzing, vibrant sound."
       },
       {
-            "text": "Question 4 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "text": "What traditional material does the instructor mention is used as an adhesive to stick the thin film onto the flute?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Tree sap",
+                  "Chemical glue",
+                  "Donkey skin (traditional herb/glue)",
+                  "Beeswax"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Traditional instrument makers often used natural animal byproducts, like donkey hide glue, because it holds the delicate film perfectly and dissolves with water."
       },
       {
-            "text": "Question 5 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "text": "What specific playing technique does the instructor mention is used for playing very fast songs?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Slurring",
+                  "Vibrato",
+                  "Double tongue",
+                  "Flutter tonguing"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: To play fast, your tongue needs to move twice as fast! \"Double tonguing\" uses a rapid \"Tu-Ku\" syllable pattern."
       },
       {
-            "text": "Question 6 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "text": "Which keys of bamboo flutes are typically selected to play very fast songs?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "C, D, and Big G",
+                  "G, A, and F",
+                  "E, B flat, and C",
+                  "D, E, and F"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Smaller, higher-pitched flutes (like G, A, F) are physically shorter, making it easier for fingers to move quickly for fast-paced songs."
       },
       {
-            "text": "Question 7 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "text": "Which keys of bamboo flutes are usually chosen to play slower, smoother songs?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "G, A, and F",
+                  "C, D, and Big G",
+                  "B flat, A, and G",
+                  "E, F, and A"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Larger flutes (like C, D) have deeper, resonant, and mellow tones perfectly suited for slow, emotional melodies."
       },
       {
-            "text": "Question 8 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "text": "According to the instructor, the mouth shape used for the bamboo flute is very similar to playing which other instrument?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Clarinet",
+                  "Saxophone",
+                  "Silver flute",
+                  "Oboe"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Both are \"transverse\" (side-blown) flutes, so the embouchure (mouth shape) required to direct air across the hole is essentially the same."
       },
       {
-            "text": "Question 9 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "text": "How should the air speed be managed when playing the low notes on the bamboo flute?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "The air speed should be slower",
+                  "The air speed should be very fast",
+                  "The air speed should stop completely",
+                  "The air speed should fluctuate rapidly"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Low notes need gentle, warm, and slow air to resonate deeply without jumping into a higher pitch."
       },
       {
-            "text": "Question 10 regarding Flute Playing (Venu): Which of the following is a key concept?",
+            "text": "What is required of the air speed when transitioning to play high notes?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "It needs to become slower",
+                  "It needs to remain exactly the same as middle notes",
+                  "It needs to become even faster",
+                  "It requires blowing in short, disconnected bursts"
             ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 11 regarding Flute Playing (Venu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 12 regarding Flute Playing (Venu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 13 regarding Flute Playing (Venu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 14 regarding Flute Playing (Venu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 15 regarding Flute Playing (Venu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Flute Playing (Venu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Flute Playing (Venu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Flute Playing (Venu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Flute Playing (Venu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Flute Playing (Venu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Flute Playing (Venu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Flute Playing (Venu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Flute Playing (Venu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Flute Playing (Venu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Flute Playing (Venu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: High pitches require high energy! You must blow a faster, tighter stream of air to hit the higher octaves cleanly."
       }
-] }
+    ] }
   },
   {
     id: 'dan7', title: 'Rhythmic Footwork in Tribal Dance', category: 'Dance',
