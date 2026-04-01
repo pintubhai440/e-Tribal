@@ -3285,172 +3285,117 @@ export const MOCK_COURSES = [
     thumbnailUrl: 'https://i.ytimg.com/vi/Nj8YCbZz4k8/maxresdefault.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Eco-friendly Plate Stitching', videoUrl: 'https://www.youtube.com/embed/2KJRU-v-hYg', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Eco-friendly Plate Stitching', videoUrl: 'https://www.youtube.com/embed/J3_FOENWWws', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the thickness/quality of the cardboard used by the speaker's organic factory?",
+            "text": "What is the primary natural material being used to make the plate in the video?",
             "options": [
-                  "50 GSM 1-ply",
-                  "70 GSM 2-ply",
-                  "100 GSM 3-ply liner",
-                  "150 GSM 4-ply"
-            ],
-            "correctAnswerIndex": 2,
-            "explanation": "Memory Hook: Think of a perfect 100% score! They use thick 100 GSM cardboard, while competitors use a weaker 70 GSM."
-      },
-      {
-            "text": "What hidden material is used in standard commercial leaf plates to make the leaf stick to the cardboard?",
-            "options": [
-                  "Natural tree sap",
-                  "Polycoat (a layer of plastic)",
-                  "Superglue",
-                  "Flour paste"
+                  "Palm fronds",
+                  "Broad green leaves",
+                  "Banana tree bark",
+                  "Bamboo wood"
             ],
             "correctAnswerIndex": 1,
-            "explanation": "Memory Hook: \"Poly\" stands for polymer/plastic. It acts as an instant cheap glue when heated."
+            "explanation": "Memory Hook: The video explicitly demonstrates assembling a traditional dining plate completely out of natural, broad green leaves."
       },
       {
-            "text": "Why do competitor factories prefer using Polycoat instead of natural gum?",
+            "text": "What traditional item is used to pin and stitch the leaves together?",
             "options": [
-                  "It makes the plates smell good",
-                  "It makes the plates edible",
-                  "It allows them to press the plates faster and reduces labor costs",
-                  "It is a government rule"
+                  "Metal staples",
+                  "Cotton sewing thread",
+                  "Small dried twigs/sticks",
+                  "Chemical glue"
             ],
             "correctAnswerIndex": 2,
-            "explanation": "Memory Hook: Plastic melts fast under heat, meaning one machine operator can do the job without needing a second person to apply glue."
+            "explanation": "Memory Hook: Instead of artificial staples or glue, thin, sharp pieces of dried twigs are used like natural pins."
       },
       {
-            "text": "What is the major health hazard of eating hot food on a Polycoated leaf plate?",
+            "text": "How does the artisan join two leaves together to build the plate?",
             "options": [
-                  "The plate will catch fire",
-                  "The plastic melts and mixes directly into the food",
-                  "The food turns totally cold instantly",
-                  "The plate dissolves into water"
+                  "By tying them with thick ropes",
+                  "By overlapping their edges and piercing them with a twig",
+                  "By folding them in half",
+                  "By pressing them with a hot iron"
             ],
             "correctAnswerIndex": 1,
-            "explanation": "Memory Hook: Heat melts plastic. When you serve hot rice, you are secretly serving a side dish of melted polycoat!"
+            "explanation": "Memory Hook: Overlapping creates a seamless, leak-proof surface, and the twig acts as a secure natural stitch."
       },
       {
-            "text": "How long does it take for the speaker's organic, plastic-free leaf plates to compost into soil?",
+            "text": "What shape does the artisan form by arranging the leaves?",
             "options": [
-                  "1 to 2 days",
-                  "50 to 60 days",
-                  "1 to 2 years",
-                  "10 years"
-            ],
-            "correctAnswerIndex": 1,
-            "explanation": "Memory Hook: It takes about two months (roughly 60 days) for nature to fully digest this pure natural plate."
-      },
-      {
-            "text": "How long does it take for a competitor's Polycoated plate to decompose in the soil?",
-            "options": [
-                  "1 month",
-                  "6 months",
-                  "1 year",
-                  "10 years"
-            ],
-            "correctAnswerIndex": 3,
-            "explanation": "Memory Hook: That thin invisible layer of plastic traps the leaf, making it survive in the dirt for a whole decade!"
-      },
-      {
-            "text": "According to the speaker, what is the true definition of a \"Sustainable Product\"?",
-            "options": [
-                  "It must be very cheap to buy",
-                  "It must look beautiful and shiny",
-                  "It must not pollute the soil, water, or air (the Panchabhutas)",
-                  "It must be imported from another country"
+                  "A square box",
+                  "A triangular cone",
+                  "A flat, circular plate",
+                  "A deep cylindrical cup"
             ],
             "correctAnswerIndex": 2,
-            "explanation": "Memory Hook: Sustainability means nature stays pure. Zero harm to the earth, water, and sky."
+            "explanation": "Memory Hook: They are making a traditional dining plate, which is naturally built into a round shape."
       },
       {
-            "text": "Who helped formulate the natural, biodegradable gum used in this factory?",
+            "text": "What is the biggest environmental benefit of using these traditional leaf plates?",
             "options": [
-                  "Only a foreign chemical company",
-                  "The speaker (a mechanical engineer), his pharmacist wife, his designer son, and scientists",
-                  "Local village farmers",
-                  "A software engineer"
-            ],
-            "correctAnswerIndex": 1,
-            "explanation": "Memory Hook: It was a total family science project supported by professional scientists."
-      },
-      {
-            "text": "When the factory struggled to sell its products in the very first year, who bought their entire stock?",
-            "options": [
-                  "The local state government",
-                  "A local supermarket",
-                  "A foreign friend visiting from the US",
-                  "A corporate IT company"
+                  "They can be recycled into plastic",
+                  "They never break",
+                  "They are 100% eco-friendly, biodegradable, and compostable",
+                  "They can be washed in a dishwasher"
             ],
             "correctAnswerIndex": 2,
-            "explanation": "Memory Hook: Sometimes locals ignore the value of natural goods until an outsider recognizes it! A friend from America cleared their first-year inventory."
+            "explanation": "Memory Hook: Nature provides the leaf, and it safely goes back into nature as compost after use—zero waste!"
       },
       {
-            "text": "Which platform played a massive role in helping the factory find health-conscious customers later on?",
+            "text": "How does the plate-making process generally begin?",
             "options": [
-                  "Television advertisements",
-                  "Newspaper articles",
-                  "Social Media",
-                  "Radio broadcasts"
+                  "By placing one central leaf and stitching other leaves around it",
+                  "By creating the outer border first",
+                  "By cutting all the leaves into tiny pieces",
+                  "By soaking the leaves in boiling water"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The center leaf acts as the foundation, and the plate expands outwards in a circle as more leaves are added."
+      },
+      {
+            "text": "Why are broad leaves preferred for making these plates instead of small ones?",
+            "options": [
+                  "Small leaves are poisonous",
+                  "Broad leaves change color",
+                  "Broad leaves require fewer stitches and create a stronger, wider dining surface",
+                  "Small leaves are too heavy"
             ],
             "correctAnswerIndex": 2,
-            "explanation": "Memory Hook: Social media connects eco-friendly creators directly with people who care about the environment."
+            "explanation": "Memory Hook: A larger surface area means you need fewer leaves to quickly build a sturdy, big plate."
       },
       {
-            "text": "According to the speaker, what is the correct way to truly achieve \"Rural Empowerment\" for women?",
+            "text": "How does the artisan prepare the dry twigs to be used as pins?",
             "options": [
-                  "Force all village women to travel to big cities for work",
-                  "Give them free money every month without work",
-                  "Bring micro and small-scale industries directly into the villages",
-                  "Tell them to start IT companies"
+                  "By cutting them with an electric cutter",
+                  "The artisan snaps and breaks them manually with their fingers",
+                  "By hitting them with a heavy hammer",
+                  "By sharpening them with a knife"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The dry twigs are thin and brittle enough to be snapped easily by hand as needed."
+      },
+      {
+            "text": "In the traditional Telugu context, what is this handmade leaf plate commonly called?",
+            "options": [
+                  "Charpai",
+                  "Istaraku / Vistaraku",
+                  "Matka",
+                  "Diya"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The Telugu video title itself mentions \"ఇంట్లో ఇస్తారు\" (Istaru/Istaraku), the traditional name for these ceremonial leaf plates."
+      },
+      {
+            "text": "Why is making leaf plates considered a highly sustainable rural skill?",
+            "options": [
+                  "It requires expensive machinery to set up",
+                  "It depends entirely on imported materials",
+                  "It uses free, renewable forest resources and requires zero electricity",
+                  "It creates a lot of smoke"
             ],
             "correctAnswerIndex": 2,
-            "explanation": "Memory Hook: Village women cannot travel long distances. The factory must go to the village, not the other way around."
-      },
-      {
-            "text": "What dangerous alternative job do many rural women do in villages to earn a living?",
-            "options": [
-                  "Mining coal",
-                  "Rolling Beedis (Tobacco)",
-                  "Making firecrackers",
-                  "Heavy construction"
-            ],
-            "correctAnswerIndex": 1,
-            "explanation": "Memory Hook: Beedi rolling is a very common cottage industry in Indian villages, but it involves handling toxic raw tobacco daily."
-      },
-      {
-            "text": "What is the terrible consequence of the Beedi rolling job for the village women?",
-            "options": [
-                  "They lose their eyesight",
-                  "They get severe cancer, which also affects their children playing nearby",
-                  "They suffer from hearing loss",
-                  "They become very wealthy"
-            ],
-            "correctAnswerIndex": 1,
-            "explanation": "Memory Hook: Breathing in raw tobacco dust all day inside a small hut is a direct path to lung diseases and cancer for the whole family."
-      },
-      {
-            "text": "Why are modern farmers facing severe health issues and cancer today, unlike in the past?",
-            "options": [
-                  "They eat too much junk food",
-                  "They do not exercise enough",
-                  "They are constantly exposed to heavy chemical farming sprays",
-                  "They drink too much local water"
-            ],
-            "correctAnswerIndex": 2,
-            "explanation": "Memory Hook: The people growing our food are poisoning themselves by inhaling toxic chemical pesticides every single day."
-      },
-      {
-            "text": "To promote total health, the speaker also practices natural farming. What does he use as fertilizer?",
-            "options": [
-                  "Synthetic Urea",
-                  "Products from his Goshala (cow shelter) like cow dung and urine",
-                  "Crushed plastic",
-                  "Leftover factory cardboard"
-            ],
-            "correctAnswerIndex": 1,
-            "explanation": "Memory Hook: Cows are the ultimate natural fertilizer factories. He uses their waste to grow crops purely and safely."
+            "explanation": "Memory Hook: It relies only on human hands, fallen twigs, and fresh leaves—making it the ultimate zero-carbon, sustainable craft."
       }
     ] }
   },
