@@ -3751,262 +3751,232 @@ export const MOCK_COURSES = [
   {
     id: 'dan2', title: 'Advanced Dhimsa Formations', category: 'Dance',
     description: 'Master the complex group formations and synchronized movements of Dhimsa.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/dance,group?lock=121',
+    thumbnailUrl: 'https://currentaffairs.chinmayaias.com/wp-content/uploads/2024/01/Dhimsa-Dance.webp',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'The Snake Formation', videoUrl: 'https://www.youtube.com/embed/3b3_2_5_8_g', duration: '1:30:00' }],
+    village: 'Chompi',
+    modules: [{ id: 'm1', title: 'Complex Group Formations', videoUrl: 'https://www.youtube.com/embed/miVL6TpO8t4', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Advanced Dhimsa Formations\"?",
+            "text": "Where is Chompi Village located?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Spiti Valley",
+                  "Araku Valley",
+                  "Kangra Valley",
+                  "Silent Valley"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Araku Valley is the ultimate heartland of the Dhimsa dance. Chompi is a key village nestled right inside it."
       },
       {
-            "text": "In the context of Dance, why is this topic important?",
+            "text": "Which tribal community is featured performing the Dhimsa dance in the video?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Gond",
+                  "Bhil",
+                  "Porja (Paroja)",
+                  "Santhal"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: \"Porja\" sounds a bit like \"Pooja.\" They perform this sacred and festive dance during important village pujas and weddings!"
       },
       {
-            "text": "Which tool or method is most commonly associated with Advanced Dhimsa Formations?",
+            "text": "According to the video, the Dhimsa dance originated from which district in the neighboring state of Odisha?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Ganjam",
+                  "Puri",
+                  "Cuttack",
+                  "Koraput"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Koraput sits right at the border (the \"core\" part) of Andhra Pradesh and Odisha, letting traditions flow across states."
       },
       {
-            "text": "Question 4 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "text": "During the Dhimsa dance, what is the role of the male members of the tribe?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "They lead the dance circle",
+                  "They play the musical instruments",
+                  "They sing the lead vocals",
+                  "They perform a separate solo dance"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It is a beautiful partnership. The men provide the heavy beats (instruments) while the women bring the fluid grace (dancing)."
       },
       {
-            "text": "Question 5 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "text": "During which of the following occasions is the Dhimsa dance typically performed?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Only during the harvest season",
+                  "Exclusively during funerals",
+                  "Festivities like weddings and pujas",
+                  "Only on national holidays"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Dhimsa is a pure celebration of life and joy, making it perfect for the happiest occasions like weddings."
       },
       {
-            "text": "Question 6 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "text": "Which of the following is mentioned as an instrument used to provide music for the dance?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Sitar",
+                  "Tabla",
+                  "Dapu",
+                  "Flute"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: \"Dapu\" sounds like \"Tap-Tap,\" mirroring the heavy, rhythmic tapping beats that drive the dance forward."
       },
       {
-            "text": "Question 7 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "text": "What color sarees do the female dancers wear as they prepare for the performance?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Deep blue",
+                  "Bright pink",
+                  "Emerald green",
+                  "Pure white"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Bright pink creates a stunning, vibrant contrast against the deep green forests of the Araku hills."
       },
       {
-            "text": "Question 8 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "text": "Approximately how many women form a circle to perform the Dhimsa dance?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "5 to 10",
+                  "15 to 20",
+                  "30 to 40",
+                  "50 or more"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It takes a solid, medium-sized team of 15 to 20 dancers to make a perfectly sized, unbroken human chain."
       },
       {
-            "text": "Question 9 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "text": "Why do the women specifically perform this dance at weddings?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "To entertain the village elders",
+                  "To welcome the groom's family",
+                  "To pray for a peaceful and happy married life",
+                  "To show off their traditional jewelry"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The harmonious, unbroken circle they form symbolizes a prayer for an unbroken, peaceful marriage."
       },
       {
-            "text": "Question 10 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "text": "What specific item does the leading lady of the dance carry in her hand?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "A wooden staff",
+                  "An earthen lamp",
+                  "A floral garland",
+                  "A peacock feather"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: The lead dancer guides the flock holding a peacock feather, adding a touch of natural forest royalty."
       },
       {
-            "text": "Question 11 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "text": "The quick, animated steps of the Dhimsa dance are said to resemble the darting of which creature?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "A snake",
+                  "A centipede",
+                  "A butterfly",
+                  "A deer"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Imagine a line of 20 women moving their feet in rapid sync—it looks exactly like a fast-moving centipede!"
       },
       {
-            "text": "Question 12 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "text": "What props are used by the women to help form extraordinary geometric patterns during the dance?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Wooden sticks",
+                  "Silk ribbons",
+                  "Brightly colored earthen pots",
+                  "Brass plates"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Balancing pots while moving in complex patterns shows off their incredible daily survival skills and physical balance."
       },
       {
-            "text": "Question 13 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "text": "The movements of which two body parts dominate the Dhimsa dance?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Shoulders and hips",
+                  "Head and neck",
+                  "Eyes and wrists",
+                  "Feet and hands"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Dhimsa is all about grounding and connection. Quick feet keep the rhythm, while holding hands keeps the community together."
       },
       {
-            "text": "Question 14 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "text": "How many different tribes in Andhra Pradesh are said to perform the Dhimsa dance?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "12",
+                  "22",
+                  "32",
+                  "42"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Think of the number 22 as a pair of twos (2-2), perfectly mirroring the synchronized pairs of dancers in the tribal community."
       },
       {
-            "text": "Question 15 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "text": "What broader social value does the Dhimsa dance represent within the tribal communities?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "A sense of unity",
+                  "Financial prosperity",
+                  "Political power",
+                  "Military strength"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Holding hands in a tight, cooperative circle is the ultimate universal symbol of social unity."
       },
       {
-            "text": "Question 16 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "text": "In which district of Andhra Pradesh is the Araku Valley mandal located?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Srikakulam",
+                  "East Godavari",
+                  "Visakhapatnam",
+                  "Krishna"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Vizag (Visakhapatnam) is the famous coastal city that acts as the gateway to the beautiful Araku hills."
       },
       {
-            "text": "Question 17 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "text": "How does the musician awaken his comrades at the very beginning of the video?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "By beating a drum",
+                  "By blowing a horn",
+                  "By ringing a bell",
+                  "By chanting a prayer"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A loud, echoing horn acts as nature's ultimate alarm clock to wake everyone up and gather them for the dance!"
       },
       {
-            "text": "Question 18 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "text": "What is the primary purpose of the dance when performed outside of weddings?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "To call for rain",
+                  "To prepare for a hunt",
+                  "To praise the deity for the welfare of their domestic life",
+                  "To celebrate the birth of a child"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: A happy, healthy home requires the blessings of the local deity, so the dance acts as an active, moving prayer."
       },
       {
-            "text": "Question 19 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "text": "What does the fast pace of the dancers visually compete with?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "The energetic melody of the music",
+                  "The setting sun",
+                  "The burning of the bonfire",
+                  "The chanting of the priests"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: It is a race between sound and motion! The faster the men play the energetic melody, the faster the dancers must move."
       },
       {
-            "text": "Question 20 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
+            "text": "The Dhimsa dance gives the impression that what type of performance matters most?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Individual solos",
+                  "Competitive duels",
+                  "Acrobatic displays",
+                  "Collective performance"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Advanced Dhimsa Formations: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: There are absolutely no solo stars in Dhimsa; its true beauty comes from the entire collective moving flawlessly as one."
       }
-] }
+    ] }
   },
   {
     id: 'dan3', title: 'Savara Traditional Dance', category: 'Dance',
