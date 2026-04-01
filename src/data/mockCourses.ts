@@ -1434,7 +1434,7 @@ export const MOCK_COURSES = [
  {
     id: 'cul9', title: 'Tribal Wedding Customs', category: 'Culture',
     description: 'A detailed look into the unique marriage rituals and celebrations in tribal societies.',
-    thumbnailUrl: 'https://www.lovevivah.com/matrimony/blog/wp-content/uploads/2017/09/Andhra-Pradesh-Weddings-Rituals.jpg',
+    thumbnailUrl: 'https://images.hindustantimes.com/img/2022/02/16/1600x900/40d4ab48-8f47-11ec-8f85-f61ca7726687_1645036400968.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
     modules: [{ id: 'm1', title: 'Tribal Wedding Customs', videoUrl: 'https://www.youtube.com/embed/sb46Ml7YkKI', duration: '1:30:00' }],
