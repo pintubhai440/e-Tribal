@@ -3753,7 +3753,7 @@ export const MOCK_COURSES = [
     description: 'Master the complex group formations and synchronized movements of Dhimsa.',
     thumbnailUrl: 'https://currentaffairs.chinmayaias.com/wp-content/uploads/2024/01/Dhimsa-Dance.webp',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Chompi',
+    village: 'Patha Rega',
     modules: [{ id: 'm1', title: 'Complex Group Formations', videoUrl: 'https://www.youtube.com/embed/miVL6TpO8t4', duration: '1:30:00' }],
     quiz: { questions: [
       {
