@@ -2256,207 +2256,227 @@ export const MOCK_COURSES = [
     thumbnailUrl: 'https://imgs.mongabay.com/wp-content/uploads/sites/30/2023/07/31114045/Agriculture-field-work.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Composting and Soil Health', videoUrl: 'https://www.youtube.com/watch?v=KQxMEtGAoAk', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Composting and Soil Health', videoUrl: 'https://www.youtube.com/embed/T73AwHfJeUM', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "Which district is primarily featured in this video for its natural farming initiatives?",
+            "text": "What is the name of the farmer sharing his natural farming experience in the video?",
             "options": [
-                  "Visakhapatnam",
-                  "Parvathipuram Manyam",
-                  "East Godavari",
-                  "Srikakulam"
+                  "Subhash Palekar",
+                  "Srinivasa Reddy",
+                  "Ramana Naidu",
+                  "Venkata Rao"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The video starts with the interviewer asking for his details, and he introduces himself as Srinivasa Reddy."
       },
       {
-            "text": "Which mandal's tribal farmers are highlighted in the program?",
+            "text": "What type of farming does the farmer practice and advocate for?",
             "options": [
-                  "Seethampeta",
-                  "Araku",
-                  "Paderu",
-                  "Chintapalli"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Which organization partnered with NABARD to implement the JIVA program?",
-            "options": [
-                  "GREEN Foundation",
-                  "ARTS NGO (Voluntary Organization)",
-                  "SERP",
-                  "Naandi Foundation"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "How many villages in the Seethampeta mandal are part of the JIVA program?",
-            "options": [
-                  "10",
-                  "20",
-                  "30",
-                  "50"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "How many tribal farmers are participating in this organic farming initiative?",
-            "options": [
-                  "100",
-                  "250",
-                  "500",
-                  "1000"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "What type of farming are the tribal farmers encouraged to practice under this program?",
-            "options": [
-                  "Chemical-intensive farming",
-                  "Hydroponics",
-                  "Agro-ecological / Natural farming",
+                  "Hydroponic farming",
+                  "Heavy chemical farming",
+                  "Prakruthi Vyavasayam (Natural/Chemical-free farming)",
                   "Genetically Modified (GM) farming"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: \"Prakruthi\" means Nature. He is farming exactly as nature intended, without artificial chemicals."
       },
       {
-            "text": "What is the core three-fold objective (concept) of the JIVA program for the tribal farmers?",
+            "text": "What is the main crop cultivated by the farmer in his field?",
             "options": [
-                  "Housing, Education, and Roads",
-                  "Food, Health, and Income",
-                  "Water, Electricity, and Subsidies",
-                  "Exports, Imports, and Trading"
+                  "Wheat",
+                  "Paddy / Rice",
+                  "Sugarcane",
+                  "Cotton"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: You can clearly see the lush green and black paddy (rice) fields swaying behind him during the interview."
       },
       {
-            "text": "What specific natural fertilizers do the farmers prepare using local resources?",
+            "text": "Who inspired the farmer to follow these chemical-free methods?",
             "options": [
-                  "Urea and DAP",
-                  "Jeevamrutham (Drava and Ghana)",
-                  "Chemical NPK mixtures",
-                  "Synthetic growth hormones"
+                  "Modern chemical scientists",
+                  "Foreign agricultural universities",
+                  "The traditional methods of his ancestors (Taatalu)",
+                  "Corporate pesticide companies"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Before chemicals were invented, our ancestors successfully farmed for thousands of years using pure natural science."
       },
       {
-            "text": "Through which specific centers is the natural liquid fertilizer (Drava Jeevamrutham) made accessible to the farmers?",
+            "text": "Which of the following does the farmer use to enrich the soil instead of chemical Urea?",
             "options": [
-                  "Chemical Fertilizer Shops",
-                  "Bio-Resource Centers",
-                  "Urban Supermarkets",
-                  "Corporate Warehouses"
+                  "Plastic waste",
+                  "Synthetic ammonia",
+                  "Cow dung, Neem cake, and Groundnut cake",
+                  "Bleaching powder"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: He uses natural organic waste like \"Aavu peda\" (cow dung) and natural oil cakes (Chekka) which safely release nutrients into the soil."
       },
       {
-            "text": "How is the management of these Bio-Resource Centers designed?",
+            "text": "What are the main ingredients used to make \"Ghana Jivamrutham\" (a natural solid fertilizer)?",
             "options": [
-                  "Managed entirely by the government",
-                  "Managed by foreign investors",
-                  "Managed by the farmers themselves as an entrepreneurship model",
-                  "Managed by private pesticide companies"
+                  "Factory waste and soil",
+                  "Cow dung, cow urine, jaggery, and pulse flour",
+                  "Salt and limestone",
+                  "Artificial enzymes and water"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Jaggery and pulse flour act as sweet food for the good bacteria present in the cow dung and urine!"
       },
       {
-            "text": "Before this intervention, how often did the farmers usually get a successful crop yield?",
+            "text": "According to the farmer, what happens to the soil when chemical fertilizers are continuously applied?",
             "options": [
-                  "Three times a year",
-                  "Once a year (during Kharif season)",
-                  "Every month",
-                  "Once in two years"
+                  "It becomes highly fertile forever",
+                  "It forms a hard, cement-like layer on the top",
+                  "It smells like fresh rain",
+                  "It turns into pure beach sand"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Chemicals destroy the soil's natural structure, baking it into a dead, hard \"cement\" crust where roots struggle to breathe."
       },
       {
-            "text": "What farming system allows these farmers to earn an income for all 365 days of the year?",
+            "text": "How do natural farming methods physically transform the soil over a few years?",
             "options": [
-                  "Monocropping",
-                  "Integrated Farming System (Diverse cropping)",
-                  "Slash-and-burn agriculture",
-                  "Contract farming"
+                  "The soil becomes highly acidic",
+                  "The soil catches fire easily",
+                  "The soil gradually heals and becomes naturally soft, loose, and fertile",
+                  "The soil turns completely white"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: When you stop poisoning the soil, earthworms and good bacteria return to naturally loosen and soften the earth."
       },
       {
-            "text": "Alongside cultivating vegetables and fruits, what other livelihood activity do the farmers practice to boost their income?",
+            "text": "What severe warning does the farmer give regarding the local drinking water near chemical farms?",
             "options": [
-                  "Mining",
-                  "Backyard poultry rearing (Perati Kolla Pempakam)",
-                  "Heavy machinery manufacturing",
-                  "Commercial fishing"
+                  "It becomes naturally purified",
+                  "The chemicals seep deep into the ground, turning the groundwater toxic",
+                  "The water tastes like honey",
+                  "It evaporates completely"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: What you spray on the ground eventually washes down into the wells and borewells that people drink from."
       },
       {
-            "text": "Which of the following is NOT mentioned as a source of income for the farmers in the video?",
+            "text": "What kind of seeds does the farmer strictly recommend for natural farming?",
             "options": [
-                  "Pineapples",
-                  "Papayas",
-                  "Cotton",
-                  "Turmeric"
+                  "Expensive imported seeds",
+                  "Genetically modified laboratory seeds",
+                  "Native/Desi seeds (Naatu vitthanum)",
+                  "Artificial hybrid seeds"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: \"Naatu\" means local/native. These ancient seeds have naturally adapted to the Indian climate and soil."
       },
       {
-            "text": "To control pests, what type of natural remedy (Kashayam) do the farmers prepare?",
+            "text": "What is a major natural advantage of using Native (Naatu) seeds?",
             "options": [
-                  "A mixture of 5 local forest leaves and cow urine",
-                  "A mixture of bleach and water",
-                  "Imported synthetic pesticides",
-                  "Boiled salt water"
+                  "They require heavy chemical fertilizers to survive",
+                  "They are naturally highly resistant to pests and diseases",
+                  "They produce blue-colored rice",
+                  "They die within a week of planting"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Native seeds are the tough survivors of nature. They don't fall sick easily!"
       },
       {
-            "text": "Which of the following leaves is used in making the natural pest-control Kashayam?",
+            "text": "How tall do the native paddy plants typically grow according to the farmer?",
             "options": [
-                  "Eucalyptus",
-                  "Neem (Vepa)",
-                  "Tea leaves",
-                  "Oak leaves"
+                  "1 to 2 feet",
+                  "3 to 4 feet",
+                  "6 to 7 feet",
+                  "Over 10 feet"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Native paddy plants grow incredibly tall (almost taller than a human) compared to the short, chemically dependent modern varieties."
       },
       {
-            "text": "What major benefit did the farmers experience regarding their investment costs after adopting these natural methods?",
+            "text": "How does the farmer handle weed control without using chemical weed-killers (Kalupu Mandu)?",
             "options": [
-                  "Their investment costs doubled",
-                  "Their investment costs remained the same but yielded less",
-                  "Their investment costs reduced significantly",
-                  "They had to take large bank loans"
+                  "He sets the weeds on fire",
+                  "He uses acid sprays",
+                  "He removes them manually with human labor",
+                  "He covers the field with thick plastic sheets"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: No shortcuts! He completely avoids toxic weedicides and relies on traditional manual labor to clear the unwanted grass."
       },
       {
-            "text": "How did the ARTS NGO improve the traditional farming methods already used by the tribes?",
+            "text": "What does the farmer spray to control pests and insects on his crops?",
             "options": [
-                  "By replacing them completely with foreign machinery",
-                  "By making them more scientific and robust",
-                  "By discouraging them from farming altogether",
-                  "By making them use chemical fertilizers"
+                  "Chemical insecticides",
+                  "Natural decoctions/Kashayams (e.g., garlic, green chilli, and neem extracts)",
+                  "Diesel and petrol",
+                  "Soapy water"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The strong, spicy, and bitter natural smells of garlic and neem drive the pests away without poisoning the food."
       },
       {
-            "text": "What agricultural practice helps prevent soil erosion (Matti kottukupokunda) according to the program experts?",
+            "text": "What typically happens to the crop yield (number of bags) in the first 2-3 years of shifting from chemical to natural farming?",
             "options": [
-                  "Deep chemical tilling",
-                  "Leaving the land completely barren",
-                  "Natural soil conservation methods and green manure (Pachirotta)",
-                  "Concreting the farm edges"
+                  "It instantly doubles",
+                  "It is slightly lower initially but gradually increases as the dead soil heals",
+                  "The crop completely fails every time",
+                  "It produces 100 bags per acre instantly"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It's like a detox! The soil needs 2-3 years to recover from the chemical addiction before it can give high yields again."
       },
       {
-            "text": "What is the ultimate result of the diverse cropping and natural methods for the tribal farmers?",
+            "text": "How does the farmer maximize his financial profit despite getting slightly fewer bags of paddy?",
             "options": [
-                  "They abandoned their lands",
-                  "They became highly dependent on market chemicals",
-                  "Their living standards improved and they became financially stable",
-                  "Their crop yields dropped to zero"
+                  "By demanding government subsidies",
+                  "By milling the paddy himself and selling the premium, chemical-free rice directly to the public",
+                  "By mixing it with cheap chemical rice",
+                  "By selling his farm land"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: He cuts out the middlemen. Direct-to-consumer sales of healthy organic rice bring in much higher profits!"
+      },
+      {
+            "text": "What is the approximate shelf-life of naturally grown food/fruits compared to chemically grown ones?",
+            "options": [
+                  "They rot within 2 hours",
+                  "They stay fresh for many days even outside the fridge (e.g., 10 days)",
+                  "They melt in the sun",
+                  "They turn black instantly"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Real food has real strength. Because it isn't pumped with artificial water-weight and chemicals, it lasts much longer without spoiling."
+      },
+      {
+            "text": "What resources did the farmer use to learn and improve his natural farming techniques?",
+            "options": [
+                  "Science fiction movies",
+                  "Books by Subhash Palekar and YouTube videos on organic farming",
+                  "Chemical factory manuals",
+                  "Only local gossip"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Subhash Palekar is known as the father of \"Zero Budget Natural Farming\" in India."
+      },
+      {
+            "text": "Why does chemical farming often result in a lower net income per acre compared to the farmer's direct-selling natural method?",
+            "options": [
+                  "Because the government bans chemical farming",
+                  "Because chemical farmers don't work hard",
+                  "Because the massive cost of buying chemical fertilizers and pesticides eats away almost all the profit",
+                  "Because chemical rice is given away for free"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Chemical farming has high \"Input Costs\". Natural farming uses free/cheap local resources (like cow dung), meaning the farmer keeps all the money he makes!"
+      },
+      {
+            "text": "According to the video, what is the ultimate benefit of Chemical-Free Natural Farming?",
+            "options": [
+                  "It makes the farmer lazy",
+                  "It ruins the environment for future generations",
+                  "It provides healthy, tasty food, protects the environment, and keeps groundwater clean",
+                  "It forces people to migrate to cities"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: It provides healthy, tasty food, protects the environment, and keeps groundwater clean"
       }
     ] }
   },
