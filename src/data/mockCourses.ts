@@ -3682,7 +3682,7 @@ export const MOCK_COURSES = [
             "correctAnswerIndex": 0
       }
     ] }
-  }
+  },
   // --- DANCE (10) ---
   {
     id: 'dan1', title: 'Introduction to Dhimsa Dance', category: 'Dance',
