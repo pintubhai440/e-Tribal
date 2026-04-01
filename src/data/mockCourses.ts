@@ -498,7 +498,7 @@ export const MOCK_COURSES = [
   {
     id: 'cul3', title: 'Savara Art and Painting', category: 'Culture',
     description: 'Master the ancient Savara wall painting techniques using natural colors.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/painting,art?lock=102',
+    thumbnailUrl: 'https://www.deccanchronicle.com/h-upload/2024/10/27/1856807-savaratribalart2.webp',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'Preparing Natural Colors', videoUrl: 'https://www.youtube.com/embed/GURPmSFJNKs', duration: '1:30:00' }],
@@ -558,7 +558,7 @@ export const MOCK_COURSES = [
   {
     id: 'cul4', title: 'Traditional Festivals of Araku', category: 'Culture',
     description: 'Understand the significance and rituals of major tribal festivals in the Araku valley.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/festival,celebration?lock=103',
+    thumbnailUrl: 'https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/05/02122151/Tribal-Dance.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'Tribal Festival', videoUrl: 'https://www.youtube.com/embed/FUO_a1_7KhE', duration: '1:30:00' }],
@@ -679,7 +679,7 @@ export const MOCK_COURSES = [
   {
     id: 'cul5', title: 'Tribal Storytelling and Folklore', category: 'Culture',
     description: 'Dive into the rich oral traditions, myths, and legends passed down through generations.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/storytelling,village?lock=104',
+    thumbnailUrl: 'https://cdn.exoticindia.com/images/products/thumbnails/t800x600/books/idd736.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'The Art of Oral Tradition', videoUrl: 'https://www.youtube.com/embed/0J8RLVZu38s', duration: '1:30:00' }],
@@ -909,7 +909,7 @@ export const MOCK_COURSES = [
   {
     id: 'cul6', title: 'Indigenous Clothing and Attire', category: 'Culture',
     description: 'Learn about the traditional garments, weaving patterns, and their cultural meanings.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/clothing,traditional?lock=105',
+    thumbnailUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/ed/Dancers_wearing_traditional_dress_of_the_Banjara_Lamadi_or_Lambani_tribe_in_Andhra_Pradesh_DSCF7370_%286%29.JPG',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
     modules: [{ id: 'm1', title: 'Significance of Colors', videoUrl: 'https://www.youtube.com/embed/vcN0khsFvyg', duration: '1:30:00' }],
@@ -1139,7 +1139,7 @@ export const MOCK_COURSES = [
   {
     id: 'cul7', title: 'Traditional Tribal Cuisine', category: 'Culture',
     description: 'Discover the unique recipes, cooking methods, and ingredients of tribal food.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/cooking,food?lock=106',
+    thumbnailUrl: 'https://assets.vogue.in/photos/6034b5d10cd1a7ee5dc515e0/2:3/w_2560%2Cc_limit/Tribal%2520Andhra%2520Recipes.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
     modules: [{ id: 'm1', title: 'Traditional Bamboo Chicken', videoUrl: 'https://www.youtube.com/embed/SWqfWz_9syE', duration: '1:30:00' }],
@@ -1204,7 +1204,7 @@ export const MOCK_COURSES = [
   {
     id: 'cul8', title: 'Forest Conservation Traditions', category: 'Culture',
     description: 'Explore how tribal communities have protected the forests through sacred groves and beliefs.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/forest,nature?lock=107',
+    thumbnailUrl: 'https://static.scientificamerican.com/sciam/cache/file/D255D452-1E9D-485C-9DF6CC06420E4E3F_source.jpg?w=1200',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
     modules: [{ id: 'm1', title: 'Sacred Groves', videoUrl: 'https://www.youtube.com/embed/tI4_wOlFtQk', duration: '1:30:00' }],
@@ -1434,7 +1434,7 @@ export const MOCK_COURSES = [
  {
     id: 'cul9', title: 'Tribal Wedding Customs', category: 'Culture',
     description: 'A detailed look into the unique marriage rituals and celebrations in tribal societies.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/wedding,traditional?lock=108',
+    thumbnailUrl: 'https://www.lovevivah.com/matrimony/blog/wp-content/uploads/2017/09/Andhra-Pradesh-Weddings-Rituals.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
     modules: [{ id: 'm1', title: 'Tribal Wedding Customs', videoUrl: 'https://www.youtube.com/embed/sb46Ml7YkKI', duration: '1:30:00' }],
@@ -1608,7 +1608,7 @@ export const MOCK_COURSES = [
   {
     id: 'cul10', title: 'Ancient Tribal Architecture', category: 'Culture',
     description: 'Learn about the sustainable and climate-resilient housing designs of the tribes.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/architecture,hut?lock=109',
+    thumbnailUrl: 'https://kaarwan.s3.amazonaws.com/public/blog/media/640px-todahut.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
     modules: [{ id: 'm1', title: 'Tribal Housing Designs', videoUrl: 'https://www.youtube.com/embed/HHRUUP5770o', duration: '1:30:00' }],
@@ -1839,7 +1839,7 @@ export const MOCK_COURSES = [
  {
     id: 'sk1', title: 'Advanced Bamboo Crafting', category: 'Skill',
     description: 'Learn to create intricate baskets, furniture, and decorative items using bamboo.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/bamboo,craft?lock=110',
+    thumbnailUrl: 'https://static.gltjp.com/glt/data/article/21000/20894/20250104_003542_9b2f8592_w1920.webp',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'Bamboo Preparation', videoUrl: 'https://www.youtube.com/embed/RdWBiiIgX0M', duration: '1:30:00' }],
@@ -1959,7 +1959,7 @@ export const MOCK_COURSES = [
   {
     id: 'sk2', title: 'Traditional Pottery Making', category: 'Skill',
     description: 'Master the art of shaping clay into beautiful and functional pots and vessels.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/pottery,clay?lock=111',
+    thumbnailUrl: 'https://img.freepik.com/premium-photo/traditional-pottery-making-close-up-potter-s-hands-shaping-bowl_390194-2706.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'Pottery Basics', videoUrl: 'https://www.youtube.com/embed/YXva7re5YkQ', duration: '1:30:00' }],
