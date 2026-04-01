@@ -3981,7 +3981,7 @@ export const MOCK_COURSES = [
   {
     id: 'dan3', title: 'Savara Traditional Dance', category: 'Dance',
     description: 'Explore the energetic and rhythmic dance forms of the Savara tribe.',
-    thumbnailUrl: 'https://i.ytimg.com/vi/XAXLo6prtWo/hqdefault.jpg',
+    thumbnailUrl: 'https://i.ytimg.com/vi/ecDg5gWKdfM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDKrDM4k_ASBqYX4ynyecbyXf5lVw',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
     modules: [{ id: 'm1', title: 'Savara Dance Forms', videoUrl: 'https://www.youtube.com/embed/XAXLo6prtWo', duration: '1:30:00' }],
