@@ -2483,7 +2483,7 @@ export const MOCK_COURSES = [
   {
     id: 'sk5', title: 'Forest Honey Collection', category: 'Skill',
     description: 'Learn the safe and sustainable methods of collecting wild honey from the forest.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/honey,forest?lock=114',
+    thumbnailUrl: 'https://i.ytimg.com/vi/EkV7VPB18_Q/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA9bQSBTbAHiHZkkhofRCfag0p6UQ',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'Identifying Beehives safely', videoUrl: 'https://www.youtube.com/embed/EkV7VPB18_Q', duration: '1:30:00' }],
