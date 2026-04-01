@@ -4166,262 +4166,67 @@ export const MOCK_COURSES = [
   {
     id: 'dan5', title: 'Tribal Drumming (Thudumbu)', category: 'Dance',
     description: 'Master the beats of the Thudumbu, the traditional drum that drives tribal dances.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/drum,music?lock=157',
+    thumbnailUrl: 'https://th-i.thgim.com/public/society/10hsxv/article28795411.ece/alternates/FREE_1200/02MPMAKINGOFTHUDUMBU3',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Basic Drum Beats', videoUrl: 'https://www.youtube.com/embed/p8laSR1TwNQ', duration: '1:30:00' }],
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Thudumbu Beats and Rhythms', videoUrl: 'https://www.youtube.com/embed/6xwPEDZuN5g', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Tribal Drumming (Thudumbu)\"?",
+            "text": "What is the name of the primary drum instrument featured in this video?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Mridangam",
+                  "Parai",
+                  "Tudumbu",
+                  "Udukai"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The title and narration focus entirely on the \"Tudumbu\", a unique regional drum."
       },
       {
-            "text": "In the context of Dance, why is this topic important?",
+            "text": "The Tudumbu is an intrinsic part of which folk art form?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Tudumbattam",
+                  "Bharatanatyam",
+                  "Karakattam",
+                  "Oyilattam"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The name of the dance/art form (Tudumbattam) literally comes directly from the name of the instrument (Tudumbu)!"
       },
       {
-            "text": "Which tool or method is most commonly associated with Tribal Drumming (Thudumbu)?",
+            "text": "In which region of Tamil Nadu is this folk art form most prevalent?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Villages around Chennai",
+                  "Villages around Karamadai near Coimbatore",
+                  "Villages in Kanyakumari",
+                  "Villages near Madurai"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The narrator specifically mentions the Karamadai region near Coimbatore as the heartland of this folk art."
       },
       {
-            "text": "Question 4 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "text": "Which of the following is one of the smaller drums played alongside the heavy Tudumbu?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Thavil",
+                  "Chenda",
+                  "Uruttu",
+                  "Dholak"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: \"Uruttu\" is one of the smaller, high-pitched drums that complements the heavy base of the Tudumbu."
       },
       {
-            "text": "Question 5 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
+            "text": "Along with the Uruttu, what is the other smaller drum mentioned in the ensemble?",
             "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
+                  "Tasara",
+                  "Ghatam",
+                  "Kanjira",
+                  "Pambai"
             ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 6 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 7 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 8 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 9 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 10 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 11 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 12 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 13 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 14 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 15 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Tribal Drumming (Thudumbu): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Dance",
-                  "Concept B related to Dance",
-                  "Concept C related to Dance",
-                  "Concept D related to Dance"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The Tasara works with the Uruttu to create complex, fast-paced rhythms against the heavy Tudumbu."
       }
-] }
+    ] }
   },
   {
     id: 'dan6', title: 'Flute Playing (Venu)', category: 'Dance',
