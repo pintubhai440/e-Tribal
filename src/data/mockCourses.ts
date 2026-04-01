@@ -2943,782 +2943,516 @@ export const MOCK_COURSES = [
   {
     id: 'sk7', title: 'Wood Carving Fundamentals', category: 'Skill',
     description: 'Learn how to carve intricate designs and figures out of locally sourced wood.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/woodcarving,wood?lock=116',
+    thumbnailUrl: 'https://i.ytimg.com/vi/axiGtO48_KE/maxresdefault.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Choosing the Right Tools', videoUrl: 'https://www.youtube.com/embed/9_3aF_80sRw', duration: '1:30:00' }],
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Carving Tools and Techniques', videoUrl: 'https://www.youtube.com/embed/CQ9L4rNYcSg', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Wood Carving Fundamentals\"?",
+            "text": "What type of transfer paper does the creator prefer to use because it is much easier to erase?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "In the context of Skill, why is this topic important?",
-            "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Which tool or method is most commonly associated with Wood Carving Fundamentals?",
-            "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 4 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 5 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Carbon paper",
+                  "Graphite paper",
+                  "Wax paper",
+                  "Tracing paper"
             ],
             "correctAnswerIndex": 1
       },
       {
-            "text": "Question 6 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "text": "What specific carving tool is used for the entirety of this tutorial?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "A standard V chisel",
+                  "A U-gouge",
+                  "A straight flat chisel",
+                  "A spoon gouge"
+            ],
+            "correctAnswerIndex": 0
+      },
+      {
+            "text": "Why does the creator advise beginners to avoid carving into construction-grade pine?",
+            "options": [
+                  "It is too expensive and hard to find.",
+                  "It has loose grain and tends to splinter, making smooth lines difficult.",
+                  "It dulls the edge of the chisel much faster than other woods.",
+                  "It contains saps that ruin the finish."
+            ],
+            "correctAnswerIndex": 1
+      },
+      {
+            "text": "Which type of wood does the creator highly recommend for beginner carving due to its ease of use?",
+            "options": [
+                  "Oak",
+                  "Cedar",
+                  "Lindenwood (Basswood)",
+                  "Mahogany"
             ],
             "correctAnswerIndex": 2
       },
       {
-            "text": "Question 7 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "text": "How does the video explain the concept of \"tight grain\" in carving wood?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 8 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 9 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 10 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "The wood has a high moisture content.",
+                  "The tree grew very quickly, leaving wide gaps.",
+                  "The tree rings are closer together, resulting in fewer voids and a denser material.",
+                  "The wood is filled with natural knots that hold it together tightly."
             ],
             "correctAnswerIndex": 2
       },
       {
-            "text": "Question 11 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "text": "What is the shared theme of the free carving templates provided by the creator?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "North American birds",
+                  "Mythical creatures",
+                  "Tropical plants",
+                  "British animals"
             ],
             "correctAnswerIndex": 3
       },
       {
-            "text": "Question 12 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "text": "What technique is recommended for better control when pushing a chisel without a mallet?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Hold the chisel with two hands and rest the hand closest to the blade on the wood or workbench.",
+                  "Hold the chisel with one hand and keep the other hand entirely off the wood.",
+                  "Grip the chisel solely by the very back of the handle and push from the shoulder.",
+                  "Swing the chisel quickly to let momentum do the work."
             ],
             "correctAnswerIndex": 0
       },
       {
-            "text": "Question 13 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "text": "At what age did the creator first develop a serious interest in woodworking?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 14 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "15",
+                  "21",
+                  "27",
+                  "35"
             ],
             "correctAnswerIndex": 2
       },
       {
-            "text": "Question 15 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "text": "What specific project initially sparked the creator's intense interest in woodworking?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Whittling a wooden spoon for his father.",
+                  "Building a gap and an arch in a hedge for an elderly neighbor.",
+                  "Making a fold-up carving bench for his workshop.",
+                  "Turning a wooden bowl on his grandfather's lathe."
             ],
             "correctAnswerIndex": 1
       },
       {
-            "text": "Question 18 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
+            "text": "What major beginner mistake did the creator admit to making when he first started trying to use a hand plane?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "He tried to plane wood that was still soaking wet.",
+                  "He pushed the plane backward across the wood.",
+                  "He only used the plane on metal surfaces.",
+                  "He never bothered to learn how to properly sharpen or adjust the blade."
             ],
             "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Wood Carving Fundamentals: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
       }
-] }
+    ] }
   },
   {
     id: 'sk8', title: 'Tailoring and Stitching', category: 'Skill',
     description: 'Master the basics of measuring, cutting, and stitching garments.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/tailoring,sewing?lock=117',
+    thumbnailUrl: 'https://www.seamwork.com/media/articles/2145/c9049dad.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Using a Sewing Machine', videoUrl: 'https://www.youtube.com/embed/oHeJv8RCenA', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Measurements and Cutting', videoUrl: 'https://www.youtube.com/embed/ljkY54A_arQ', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Tailoring and Stitching\"?",
+            "text": "What is the name of the YouTube channel hosting these tailoring classes?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Keshava Tailors",
+                  "Rishi Tailors",
+                  "Master Tailors",
+                  "Telugu Tailoring Hub"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Think of a \"Rishi\" (sage) meditating on a sewing machine!"
       },
       {
-            "text": "In the context of Skill, why is this topic important?",
+            "text": "What is the name of the host/instructor of the video?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
+                  "Rishi",
+                  "Keshava",
+                  "Krishna",
+                  "Ram"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: He introduces himself right at the beginning: \"Nenu mee Keshava\" (I am your Keshava)."
+      },
+      {
+            "text": "On which date of the month are the new online tailoring batches starting?",
+            "options": [
+                  "1st",
+                  "5th",
+                  "10th",
+                  "15th"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: A perfect \"10/10\" date to start learning a new skill!"
+      },
+      {
+            "text": "How are the Ladies and Gents courses structured in this new batch?",
+            "options": [
+                  "They are taught mixed together in one class",
+                  "Only the Ladies course is available online",
+                  "They are started as separate, individual batches",
+                  "Only the Gents course is available this month"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Men's and women's fashion are totally different, so they get their own separate VIP rooms (batches)."
+      },
+      {
+            "text": "Which of the following blouse cutting models is taught in the Ladies course?",
+            "options": [
+                  "Princess cut",
+                  "Boat neck",
+                  "High neck",
                   "All of the above"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: From classic (Princess) to trendy (Boat/High neck), the course covers the entire wardrobe."
       },
       {
-            "text": "Which tool or method is most commonly associated with Tailoring and Stitching?",
+            "text": "What measurement techniques will the instructor use to teach cutting?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Only direct body measurements",
+                  "Only old blouse/dress measurements",
+                  "Both direct body measurements and old clothes measurements",
+                  "Standard ready-made size charts only"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: A true master knows how to use a tape measure on a person AND how to copy a favorite old dress perfectly."
       },
       {
-            "text": "Question 4 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "text": "Which of the following garments is included in the Gents tailoring course?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Safari suits and Kurta Pajamas",
+                  "Men's Sherwani",
+                  "Suits and Tuxedos",
+                  "Men's Undergarments"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Think of the classic Indian gentleman's wardrobe: Pants, shirts, safaris, and kurtas."
       },
       {
-            "text": "Question 5 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "text": "Which highly advanced dresses are intentionally EXCLUDED from the standard syllabus because they are rarely needed?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Wedding gowns",
+                  "Bharatanatyam and Dancing dresses",
+                  "Redline blouses",
+                  "Frocks"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Dance dresses are for the stage, not the daily shop! (But he will teach them if specifically requested)."
       },
       {
-            "text": "Question 6 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "text": "If someone does not want to learn cutting but just wants to stitch their own clothes, what service does the host offer?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Ready-made clothes delivery",
+                  "Free sewing machines",
+                  "Custom Paper Cutting Patterns",
+                  "Home tailoring service"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: He does the hard math (cutting the paper) so you just have to trace and stitch!"
       },
       {
-            "text": "Question 7 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "text": "What is a strict prerequisite for ordering these paper cutting patterns?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "You must buy his sewing machine",
+                  "You must have a minimum/basic knowledge of stitching",
+                  "You must own a tailoring shop",
+                  "You must live in Hyderabad"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A paper pattern is useless if you don't know how to operate a sewing machine."
       },
       {
-            "text": "Question 8 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "text": "Why does the host insist that students joining the online classes must already know basic stitching?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Because he hates teaching beginners",
+                  "Because stitching is a practical skill that is very hard to correct online, while cutting theory is easier to teach via video",
+                  "Because the course is only 5 days long",
+                  "Because stitching requires expensive machines"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Cutting is math and drawing (easy to show on camera). Stitching is muscle memory (hard to fix through a screen)."
       },
       {
-            "text": "Question 9 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "text": "How are these online classes delivered?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Through a printed textbook",
+                  "Through pre-recorded videos sent on WhatsApp",
+                  "Through Live online classes",
+                  "Through an automated app"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: He emphasizes that these are \"Live\" classes, giving you the feel of a real classroom."
       },
       {
-            "text": "Question 10 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "text": "According to the instructor, what is the ultimate career goal for a student completing this course?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "To become a fashion model",
+                  "To become a professional Cutting Master and run their own shop",
+                  "To become a fabric merchant",
+                  "To work in a textile mill"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: He is training you to be the \"Master\" who runs the shop, not just a helper."
       },
       {
-            "text": "Question 11 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "text": "What warning does the host give about achieving success after watching the classes?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "You will instantly become a master just by watching",
+                  "Watching is not enough; rigorous practical practice is mandatory",
+                  "You must buy his brand of scissors",
+                  "You need a degree in fashion design"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Theory without practice is like reading a recipe but never cooking the food. You have to practice!"
       },
       {
-            "text": "Question 12 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "text": "What is the total fee for this advanced tailoring course?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "₹2,000",
+                  "₹5,000",
+                  "₹10,000",
+                  "₹15,000"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Give a 5-star rating for ₹5,000!"
       },
       {
-            "text": "Question 13 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "text": "What is the total duration of the course?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "1 week",
+                  "1 month",
+                  "3 months",
+                  "6 months"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Just 30 days to change your career."
       },
       {
-            "text": "Question 14 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "text": "How many individual classes are included in this 1-month course?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "10 classes",
+                  "15 classes",
+                  "20 classes",
+                  "30 classes"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: 1 month = 30 days = 30 power-packed classes."
       },
       {
-            "text": "Question 15 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "text": "Where has the host provided his contact number for interested students?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Only at the end of the video",
+                  "Displayed on the screen and in the video description",
+                  "Only on his Facebook page",
+                  "He did not provide a number"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A good businessman always makes his number easy to find (on screen + in the text below)."
       },
       {
-            "text": "Question 16 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "text": "Which two messaging platforms does the host recommend using to contact him?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "WhatsApp or Telegram",
+                  "Instagram or Facebook",
+                  "Twitter or Snapchat",
+                  "SMS or Email"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The two most popular messaging apps in India for sharing documents and videos."
       },
       {
-            "text": "Question 17 regarding Tailoring and Stitching: Which of the following is a key concept?",
+            "text": "What language does the host speak in this tutorial video?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Tailoring and Stitching: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Tailoring and Stitching: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Tailoring and Stitching: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Tailoring and Stitching: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Tailoring and Stitching: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Hindi",
+                  "Tamil",
+                  "Telugu",
+                  "Kannada"
             ],
             "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Tailoring and Stitching: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Tailoring and Stitching: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Tailoring and Stitching: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
       }
-] }
+    ] }
   },
   {
     id: 'sk9', title: 'Leaf Plate Making', category: 'Skill',
     description: 'Learn to stitch sal or adda leaves together to make eco-friendly plates (vistaraku).',
-    thumbnailUrl: 'https://loremflickr.com/640/360/leaves,craft?lock=118',
+    thumbnailUrl: 'https://i.ytimg.com/vi/Nj8YCbZz4k8/maxresdefault.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Selecting and Cleaning Leaves', videoUrl: 'https://www.youtube.com/embed/yqe6R4uWzQo', duration: '1:30:00' }],
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Eco-friendly Plate Stitching', videoUrl: 'https://www.youtube.com/embed/2KJRU-v-hYg', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Leaf Plate Making\"?",
+            "text": "What is the thickness/quality of the cardboard used by the speaker's organic factory?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "50 GSM 1-ply",
+                  "70 GSM 2-ply",
+                  "100 GSM 3-ply liner",
+                  "150 GSM 4-ply"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Think of a perfect 100% score! They use thick 100 GSM cardboard, while competitors use a weaker 70 GSM."
       },
       {
-            "text": "In the context of Skill, why is this topic important?",
+            "text": "What hidden material is used in standard commercial leaf plates to make the leaf stick to the cardboard?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Natural tree sap",
+                  "Polycoat (a layer of plastic)",
+                  "Superglue",
+                  "Flour paste"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: \"Poly\" stands for polymer/plastic. It acts as an instant cheap glue when heated."
       },
       {
-            "text": "Which tool or method is most commonly associated with Leaf Plate Making?",
+            "text": "Why do competitor factories prefer using Polycoat instead of natural gum?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "It makes the plates smell good",
+                  "It makes the plates edible",
+                  "It allows them to press the plates faster and reduces labor costs",
+                  "It is a government rule"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Plastic melts fast under heat, meaning one machine operator can do the job without needing a second person to apply glue."
       },
       {
-            "text": "Question 4 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "text": "What is the major health hazard of eating hot food on a Polycoated leaf plate?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "The plate will catch fire",
+                  "The plastic melts and mixes directly into the food",
+                  "The food turns totally cold instantly",
+                  "The plate dissolves into water"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Heat melts plastic. When you serve hot rice, you are secretly serving a side dish of melted polycoat!"
       },
       {
-            "text": "Question 5 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "text": "How long does it take for the speaker's organic, plastic-free leaf plates to compost into soil?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "1 to 2 days",
+                  "50 to 60 days",
+                  "1 to 2 years",
+                  "10 years"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It takes about two months (roughly 60 days) for nature to fully digest this pure natural plate."
       },
       {
-            "text": "Question 6 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "text": "How long does it take for a competitor's Polycoated plate to decompose in the soil?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "1 month",
+                  "6 months",
+                  "1 year",
+                  "10 years"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: That thin invisible layer of plastic traps the leaf, making it survive in the dirt for a whole decade!"
       },
       {
-            "text": "Question 7 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "text": "According to the speaker, what is the true definition of a \"Sustainable Product\"?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "It must be very cheap to buy",
+                  "It must look beautiful and shiny",
+                  "It must not pollute the soil, water, or air (the Panchabhutas)",
+                  "It must be imported from another country"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Sustainability means nature stays pure. Zero harm to the earth, water, and sky."
       },
       {
-            "text": "Question 8 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "text": "Who helped formulate the natural, biodegradable gum used in this factory?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Only a foreign chemical company",
+                  "The speaker (a mechanical engineer), his pharmacist wife, his designer son, and scientists",
+                  "Local village farmers",
+                  "A software engineer"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It was a total family science project supported by professional scientists."
       },
       {
-            "text": "Question 9 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "text": "When the factory struggled to sell its products in the very first year, who bought their entire stock?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "The local state government",
+                  "A local supermarket",
+                  "A foreign friend visiting from the US",
+                  "A corporate IT company"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Sometimes locals ignore the value of natural goods until an outsider recognizes it! A friend from America cleared their first-year inventory."
       },
       {
-            "text": "Question 10 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "text": "Which platform played a massive role in helping the factory find health-conscious customers later on?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Television advertisements",
+                  "Newspaper articles",
+                  "Social Media",
+                  "Radio broadcasts"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Social media connects eco-friendly creators directly with people who care about the environment."
       },
       {
-            "text": "Question 11 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "text": "According to the speaker, what is the correct way to truly achieve \"Rural Empowerment\" for women?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Force all village women to travel to big cities for work",
+                  "Give them free money every month without work",
+                  "Bring micro and small-scale industries directly into the villages",
+                  "Tell them to start IT companies"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Village women cannot travel long distances. The factory must go to the village, not the other way around."
       },
       {
-            "text": "Question 12 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "text": "What dangerous alternative job do many rural women do in villages to earn a living?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Mining coal",
+                  "Rolling Beedis (Tobacco)",
+                  "Making firecrackers",
+                  "Heavy construction"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Beedi rolling is a very common cottage industry in Indian villages, but it involves handling toxic raw tobacco daily."
       },
       {
-            "text": "Question 13 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "text": "What is the terrible consequence of the Beedi rolling job for the village women?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "They lose their eyesight",
+                  "They get severe cancer, which also affects their children playing nearby",
+                  "They suffer from hearing loss",
+                  "They become very wealthy"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Breathing in raw tobacco dust all day inside a small hut is a direct path to lung diseases and cancer for the whole family."
       },
       {
-            "text": "Question 14 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "text": "Why are modern farmers facing severe health issues and cancer today, unlike in the past?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "They eat too much junk food",
+                  "They do not exercise enough",
+                  "They are constantly exposed to heavy chemical farming sprays",
+                  "They drink too much local water"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The people growing our food are poisoning themselves by inhaling toxic chemical pesticides every single day."
       },
       {
-            "text": "Question 15 regarding Leaf Plate Making: Which of the following is a key concept?",
+            "text": "To promote total health, the speaker also practices natural farming. What does he use as fertilizer?",
             "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
+                  "Synthetic Urea",
+                  "Products from his Goshala (cow shelter) like cow dung and urine",
+                  "Crushed plastic",
+                  "Leftover factory cardboard"
             ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Leaf Plate Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Leaf Plate Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Leaf Plate Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Leaf Plate Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Leaf Plate Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Leaf Plate Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Leaf Plate Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Leaf Plate Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Leaf Plate Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Leaf Plate Making: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Cows are the ultimate natural fertilizer factories. He uses their waste to grow crops purely and safely."
       }
-] }
+    ] }
   },
   {
     id: 'sk10', title: 'Herbal Soap Crafting', category: 'Skill',
@@ -3726,261 +3460,229 @@ export const MOCK_COURSES = [
     thumbnailUrl: 'https://m.media-amazon.com/images/I/81GRcfUUuGL._UF1000,1000_QL80_.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Mixing Lye and Oils', videoUrl: 'https://www.youtube.com/embed/LXb3EKWsInQ', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Soap Making Fundamentals', videoUrl: 'https://www.youtube.com/embed/G_fv42Bj-bY', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Herbal Soap Crafting\"?",
+            "text": "What is the main herbal ingredient used to make the soap in this video?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Tulsi (Basil)",
+                  "Neem leaves (Veepaku)",
+                  "Mint leaves",
+                  "Rose petals"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The video title is literally \"Homemade Neem Soap\"! Neem is the star ingredient known for its medicinal properties."
+      },
+      {
+            "text": "Which commercial soap is used as the transparent base for this homemade recipe?",
+            "options": [
+                  "Dove",
+                  "Lifebuoy",
+                  "Pears",
+                  "Lux"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Pears is the most famous, easily available transparent glycerin soap, making it perfect for melting and using as a base."
+      },
+      {
+            "text": "What fresh plant gel is extracted and added to the neem mixture?",
+            "options": [
+                  "Aloe Vera gel",
+                  "Papaya gel",
+                  "Cucumber gel",
+                  "Cactus gel"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Aloe Vera is nature's best moisturizer. It balances out the strong antibacterial nature of the neem."
+      },
+      {
+            "text": "Which fruit juice is squeezed into the neem and aloe vera mixture before grinding?",
+            "options": [
+                  "Orange juice",
+                  "Apple juice",
+                  "Lemon juice",
+                  "Grape juice"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Lemon is rich in Vitamin C and acts as a natural cleanser to remove dirt and oil from the skin."
+      },
+      {
+            "text": "What specific capsule is squeezed into the paste for extra skin benefits?",
+            "options": [
+                  "Vitamin C capsule",
+                  "Vitamin E capsule",
+                  "Omega-3 capsule",
+                  "Vitamin D capsule"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: \"E\" stands for Excellent skin! Vitamin E oil brings a healthy, natural glow to the skin."
+      },
+      {
+            "text": "What equipment is used to blend the neem leaves, aloe vera, and lemon juice together?",
+            "options": [
+                  "Hand whisk",
+                  "Mixer Grinder (Mixi)",
+                  "Mortar and pestle",
+                  "Juicer"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: To get the perfect smooth extract from tough neem leaves, the modern Mixer Grinder is the easiest tool."
+      },
+      {
+            "text": "What should be the consistency of the blended neem mixture?",
+            "options": [
+                  "Very watery and thin",
+                  "Coarse with large leaf pieces",
+                  "A fine, smooth, and thick paste",
+                  "Dry powder"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: If the paste has large chunks, the soap will feel rough and scratchy. A smooth paste makes a smooth soap!"
+      },
+      {
+            "text": "What is the first crucial step before grinding the freshly plucked neem leaves?",
+            "options": [
+                  "Roasting them in oil",
+                  "Washing them thoroughly to remove dust and dirt",
+                  "Boiling them for an hour",
+                  "Drying them in the sun for a week"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: You are making a soap to clean your body; the ingredients themselves must be 100% clean and hygienic first!"
+      },
+      {
+            "text": "What preparation is done to the Pears soap before melting it?",
+            "options": [
+                  "It is frozen overnight",
+                  "It is burnt on direct fire",
+                  "It is cut or grated into small pieces",
+                  "It is mixed with cold water"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Just like chopping vegetables helps them cook faster, cutting the soap into tiny pieces helps it melt much faster."
+      },
+      {
+            "text": "What specific melting technique is strictly used to melt the soap base?",
+            "options": [
+                  "Direct boiling on a high flame",
+                  "Double Boiler method",
+                  "Microwaving for 10 minutes",
+                  "Leaving it in the hot sun"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Never put soap directly on the fire! The Double Boiler gently melts it using steam heat."
+      },
+      {
+            "text": "What exactly is the \"Double Boiler\" method?",
+            "options": [
+                  "Using two different soaps together",
+                  "Melting the soap in a glass/steel bowl placed over another vessel containing boiling water",
+                  "Boiling the soap twice in a pressure cooker",
+                  "Adding boiling water directly into the soap"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: \"Double\" means two vessels. The bottom one holds boiling water, and the top one holds the melting soap."
+      },
+      {
+            "text": "Why is the Double Boiler method used instead of direct heating?",
+            "options": [
+                  "Direct heating will freeze the soap",
+                  "Direct heating will burn the soap and destroy its glycerin properties",
+                  "It makes the soap harder",
+                  "It changes the soap into a liquid permanently"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Soap is delicate. Direct fire will scorch it, making it smell bad and ruining its quality."
+      },
+      {
+            "text": "At what stage is the neem-aloe paste added to the process?",
+            "options": [
+                  "Before cutting the soap",
+                  "After the Pears soap has completely melted into a clear liquid",
+                  "While washing the leaves",
+                  "After the soap has hardened in the mold"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: You can only mix ingredients evenly when the base is completely in liquid form."
+      },
+      {
+            "text": "What is the primary skin benefit of using this homemade Neem soap?",
+            "options": [
+                  "It dyes the skin green",
+                  "It blocks pores",
+                  "It acts as a natural antibacterial agent to clear pimples and skin infections",
+                  "It removes a sun tan in 5 minutes"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Ayurveda has used Neem for thousands of years as the ultimate germ-killer and pimple-fighter."
+      },
+      {
+            "text": "Where is the hot liquid soap mixture poured to give it its final shape?",
+            "options": [
+                  "Directly onto the floor",
+                  "Into plastic or silicone soap molds",
+                  "Into a cloth bag",
+                  "Into a glass bottle"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Molds act like an ice-cube tray, giving the liquid soap that perfect, professional shape."
+      },
+      {
+            "text": "What is the final step after pouring the liquid soap into the molds?",
+            "options": [
+                  "Baking it in an oven",
+                  "Stirring it continuously for an hour",
+                  "Letting it rest and set/freeze until it hardens completely",
+                  "Washing it with cold water immediately"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Patience is key! As the liquid cools down, it solidifies back into a usable bar of soap."
+      },
+      {
+            "text": "Why do we avoid adding a lot of water while grinding the neem and aloe vera?",
+            "options": [
+                  "Water is too expensive",
+                  "Because Aloe Vera and Lemon already provide enough natural liquid, and extra water will ruin the soap's setting process",
+                  "Water turns the neem leaves red",
+                  "Water causes the mixer to break"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: If the paste is too watery, your final soap will be mushy and won't freeze properly!"
+      },
+      {
+            "text": "Which two ingredients in this recipe are known for their strong hydrating and moisturizing properties?",
+            "options": [
+                  "Neem and Lemon",
+                  "Pears Soap and Neem",
+                  "Aloe Vera and Vitamin E",
+                  "Lemon and Vitamin E"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: While Neem and Lemon clean the bacteria, Aloe and Vitamin E soothe and hydrate the skin."
+      },
+      {
+            "text": "What is the overall nature of this soap-making process shown in the video?",
+            "options": [
+                  "It is a highly toxic chemical process",
+                  "It requires an expensive factory setup",
+                  "It is a low-cost, 100% natural, DIY Ayurvedic method done at home",
+                  "It is only meant for washing clothes"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The video title says \"Paisa Kharchu Lekunda\" (Without spending money) – it's a brilliant budget-friendly hack!"
+      },
+      {
+            "text": "True or False: You can use regular plastic containers as molds if you don't have professional silicone soap molds.",
+            "options": [
+                  "True",
+                  "False",
+                  "Only if they are painted",
+                  "Only if they are made of glass"
             ],
             "correctAnswerIndex": 0
-      },
-      {
-            "text": "In the context of Skill, why is this topic important?",
-            "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Which tool or method is most commonly associated with Herbal Soap Crafting?",
-            "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 4 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 5 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 6 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 7 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 8 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 9 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 10 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 11 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 12 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 13 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 14 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 15 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Herbal Soap Crafting: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Skill",
-                  "Concept B related to Skill",
-                  "Concept C related to Skill",
-                  "Concept D related to Skill"
-            ],
-            "correctAnswerIndex": 1
       }
-] }
-  },
-
+    ] }
+  }
   // --- DANCE (10) ---
   {
     id: 'dan1', title: 'Introduction to Dhimsa Dance', category: 'Dance',
