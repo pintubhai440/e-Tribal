@@ -4973,7 +4973,7 @@ export const MOCK_COURSES = [
  {
     id: 'tech1', title: 'Basic Computer Skills & MS Word (Full Course)', category: 'Technology',
     description: 'A comprehensive full course on Microsoft Word. Learn everything from basic typing to advanced formatting.',
-    thumbnailUrl: 'https://img.freepik.com/premium-vector/microsoft-word-logo-text-editor-microsoft-office-365-logotype-microsoft-corporation-software-editorial_661108-17048.jpg?semt=ais_incoming&w=740&q=80',
+    thumbnailUrl: 'https://w7.pngwing.com/pngs/565/181/png-transparent-microsoft-word-logo.png',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'MS Word Full Course', videoUrl: 'https://www.youtube.com/embed/gTEemDl04Zw', duration: '1:30:00' }],
