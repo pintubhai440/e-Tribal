@@ -6056,262 +6056,287 @@ export const MOCK_COURSES = [
   {
     id: 'tech5', title: 'Digital Payment & Banking Basics', category: 'Technology',
     description: 'Understand how to use UPI, mobile banking apps, and digital wallets securely for everyday transactions.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/mobile,payment?lock=132',
+    thumbnailUrl: 'https://biznext.in/blog/wp-content/uploads/2024/09/Digital-Payments-Methods-1024x536.webp',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Using UPI Safely', videoUrl: 'https://www.youtube.com/embed/2MCmnr2L50o', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'UPI and Mobile Banking', videoUrl: 'https://www.youtube.com/embed/nypvOdE4LQg', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Digital Payment & Banking Basics\"?",
+            "text": "What does digital banking primarily rely on to conduct transactions?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Physical branch visits",
+                  "Online and electronic platforms",
+                  "Paper cheques",
+                  "Postal services"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Digital means electronic! It relies on the internet and electronic devices instead of physical buildings."
       },
       {
-            "text": "In the context of Technology, why is this topic important?",
+            "text": "Which technology allows you to transfer money within a fraction of a second using apps like PhonePe or Amazon Pay?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "UPI (Unified Payment Interface)",
+                  "ATM",
+                  "Postal order",
+                  "Passbook"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: UPI changed India! It unifies your bank accounts into one fast interface."
       },
       {
-            "text": "Which tool or method is most commonly associated with Digital Payment & Banking Basics?",
+            "text": "What is the name of the official digital banking application launched by the State Bank of India (SBI)?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "SBI Pay",
+                  "SBI Digital",
+                  "YONO",
+                  "SBI Wallet"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: YONO stands for \"You Only Need One\" - SBI's all-in-one banking app."
       },
       {
-            "text": "Question 4 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "Which of the following is a key advantage of digital banking mentioned in the video?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "24/7 availability",
+                  "Free physical cash deliveries",
+                  "Mandatory bank visits for every transaction",
+                  "Slower processing times"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The internet never sleeps. Digital banks are open 24 hours a day, 7 days a week."
       },
       {
-            "text": "Question 5 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "When applying for a loan virtually through digital banking, what is the approval primarily based on?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Your physical appearance",
+                  "Your CIBIL or credit score",
+                  "Your social media followers",
+                  "The number of bank branches you visit"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Since the bank can't see you, they trust your financial \"report card\", which is the CIBIL score."
       },
       {
-            "text": "Question 6 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "What is a \"Loyalty Program\" in the context of digital wallets like Google Pay?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "A penalty for late payments",
+                  "A tax applied to transactions",
+                  "Rewards and scratch cards given to attract and retain customers",
+                  "A physical membership card you carry"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Companies buy your \"loyalty\" by giving you free scratch cards and cashbacks."
       },
       {
-            "text": "Question 7 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "Which of the following services can be accessed WITHOUT an internet connection?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Applying for a home loan",
+                  "Checking your account balance via a missed call",
+                  "Transferring large funds via UPI",
+                  "Opening a new fixed deposit"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Missed calls use the basic cellular mobile network, not the internet."
       },
       {
-            "text": "Question 8 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "What happens when you give a missed call to your bank's toll-free number from your registered mobile?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "A bank manager calls you back",
+                  "Your account is blocked immediately",
+                  "The bank sends an SMS message with your account balance and recent transactions",
+                  "Your internet connection is activated"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The missed call triggers an automated computer to instantly text your balance back to you."
       },
       {
-            "text": "Question 9 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "According to the video, what is a major disadvantage of digital banking?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "It is too fast",
+                  "You cannot deposit physical cash virtually",
+                  "It requires too much paperwork",
+                  "It only works on weekdays"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: You can't push paper money through a smartphone screen! You still need an ATM or branch for cash."
       },
       {
-            "text": "Question 10 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "What feature allows a digital banking app to remind you to pay your electricity or mobile recharge bill next month?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Automatic payment of bills and reminders",
+                  "Cashless deposit",
+                  "Phone banking without internet",
+                  "Missed call alert"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: You can set \"autopay\" or reminders so the app acts as your personal digital assistant."
       },
       {
-            "text": "Question 11 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "Which of the following is considered an \"Extra Service\" provided by digital banking applications?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Checking your balance",
+                  "Changing your password",
+                  "Investing in mutual funds, stocks, and debentures",
+                  "Logging out of the app"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Basic banking is just money in and out. Investing in the stock market is a massive \"Extra\"."
       },
       {
-            "text": "Question 12 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "How do customers track their account history through digital banking?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "By requesting a physical ledger from the manager",
+                  "By waiting for an annual letter",
+                  "By downloading bank statements for the past 6 months to 1 year in PDF format",
+                  "By guessing their balance"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Apps let you instantly download a PDF statement (e-statement) instead of printing a passbook."
       },
       {
-            "text": "Question 13 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "Which of the following is considered a primary risk or disadvantage of digital banking?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Earning too many reward points",
+                  "Internet scams and hacking",
+                  "Having too many banking apps",
+                  "Getting too many SMS alerts"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Where there is digital money, there are digital thieves (hackers and scammers)."
       },
       {
-            "text": "Question 14 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "Before digital banking, what was a common requirement to pay an electric or water bill?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Sending a text message",
+                  "Standing in a queue at the specific office",
+                  "Using a smart TV",
+                  "Making a phone call"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: We all remember the long, tiring queues outside the electricity board office!"
       },
       {
-            "text": "Question 15 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "What does the term \"virtual deposit\" refer to in the video?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Mailing cash to the bank",
+                  "Creating fixed deposits or investing money online without visiting the bank",
+                  "Handing cash to a bank agent at your door",
+                  "Printing money at home"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Virtual means online. You take money from your digital savings and \"deposit\" it into a digital Fixed Deposit."
       },
       {
-            "text": "Question 16 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "What kind of alert does a bank send immediately after an amount is debited or credited to your account?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "A physical letter",
+                  "An email only",
+                  "A message or SMS alert to the registered mobile number",
+                  "A phone call from the manager"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: A quick SMS is the fastest way to alert you so you can catch fraud instantly."
       },
       {
-            "text": "Question 17 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "Which systems are credited with significantly increasing the volume of virtual transactions?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Paper ledgers and typewriters",
+                  "IMPS, RTGS, NEFT, and UPI",
+                  "ATMs and passbooks",
+                  "Physical drafts and cheques"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: These four (IMPS, RTGS, NEFT, UPI) are the main digital highways that carry money across India."
       },
       {
-            "text": "Question 18 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "What is necessary to access the vast majority of digital banking services?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "A landline phone",
+                  "A physical chequebook",
+                  "Internet access",
+                  "A physical visit to the bank every 30 days"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: \"Digital\" mostly lives on the \"Internet\". Without data or Wi-Fi, apps won't load."
       },
       {
-            "text": "Question 19 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "In the context of personal finance solutions offered by digital banking, what tool helps customers calculate loan payments?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Scientific calculator",
+                  "EMI calculator",
+                  "Abacus",
+                  "Tax ledger"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: EMI (Equated Monthly Installment) calculators help you figure out exactly how much you'll pay every month."
       },
       {
-            "text": "Question 20 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "What is an example of a \"Digital Wallet\" mentioned in the tutorial?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "A physical leather wallet",
+                  "Amazon Pay",
+                  "A bank's strongroom",
+                  "A safety deposit box"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Amazon Pay holds your money digitally, just like a leather wallet holds physical cash."
       },
       {
-            "text": "Question 21 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "What action replaces carrying physical cash in the modern digital banking era?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Carrying gold coins",
+                  "Using digital cash via cell phone applications",
+                  "Carrying a chequebook everywhere",
+                  "Bartering goods"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Your smartphone is your new wallet."
       },
       {
-            "text": "Question 22 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "Besides checking balances and transferring funds, what other banking product order can you place online?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Ordering new furniture for the branch",
+                  "Placing orders for bank drafts",
+                  "Ordering cash to be printed",
+                  "Buying the bank's computers"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: You can request official bank documents like Demand Drafts (DDs) and Chequebooks right from the app."
       },
       {
-            "text": "Question 23 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "Which demographic is currently using digital banking according to the video?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Only teenagers",
+                  "Only corporate professionals",
+                  "Everyone from small children to the elderly",
+                  "Only IT professionals"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: UPI has become so simple that everyone from a street vendor to an elderly grandparent uses it daily."
       },
       {
-            "text": "Question 24 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "How does a bank try to attract and retain customers through digital platforms?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "By shutting down internet access",
+                  "By charging high fees for opening the app",
+                  "By offering loyalty programs and scratch cards",
+                  "By deleting transaction histories"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Freebies! Scratch cards and rewards make users want to use that specific app more often."
       },
       {
-            "text": "Question 25 regarding Digital Payment & Banking Basics: Which of the following is a key concept?",
+            "text": "What must a customer be careful of while making digital transactions?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Earning too much interest",
+                  "Keeping their phone fully charged at all times",
+                  "Internet scams and following legal security procedures",
+                  "Overusing the missed call service"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The biggest danger online is being tricked by a scammer into giving away your PIN or OTP."
       }
-] }
+    ] }
   },
   {
     id: 'tech6', title: 'Creating Presentations with MS PowerPoint', category: 'Technology',
