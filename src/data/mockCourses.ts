@@ -6856,262 +6856,232 @@ export const MOCK_COURSES = [
   {
     id: 'tech8', title: 'Web Development Basics (HTML & CSS)', category: 'Technology',
     description: 'Learn the building blocks of the web. Create your first webpage using HTML and style it with CSS.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/web,code?lock=159',
+    thumbnailUrl: 'https://images.surferseo.art/9602bc4b-cfc4-410e-b291-611d478c9d6a.png',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'HTML Structure', videoUrl: 'https://www.youtube.com/embed/mU6anWqZJcc', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'HTML & CSS Basics', videoUrl: 'https://www.youtube.com/embed/Rek0NWPCNOc', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Web Development Basics (HTML & CSS)\"?",
+            "text": "What does HTML stand for?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Hyper Transfer Markup Language",
+                  "HyperText Markup Language",
+                  "HighText Machine Language",
+                  "Hyperlink and Text Markup Language"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: 'HyperText' links pages together across the web, and 'Markup' formats the text structure."
       },
       {
-            "text": "In the context of Technology, why is this topic important?",
+            "text": "Which HTML element serves as the root container for the entire webpage?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "<head>",
+                  "<body>",
+                  "<html>",
+                  "<title>"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Everything on an HTML page must live inside the main <html> house."
       },
       {
-            "text": "Which tool or method is most commonly associated with Web Development Basics (HTML & CSS)?",
+            "text": "What is the correct syntax for adding a comment in HTML?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "// This is a comment",
+                  "/* This is a comment */",
+                  "",
+                  "<! This is a comment !>"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: HTML comments look like an arrow pointing to a hidden secret note: ."
       },
       {
-            "text": "Question 4 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "text": "Which of the following HTML tags does NOT require a closing tag?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "<p>",
+                  "<h1>",
+                  "<img>",
+                  "<title>"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: An image stands alone; you don't put text inside it, so it doesn't need a closing tag."
       },
       {
-            "text": "Question 5 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "text": "What is the primary purpose of the \"id\" attribute in HTML?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "To group multiple elements together",
+                  "To uniquely identify a single specific element on the page",
+                  "To link to an external CSS stylesheet",
+                  "To declare the version of HTML being used"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Just like your personal ID card, an HTML 'id' must be 100% unique on the page."
       },
       {
-            "text": "Question 6 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "text": "Which attribute should you use if you want to apply the same styling to multiple different elements?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "id",
+                  "style",
+                  "type",
+                  "class"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: A 'class' is a group of students sharing the same rules. In HTML, a class shares the same style rules."
       },
       {
-            "text": "Question 7 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "text": "What is the purpose of the <!DOCTYPE html> declaration at the top of a file?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "It links a CSS file to the HTML",
+                  "It tells the web browser that the document is written in HTML5",
+                  "It creates the visible body of the webpage",
+                  "It encrypts the code for security"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It is the \"Document Type\" declaration that formally introduces the file to the browser."
       },
       {
-            "text": "Question 8 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "text": "Which tag is used to contain metadata, the page title, and other information that is NOT directly displayed on the webpage?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "<body>",
+                  "<footer>",
+                  "<head>",
+                  "<script>"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Just like human thoughts stay hidden inside the head, webpage metadata stays hidden in the <head>."
       },
       {
-            "text": "Question 9 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "text": "Which HTML heading tag displays the largest and most important text by default?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "<h6>",
+                  "<h3>",
+                  "<h1>",
+                  "<header>"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: #1 means the top priority, so <h1> is the biggest and most important heading."
       },
       {
-            "text": "Question 10 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "text": "How do you correctly create a line break without starting a completely new paragraph?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "<lb>",
+                  "<br>",
+                  "<hr>",
+                  "<break>"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: 'br' simply stands for Break."
       },
       {
-            "text": "Question 11 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "text": "Which HTML tag is used to draw a thematic horizontal line across the webpage?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "<line>",
+                  "<hr>",
+                  "<br>",
+                  "<tr>"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: 'hr' stands for Horizontal Rule (a straight horizontal line)."
       },
       {
-            "text": "Question 12 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "text": "Why do developers use HTML Entities like &lt; and &gt;?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "To make the website load significantly faster",
+                  "To encrypt sensitive text",
+                  "To display reserved characters (like < and >) without the browser confusing them for actual HTML tags",
+                  "To add background colors to the text"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: 'lt' means Less Than (<) and 'gt' means Greater Than (>). Entities stop the browser from getting confused."
       },
       {
-            "text": "Question 13 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "text": "Which tag is used to display text as superscript (e.g., the power of 2 in x²)?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "<sub>",
+                  "<sup>",
+                  "<small>",
+                  "<strong>"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Superman flies UP in the sky! 'sup' pushes the text UP."
       },
       {
-            "text": "Question 14 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "text": "How do you create an Unordered (bulleted) list in HTML?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "<ol>",
+                  "<ul>",
+                  "<list>",
+                  "<li>"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: 'ul' literally stands for Unordered List."
       },
       {
-            "text": "Question 15 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "text": "Which tag is used to define an individual item inside either an ordered or unordered list?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "<item>",
+                  "<li>",
+                  "<ul>",
+                  "<ol>"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: 'li' stands for List Item."
       },
       {
-            "text": "Question 16 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "text": "If you want an ordered list to use uppercase Roman numerals (I, II, III), which attribute should you add to the <ol> tag?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "style=\"roman\"",
+                  "format=\"I\"",
+                  "type=\"I\"",
+                  "order=\"roman\""
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: You are telling the browser exactly what \"type\" of characters to use for counting."
       },
       {
-            "text": "Question 17 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "text": "What does the <em> tag do to the enclosed text?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "It renders the text in bold",
+                  "It strikes a line through the text",
+                  "It renders the text in italics to emphasize it",
+                  "It highlights the text with a yellow background"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: 'em' is short for EMphasis, which visually tilts the text (italics) to make it stand out."
       },
       {
-            "text": "Question 18 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "text": "Which structural tag contains all the visible content (text, images, links) that the user interacts with on a webpage?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "<title>",
+                  "<head>",
+                  "<body>",
+                  "<html>"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The 'body' is the physical, visible part of the webpage that users actually look at."
       },
       {
-            "text": "Question 19 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "text": "Which HTML formatting tag is used to make text slightly smaller than the surrounding regular text?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "<sub>",
+                  "<small>",
+                  "<tiny>",
+                  "<min>"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The tag name does exactly what it says—it makes text small!"
       },
       {
-            "text": "Question 20 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
+            "text": "In the video, which text editor is primarily recommended for writing HTML code efficiently?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Notepad",
+                  "Microsoft Word",
+                  "TextEdit",
+                  "Visual Studio Code (VS Code)"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Web Development Basics (HTML & CSS): Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: VS Code is currently the undisputed king of code editors for web developers worldwide."
       }
-] }
+    ] }
   },
   {
     id: 'tech9', title: 'Graphic Design Basics using Canva', category: 'Technology',
