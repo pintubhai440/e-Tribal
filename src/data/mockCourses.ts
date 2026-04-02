@@ -7086,262 +7086,232 @@ export const MOCK_COURSES = [
   {
     id: 'tech9', title: 'Graphic Design Basics using Canva', category: 'Technology',
     description: 'Create stunning posters, social media posts, and flyers easily using the Canva design tool.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/design,computer?lock=135',
+    thumbnailUrl: 'https://i.ytimg.com/vi/7VMhwlCnMbg/maxresdefault.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Designing a Poster', videoUrl: 'https://www.youtube.com/embed/un5I9vMBFls', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Canva Design Fundamentals', videoUrl: 'https://www.youtube.com/embed/6IrqN2diTmY', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Graphic Design Basics using Canva\"?",
+            "text": "What is the primary purpose of Canva as discussed in the tutorial?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "To write complex backend code for websites",
+                  "To create social media posts and reels without needing professional design skills",
+                  "To strictly manage digital marketing ad budgets",
+                  "To permanently store large server databases"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Canva is specifically built for non-designers to easily drag and drop elements for quick visual content."
       },
       {
-            "text": "In the context of Technology, why is this topic important?",
+            "text": "Which website is recommended in the video to find updated sizes for various social media platforms?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "socialsizes.io",
+                  "facebook.com",
+                  "canvapro.com",
+                  "googleanalytics.com"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The name literally says exactly what it does: gives you \"social sizes\"."
       },
       {
-            "text": "Which tool or method is most commonly associated with Graphic Design Basics using Canva?",
+            "text": "What pixel size is highly recommended for creating vertical content like Instagram Reels and YouTube Shorts?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "1080 x 1080",
+                  "1920 x 1080",
+                  "1080 x 1920",
+                  "851 x 315"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Standard horizontal HD is 1920x1080. Vertical flips it around to 1080x1920, just like holding your phone upright."
       },
       {
-            "text": "Question 4 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "text": "Which pixel size is considered a versatile \"square\" that works well across Instagram, Facebook, and LinkedIn?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "1080 x 1920",
+                  "1920 x 1080",
+                  "500 x 500",
+                  "1080 x 1080"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: A square has equal sides, so the width and height numbers must match exactly (1080 by 1080)."
       },
       {
-            "text": "Question 5 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "text": "What does a small \"Crown\" icon next to a template or element indicate in Canva?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "It is the most popular item of the day",
+                  "It is a premium feature available only to Canva Pro (paid) users",
+                  "It is an older feature that will be removed soon",
+                  "It is a template made specifically for jewelry brands"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A crown symbolizes royalty or premium status, meaning you have to pay to wear it!"
       },
       {
-            "text": "Question 6 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "text": "How can you quickly fit an uploaded image perfectly into a specific shape, like a circle?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "By manually cropping the edges with the eraser tool",
+                  "By changing the background color to white",
+                  "By dragging and dropping the image into a \"Frame\" element",
+                  "By downloading it as a PDF"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Just like you put a printed photo into a physical wooden \"frame\", you drop digital images into Canva frames."
       },
       {
-            "text": "Question 7 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "text": "What happens when you double-tap an image that has been placed inside a frame?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "The image is permanently deleted",
+                  "It allows you to slide, reposition, or crop the image within the frame",
+                  "It automatically changes the image to black and white",
+                  "It duplicates the frame onto a new page"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Double-tapping unlocks the image from its frozen state, letting you slide it around to find the perfect crop."
       },
       {
-            "text": "Question 8 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "text": "Which Canva feature uses AI to help you rewrite text, fix spelling, or continue writing?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Auto Spell",
+                  "Text Wizard",
+                  "Magic Write",
+                  "Font Fixer"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: It works like \"Magic\" to \"Write\" the rest of your text for you using AI."
       },
       {
-            "text": "Question 9 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "text": "How much cloud storage capacity is mentioned for uploading your personal files to Canva?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "100 MB (Megabytes)",
+                  "5 GB (Gigabytes)",
+                  "1 TB (Terabyte)",
+                  "Unlimited"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: 1 TB (Terabyte) is massive—enough to hold thousands of high-quality designs and videos in the cloud."
       },
       {
-            "text": "Question 10 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "text": "When downloading an animated reel or video, which file format must you select?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "JPEG",
+                  "PNG",
+                  "MP4 Video",
+                  "PDF Document"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: MP4 is the universal standard format for video files across all modern devices and platforms."
       },
       {
-            "text": "Question 11 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "text": "How can you easily find pre-made templates that match your brand's specific color scheme?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "You must manually change every color box one by one",
+                  "By asking the Canva support team to email them to you",
+                  "By uploading a picture of a rainbow",
+                  "By using the color filter option in the template search bar"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Why search manually when the color filter does the hunting for you in seconds?"
       },
       {
-            "text": "Question 12 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "text": "What is the restriction on uploading your own custom fonts to Canva?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "It is completely free for all users",
+                  "You can only upload fonts that start with the letter A",
+                  "Canva does not support custom fonts under any circumstances",
+                  "It is only available for Canva Pro (paid) users"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Canva gives thousands of free fonts, but adding your own custom brand font is an exclusive premium feature."
       },
       {
-            "text": "Question 13 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "text": "If you want to add a completely blank canvas to your current design project, what button should you click?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Duplicate",
+                  "Add Page",
+                  "Magic Write",
+                  "Upload File"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: You are simply adding a brand new, empty \"page\" to your design book."
       },
       {
-            "text": "Question 14 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "text": "How do you safely remove an unwanted image from a template while keeping its placeholder frame intact?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Change the picture's transparency to zero",
+                  "Use the crop tool to cut the whole image away",
+                  "Select the image and press delete, leaving the empty frame behind",
+                  "It is impossible; you must delete the entire frame"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Deleting just the image leaves the empty container (frame) ready for you to drop your own picture inside."
       },
       {
-            "text": "Question 15 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "text": "How can you add a custom voiceover or a specific song to a Canva reel?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "By typing the lyrics into a text box and letting Canva sing them",
+                  "By using the \"Uploads\" section to add your own audio file or selecting from the \"Audio\" tab",
+                  "By changing the background color to 'Audio Mode'",
+                  "Audio cannot be added to Canva designs"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: If Canva doesn't have the song, you simply \"Upload\" your own audio file to the library."
       },
       {
-            "text": "Question 16 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "text": "Which tool allows you to add background colors, shadows, or outlines specifically to your text?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "The Crop tool",
+                  "The Magic Write tool",
+                  "The Animate button",
+                  "The Effects option on the text toolbar"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Shadows and outlines are special visual \"Effects\" applied to make flat text pop out."
       },
       {
-            "text": "Question 17 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "text": "What keyboard shortcut is mentioned as a quick way to undo a mistake while designing?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Ctrl + C",
+                  "Ctrl + V",
+                  "Ctrl + Z",
+                  "Ctrl + X"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The letter 'Z' is at the end of the alphabet, and it helps you go back to what you did at the end."
       },
       {
-            "text": "Question 18 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "text": "What is the recommended first step for absolute beginners trying to learn Canva?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Start with a completely blank white page and guess",
+                  "Start by modifying pre-made templates to understand spacing and layout",
+                  "Immediately buy the Pro version before trying anything",
+                  "Learn to code in HTML and CSS first"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Don't reinvent the wheel! Learn from professional templates to see how the pros balance space and text."
       },
       {
-            "text": "Question 19 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "text": "If you want to add a colored border line around a shape, which setting should you adjust?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "The Font Size",
+                  "The Transparency slider",
+                  "The Alignment tool",
+                  "The Stroke/Border setting"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: In design terminology, drawing a line around the edge of a shape is called a \"Stroke\" or \"Border\"."
       },
       {
-            "text": "Question 20 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
+            "text": "Why is it so important to know the exact dimensions of a social media post before designing?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Because Canva deletes files that are the wrong size",
+                  "Because smaller sizes cost less money to download",
+                  "To prevent your text and images from being awkwardly cropped or cut off when uploaded",
+                  "It actually does not matter; all social media sites auto-fix your images perfectly"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Graphic Design Basics using Canva: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: If your design is too wide, Instagram will violently chop off the edges, ruining your beautiful work!"
       }
-] }
+    ] }
   },
   {
     id: 'tech10', title: 'Smartphone Troubleshooting & Maintenance', category: 'Technology',
