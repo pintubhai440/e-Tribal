@@ -5543,262 +5543,287 @@ export const MOCK_COURSES = [
   {
     id: 'tech3', title: 'Python Programming (Full Course)', category: 'Technology',
     description: 'Learn Python programming from scratch. Covers basics, data structures, and algorithms.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/code,python?lock=130',
+    thumbnailUrl: 'https://quantumzeitgeist.com/wp-content/uploads/python.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Python Full Course', videoUrl: 'https://www.youtube.com/embed/rfscVS0vtbw', duration: '4:00:00' }],
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Python Basics', videoUrl: 'https://www.youtube.com/embed/lGnZPKJ8zfM', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is Python?",
+            "text": "What happens if you assign x = 4 and then x = \"Sally\" on the very next line?",
             "options": [
-                  "A snake",
-                  "A high-level programming language",
-                  "A database",
-                  "An operating system"
+                  "Python throws a critical error.",
+                  "x becomes the string \"Sally\", completely overwriting the 4.",
+                  "x becomes a list containing both 4 and \"Sally\".",
+                  "The variable name changes to Sally."
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Variables in Python are flexible; the latest assignment always overwrites the previous one completely."
       },
       {
-            "text": "Which keyword is used to define a function in Python?",
+            "text": "Which function will tell you exactly how many characters are inside a string?",
             "options": [
-                  "func",
-                  "define",
-                  "def",
-                  "function"
+                  "count()",
+                  "size()",
+                  "len()",
+                  "length()"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Think of 'len' as the quick abbreviation for 'length'."
       },
       {
-            "text": "How do you print \"Hello World\" in Python?",
+            "text": "What is the result of casting a float like 2.8 into an integer using int(2.8)?",
             "options": [
-                  "echo \"Hello World\"",
-                  "print(\"Hello World\")",
-                  "console.log(\"Hello World\")",
-                  "System.out.println(\"Hello World\")"
+                  "2.8",
+                  "3",
+                  "2",
+                  "An error occurs"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Casting to an int simply chops off the decimal part, it doesn't round up. 2.8 becomes 2."
       },
       {
-            "text": "Which symbol is used for single-line comments in Python?",
+            "text": "What does the type() function return if you check the value True?",
             "options": [
-                  "//",
-                  "/*",
-                  "#",
-                  "--"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "What data type is the result of: 5 / 2?",
-            "options": [
-                  "int",
-                  "float",
-                  "str",
-                  "bool"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Which of the following is a mutable data type?",
-            "options": [
-                  "tuple",
                   "string",
-                  "list",
-                  "int"
+                  "boolean (bool)",
+                  "integer",
+                  "logical"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: True and False are always Boolean values (known as 'bool' for short in Python)."
       },
       {
-            "text": "How do you create a list in Python?",
+            "text": "What type of number is 1j in Python?",
             "options": [
-                  "[]",
-                  "{}",
-                  "()",
-                  "<>"
+                  "Integer",
+                  "Float",
+                  "Complex",
+                  "String"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: In Python math, 'j' stands for the imaginary part of a Complex number."
       },
       {
-            "text": "What is the output of: len(\"Python\")?",
+            "text": "Which logical operator returns True if at least ONE of the given conditions is true?",
             "options": [
-                  "5",
-                  "6",
-                  "7",
-                  "Error"
+                  "and",
+                  "not",
+                  "or",
+                  "xor"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Like ordering at a restaurant: 'Coffee OR Tea' means you are happy if you get at least one of them."
       },
       {
-            "text": "Which operator is used for exponentiation?",
-            "options": [
-                  "^",
-                  "**",
-                  "//",
-                  "%"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "How do you check if a key exists in a dictionary?",
-            "options": [
-                  "key in dict",
-                  "dict.has(key)",
-                  "dict.exists(key)",
-                  "key.in(dict)"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "What does the \"append\" method do on a list?",
-            "options": [
-                  "Removes an item",
-                  "Adds an item to the end",
-                  "Sorts the list",
-                  "Reverses the list"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Which loop is used to iterate over a sequence?",
-            "options": [
-                  "while",
-                  "for",
-                  "do-while",
-                  "repeat"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "What is the correct way to import a module named \"math\"?",
-            "options": [
-                  "include math",
-                  "import math",
-                  "require math",
-                  "using math"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "How do you handle exceptions in Python?",
-            "options": [
-                  "try-catch",
-                  "try-except",
-                  "catch-throw",
-                  "error-handle"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "What does the \"range(5)\" function generate?",
-            "options": [
-                  "0, 1, 2, 3, 4",
-                  "1, 2, 3, 4, 5",
-                  "0, 1, 2, 3, 4, 5",
-                  "1, 2, 3, 4"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Which method is used to convert a string to lowercase?",
-            "options": [
-                  "lower()",
-                  "toLowerCase()",
-                  "downcase()",
-                  "small()"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "What is a tuple?",
-            "options": [
-                  "A mutable sequence",
-                  "An immutable sequence",
-                  "A dictionary",
-                  "A set"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "How do you open a file for reading?",
-            "options": [
-                  "open(\"file.txt\", \"r\")",
-                  "open(\"file.txt\", \"w\")",
-                  "read(\"file.txt\")",
-                  "file(\"file.txt\")"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Which keyword is used to return a value from a function?",
-            "options": [
-                  "yield",
-                  "return",
-                  "output",
-                  "send"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "What is the output of: 3 == \"3\"?",
+            "text": "How will Python evaluate an empty string bool(\"\")?",
             "options": [
                   "True",
                   "False",
-                  "Error",
+                  "0",
                   "None"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Empty things (like empty strings, 0, or empty lists) are considered False in Python."
       },
       {
-            "text": "How do you create a dictionary?",
+            "text": "What happens if you forget the colon : at the end of an if statement line?",
             "options": [
-                  "[]",
-                  "{}",
-                  "()",
-                  "<>"
+                  "Python automatically fixes it.",
+                  "The code runs but skips the if block.",
+                  "It creates a syntax error and stops running.",
+                  "It creates an infinite loop."
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The colon is like a gatekeeper; without it, Python doesn't know a new block is starting, causing a Syntax Error."
       },
       {
-            "text": "Which function is used to get user input?",
+            "text": "Which comparison operator is used to check if two values are exactly equal to each other?",
             "options": [
-                  "scan()",
-                  "read()",
-                  "input()",
-                  "get()"
+                  "=",
+                  "==",
+                  "!=",
+                  ">="
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A single '=' assigns a value, but double '==' asks a question: 'Are these equal?'"
       },
       {
-            "text": "What does the \"break\" statement do?",
+            "text": "What is the starting index number for an item in a Python List?",
             "options": [
-                  "Skips the current iteration",
-                  "Exits the loop entirely",
-                  "Pauses the program",
-                  "Throws an error"
+                  "1",
+                  "0",
+                  "-1",
+                  "It depends on the length of the list"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Computers start counting from 0, not 1. The first item is always at index 0."
       },
       {
-            "text": "How do you define a class in Python?",
+            "text": "What does the not in operator do when checking a string?",
             "options": [
-                  "class MyClass:",
-                  "def MyClass:",
-                  "create class MyClass:",
-                  "new class MyClass:"
+                  "Returns True if a specific word is missing from the string.",
+                  "Returns False if the string is empty.",
+                  "Deletes a word from the string.",
+                  "Reverses the entire string."
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: It literally reads like English: it returns True if the word is 'not in' the target string."
       },
       {
-            "text": "What is the purpose of the \"__init__\" method?",
+            "text": "In a Dictionary, how is the data organized?",
             "options": [
-                  "To initialize a class instance",
-                  "To destroy an object",
-                  "To print output",
-                  "To import modules"
+                  "By numerical order",
+                  "By alphabetical order",
+                  "By Key:Value pairs",
+                  "By positive and negative integers"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Just like a real dictionary has a Word (Key) and its Definition (Value)."
+      },
+      {
+            "text": "Which collection type specifically uses round brackets ()?",
+            "options": [
+                  "List",
+                  "Set",
+                  "Tuple",
+                  "Dictionary"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Tuples use round brackets (), Lists use square brackets [], and Sets/Dicts use curly brackets {}."
+      },
+      {
+            "text": "Which collection type uses curly brackets {} but does NOT use Key:Value pairs?",
+            "options": [
+                  "Tuple",
+                  "Dictionary",
+                  "Set",
+                  "List"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Sets use {} like Dictionaries, but they only hold individual items, not paired items."
+      },
+      {
+            "text": "What will be the boolean evaluation of a non-empty string, such as bool(\"Hello\")?",
+            "options": [
+                  "False",
+                  "True",
+                  "Null",
+                  "Error"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Any string with content (even just a space) has 'substance', so Python considers it True."
+      },
+      {
+            "text": "Why is indentation absolutely critical in a while loop?",
+            "options": [
+                  "It makes the code run faster.",
+                  "It defines exactly which block of code gets repeated.",
+                  "It changes the variables into integers.",
+                  "It connects the loop to the internet."
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Python doesn't use brackets to group code; it relies purely on visual indentation (spaces) to know what's inside a loop."
+      },
+      {
+            "text": "What does the break statement do when placed inside a loop?",
+            "options": [
+                  "It pauses the loop for 5 seconds.",
+                  "It restarts the loop from the beginning.",
+                  "It skips the current item and moves to the next one.",
+                  "It forces the loop to exit entirely immediately."
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Hitting 'break' is like pulling the emergency brake—it stops and exits the loop immediately."
+      },
+      {
+            "text": "What does \"implicit data type declaration\" mean in Python?",
+            "options": [
+                  "You must specifically type out \"integer\" before every number.",
+                  "Python automatically figures out the data type based on the value you assign.",
+                  "All data is forced to become a string.",
+                  "The user is prompted to guess the data type."
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Implicit means implied; Python is smart enough to guess the type without you having to announce it."
+      },
+      {
+            "text": "How do you correctly output the phrase \"Hello World\" to the screen in Python?",
+            "options": [
+                  "echo(\"Hello World\")",
+                  "print(\"Hello World\")",
+                  "display(\"Hello World\")",
+                  "console.log(\"Hello World\")"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: You want to 'print' ink onto the console screen."
+      },
+      {
+            "text": "Can a Python List contain duplicate values?",
+            "options": [
+                  "Yes, it allows identical items.",
+                  "No, it automatically deletes duplicates.",
+                  "Only if they are numbers.",
+                  "Only if the list contains exactly two items."
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Lists are just ordered collections of items, so they have no problem storing the exact same item multiple times."
+      },
+      {
+            "text": "If a = 33 and b = 200, how would you test if b is greater than a?",
+            "options": [
+                  "if b > a:",
+                  "if b >= a",
+                  "if a > b:",
+                  "if b = a:"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: It reads exactly like standard math and English combined, ending with the required colon."
+      },
+      {
+            "text": "Why might a programmer use an elif statement?",
+            "options": [
+                  "To close the program entirely.",
+                  "To check a brand new condition only if the first if condition was false.",
+                  "To repeat an action 10 times.",
+                  "To assign a variable to a dictionary."
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: 'elif' is short for 'else if'. It gives Python a backup condition to check if the first one fails."
+      },
+      {
+            "text": "What does the shorthand assignment operator x -= 3 actually mean?",
+            "options": [
+                  "x equals 3 minus x",
+                  "x equals x minus 3",
+                  "x is a negative 3",
+                  "x is less than or equal to 3"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It's a shortcut. 'Take my current value, subtract 3, and save it back into me.'"
+      },
+      {
+            "text": "Which data structure is best described as an unordered VIP guest list with no duplicates?",
+            "options": [
+                  "Set",
+                  "Tuple",
+                  "Dictionary",
+                  "List"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: A Set is like a VIP club—everyone inside is unique (no duplicates), but they mingle randomly (unordered)."
+      },
+      {
+            "text": "If you execute a loop on a string like for x in \"apple\":, what does the loop do?",
+            "options": [
+                  "It prints the word \"apple\" an infinite number of times.",
+                  "It counts how many letters are in the word.",
+                  "It reads and processes each individual letter ('a', 'p', 'p', 'l', 'e') one at a time.",
+                  "It crashes because \"apple\" is not a List."
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: A string is simply a list of characters. A 'for' loop naturally walks through them one by one."
       }
-] }
+    ] }
   },
   {
     id: 'tech4', title: 'Internet Basics & Online Safety', category: 'Technology',
