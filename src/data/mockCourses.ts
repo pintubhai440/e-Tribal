@@ -4970,266 +4970,291 @@ export const MOCK_COURSES = [
   },
 
   // --- TECHNOLOGY (10) ---
-  {
-    id: 'tech1', title: 'Basic Computer Skills & MS Word (Full Course)', category: 'Technology',
-    description: 'A comprehensive full course on Microsoft Word. Learn everything from basic typing to advanced formatting and document creation.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/computer,typing?lock=128',
+ {
+    id: 'tech1', title: 'Basic Computer Skills & MS Word (Full Course)', category: 'Tech',
+    description: 'A comprehensive full course on Microsoft Word. Learn everything from basic typing to advanced formatting.',
+    thumbnailUrl: 'https://img.freepik.com/premium-vector/microsoft-word-logo-text-editor-microsoft-office-365-logotype-microsoft-corporation-software-editorial_661108-17048.jpg?semt=ais_incoming&w=740&q=80',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'MS Word Full Course Tutorial', videoUrl: 'https://www.youtube.com/embed/HxjwTXlKpzU', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'MS Word Full Course', videoUrl: 'https://www.youtube.com/embed/gTEemDl04Zw', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary purpose of Microsoft Word?",
+            "text": "What is the maximum zoom percentage available in Microsoft Word?",
             "options": [
-                  "Spreadsheets",
-                  "Word Processing",
-                  "Presentations",
-                  "Database Management"
+                  "100%",
+                  "200%",
+                  "400%",
+                  "500%"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Think of your 5 fingers! The maximum zoom limit in Word is 500%."
       },
       {
-            "text": "Which tab contains the option to change the font style and size?",
+            "text": "What is the minimum zoom level possible in Microsoft Word?",
             "options": [
-                  "Insert",
-                  "Home",
-                  "Layout",
-                  "View"
+                  "0%",
+                  "1%",
+                  "10%",
+                  "25%"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: You can't go down to zero, the lowest possible view to still see the page is 10%."
       },
       {
-            "text": "What is the keyboard shortcut to save a document?",
+            "text": "Which shortcut key is used to Undo an action in MS Word?",
             "options": [
-                  "Ctrl + S",
-                  "Ctrl + C",
-                  "Ctrl + V",
-                  "Ctrl + P"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "How can you undo your last action in MS Word?",
-            "options": [
-                  "Ctrl + Y",
                   "Ctrl + Z",
                   "Ctrl + U",
-                  "Ctrl + X"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Which feature allows you to copy formatting from one place and apply it to another?",
-            "options": [
-                  "Format Painter",
-                  "Copy Paste",
-                  "Styles",
-                  "Themes"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "What is the default file extension for a saved MS Word document?",
-            "options": [
-                  ".txt",
-                  ".pdf",
-                  ".docx",
-                  ".xlsx"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Which tab would you use to insert a table into your document?",
-            "options": [
-                  "Home",
-                  "Insert",
-                  "Design",
-                  "Layout"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "What does the \"B\" icon in the font group stand for?",
-            "options": [
-                  "Border",
-                  "Background",
-                  "Bold",
-                  "Bullet"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "How do you select an entire paragraph quickly?",
-            "options": [
-                  "Single click",
-                  "Double click",
-                  "Triple click",
-                  "Right click"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Which tool is used to check for spelling and grammar errors?",
-            "options": [
-                  "Thesaurus",
-                  "Word Count",
-                  "Spelling & Grammar",
-                  "Translate"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "What is the shortcut to print a document?",
-            "options": [
-                  "Ctrl + P",
-                  "Ctrl + PrtScn",
-                  "Alt + P",
-                  "Shift + P"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Where can you find the option to adjust page margins?",
-            "options": [
-                  "Home",
-                  "Insert",
-                  "Layout",
-                  "Review"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Which feature is used to create a list with dots or symbols?",
-            "options": [
-                  "Numbering",
-                  "Bullets",
-                  "Multilevel List",
-                  "Indent"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "What does \"Ctrl + B\" do to selected text?",
-            "options": [
-                  "Makes it italic",
-                  "Underlines it",
-                  "Makes it bold",
-                  "Highlights it"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "How can you insert a page break?",
-            "options": [
-                  "Ctrl + Enter",
-                  "Shift + Enter",
-                  "Alt + Enter",
-                  "Tab + Enter"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Which view is best for reading a document without editing distractions?",
-            "options": [
-                  "Print Layout",
-                  "Web Layout",
-                  "Read Mode",
-                  "Outline"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "What is the purpose of the \"Find and Replace\" feature?",
-            "options": [
-                  "To find errors",
-                  "To search for text and replace it with other text",
-                  "To find images",
-                  "To replace the document name"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Which tab contains the \"Header & Footer\" options?",
-            "options": [
-                  "Home",
-                  "Insert",
-                  "Design",
-                  "Layout"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "What does the \"Align Center\" option do?",
-            "options": [
-                  "Aligns text to the left",
-                  "Aligns text to the right",
-                  "Centers text horizontally",
-                  "Justifies text"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "How do you add a watermark to a document?",
-            "options": [
-                  "Insert > Watermark",
-                  "Design > Watermark",
-                  "Layout > Watermark",
-                  "View > Watermark"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Which shortcut is used to copy selected text?",
-            "options": [
                   "Ctrl + X",
+                  "Ctrl + Y"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: 'Z' is the last letter of the alphabet, taking you back to your last action."
+      },
+      {
+            "text": "Which keyboard shortcut is used to Redo an action?",
+            "options": [
+                  "Ctrl + Z",
+                  "Ctrl + Y",
+                  "Ctrl + R",
+                  "Ctrl + Shift + Z"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: 'Y' comes right before 'Z', so it moves you forward after you Undo (Z)."
+      },
+      {
+            "text": "Which shortcut key combination is used to Justify text alignment?",
+            "options": [
+                  "Ctrl + L",
+                  "Ctrl + E",
+                  "Ctrl + J",
+                  "Ctrl + R"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: 'J' stands for Justify! It aligns the text perfectly on both sides."
+      },
+      {
+            "text": "What is the keyboard shortcut for the Find function in MS Word?",
+            "options": [
+                  "Ctrl + S",
+                  "Ctrl + F",
+                  "Ctrl + H",
+                  "Ctrl + D"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: 'F' stands for Find."
+      },
+      {
+            "text": "Which shortcut key is used to open the Find and Replace dialog box?",
+            "options": [
+                  "Ctrl + F",
+                  "Ctrl + R",
+                  "Ctrl + Shift + F",
+                  "Ctrl + H"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Think of 'H' for Hunt and Replace! It opens the box to hunt down words and change them."
+      },
+      {
+            "text": "In which tab can you find the Watermark option in MS Word?",
+            "options": [
+                  "Home tab",
+                  "Design tab",
+                  "Insert tab",
+                  "Layout tab"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A watermark is part of how the page is styled, so it lives in the Design tab."
+      },
+      {
+            "text": "What feature allows you to copy only the formatting of a text and apply it to another text?",
+            "options": [
+                  "Copy Paste",
+                  "Style Copier",
+                  "Format Painter",
+                  "Text Highlighter"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: You use a \"brush\" icon to \"paint\" the format onto new text."
+      },
+      {
+            "text": "Which keyboard shortcut is used to select all content in a document?",
+            "options": [
+                  "Ctrl + A",
+                  "Ctrl + S",
                   "Ctrl + C",
+                  "Ctrl + All"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: 'A' stands for All!"
+      },
+      {
+            "text": "In which tab is the Header and Footer option located?",
+            "options": [
+                  "Home tab",
+                  "Design tab",
+                  "Insert tab",
+                  "View tab"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: You want to \"Insert\" something into the top (header) or bottom (footer) of the page."
+      },
+      {
+            "text": "What formula is used to generate random practice paragraphs in MS Word?",
+            "options": [
+                  "=rand()",
+                  "=text()",
+                  "=practice()",
+                  "=generate()"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: \"rand\" is simply short for random."
+      },
+      {
+            "text": "Which shortcut key opens the 'Save As' dialog box directly?",
+            "options": [
+                  "F5",
+                  "F10",
+                  "F12",
+                  "F7"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: F12 is the highest function key, used for the ultimate final step: saving the file."
+      },
+      {
+            "text": "What is the default file extension for a modern Microsoft Word document?",
+            "options": [
+                  ".doc",
+                  ".docx",
+                  ".txt",
+                  ".pdf"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The extra 'x' stands for XML, which is the modern standard for Word files."
+      },
+      {
+            "text": "Which text wrapping option allows you to move an image freely over the text without disrupting the layout?",
+            "options": [
+                  "In Front of Text",
+                  "Square",
+                  "Tight",
+                  "Behind Text"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Putting it \"In Front of Text\" ignores all the rules and lets you drag the image anywhere."
+      },
+      {
+            "text": "How can you quickly jump between open documents or programs using the keyboard?",
+            "options": [
+                  "Shift + Enter",
+                  "Ctrl + Tab",
+                  "Windows + D",
+                  "Alt + Tab"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Alt + Tab is the universal Windows shortcut to jump between active windows."
+      },
+      {
+            "text": "In which tab will you find the option to change the Page Orientation (Portrait or Landscape)?",
+            "options": [
+                  "Home tab",
+                  "Layout tab",
+                  "Insert tab",
+                  "View tab"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Orientation changes the physical \"Layout\" of the paper."
+      },
+      {
+            "text": "Which keyboard shortcut is used to align text to the center?",
+            "options": [
+                  "Ctrl + C",
+                  "Ctrl + L",
+                  "Ctrl + E",
+                  "Ctrl + M"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: 'C' is already taken by Copy, so Word uses the next strong letter in cEnter: 'E'."
+      },
+      {
+            "text": "When using the \"Narrow\" margin setting, what is the space left on all sides of the page?",
+            "options": [
+                  "0.5 inches",
+                  "1.0 inches",
+                  "1.5 inches",
+                  "0 inches"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Normal margins are 1 inch. \"Narrow\" cuts that exactly in half to 0.5 inches."
+      },
+      {
+            "text": "When you select a picture, which new tab automatically appears to help you adjust it?",
+            "options": [
+                  "Image Editor tab",
+                  "Draw tab",
+                  "Design tab",
+                  "Picture Format tab"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: The tab literally tells you its job: to \"Format\" the \"Picture\"."
+      },
+      {
+            "text": "Which keyboard shortcut is used to cut selected text?",
+            "options": [
+                  "Ctrl + C",
+                  "Ctrl + X",
                   "Ctrl + V",
                   "Ctrl + Z"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The letter 'X' looks exactly like an open pair of scissors!"
       },
       {
-            "text": "What is a \"Template\" in MS Word?",
+            "text": "How do you ensure you draw a perfectly straight line or a perfect circle using the shapes tool?",
             "options": [
-                  "A pre-designed document format",
-                  "A type of font",
-                  "A spelling tool",
-                  "A printing option"
+                  "Hold the Ctrl key while drawing",
+                  "Hold the Shift key while drawing",
+                  "Hold the Alt key while drawing",
+                  "Draw very slowly with the mouse"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The \"Shift\" key shifts the shape into perfect, locked proportions."
       },
       {
-            "text": "How can you change the line spacing in a paragraph?",
+            "text": "Which option allows you to add background text like \"Confidential\" to a document?",
             "options": [
-                  "Home > Line and Paragraph Spacing",
-                  "Insert > Spacing",
-                  "Layout > Margins",
-                  "Design > Effects"
+                  "Page Color",
+                  "WordArt",
+                  "Watermark",
+                  "Text Box"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Like a faint mark left by water on paper, it stays quietly in the background."
       },
       {
-            "text": "What does the \"Word Count\" feature display?",
+            "text": "Which keyboard shortcut is used to align text to the right?",
             "options": [
-                  "Number of words only",
-                  "Number of pages, words, characters, and lines",
-                  "Number of images",
-                  "Number of errors"
+                  "Ctrl + L",
+                  "Ctrl + E",
+                  "Ctrl + R",
+                  "Ctrl + J"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: 'R' stands for Right!"
       },
       {
-            "text": "Which option allows you to save a document with a new name or in a different location?",
+            "text": "How can you protect a Word document with a password during the \"Save As\" process?",
             "options": [
-                  "Save",
-                  "Save As",
-                  "Export",
-                  "Share"
+                  "By selecting General Options under Tools",
+                  "By clicking the Security tab",
+                  "By typing the password in the File Name box",
+                  "By selecting Lock Document under the View tab"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Adding a password is a \"General Option\" you can apply right inside the save window tools."
       }
-] }
-  },
+    ] }
+  }, 
   {
     id: 'tech2', title: 'Data Entry with MS Excel (Full Course)', category: 'Technology',
     description: 'Master Microsoft Excel from basics to advanced formulas and data analysis.',
