@@ -6341,262 +6341,287 @@ export const MOCK_COURSES = [
   {
     id: 'tech6', title: 'Creating Presentations with MS PowerPoint', category: 'Technology',
     description: 'Learn how to design engaging slides and deliver effective presentations using Microsoft PowerPoint.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/presentation,screen?lock=133',
+    thumbnailUrl: 'https://i.ytimg.com/vi/XF34-Wu6qWU/maxresdefault.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Designing Your First Slide', videoUrl: 'https://www.youtube.com/embed/2MCmnr2L50o', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'PowerPoint Basics', videoUrl: 'https://www.youtube.com/embed/fACEzzmXelY', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Creating Presentations with MS PowerPoint\"?",
+            "text": "What is a highly recommended action to take immediately after opening a new PowerPoint file?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Add 10 blank slides",
+                  "Save the presentation to avoid losing your work",
+                  "Insert a video",
+                  "Start the slideshow"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Always 'Save' first to 'Save' yourself from losing hard work!"
       },
       {
-            "text": "In the context of Technology, why is this topic important?",
+            "text": "How can you make PowerPoint easier to open in the future without searching for it every time?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Make it your desktop wallpaper",
+                  "Email the app to yourself",
+                  "Right-click the icon and choose \"Pin to taskbar\"",
+                  "Leave the program running forever"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: 'Pin' it to your taskbar so it stays exactly where you need it, just like pinning a sticky note to a board."
       },
       {
-            "text": "Which tool or method is most commonly associated with Creating Presentations with MS PowerPoint?",
+            "text": "What is the large panel in the middle of the screen where you actually build your presentation called?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "The Thumbnail area",
+                  "The Status bar",
+                  "The Slide area",
+                  "The Ribbon"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The 'Slide' area is the main stage where your slide actually lives and breathes."
       },
       {
-            "text": "Question 4 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "What is the panel on the left side of the screen that shows miniature versions of all your slides called?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "The Ribbon",
+                  "The Thumbnail area",
+                  "The Status bar",
+                  "The Slide area"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A 'Thumbnail' is a tiny picture, just like the tiny versions of your slides lined up on the left."
       },
       {
-            "text": "Question 5 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "In PowerPoint, what is the collection of tools grouped together at the very top of the screen called?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "The Ribbon",
+                  "The Status bar",
+                  "The Taskbar",
+                  "The Thumbnail area"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Like a ribbon tying a gift together, this top bar holds all your important tools together."
       },
       {
-            "text": "Question 6 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "Within the Ribbon, tools related to a specific task are clubbed together into a:",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Folder",
+                  "Tab",
+                  "Group",
+                  "File"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Related tools hang out together in a 'Group', just like a group of friends."
       },
       {
-            "text": "Question 7 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "Which tab should you click on to quickly change the overall look, color, and fonts of your entire presentation?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Home",
+                  "Design",
+                  "Animations",
+                  "Insert"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Want to change how it looks? You are changing its 'Design'."
       },
       {
-            "text": "Question 8 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "Once you select a Design Theme, what are the different color options for that specific theme called?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Variants",
+                  "SmartArts",
+                  "Transitions",
+                  "Animations"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Variants give you a 'variety' of color options for the exact same design."
       },
       {
-            "text": "Question 9 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "What does the small downward-pointing arrow next to a tool icon indicate?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "The tool is currently broken",
+                  "Clicking it will delete the slide",
+                  "There is a drop-down menu with more layout or style options available",
+                  "It moves the tool to the bottom of the screen"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The arrow points down to show that more options will 'drop down' when you click it."
       },
       {
-            "text": "Question 10 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "Which feature allows you to instantly convert a boring list of bullet points into a visual diagram?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Format Painter",
+                  "SmartArt",
+                  "Transitions",
+                  "WordArt"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It makes your text look 'Smart' by turning it into 'Art'."
       },
       {
-            "text": "Question 11 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "If you right-click on a blank area of a slide and select \"Layout\", what are you doing?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Changing how the placeholders (like title and content boxes) are arranged",
+                  "Deleting the slide",
+                  "Printing the slide",
+                  "Adding a new animation"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: 'Layout' literally means how things are laid out on the page."
       },
       {
-            "text": "Question 12 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "Which tab do you use to add a picture to your slide?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Design",
+                  "Home",
+                  "Insert",
+                  "Transitions"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: If you want to put something inside the slide, you 'Insert' it."
       },
       {
-            "text": "Question 13 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "When resizing a picture, what key should you hold down while dragging the corner to ensure the image does not stretch or warp?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Control (Ctrl)",
+                  "Alt",
+                  "Spacebar",
+                  "Shift"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: 'Shift' keeps the shape from shifting out of its original proportion."
       },
       {
-            "text": "Question 14 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "If you want to add a typed label underneath a picture, which tool from the Insert tab should you use?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "SmartArt",
+                  "Text Box",
+                  "WordArt",
+                  "Table"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It is literally a 'Box' that holds your 'Text'."
       },
       {
-            "text": "Question 15 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "What does clicking the icon with a \"larger capital A\" in the font settings do?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Changes the font color to red",
+                  "Makes the text bold",
+                  "Increases the font size",
+                  "Changes the text to all capital letters"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: A larger 'A' means larger text. It's a visual shortcut for sizing up."
       },
       {
-            "text": "Question 16 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "Which view shows you all the slides in your presentation at a single glance like a grid?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Normal view",
+                  "Slide Sorter view",
+                  "Reading view",
+                  "Slideshow view"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: You use this zoomed-out view to easily 'sort' and rearrange all your slides."
       },
       {
-            "text": "Question 17 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "Which view do you use when you are actually presenting your slides to an audience?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Normal view",
+                  "Slide Sorter view",
+                  "Slideshow view",
+                  "Thumbnail view"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: It's time for the 'Show'!"
       },
       {
-            "text": "Question 18 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "During a slideshow, which of the following actions will advance you to the NEXT slide?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Hitting the Escape key",
+                  "Hitting the Enter key",
+                  "Hitting Page Up",
+                  "Hitting the Shift key"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: 'Enter' tells the computer to move forward into the next slide."
       },
       {
-            "text": "Question 19 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "During a slideshow, which key can you press to go BACK to the previous slide?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Page Down",
+                  "Enter",
+                  "Spacebar",
+                  "Page Up"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: 'Page Up' moves your presentation UP the list to the previous slide."
       },
       {
-            "text": "Question 20 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "How do you completely exit the slideshow mode and return to editing your slides?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Press the Escape key",
+                  "Press the Spacebar",
+                  "Double-click the screen",
+                  "Turn off the computer"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: You want to 'Escape' from the full-screen show and go back to normal mode."
       },
       {
-            "text": "Question 21 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "What is the fundamental difference between Animations and Transitions?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Animations move the whole slide; Transitions move objects inside the slide.",
+                  "Animations move objects inside the slide; Transitions move the whole slide.",
+                  "Animations are only for text; Transitions are only for pictures.",
+                  "There is no difference; they are the same thing."
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A 'Transition' is a journey from one place to another (slide to slide). 'Animation' brings a single drawing (object) to life."
       },
       {
-            "text": "Question 22 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "If you want a picture to appear on your slide only after you click the mouse, which tab do you use?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Design",
+                  "Transitions",
+                  "Animations",
+                  "Insert"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Making a picture appear or bounce is animating that specific object."
       },
       {
-            "text": "Question 23 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "According to the video, what is the best animation style for a beginner to use to keep things professional?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Bounce",
+                  "Swivel",
+                  "Fade",
+                  "Zoom"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: 'Fade' is smooth and natural. It avoids making the audience dizzy with bouncing or spinning text."
       },
       {
-            "text": "Question 24 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "Which tab controls the visual effect that happens when you move from slide 1 to slide 2?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Transitions",
+                  "Animations",
+                  "Design",
+                  "Home"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Moving from slide 1 to 2 is 'transitioning' between scenes in your presentation."
       },
       {
-            "text": "Question 25 regarding Creating Presentations with MS PowerPoint: Which of the following is a key concept?",
+            "text": "In the Transitions tab, which button ensures that every slide moves to the next slide using the exact same visual effect?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Duplicate Slide",
+                  "Apply to All",
+                  "Match Format",
+                  "Copy Effect"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The name tells you exactly what it does: it applies the transition effect to ALL slides instantly."
       }
-] }
+    ] }
   },
   {
     id: 'tech7', title: 'Advanced MS Excel for Small Businesses', category: 'Technology',
