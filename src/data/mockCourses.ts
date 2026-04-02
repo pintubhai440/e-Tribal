@@ -4973,7 +4973,7 @@ export const MOCK_COURSES = [
  {
     id: 'tech1', title: 'Basic Computer Skills & MS Word (Full Course)', category: 'Technology',
     description: 'A comprehensive full course on Microsoft Word. Learn everything from basic typing to advanced formatting.',
-    thumbnailUrl: 'https://w7.pngwing.com/pngs/565/181/png-transparent-microsoft-word-logo.png',
+    thumbnailUrl: 'https://i.ytimg.com/vi/2MCmnr2L50o/maxresdefault.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'MS Word Full Course', videoUrl: 'https://www.youtube.com/embed/gTEemDl04Zw', duration: '1:30:00' }],
@@ -5258,262 +5258,287 @@ export const MOCK_COURSES = [
   {
     id: 'tech2', title: 'Data Entry with MS Excel (Full Course)', category: 'Technology',
     description: 'Master Microsoft Excel from basics to advanced formulas and data analysis.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/spreadsheet,data?lock=129',
+    thumbnailUrl: 'https://i.ytimg.com/vi/kyXr-IzxZgM/maxresdefault.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'MS Excel Full Course', videoUrl: 'https://www.youtube.com/embed/Vl0H-qTclOg', duration: '2:30:00' }],
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'MS Excel Full Course', videoUrl: 'https://www.youtube.com/embed/16fZZXexZuE', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is Microsoft Excel primarily used for?",
+            "text": "Who first announced the Microsoft Office package?",
             "options": [
-                  "Word Processing",
-                  "Spreadsheets",
-                  "Presentations",
-                  "Database Management"
+                  "Steve Jobs",
+                  "Mark Zuckerberg",
+                  "Bill Gates",
+                  "Elon Musk"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Bill Gates is the famous founder of Microsoft, so naturally, he announced their biggest software package."
       },
       {
-            "text": "What is the intersection of a row and a column called?",
+            "text": "In what year was Microsoft Office initially announced?",
             "options": [
-                  "Box",
-                  "Cell",
-                  "Grid",
-                  "Block"
+                  "1985",
+                  "1988",
+                  "1995",
+                  "2001"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Think of the double 8s in 1988, representing the two main powerhouse programs: Word and Excel."
       },
       {
-            "text": "Which symbol is used to start a formula in Excel?",
+            "text": "Where did the initial announcement of Microsoft Office take place?",
             "options": [
-                  "+",
-                  "-",
-                  "=",
-                  "*"
+                  "New York",
+                  "Las Vegas",
+                  "Silicon Valley",
+                  "Seattle"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Las Vegas is the city of big reveals and casinos, a flashy place to announce a game-changing software."
       },
       {
-            "text": "What function is used to add a range of numbers?",
+            "text": "What is the primary function of Microsoft Excel?",
             "options": [
-                  "ADD()",
-                  "SUM()",
-                  "TOTAL()",
-                  "PLUS()"
+                  "Editing high-resolution videos",
+                  "Creating animated graphics",
+                  "Organizing numbers and data",
+                  "Writing long text documents"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Excel is essentially a giant digital calculator and filing cabinet for numbers and data."
       },
       {
-            "text": "How do you select an entire column in Excel?",
+            "text": "As of September 2019, approximately how many active users did Office 365 have?",
             "options": [
-                  "Click the column letter",
-                  "Click the row number",
-                  "Ctrl + A",
-                  "Shift + Space"
+                  "1 Million",
+                  "50 Million",
+                  "100 Million",
+                  "Over 200 Million (20 Crore)"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: It is used globally! 200 million is a massive number reflecting its worldwide dominance in offices."
       },
       {
-            "text": "Which feature allows you to automatically fill a series of data?",
+            "text": "Which formula is highlighted in the course syllabus for making logical decisions?",
             "options": [
-                  "AutoFill",
-                  "AutoSum",
-                  "AutoFormat",
-                  "AutoCorrect"
+                  "SUM",
+                  "IF",
+                  "VLOOKUP",
+                  "AVERAGE"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: \"IF\" this happens, then do that. It is the universal word for logic and conditions."
       },
       {
-            "text": "What is the default file extension for an Excel workbook?",
+            "text": "What Excel tool is specifically designed to visually summarize massive amounts of data?",
             "options": [
-                  ".docx",
-                  ".pptx",
-                  ".xlsx",
-                  ".txt"
+                  "WordArt",
+                  "Pivot Chart",
+                  "Spell Check",
+                  "Format Painter"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A \"Pivot\" lets you turn and look at data from different visual angles easily."
       },
       {
-            "text": "Which function finds the highest value in a range?",
+            "text": "Which of the following is NOT a tool included in the Microsoft Office suite?",
             "options": [
-                  "HIGH()",
-                  "MAX()",
-                  "TOP()",
-                  "PEAK()"
+                  "PowerPoint",
+                  "Photoshop",
+                  "Outlook",
+                  "Excel"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Photoshop is purely for editing photos and belongs to a different company called Adobe."
       },
       {
-            "text": "How do you freeze the top row so it stays visible when scrolling?",
+            "text": "Which Microsoft application is widely used for professional presentations?",
             "options": [
-                  "View > Freeze Panes > Freeze Top Row",
-                  "Home > Freeze",
-                  "Insert > Freeze",
-                  "Data > Freeze"
+                  "Teams",
+                  "Word",
+                  "PowerPoint",
+                  "Skype"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: You use it to make a strong \"Point\" using \"Power\"ful slides!"
       },
       {
-            "text": "What does the VLOOKUP function do?",
+            "text": "What feature allows you to change the visual look of a cell automatically based on its value?",
             "options": [
-                  "Looks up a value vertically",
-                  "Looks up a value horizontally",
-                  "Calculates variance",
-                  "Validates data"
+                  "Page Layout",
+                  "Conditional Formatting",
+                  "Data Entry",
+                  "Timelines"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It formats the cell's color only when a specific \"condition\" (like a number being too low) is met."
       },
       {
-            "text": "Which chart type is best for showing parts of a whole?",
+            "text": "According to the video, which group of people can benefit from learning MS Excel?",
             "options": [
-                  "Line Chart",
-                  "Bar Chart",
-                  "Pie Chart",
-                  "Scatter Plot"
+                  "Only IT professionals",
+                  "Only corporate accountants",
+                  "Students, teachers, and business owners",
+                  "Only marketing executives"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Everyone deals with data, from student grades to daily business sales, making Excel a universal tool."
       },
       {
-            "text": "How can you quickly format a range of cells as a table?",
+            "text": "Which Microsoft application is known for business communication and team collaboration?",
             "options": [
-                  "Ctrl + T",
-                  "Ctrl + F",
-                  "Ctrl + B",
-                  "Ctrl + P"
+                  "OneDrive",
+                  "Forms",
+                  "Teams",
+                  "Access"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The name says it all! It is built specifically for \"Teams\" of people to chat and work together."
       },
       {
-            "text": "What is the shortcut to save a workbook?",
+            "text": "On what exact date was Microsoft Office announced in 1988?",
             "options": [
-                  "Ctrl + S",
-                  "Ctrl + C",
-                  "Ctrl + V",
-                  "Ctrl + Z"
+                  "January 1",
+                  "August 1",
+                  "October 31",
+                  "December 25"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: 8/1/88. A date full of 1s and 8s for a historic announcement."
       },
       {
-            "text": "Which tab contains the option to sort and filter data?",
+            "text": "What is Microsoft's primary cloud storage service called?",
             "options": [
-                  "Home",
-                  "Insert",
+                  "iCloud",
+                  "Google Drive",
+                  "Dropbox",
+                  "OneDrive"
+            ],
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: It is the \"One\" place (Drive) where you can store and access all your files from the cloud."
+      },
+      {
+            "text": "What is the overarching category for Microsoft Corporation?",
+            "options": [
+                  "American Multinational Technology Company",
+                  "European Hardware Manufacturer",
+                  "Asian Retail Enterprise",
+                  "Global Shipping Conglomerate"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: It was founded in America and operates globally (multinational) selling technology."
+      },
+      {
+            "text": "What is the basic building block of an Excel worksheet where a row and column meet?",
+            "options": [
+                  "A grid",
+                  "A cell",
+                  "A table",
+                  "A pivot"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Just like microscopic biological cells build a body, grid \"cells\" build an entire Excel sheet."
+      },
+      {
+            "text": "Which feature is highly recommended for managing and sorting structured data easily?",
+            "options": [
+                  "Tables",
+                  "Fonts",
+                  "Colors",
+                  "Margins"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: A Table cleanly boxes your data, giving you instant sorting and filtering arrows at the top."
+      },
+      {
+            "text": "If you want to prepare your document to look perfect on a physical piece of paper, which tab would you use?",
+            "options": [
+                  "Formulas",
+                  "Page Layout",
                   "Data",
                   "Review"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: You adjust the \"Layout\" of the \"Page\" before you print it out."
       },
       {
-            "text": "What does the COUNT function do?",
+            "text": "What is the fundamental process of manually putting information into Excel called?",
             "options": [
-                  "Counts all cells",
-                  "Counts cells with numbers",
-                  "Counts empty cells",
-                  "Counts text cells"
+                  "Data Mining",
+                  "Data Scraping",
+                  "Data Entry",
+                  "Data Deletion"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: You are literally \"entering\" the \"data\" manually through your keyboard."
       },
       {
-            "text": "How do you merge multiple cells into one?",
+            "text": "Which email service is part of the Microsoft Office ecosystem?",
             "options": [
-                  "Home > Merge & Center",
-                  "Insert > Merge",
-                  "Data > Merge",
-                  "View > Merge"
+                  "Gmail",
+                  "Yahoo Mail",
+                  "ProtonMail",
+                  "Outlook"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: You \"look out\" for new emails using Microsoft Outlook."
       },
       {
-            "text": "Which function returns the current date and time?",
+            "text": "What is a key advantage of using mathematical formulas in Excel?",
             "options": [
-                  "TODAY()",
-                  "NOW()",
-                  "CURRENT()",
-                  "DATE()"
+                  "They draw pictures for you",
+                  "They automate complex calculations instantly",
+                  "They translate languages",
+                  "They write emails to clients"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Instead of manually adding 1000 numbers on a calculator, a formula does it in one millisecond."
       },
       {
-            "text": "What is a PivotTable used for?",
+            "text": "Why is Excel highly valued in the corporate world?",
             "options": [
-                  "Creating charts",
-                  "Summarizing and analyzing large amounts of data",
-                  "Formatting cells",
-                  "Printing documents"
+                  "It plays background music in the office",
+                  "It increases productivity and saves massive amounts of time",
+                  "It replaces the need for a web browser",
+                  "It manages social media accounts automatically"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Time is money in business, and Excel automates hours of manual work into seconds."
       },
       {
-            "text": "How can you apply conditional formatting?",
+            "text": "Which tool in the Excel syllabus is best used for filtering dates visually?",
             "options": [
-                  "Home > Conditional Formatting",
-                  "Insert > Formatting",
-                  "Data > Conditions",
-                  "View > Format"
+                  "Timeline",
+                  "Calendar Maker",
+                  "Date Tracker",
+                  "Time Keeper"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: A timeline is literally a visual line of time (dates) you can slide through."
       },
       {
-            "text": "Which shortcut is used to copy a cell?",
+            "text": "How does MS Excel assist specifically in Business Analysis?",
             "options": [
-                  "Ctrl + X",
-                  "Ctrl + C",
-                  "Ctrl + V",
-                  "Ctrl + Z"
+                  "By writing marketing copy",
+                  "By organizing and analyzing complex numerical data",
+                  "By tracking employee locations via GPS",
+                  "By designing business logos"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Business analysis requires crunching numbers to find trends, which is Excel's exact superpower."
       },
       {
-            "text": "What does the IF function do?",
+            "text": "What is required to successfully implement an IF formula in Excel?",
             "options": [
-                  "Checks a condition and returns one value if true, another if false",
-                  "Finds errors",
-                  "Inserts a formula",
-                  "Iterates through cells"
+                  "A creative color scheme",
+                  "A logical condition to test",
+                  "A fast internet connection",
+                  "A 3D printer"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "How do you insert a new row?",
-            "options": [
-                  "Right-click row number > Insert",
-                  "Home > New Row",
-                  "Insert > Row",
-                  "Data > Add Row"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Which symbol is used for absolute cell references?",
-            "options": [
-                  "#",
-                  "@",
-                  "$",
-                  "%"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "What is the purpose of the \"Wrap Text\" feature?",
-            "options": [
-                  "Makes text bold",
-                  "Fits long text into multiple lines within a cell",
-                  "Changes text color",
-                  "Aligns text to the right"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "How can you protect a worksheet with a password?",
-            "options": [
-                  "Review > Protect Sheet",
-                  "Home > Protect",
-                  "Insert > Password",
-                  "Data > Secure"
-            ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: You need to ask a question (a logical test) like \"Is A greater than B?\" to get a Yes/No answer."
       }
-] }
+    ] }
   },
   {
     id: 'tech3', title: 'Python Programming (Full Course)', category: 'Technology',
