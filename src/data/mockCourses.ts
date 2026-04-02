@@ -6626,262 +6626,232 @@ export const MOCK_COURSES = [
   {
     id: 'tech7', title: 'Advanced MS Excel for Small Businesses', category: 'Technology',
     description: 'Take your Excel skills to the next level with formulas, pivot tables, and data analysis for business.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/excel,business?lock=134',
+    thumbnailUrl: 'https://d2ds8yldqp7gxv.cloudfront.net/Blog+Images/1303.webp',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Introduction to Formulas', videoUrl: 'https://www.youtube.com/embed/HxjwTXlKpzU', duration: '1:30:00' }],
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Advanced Data Management', videoUrl: 'https://www.youtube.com/embed/WCuqPcvmLPo', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Advanced MS Excel for Small Businesses\"?",
+            "text": "According to the video, approximately what proportion of small businesses in the USA use Microsoft Excel to manage their data?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "One out of ten",
+                  "Half of all businesses",
+                  "Two out of three",
+                  "Nine out of ten"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Excel is the absolute backbone of small businesses—a massive 2/3 (over 66%) rely on it daily!"
       },
       {
-            "text": "In the context of Technology, why is this topic important?",
+            "text": "What is the keyboard shortcut used to instantly turn a selected range of data into a structured Table?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Ctrl + S",
+                  "Ctrl + T",
+                  "Ctrl + P",
+                  "Ctrl + Shift + L"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: 'T' stands for Table! It is the fastest way to organize raw data."
       },
       {
-            "text": "Which tool or method is most commonly associated with Advanced MS Excel for Small Businesses?",
+            "text": "When Monica wanted to restrict Joy to only answering \"Yes\" or \"No\" in her cookie checklist, which Excel feature did she use?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Pivot Tables",
+                  "Macros",
+                  "Data Validation",
+                  "Conditional Formatting"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: You are \"Validating\" the data to ensure only the right specific answers are allowed in the cell."
       },
       {
-            "text": "Question 4 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "text": "What happens automatically when you add a new column directly next to an existing Excel Table?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "The file is deleted",
+                  "Excel throws an error message",
+                  "Excel automatically extends the table formatting to include the new column",
+                  "The column turns black"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Tables are dynamic! They instantly grow and stretch to include new data you type next to them."
       },
       {
-            "text": "Question 5 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "text": "In newer versions of Excel (Office 365 beta), where can you find the new visual \"Checkbox\" feature?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "The Data ribbon",
+                  "The Insert ribbon",
+                  "The Formulas ribbon",
+                  "The View ribbon"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: You want to put a brand new visual element into your cell, so you \"Insert\" it."
       },
       {
-            "text": "Question 6 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "text": "If you want to create a professional invoice without designing it from scratch, what should you do?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Go to File > New and search for a template",
+                  "Write a complex VBA script",
+                  "Draw the invoice using the Shapes tool",
+                  "Use a Pivot Table"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Templates do 90% of the heavy lifting. Why reinvent the wheel when Microsoft gives it to you for free?"
       },
       {
-            "text": "Question 7 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "text": "How can you save your customized invoice so you can easily reuse the layout later without overwriting it?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Save it as a PDF",
+                  "Save it as an Excel Template file",
+                  "Save it as a JPEG image",
+                  "Save it to your desktop as a standard workbook"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Saving as a .xltx (Template) creates a master copy that you can open over and over without destroying the original."
       },
       {
-            "text": "Question 8 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "text": "Where will your custom saved Excel templates appear the next time you want to use them?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "In the \"Deleted Items\" folder",
+                  "Under File > New, in the \"Personal\" tab",
+                  "Under the Insert tab",
+                  "On your computer's desktop"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Microsoft keeps its own templates in the 'Office' tab, but your customized ones go to your 'Personal' tab."
       },
       {
-            "text": "Question 9 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "text": "What is the keyboard shortcut to quickly apply Filters to your data headers?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Ctrl + T",
+                  "Ctrl + C",
+                  "Ctrl + Shift + L",
+                  "Alt + F4"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: 'L' stands for List! It turns your headers into a filterable List instantly."
       },
       {
-            "text": "Question 10 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "text": "Bob the Builder wanted to see bookings specifically for the \"next quarter\". Which feature makes this easy?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "WordArt",
+                  "Date Filters on a date column",
+                  "VLOOKUP formula",
+                  "Page Layout"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Excel is smart enough to understand time. Date Filters let you easily pick \"next week\", \"last month\", or \"next quarter\"."
       },
       {
-            "text": "Question 11 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "text": "Which simple formula should you use to count all the items (both text and numbers) in a specific column, like total total bookings?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "=SUM()",
+                  "=COUNTA()",
+                  "=AVERAGE()",
+                  "=MAX()"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Standard =COUNT() only counts numbers. =COUNTA() counts \"All\" non-empty cells, including text."
       },
       {
-            "text": "Question 12 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "text": "If you only want to count bookings that have the status \"Booked\" (ignoring \"Cancelled\" ones), which formula is best?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "=COUNT()",
+                  "=SUM()",
+                  "=COUNTIFS()",
+                  "=VLOOKUP()"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The \"IFS\" adds conditions. Count it IF the status says \"Booked\"."
       },
       {
-            "text": "Question 13 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "text": "What is the primary purpose of a Pivot Table in Excel?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "To create a blank checklist",
+                  "To quickly summarize and analyze large amounts of data without writing formulas",
+                  "To download new fonts",
+                  "To change the color of your spreadsheet"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: You \"pivot\" or turn the data around to instantly see summaries and reports without typing a single complex formula."
       },
       {
-            "text": "Question 14 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "text": "In Dwight's gym example, where did he drag the \"Members\" field to list their names down the left side of the Pivot Table?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "The Values area",
+                  "The Columns area",
+                  "The Rows area",
+                  "The Filters area"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Rows go top to bottom. Dragging a name to 'Rows' lists everyone neatly down the left-hand side."
       },
       {
-            "text": "Question 15 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "text": "When Dwight first dragged the \"Weight\" field into the Values area of the Pivot Table, what math did Excel automatically do by default?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "It Averaged the weights",
+                  "It Summed (added) all the weights together",
+                  "It Multiplied the weights",
+                  "It Counted the number of weigh-ins"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Excel is a calculator first! Its default behavior for any number in the Values box is to Sum (add) it all up."
       },
       {
-            "text": "Question 16 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "text": "How did Dwight change the Pivot Table to show the average weight instead of the sum of the weights?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "He wrote an =AVERAGE() formula next to the table",
+                  "He right-clicked the numbers and changed the summary option from Sum to Average",
+                  "He restarted Excel",
+                  "He deleted the data and typed it manually"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Right-click is your best friend in Pivot Tables! It gives you instant access to change how the data is summarized."
       },
       {
-            "text": "Question 17 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "text": "What is a key benefit of putting data into an Excel \"Table\" before adding new rows of information at the bottom?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "The file size becomes zero",
+                  "Data validation rules (like yes/no dropdowns) automatically extend to the new row",
+                  "The computer runs faster",
+                  "It converts the data to a Word document"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Tables save you time! Any rule, color, or formula you applied to the top rows automatically copies down to new ones."
       },
       {
-            "text": "Question 18 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "text": "What employee management app sponsored the video?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Slack",
+                  "Microsoft Teams",
+                  "Connecteam",
+                  "Zoom"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The app is designed to 'Connect' your 'Team'."
       },
       {
-            "text": "Question 19 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "text": "When using the Data Validation list feature, what punctuation mark should you use to separate options (e.g., separating \"Yes\" and \"No\")?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "A period (.)",
+                  "A hyphen (-)",
+                  "A comma (,)",
+                  "A slash (/)"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: A comma is the universal separator in Excel formulas and lists."
       },
       {
-            "text": "Question 20 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
+            "text": "When formatting numbers in a Pivot Table, how did Dwight make the average weights look cleaner?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "He changed the font to Wingdings",
+                  "He right-clicked, chose Number Format, and restricted it to one decimal point",
+                  "He deleted the decimal points completely using the backspace key",
+                  "He highlighted them in bright yellow"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Advanced MS Excel for Small Businesses: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: 'Number Format' changes how clean the number looks (like rounding decimals) without deleting the real underlying data."
       }
-] }
+    ] }
   },
   {
     id: 'tech8', title: 'Web Development Basics (HTML & CSS)', category: 'Technology',
