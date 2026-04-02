@@ -5828,262 +5828,230 @@ export const MOCK_COURSES = [
   {
     id: 'tech4', title: 'Internet Basics & Online Safety', category: 'Technology',
     description: 'Learn how to browse the web safely, use search engines, and protect your personal information online.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/internet,security?lock=131',
+    thumbnailUrl: 'https://i.ytimg.com/vi/qtJNRxMRuPE/maxresdefault.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Browsing Safely', videoUrl: 'https://www.youtube.com/embed/2MCmnr2L50o', duration: '1:30:00' }],
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Web Browsing and Safety', videoUrl: 'https://www.youtube.com/embed/SIl6HflZ0uI', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Internet Basics & Online Safety\"?",
+            "text": "What is the primary purpose of HTTPS on a website?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "To make the website load faster",
+                  "To encrypt the connection and prevent others from reading the data",
+                  "To block all pop-up advertisements",
+                  "To scan the user's computer for viruses"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The 'S' in HTTPS stands for Secure. It scrambles (encrypts) your data so hackers can't read it."
       },
       {
-            "text": "In the context of Technology, why is this topic important?",
+            "text": "Where should you look in your browser to quickly check if a site is using HTTPS and has a valid certificate?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "The bottom right corner of the screen",
+                  "The bookmark bar",
+                  "The lock icon next to the URL address bar",
+                  "The history menu"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Look for the padlock! A closed lock icon means your connection is locked and secure."
       },
       {
-            "text": "Which tool or method is most commonly associated with Internet Basics & Online Safety?",
+            "text": "What does it mean if a website uses HTTP without the \"S\"?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "It is perfectly safe for banking",
+                  "Communications are sent like an open postcard and can be intercepted",
+                  "The website is hosted by the government",
+                  "The website is currently updating"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Without the 'S', there is no envelope. Anyone on the network can read your data like an open postcard."
       },
       {
-            "text": "Question 4 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "text": "Why do cybercriminals purchase domains that look very similar to popular websites?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "To help the popular websites handle excess traffic",
+                  "To trick users into visiting their fake site instead of the official one",
+                  "To legally buy out the competition",
+                  "To practice their web design skills"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Typosquatting relies on you typing fast and missing a letter, landing you straight into their trap."
       },
       {
-            "text": "Question 5 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "text": "If you receive an email from your bank asking you to click a link to update your password, what is the safest action to take?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Click the link and enter your details immediately",
+                  "Forward the email to your friends to see if they got it too",
+                  "Ignore the link, open a browser, and search for the official bank site yourself",
+                  "Reply to the email asking if it is real"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Never trust the messenger! Always verify by going directly to the source yourself."
       },
       {
-            "text": "Question 6 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "text": "Look at this URL: https://paypal.com.secure-login.com. Who actually owns this domain?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "paypal.com",
+                  "https://www.google.com/search?q=secure-login.com",
+                  "The government",
+                  "Google"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: In web addresses, the true owner is always the last word right before the .com or .org. Here, it is secure-login.com, not Paypal!"
       },
       {
-            "text": "Question 7 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "text": "Which two psychological tactics are most commonly used in social engineering attacks?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Sadness and anger",
+                  "Urgency and reward",
+                  "Boredom and curiosity",
+                  "Confusion and logic"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Scammers manipulate you by making you panic (Urgency: \"Your account is blocked!\") or get greedy (Reward: \"You won an iPhone!\")."
       },
       {
-            "text": "Question 8 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "text": "Which scenario is a classic example of a social engineering \"reward\" tactic?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "A message claiming your account will be deleted in 24 hours",
+                  "An email stating a long-lost relative won the lottery on your behalf",
+                  "A notification that your computer needs a routine update",
+                  "A receipt for a coffee you just bought"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Free money is the ultimate fake reward used to blind people's judgment."
       },
       {
-            "text": "Question 9 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "text": "When downloading a new piece of software, where is the safest place to get it?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "A third-party mass download site",
+                  "A peer-to-peer torrent network",
+                  "The software creator's official website",
+                  "A link found in a YouTube comment section"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Go straight to the chef, not the middleman. Official sites don't bundle viruses with their own software."
       },
       {
-            "text": "Question 10 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "text": "What is a common risk of downloading software from mass download sites rather than the official source?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "The download will be too fast",
+                  "It may be secretly packaged with adware, malware, or spyware",
+                  "The software will automatically delete your hard drive",
+                  "You will have to pay double the price"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Free download sites make money by hiding junk programs (adware/malware) inside your download."
       },
       {
-            "text": "Question 11 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "text": "Why does the video suggest avoiding online banking on a shared family computer?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Family computers are usually too slow for banking sites",
+                  "Banks do not allow multiple accounts on one IP address",
+                  "Free games and apps downloaded by kids often contain targeted malware",
+                  "The keyboard will get sticky"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Kids click anything. Their free games often bring in malware that can steal your banking passwords."
       },
       {
-            "text": "Question 12 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "text": "If you must share a PC with children who download games, what is recommended as a safer alternative for your online banking?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Do your online banking on the shared PC, but only late at night",
+                  "Do your online banking using your smartphone instead",
+                  "Print out your bank statements at the library",
+                  "Only use ATMs"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Smartphones have stricter app stores and sandboxing, making them generally harder to infect than a shared Windows PC."
       },
       {
-            "text": "Question 13 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "text": "Why is it crucial to keep your browser and operating system up to date?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Updates provide essential security patches to keep you safe from new threats",
+                  "Updates change the color scheme of your computer",
+                  "Older versions of browsers are illegal to use",
+                  "Updates automatically pay your bills"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Software updates are like vaccines for your computer—they protect it against newly discovered viruses."
       },
       {
-            "text": "Question 14 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "text": "If a website gives a warning that its security certificate is NOT valid, what should you do?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Click \"Proceed anyway\" and enter your credit card info",
+                  "Assume the website is just undergoing maintenance and log in",
+                  "Be highly cautious and avoid sharing any sensitive information",
+                  "Refresh the page until the warning goes away"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: If the browser acts like an alarm, don't ignore it. Never type passwords on an invalid certificate page."
       },
       {
-            "text": "Question 15 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "text": "What feature allows modern web browsers to keep you safe without you having to click anything?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Silent updates in the background",
+                  "Automatic password sharing",
+                  "Predictive text algorithms",
+                  "Ad blockers"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Modern browsers (like Chrome) update themselves silently while you sleep, constantly patching security holes."
       },
       {
-            "text": "Question 16 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "text": "Which of the following is a technique used by cybercriminals to make a bad link look legitimate?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Using all capital letters",
+                  "Using subdomains (e.g., placing the real brand name at the beginning of a fake URL)",
+                  "Making the link text very large",
+                  "Sending the link through the postal service"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: People read left-to-right. Scammers put the trusted name first (e.g., netflix.scam-site.com) to fool your eyes."
       },
       {
-            "text": "Question 17 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "text": "If you are visiting a brand-new online store for the first time, what should you do to check its legitimacy?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Buy a small item to see if it arrives",
+                  "Look up the site on review platforms like Trustpilot",
+                  "Ask the website's customer service bot if they are real",
+                  "Assume it is safe if they accept credit cards"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Trust the crowd. If an online store is a scam, angry customers will have likely already reported it on Trustpilot."
       },
       {
-            "text": "Question 18 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "text": "How difficult and expensive is it for a cybercriminal to register a fake, similar-looking domain name (like tcmsec.com)?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "It is illegal and impossible to do",
+                  "It requires a government license",
+                  "It costs thousands of dollars",
+                  "It is extremely easy and very cheap (sometimes even free for the first year)"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Anyone with a few dollars and 5 minutes can buy a domain. There are no background checks."
       },
       {
-            "text": "Question 19 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "text": "True or False: If a website has HTTPS, it is 100% guaranteed that the website is not run by a scammer.",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "True, hackers cannot get HTTPS certificates.",
+                  "False, scammers can use HTTPS on their fake websites too; it only means the connection is encrypted."
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: HTTPS just means the pipe is secure, but a scammer could easily be standing on the other end of that pipe!"
       },
       {
-            "text": "Question 20 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
+            "text": "What is the overarching rule when dealing with unsolicited links sent to your email or social media?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Always click them to see what they are",
+                  "Forward them to a cybersecurity expert",
+                  "Trust them if they come from a friend's compromised account",
+                  "Don't click them; navigate directly to the site yourself"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Internet Basics & Online Safety: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: If you didn't ask for it, don't click it! Navigate manually."
       }
-] }
+    ] }
   },
   {
     id: 'tech5', title: 'Digital Payment & Banking Basics', category: 'Technology',
