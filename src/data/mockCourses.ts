@@ -10724,1301 +10724,820 @@ export const MOCK_COURSES = [
   {
     id: 'hlt6', title: 'Managing Common Fevers', category: 'Health',
     description: 'Learn how to identify symptoms of Malaria, Dengue, and Typhoid, and when to seek a doctor.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/fever,health?lock=152',
+    thumbnailUrl: 'https://www.hcghospitals.in/wp-content/uploads/2025/03/Common-Causes-of-Fever-Pyrexia.png',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Preventing Mosquito Bites', videoUrl: 'https://www.youtube.com/embed/LXb3EKWsInQ', duration: '1:30:00' }],
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Identifying Fevers', videoUrl: 'https://www.youtube.com/embed/YHgNWJgmDI0', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Managing Common Fevers\"?",
+            "text": "What is the primary cause of Typhoid fever?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "A viral infection",
+                  "Salmonella Typhi bacteria",
+                  "Fungal spores",
+                  "A mosquito bite"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The name 'Typhoid' comes directly from the bacteria that causes it: Salmonella 'Typhi'."
       },
       {
-            "text": "In the context of Health, why is this topic important?",
+            "text": "How does Typhoid fever typically spread from person to person?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Through contaminated food and drinking water",
+                  "Through the air when an infected person coughs",
+                  "Through direct skin-to-skin contact",
+                  "Through sharing clothes"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Typhoid is a waterborne and foodborne disease. Bad sanitation allows the bacteria to enter what we consume."
       },
       {
-            "text": "Which tool or method is most commonly associated with Managing Common Fevers?",
+            "text": "Which of the following is a classic early symptom of Typhoid fever?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Sudden hair loss",
+                  "A persistent, high fever that increases gradually",
+                  "Complete loss of hearing",
+                  "Sharp chest pains"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Unlike a sudden flu, Typhoid fever \"steps up\" slowly over a few days until it becomes dangerously high."
       },
       {
-            "text": "Question 4 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "text": "What gastrointestinal symptoms are most commonly associated with Typhoid?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Heartburn and acid reflux",
+                  "Stomach pain, along with diarrhea or constipation",
+                  "Extreme hunger and weight gain",
+                  "Swollen gums"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Because you eat or drink the bacteria, it attacks your digestive system (stomach and intestines) first."
       },
       {
-            "text": "Question 5 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "text": "Which of the following is a common medical test used to diagnose Typhoid fever?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Widal test or Blood Culture test",
+                  "ECG (Electrocardiogram)",
+                  "Lipid profile test",
+                  "Vitamin B12 test"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Doctors \"Culture\" your blood to literally see if the Salmonella Typhi bacteria grows in the lab."
       },
       {
-            "text": "Question 6 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "text": "What skin manifestation is sometimes seen in patients suffering from Typhoid fever?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Severe acne on the face",
+                  "Rose-colored spots on the neck and abdomen",
+                  "Large purple bruises on the legs",
+                  "Dry, peeling skin on the hands"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A classic (though not always present) sign is a faint pink/rose rash on the belly and chest."
       },
       {
-            "text": "Question 7 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "text": "What is the standard medical treatment for a confirmed case of Typhoid fever?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Over-the-counter allergy medicine",
+                  "Strict bed rest with no medication",
+                  "A prescribed course of antibiotics",
+                  "Physical therapy"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Since it is caused by a \"bacteria\", the only way to kill it is with \"antibiotics\"."
       },
       {
-            "text": "Question 8 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "text": "Which of the following is a key preventive measure against Typhoid fever?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Eating raw, unwashed vegetables",
+                  "Drinking tap water from unknown sources",
+                  "Maintaining proper hand hygiene and drinking boiled or purified water",
+                  "Avoiding all sunlight"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Boil it, cook it, peel it, or forget it! Clean water and clean hands stop the bacteria from entering your mouth."
       },
       {
-            "text": "Question 9 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "text": "If left untreated, which part of the body can suffer severe complications, such as bleeding or perforation, due to Typhoid?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "The lungs",
+                  "The intestines",
+                  "The brain",
+                  "The eyes"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The bacteria multiply in your gut. Over time, they can eat holes (perforations) straight through your intestines."
       },
       {
-            "text": "Question 10 regarding Managing Common Fevers: Which of the following is a key concept?",
+            "text": "Is there a vaccine available to help prevent Typhoid fever?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "No, a vaccine has not been invented yet",
+                  "Yes, vaccines are available and recommended for people traveling to high-risk areas",
+                  "Yes, but the vaccine is only effective for infants",
+                  "No, the disease can only be prevented by taking antibiotics daily"
             ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 11 regarding Managing Common Fevers: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 12 regarding Managing Common Fevers: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 13 regarding Managing Common Fevers: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 14 regarding Managing Common Fevers: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 15 regarding Managing Common Fevers: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Managing Common Fevers: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Managing Common Fevers: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Managing Common Fevers: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Managing Common Fevers: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Managing Common Fevers: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Managing Common Fevers: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Managing Common Fevers: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Managing Common Fevers: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Managing Common Fevers: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Managing Common Fevers: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Yes, tourists traveling to developing nations often get a Typhoid shot to stay safe from local water."
       }
-] }
+    ] }
   },
   {
     id: 'hlt7', title: 'Traditional Herbal Remedies', category: 'Health',
     description: 'A deep dive into preparing decoctions and pastes from local herbs for minor ailments.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/herbal,medicine?lock=153',
+    thumbnailUrl: 'https://images.theconversation.com/files/276758/original/file-20190528-42588-uc0t6z.jpg?ixlib=rb-4.1.0&rect=0%2C353%2C5615%2C2808&q=45&auto=format&w=1356&h=668&fit=crop',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Making a Turmeric Paste', videoUrl: 'https://www.youtube.com/embed/ea1ndCWZEDo', duration: '1:30:00' }],
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Local Healing Herbs', videoUrl: 'https://www.youtube.com/embed/iha21PvpeNs', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Traditional Herbal Remedies\"?",
+            "text": "For approximately how many years have humans been using plants to make medicines?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "10,000 years",
+                  "30,000 years",
+                  "60,000 years",
+                  "100,000 years"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Archaeological evidence shows our ancestors have relied on nature's pharmacy for 60 millennia!"
       },
       {
-            "text": "In the context of Health, why is this topic important?",
+            "text": "Which of the following herbs is a perennial plant with aromatic leaves that grows well in moist soil and climate?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Turmeric",
+                  "Aloe Vera",
+                  "Neem",
+                  "Mint"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Mint loves water! It grows rapidly in damp soil and releases a fresh, strong aroma when crushed."
       },
       {
-            "text": "Which tool or method is most commonly associated with Traditional Herbal Remedies?",
+            "text": "What is the primary medicinal use of mint as mentioned in the video?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Treating cold and cough",
+                  "Treating stomach ache",
+                  "Improving immunity",
+                  "Healing physical wounds"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Mint (like peppermint tea) relaxes the digestive tract muscles and soothes an upset tummy."
       },
       {
-            "text": "Question 4 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "text": "What is the ideal temperature range for turmeric to grow well?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "0 to 10 degree Celsius",
+                  "10 to 20 degree Celsius",
+                  "20 to 30 degree Celsius",
+                  "30 to 40 degree Celsius"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Turmeric is a tropical plant that loves warm, comfortable weather (20-30°C), not freezing or boiling."
       },
       {
-            "text": "Question 5 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "text": "Which part of the turmeric plant is boiled, dried, and extensively used in Indian cuisine and Ayurveda?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Leaves",
+                  "Flowers",
+                  "Rhizome (underground stem)",
+                  "Seeds"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: It looks like ginger! The thick, orange root hidden underground (the rhizome) is what we grind into powder."
       },
       {
-            "text": "Question 6 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "text": "Which plant is known as a short-stem plant that grows well in tropical and arid climates and is widely used for making skin creams, laxatives, and moisturizers?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Fenugreek",
+                  "Basil",
+                  "Aloe Vera",
+                  "Neem"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Aloe Vera stores water in its thick, spiky leaves, making it perfect for dry climates and hydrating human skin."
       },
       {
-            "text": "Question 7 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "text": "Which herb is sometimes referred to as the \"King of the Herbs\" and is considered sacred by Hindus?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Turmeric",
+                  "Mint",
+                  "Fenugreek",
+                  "Basil (Tulsi)"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Tulsi (Holy Basil) is worshipped in Indian courtyards and revered for its massive healing properties."
       },
       {
-            "text": "Question 8 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "text": "Apart from being used as a remedy to treat colds and coughs, what was Basil historically used to make?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Royal perfumes",
+                  "Moisturizing lotions",
+                  "Natural insecticides",
+                  "Fabric dyes"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The name Basil comes from a Greek word meaning 'royal'. Its sweet, strong scent made it perfect for ancient perfumes."
       },
       {
-            "text": "Question 9 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "text": "Neem, which has antibacterial and antifungal properties, is also commonly known by what name?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Indian Lily",
+                  "Indian Lilac",
+                  "Bitter Basil",
+                  "Tropical Mint"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Because of its cluster of small, pale flowers, the British commonly called Neem the \"Indian Lilac\"."
       },
       {
-            "text": "Question 10 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
+            "text": "Which plant's bitter seeds are used in cooking, help with digestion, and reduce the risk of heart diseases and diabetes?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Fenugreek (Methi)",
+                  "Neem",
+                  "Turmeric",
+                  "Aloe Vera"
             ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 11 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 12 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 13 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 14 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 15 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Traditional Herbal Remedies: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Methi (Fenugreek) seeds are tiny, yellow, and bitter, but they work wonders for balancing blood sugar."
       }
-] }
+    ] }
   },
   {
     id: 'hlt8', title: 'Mental Health in Communities', category: 'Health',
     description: 'Understanding stress, anxiety, and the importance of community support for mental well-being.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/mentalhealth,community?lock=154',
+    thumbnailUrl: 'https://mhcsandiego.com/wp-content/uploads/2024/12/MHC-Dec-2024-5-1024x538.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Talking About Feelings', videoUrl: 'https://www.youtube.com/embed/3QIfkeA6HBY', duration: '1:30:00' }],
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Stress and Anxiety', videoUrl: 'https://www.youtube.com/embed/tY8NY6CMDFA', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Mental Health in Communities\"?",
+            "text": "According to the video, how does a mentally healthy person feel most of the time?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Scared and worried",
+                  "Calm and relaxed",
+                  "Angry and upset",
+                  "Tired and sleepy"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Mental health brings peace. A healthy mind rests in a baseline state of calm."
       },
       {
-            "text": "In the context of Health, why is this topic important?",
+            "text": "Which of the following describes our physical health?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "How our brain feels and processes thoughts",
+                  "How we deal with difficult emotions",
+                  "How our bodies move and allow us to enjoy activities",
+                  "How we communicate with our friends"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Physical = Body. It is your muscles, bones, and energy to run and play."
       },
       {
-            "text": "Which tool or method is most commonly associated with Mental Health in Communities?",
+            "text": "What signals does the body usually send when it gets physically sick or injured?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Pain or fever",
+                  "Curiosity and happiness",
+                  "Feeling nothing at all",
+                  "Taking deep breaths"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Pain is your body's alarm system. A fever is your body turning up the heat to kill germs."
       },
       {
-            "text": "Question 4 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "text": "What three things make up our mental health?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Our muscles, bones, and skin",
+                  "Our thoughts, emotions, and moods",
+                  "Our diet, sleep, and sports",
+                  "Our parents, teachers, and friends"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Mental health lives inside the brain. It is how you think, how you feel, and your overall mood."
       },
       {
-            "text": "Question 5 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "text": "Which of the following is a sign that your brain is doing well?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "You feel angry all the time",
+                  "You are unable to sleep well",
+                  "You can think clearly, stay curious, and share feelings",
+                  "You cannot concentrate on your chores"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: A healthy brain acts like a sponge—it is curious to learn and clear enough to communicate."
       },
       {
-            "text": "Question 6 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "text": "Is it normal to feel upset, sad, scared, worried, or angry?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "No, a healthy person never feels these emotions",
+                  "Yes, but only if you are physically sick",
+                  "No, you should always hide these feelings",
+                  "Yes, all those feelings are totally fine as long as they don't stay with you for too long"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Emotions are like the weather; storms are normal, as long as they eventually pass."
       },
       {
-            "text": "Question 7 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "text": "What is one helpful way the video suggests to deal with being upset or overwhelmed?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Taking deep breaths and counting to ten",
+                  "Ignoring the problem completely",
+                  "Stopping all communication with friends",
+                  "Running away from home"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Breathing slows your racing heart down, and counting gives your stressed brain something simple to focus on."
       },
       {
-            "text": "Question 8 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "text": "What can happen if unpleasant situations repeat too often?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Your physical health improves",
+                  "You can get stressed and your mental health may be affected",
+                  "You will never feel sad again",
+                  "Your brain stops sending signals"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A rubber band breaks if you pull it too much. Constant bad situations stretch and stress your mental health."
       },
       {
-            "text": "Question 9 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "text": "Which of the following is a clear signal of poor mental health?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Feeling sad for a few minutes after dropping a toy",
+                  "Feeling down or worried for a long time without a clear reason",
+                  "Being happy while walking the dog in bad weather",
+                  "Wanting to read a favorite book"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Sadness with a cause is normal. Long-term sadness *without* a cause is a signal that your brain chemistry needs help."
       },
       {
-            "text": "Question 10 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "text": "Besides feeling worried, what is another sign of poor mental health mentioned in the video?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Getting a fever",
+                  "Not feeling anything at all and not being able to share joy or sorrow",
+                  "Wanting to play sports every day",
+                  "Eating too many vegetables"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Apathy (feeling numb/empty) is often a deeper sign of depression than crying."
       },
       {
-            "text": "Question 11 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "text": "What should you do if you are overwhelmed by unhappy thoughts?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Keep them a secret",
+                  "Talk about it to a trusted adult, like a parent or a kind teacher",
+                  "Wait for them to go away on their own",
+                  "Stop sleeping and eating"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A problem shared is a problem halved. Trusted adults have the tools to help you."
       },
       {
-            "text": "Question 12 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "text": "Why is it so important to know the signs of poor mental health?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Because they are harder to notice than the signals of physical health issues",
+                  "Because they always cause a high fever",
+                  "Because it helps you become better at math",
+                  "Because physical health is not important"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: A broken bone is obvious. A broken spirit is invisible, so you have to know the subtle warning signs."
       },
       {
-            "text": "Question 13 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "text": "According to the video, what might a child with autism prefer to do?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Talk loudly in large crowds all day",
+                  "Spend more time alone in quiet places",
+                  "Avoid math, science, and arts completely",
+                  "Constantly switch activities every two minutes"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Autism often involves sensory overload. Quiet, alone time helps them feel safe and regulated."
       },
       {
-            "text": "Question 14 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "text": "Children with ADHD (Attention Deficit Hyperactivity Disorder) often find it very hard to do what?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Run and play sports",
+                  "Come up with new ideas",
+                  "Stay focused on one thing",
+                  "Take breaks"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: \"Attention Deficit\" literally means their brain struggles to maintain focus on a single boring task."
       },
       {
-            "text": "Question 15 regarding Mental Health in Communities: Which of the following is a key concept?",
+            "text": "What is a common strength of kids with ADHD mentioned in the video?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "They are usually very quiet",
+                  "They are naturally good at sitting still for hours",
+                  "They are usually good at sports and have a lot of ideas",
+                  "They never need to take breaks"
             ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Mental Health in Communities: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Mental Health in Communities: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Mental Health in Communities: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Mental Health in Communities: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Mental Health in Communities: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Mental Health in Communities: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Mental Health in Communities: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Mental Health in Communities: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Mental Health in Communities: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Mental Health in Communities: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Their high energy makes them great athletes, and their fast-moving brains make them incredibly creative."
       }
-] }
+    ] }
   },
   {
     id: 'hlt9', title: 'Snakebite Prevention and Care', category: 'Health',
     description: 'Crucial information on avoiding snakebites and the correct first aid steps if bitten.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/snake,forest?lock=155',
+    thumbnailUrl: 'https://d35xcwcl37xo08.cloudfront.net/current-affairs-wp-uploads/2025/12/Snakebite-Prevention.webp',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Do\'s and Don\'ts of Snakebites', videoUrl: 'https://www.youtube.com/embed/LXb3EKWsInQ', duration: '1:30:00' }],
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'First Aid for Snakebites', videoUrl: 'https://www.youtube.com/embed/lLkw4BXa7pQ', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Snakebite Prevention and Care\"?",
+            "text": "What is the very first step you should take when someone is bitten by a snake?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Try to catch the snake to identify it",
+                  "Make sure the area is safe and the snake has moved on",
+                  "Wash the bite with warm water and soap",
+                  "Give the person pain medication"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Danger first! Never treat a patient if the angry snake is still sitting next to their leg."
       },
       {
-            "text": "In the context of Health, why is this topic important?",
+            "text": "What should you instruct the casualty to do immediately after securing the area and calling an ambulance?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Walk slowly to the nearest road or vehicle",
+                  "Jump up and down to keep their heart rate up",
+                  "Lie down and stay completely still",
+                  "Sit up and take deep breaths"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Lie down and play dead. Zero movement is the key to slowing down the venom."
       },
       {
-            "text": "Which tool or method is most commonly associated with Snakebite Prevention and Care?",
+            "text": "According to the video, how does snake venom primarily travel through the body in Australia?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Through the nervous system",
+                  "Through the digestive tract",
+                  "Through the bloodstream only",
+                  "Through the lymphatic system"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Venom is a heavy fluid. It travels slowly through the lymphatic (fluid drainage) system, not the fast bloodstream."
       },
       {
-            "text": "Question 4 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "text": "Why is it crucial for the casualty to remain as still as possible?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Movement lowers the body temperature too quickly",
+                  "Movement activates the lymphatic system and spreads the venom faster",
+                  "Movement will cause the bite mark to bleed excessively",
+                  "Movement prevents the ambulance from finding them"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The lymphatic system has no heart to pump it; it is pumped by muscle movement. Moving = pumping venom."
       },
       {
-            "text": "Question 5 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "text": "What personal protective equipment (PPE) should you put on before treating the bite?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "A protective apron",
+                  "Safety goggles",
+                  "A face mask",
+                  "Gloves"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: If they have venom or blood on their skin, you need gloves so it doesn't get into a cut on your own hand."
       },
       {
-            "text": "Question 6 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "text": "Where should the first compression bandage be applied?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Around the waist or chest",
+                  "At the base of the foot",
+                  "Directly over the bite site",
+                  "Above the knee joint"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Trap the poison at the source. Bandage directly over the bite mark first."
       },
       {
-            "text": "Question 7 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "text": "What is the ideal width for the compression bandages used for a snake bite?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "2 to 5 centimeters",
+                  "10 to 15 centimeters",
+                  "20 to 25 centimeters",
+                  "30 centimeters or more"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: 10-15 cm is wide enough to cover a large area quickly without cutting off circulation like a thin rope would."
       },
       {
-            "text": "Question 8 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "text": "Should you remove the casualty's clothing before applying the bandage over the bite site?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Yes, always cut the clothes off to see the bite clearly",
+                  "Yes, roll the pants up as high as possible",
+                  "No, leave them on as long as they are movable, as they assist in providing good compression",
+                  "Only if the clothes are made of thick denim"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Don't waste time undressing them. Fabric acts as extra padding to help the bandage compress the lymph vessels."
       },
       {
-            "text": "Question 9 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "text": "Why must you remove the casualty's shoe and socks during treatment?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "To check that you haven't cut off blood circulation to the toes",
+                  "To check for additional snake bites on the feet",
+                  "To cool the casualty down and prevent overheating",
+                  "To make it easier to elevate the foot"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The goal is to stop lymph fluid, not blood. Bare toes let you pinch the skin to ensure blood is still flowing."
       },
       {
-            "text": "Question 10 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "text": "When checking circulation by squeezing the tip of the toe, how quickly should the normal color return?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Within 30 seconds",
+                  "Within 10 seconds",
+                  "Within 5 seconds",
+                  "Within 2 seconds at most"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Capillary refill should be almost instant (under 2 seconds). If it takes longer, the bandage is too tight!"
       },
       {
-            "text": "Question 11 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "text": "What is a special feature of a snakebite-specific bandage mentioned in the video?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "It contains a neutralizing anti-venom powder",
+                  "It changes color if venom is detected on the skin",
+                  "It has a pattern of rectangles that form squares to show when you have the correct tension",
+                  "It sticks to the skin like a large plaster"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: When you pull the bandage tight, the printed rectangles stretch into perfect squares, showing you the tension is correct."
       },
       {
-            "text": "Question 12 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "text": "Where should you start wrapping the second compression bandage to immobilize the limb?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "From the hip moving downwards",
+                  "From the bite site moving upwards",
+                  "From the knee moving downwards",
+                  "From the toes/base of the foot moving upwards"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Start from the very bottom (toes) and squeeze all the fluid upward, wrapping the entire leg."
       },
       {
-            "text": "Question 13 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "text": "How should the bandage loops overlap as you wrap up the leg?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "You should overlap roughly halfway up the previous loop",
+                  "You should leave a gap between each loop",
+                  "You should completely overlap the previous loop three times",
+                  "You should cross them in a figure-eight pattern only"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: A 50% overlap ensures there are no gaps where the skin can bulge out and let venom escape."
       },
       {
-            "text": "Question 14 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "text": "If you don't have a patterned bandage, how tight should a normal compression bandage be?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Loose enough to fit your whole hand underneath",
+                  "Firm enough that you can only just fit a finger underneath",
+                  "As tight as possible so it cuts off all blood flow",
+                  "Loose enough that it slides off easily"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It should feel tight like a sprained ankle wrap. One finger should barely slide under the edge."
       },
       {
-            "text": "Question 15 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "text": "What should you do with the casualty's legs after bandaging the bitten leg?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Splint the legs to each other (or use a splint board) to keep them straight and secure",
+                  "Elevate the bitten leg far above the heart",
+                  "Bend the knees to a 90-degree angle",
+                  "Ask the casualty to slowly stretch their legs"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Use the good leg as a splint for the bad leg. Tie them together so the patient physically cannot bend their knees."
       },
       {
-            "text": "Question 16 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "text": "What information should you write directly on the bandage using a pen?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Your name, phone number, and address",
+                  "The casualty's name and age",
+                  "The location of the bite site, the time of the bite, and the time the bandage was applied",
+                  "A description of the snake's color and size"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Write an X over the bite, the time the snake struck, and the time you locked it down with the bandage."
       },
       {
-            "text": "Question 17 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "text": "Why is marking the bite site and times important for the hospital staff?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "It is a legal requirement for the paramedics",
+                  "It helps them calculate where the venom has likely traveled to and what they should test for",
+                  "It proves that you applied the first aid correctly",
+                  "It helps them identify the exact species of snake"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Doctors cut a hole right over the \"X\" to swab the venom and figure out exactly which anti-venom to use."
       },
       {
-            "text": "Question 18 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "text": "What can you use if you do not have a first aid kit or proper bandages?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Thick mud or clay spread over the leg",
+                  "Thin pieces of string or shoelaces tied tightly",
+                  "Leaves and vines found nearby",
+                  "Ripped up clothing in 10 to 15 centimeter wide strips"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Tear up a t-shirt or towel. Any wide, strong piece of fabric can act as an emergency compression bandage."
       },
       {
-            "text": "Question 19 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "text": "What should you do if the casualty starts to feel cold while waiting for the ambulance?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Apply a blanket to keep them nice and warm",
+                  "Light a fire right next to them",
+                  "Give them a hot cup of coffee or tea",
+                  "Rub their legs and arms vigorously"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Shock makes people freeze. Throw a blanket or jacket over them to preserve their body heat safely."
       },
       {
-            "text": "Question 20 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
+            "text": "What should you do if the casualty starts to feel queasy or like they are going to vomit?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Sit them up completely straight",
+                  "Roll them sideways into the recovery position",
+                  "Give them plenty of water to drink",
+                  "Quickly remove the compression bandage"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Snakebite Prevention and Care: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: If they vomit while on their back, they will choke. Roll them like a log onto their side to keep the airway clear."
       }
-] }
+    ] }
   },
   {
     id: 'hlt10', title: 'Healthy Cooking Practices', category: 'Health',
     description: 'Learn how to cook food in a way that preserves nutrients and prevents foodborne illnesses.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/cooking,healthy?lock=156',
+    thumbnailUrl: 'https://i.ytimg.com/vi/FftqNrjr67Q/maxresdefault.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Washing Vegetables Properly', videoUrl: 'https://www.youtube.com/embed/ea1ndCWZEDo', duration: '1:30:00' }],
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Food Safety and Nutrition', videoUrl: 'https://www.youtube.com/embed/nGKv7l3saK4', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Healthy Cooking Practices\"?",
+            "text": "According to the video, approximately how many people die each year because of contaminated food?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "60,000",
+                  "100,000",
+                  "420,000",
+                  "1 million"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: A shocking 420,000 people die globally every year just from eating unsafe, contaminated food."
       },
       {
-            "text": "In the context of Health, why is this topic important?",
+            "text": "Which of the following is an example of a biological food contaminant?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Lead",
+                  "Bacteria",
+                  "Glass",
+                  "Pesticides"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: 'Biology' means living things. Bacteria are living microscopic organisms that infect food."
       },
       {
-            "text": "Which tool or method is most commonly associated with Healthy Cooking Practices?",
+            "text": "What are prions described as in the video?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Chemical detergents",
+                  "Heavy metals",
+                  "Protein molecules that have the potential to cause severe neurological disease",
+                  "A type of physical contaminant like plastic"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Prions are twisted, rogue proteins (like in Mad Cow Disease) that attack the brain and nervous system."
       },
       {
-            "text": "Question 4 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "text": "Mercury and arsenic are examples of which type of food contaminant?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Biological",
+                  "Physical",
+                  "Chemical",
+                  "Pathogenic"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: These are toxic heavy metals found on the periodic table, making them dangerous 'Chemical' contaminants."
       },
       {
-            "text": "Question 5 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "text": "What is the correct order of the food supply chain as described in the video?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Processing -> Production -> Distribution -> Preparation",
+                  "Production -> Processing -> Distribution -> Preparation",
+                  "Preparation -> Distribution -> Processing -> Production",
+                  "Distribution -> Production -> Processing -> Preparation"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Grow it (Production), clean/box it (Processing), ship it (Distribution), cook it (Preparation)."
       },
       {
-            "text": "Question 6 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "text": "At which stage of the food supply chain can contamination happen?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Only during production",
+                  "Only during processing",
+                  "Only during preparation",
+                  "At any of the steps"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Food is vulnerable everywhere—from dirty water on the farm, to a dirty truck, to a dirty knife in your kitchen."
       },
       {
-            "text": "Question 7 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "text": "The fraudulent practice where inferior, toxic, or physical compounds are intentionally added to food to improve appearance or reduce cost is called:",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Food sanitation",
+                  "Food adulteration",
+                  "Food security",
+                  "Food distribution"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Adulteration means making something impure. Like mixing chalk dust into flour to save money."
       },
       {
-            "text": "Question 8 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "text": "Which of the following is an example of cross-contamination during the preparation stage?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Using the same knife to cut raw meat and to prepare food that won't be cooked",
+                  "Storing food in a warehouse with rats",
+                  "Irrigating fruits with contaminated water",
+                  "A manufacturer adding inferior chemicals to a product"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: \"Cross\" means moving germs from one place to another—like transferring raw chicken bacteria onto a fresh salad."
       },
       {
-            "text": "Question 9 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "text": "Contaminated food can lead to over how many different diseases?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "10",
+                  "50",
+                  "100",
+                  "200"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: There are over 200 distinct diseases (ranging from diarrhea to cancers) caused by bad food."
       },
       {
-            "text": "Question 10 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "text": "Which group is NOT specifically mentioned in the video as being at a higher risk for severe impacts from unsafe food?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Elderly people over 65",
+                  "Children under 5 years",
+                  "Teenagers aged 13-18",
+                  "Pregnant women and immunocompromised individuals"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Healthy teenagers have peak immune systems. The very old, very young, and pregnant are much more vulnerable."
       },
       {
-            "text": "Question 11 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "text": "How does unsafe food impact economies on a broader level?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "It increases farm productivity",
+                  "It causes a strain due to the cost of illness and reduced productivity",
+                  "It lowers international shipping costs",
+                  "It creates more jobs in the medical sector"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Sick people can't go to work, and hospital bills drain family savings, hurting the whole economy."
       },
       {
-            "text": "Question 12 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "text": "What is the Codex Alimentarius?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "A type of toxic pesticide",
+                  "A collection of international standards, guidelines, and codes of practice for food safety",
+                  "A specific bacteria that contaminates meat",
+                  "A step in the food supply chain"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: \"Codex\" translates to a book or code of laws. It is the ultimate global rulebook for safe food."
       },
       {
-            "text": "Question 13 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "text": "Which global network of national food authorities shares information and collaborates on food safety issues?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "INFOSAN",
+                  "HACCP",
+                  "FAO",
+                  "WHO"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: INFO (Information) + SAN (Sanitation/Safety). INFOSAN is the global alert network for food crises."
       },
       {
-            "text": "Question 14 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "text": "What does the acronym HACCP stand for?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Health and Chemical Control Program",
+                  "Hazard Analysis and Critical Control Point",
+                  "Hygiene and Clean Cooking Practices",
+                  "Human and Animal Contamination Prevention"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Factories Analyze Hazards and find Critical Points to Control them before the food ships."
       },
       {
-            "text": "Question 15 regarding Healthy Cooking Practices: Which of the following is a key concept?",
+            "text": "Which of the following is a simple step an individual can take at home to reduce the risk of foodborne disease?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Using untreated water to wash vegetables",
+                  "Keeping raw and cooked food together",
+                  "Cooking food thoroughly",
+                  "Leaving food out at room temperature for long periods"
             ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Healthy Cooking Practices: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Healthy Cooking Practices: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Healthy Cooking Practices: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Healthy Cooking Practices: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Healthy Cooking Practices: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Healthy Cooking Practices: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Healthy Cooking Practices: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Healthy Cooking Practices: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Healthy Cooking Practices: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Healthy Cooking Practices: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Heat is the ultimate weapon against biology. Cooking food thoroughly kills almost all dangerous bacteria."
       }
-] }
-  }
-];
+    ] }
+  };
