@@ -1,10 +1,20 @@
 import React, { useState, useContext, useMemo } from 'react';
 import { AuthContext, VillageContext } from '../App';
-import { Video, Activity, FileText, Lock, PlusCircle, Calendar, Clock, User, X, Download, CheckCircle } from 'lucide-react';
+import { Video, Activity, FileText, Lock, PlusCircle, Calendar, Clock, User, X, Download, CheckCircle, Leaf, TrendingUp } from 'lucide-react';
 import { collection, addDoc } from 'firebase/firestore';
 import { db } from '../firebase';
 import { chatWithGemini } from '../services/gemini';
 import ReactMarkdown from 'react-markdown';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+
+const healthTrendsData = [
+  { month: 'Jan', consultations: 12, symptomsReported: 5 },
+  { month: 'Feb', consultations: 19, symptomsReported: 8 },
+  { month: 'Mar', consultations: 15, symptomsReported: 3 },
+  { month: 'Apr', consultations: 22, symptomsReported: 6 },
+  { month: 'May', consultations: 28, symptomsReported: 4 },
+  { month: 'Jun', consultations: 25, symptomsReported: 7 },
+];
 
 export default function Health() {
   const { user } = useContext(AuthContext);
@@ -253,6 +263,37 @@ export default function Health() {
               </div>
             )}
           </div>
+
+          {/* Health Trends Graph */}
+          <div className="bg-white rounded-2xl p-6 shadow-sm border border-stone-200">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="bg-emerald-100 p-2 rounded-lg text-emerald-700">
+                <TrendingUp size={24} />
+              </div>
+              <h2 className="text-xl font-bold text-stone-900">Community Health Trends</h2>
+            </div>
+            <div className="h-72 w-full">
+              <ResponsiveContainer width="100%" height="100%">
+                <LineChart
+                  data={healthTrendsData}
+                  margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+                >
+                  <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
+                  <XAxis dataKey="month" stroke="#6b7280" />
+                  <YAxis stroke="#6b7280" />
+                  <Tooltip 
+                    contentStyle={{ borderRadius: '0.5rem', border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }}
+                  />
+                  <Legend />
+                  <Line type="monotone" dataKey="consultations" name="Consultations" stroke="#2563eb" strokeWidth={3} activeDot={{ r: 8 }} />
+                  <Line type="monotone" dataKey="symptomsReported" name="Symptoms Reported" stroke="#e11d48" strokeWidth={3} />
+                </LineChart>
+              </ResponsiveContainer>
+            </div>
+            <p className="text-sm text-stone-500 mt-4 text-center italic">
+              Monthly overview of health consultations and reported symptoms in the community.
+            </p>
+          </div>
         </div>
 
         {/* Sidebar */}
@@ -315,6 +356,29 @@ export default function Health() {
                   <div className="text-xs text-stone-400 mb-1">Last Week</div>
                   <div className="text-sm font-medium text-stone-800 truncate">Routine health checkup</div>
                 </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Tribal Herbal Remedies */}
+          <div className="bg-white rounded-2xl p-6 shadow-sm border border-stone-200">
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="text-lg font-bold text-stone-900 flex items-center gap-2">
+                <Leaf size={20} className="text-emerald-500" /> <span>Traditional Remedies</span>
+              </h3>
+            </div>
+            <div className="space-y-4">
+              <div className="p-3 border border-emerald-100 rounded-lg bg-emerald-50 hover:bg-emerald-100 transition-colors cursor-pointer">
+                <div className="text-sm font-bold text-emerald-900 mb-1">Tulsi & Ginger Tea</div>
+                <div className="text-xs text-emerald-700 leading-relaxed">Good for common cold, cough, and boosting immunity naturally.</div>
+              </div>
+              <div className="p-3 border border-emerald-100 rounded-lg bg-emerald-50 hover:bg-emerald-100 transition-colors cursor-pointer">
+                <div className="text-sm font-bold text-emerald-900 mb-1">Neem Paste</div>
+                <div className="text-xs text-emerald-700 leading-relaxed">Applied externally for skin rashes, minor infections, and wound healing.</div>
+              </div>
+              <div className="p-3 border border-emerald-100 rounded-lg bg-emerald-50 hover:bg-emerald-100 transition-colors cursor-pointer">
+                <div className="text-sm font-bold text-emerald-900 mb-1">Turmeric Milk (Haldi Doodh)</div>
+                <div className="text-xs text-emerald-700 leading-relaxed">Helps reduce inflammation, relieves joint pain, and promotes healing.</div>
               </div>
             </div>
           </div>
