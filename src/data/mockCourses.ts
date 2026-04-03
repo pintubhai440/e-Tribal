@@ -6858,7 +6858,7 @@ export const MOCK_COURSES = [
     description: 'Learn the building blocks of the web. Create your first webpage using HTML and style it with CSS.',
     thumbnailUrl: 'https://images.surferseo.art/9602bc4b-cfc4-410e-b291-611d478c9d6a.png',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Patha Rega',
+    village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'HTML & CSS Basics', videoUrl: 'https://www.youtube.com/embed/Rek0NWPCNOc', duration: '1:30:00' }],
     quiz: { questions: [
       {
@@ -7316,264 +7316,233 @@ export const MOCK_COURSES = [
   {
     id: 'tech10', title: 'Smartphone Troubleshooting & Maintenance', category: 'Technology',
     description: 'Learn how to fix common smartphone issues, manage storage, and keep your device running smoothly.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/smartphone,repair?lock=136',
+    thumbnailUrl: 'https://www.cellsmartpos.com/hubfs/Blog%20Featured%20Images/CellSmart%20POS%20Blog/phone-repair-tools.webp',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Clearing Cache and Storage', videoUrl: 'https://www.youtube.com/embed/Vl0H-qTclOg', duration: '1:30:00' }],
+    village: 'Kondakarakam',
+    modules: [{ id: 'm1', title: 'Mobile Repair Basics', videoUrl: 'https://www.youtube.com/embed/PdJxBX2EAHo', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Smartphone Troubleshooting & Maintenance\"?",
+            "text": "What is the first thing to check if a mobile phone is completely dead and not switching on?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "The screen connection",
+                  "Shorting at the battery connector",
+                  "The camera module",
+                  "The speaker resistors"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: If the phone is completely dead, check its life source first—the battery connector for any shorts!"
       },
       {
-            "text": "In the context of Technology, why is this topic important?",
+            "text": "If the positive and negative terminals of the battery connector are connected, what does this indicate?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "The phone is fully charged",
+                  "The battery is missing",
+                  "The phone is fully shorted",
+                  "The network IC is working perfectly"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Positive and negative touching directly means a direct short circuit (full short)."
       },
       {
-            "text": "Which tool or method is most commonly associated with Smartphone Troubleshooting & Maintenance?",
+            "text": "Which section of the PCB is primarily responsible if the phone is fully shorting directly from the battery connector?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "The camera section",
+                  "The sound section",
+                  "The power section",
+                  "The display section"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The battery powers the whole board, so a direct short points straight to the Power section."
       },
       {
-            "text": "Question 4 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "text": "What is the main function of the power section on a mobile PCB?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "To generate sound for the speakers",
+                  "To connect to Wi-Fi and Bluetooth",
+                  "To take voltage from the battery/charging port and distribute it to other parts",
+                  "To store user data and photos"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: It acts as the heart of the phone, pumping power (voltage) to all the other organs (components)."
       },
       {
-            "text": "Question 5 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "text": "Why should you be careful before removing capacitors near the CPU that appear to be shorted?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "They are glued down permanently",
+                  "They naturally have low resistance and are meant to test that way",
+                  "They control the phone's display",
+                  "They contain toxic chemicals"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: CPUs require huge amounts of current at very low voltage, so their capacitors naturally show low resistance (which can mimic a short)."
       },
       {
-            "text": "Question 6 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "text": "Where are CPU capacitors often mounted if they are not immediately visible next to the CPU?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Inside the charging port",
+                  "On the speaker module",
+                  "Clustered together on the opposite side of the motherboard",
+                  "Inside the battery"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: To save space, engineers often pack these capacitors directly underneath the CPU on the flip side of the board."
       },
       {
-            "text": "Question 7 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "text": "What tool is recommended in the video to force a fully shorted component to heat up so you can identify it?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "A magnifying glass",
+                  "A short killer",
+                  "A soldering iron",
+                  "A pair of tweezers"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A \"short killer\" injects safe current, making the bad (shorted) component heat up and expose itself."
       },
       {
-            "text": "Question 8 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "text": "If you do not have a \"short killer,\" what standard tool can you use to test and find shorted components one by one?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "A multimeter",
+                  "A screwdriver",
+                  "A microscope",
+                  "A heat gun"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: A multimeter measures electrical resistance, letting you manually hunt down the short."
       },
       {
-            "text": "Question 9 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "text": "Which of the following problems falls under the \"wireless connection\" section?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "The screen goes black",
+                  "The phone does not charge",
+                  "Wi-Fi, Bluetooth, or Network is not turning on",
+                  "The speaker has no sound"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: \"Wireless\" literally means without wires—like Wi-Fi, Bluetooth, and mobile networks."
       },
       {
-            "text": "Question 10 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "text": "What is the name of the common main Network IC mentioned in the tutorial?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "CPU",
+                  "WTR",
+                  "eMMC",
+                  "USB"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: WTR (Wireless Transceiver) is a very famous Qualcomm chip used for network signals."
       },
       {
-            "text": "Question 11 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "text": "True or False: Bluetooth and Wi-Fi are always integrated inside the exact same IC as the main cellular network.",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "True, they are never separate",
+                  "False, some phones have a separate IC for Bluetooth and Wi-Fi",
+                  "True, but only on older phones",
+                  "False, Bluetooth doesn't use an IC"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: While sometimes bundled, many phones dedicate a separate chip just for Wi-Fi and Bluetooth to handle the load."
       },
       {
-            "text": "Question 12 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "text": "If a phone is fully shorted but the power section components seem fine, where else should you check?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "The plastic casing of the phone",
+                  "Components receiving high input voltage in other sections (like the network section)",
+                  "The volume buttons",
+                  "The microphone hole"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: High voltage lines travel across the board (like to the network PA), so a short there can kill the whole phone."
       },
       {
-            "text": "Question 13 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "text": "Why might a large capacitor in the network section cause the entire PCB to short out?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Because it is made of metal",
+                  "Because it deals with a high amount of input voltage coming directly from the power line",
+                  "Because it blocks the Wi-Fi signal",
+                  "Because it is connected to the camera"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The network amplifier needs raw battery power. If its main capacitor blows, the entire battery line shorts to ground."
       },
       {
-            "text": "Question 14 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "text": "The charging IC is generally considered a part of which major PCB section?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "The power section",
+                  "The audio section",
+                  "The network section",
+                  "The logic section"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Charging deals entirely with managing electricity, which is the core job of the power section."
       },
       {
-            "text": "Question 15 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "text": "Aside from distributing voltage to the battery, what is another crucial job of the charging IC?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Playing ringtones",
+                  "Sending charging signals to the CPU",
+                  "Taking photographs",
+                  "Connecting to Bluetooth headphones"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The charging IC must talk to the CPU to display the charging percentage and battery icon on the screen."
       },
       {
-            "text": "Question 16 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "text": "Which IC is responsible for actually generating the audio you hear from the phone?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "The CPU",
+                  "The charging IC",
+                  "The sound IC",
+                  "The network IC"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Audio = Sound. The Sound IC (or Audio Codec) handles all ringtones and voice processing."
       },
       {
-            "text": "Question 17 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "text": "In the sound section, which components are often the very last ones to send the audio signal directly to the speaker?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "Two large capacitors",
+                  "Two resistors",
+                  "The Wi-Fi antenna",
+                  "The charging port pins"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: There are usually two small, parallel resistors right before the speaker pads that act as fuses for the audio signal."
       },
       {
-            "text": "Question 18 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "text": "What will happen if you remove all the CPU capacitors because you mistakenly think they are causing a short?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "The phone will work perfectly",
+                  "The area will still test as shorted because of the CPU's naturally low resistance",
+                  "The phone will charge faster",
+                  "The display will get brighter"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The \"short\" wasn't a short, it was just the CPU's normal low resistance! Removing capacitors ruins the CPU power delivery."
       },
       {
-            "text": "Question 19 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "text": "Full PCB shorting is almost always caused by components that deal with what?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "High or direct voltage from the battery connector",
+                  "Low audio frequencies",
+                  "LED light signals",
+                  "Touchscreen inputs"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Only the main power lines (VPH or VBAT) have enough direct connection to short out the entire board."
       },
       {
-            "text": "Question 20 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
+            "text": "According to the video, what makes repairing the sound section complicated for many technicians?",
             "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
+                  "The sound IC is usually hidden inside the battery",
+                  "They fail to trace the sound pathway from the sound IC through the final resistors to the speaker",
+                  "Sound components are illegal to replace",
+                  "The speaker is directly connected to the camera"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Smartphone Troubleshooting & Maintenance: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Technology",
-                  "Concept B related to Technology",
-                  "Concept C related to Technology",
-                  "Concept D related to Technology"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It's all about tracing the path. If you lose track of the line between the IC and the speaker, you can't fix the sound."
       }
-] }
+    ] }
   },
-
   // --- BUSINESS (10) ---
   {
     id: 'bus1', title: 'Marketing Tribal Handicrafts', category: 'Business',
