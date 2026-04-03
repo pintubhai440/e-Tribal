@@ -1,9 +1,9 @@
 import React, { useState, useContext, useMemo } from 'react';
 import { AuthContext, VillageContext } from '../App';
-import { Video, Activity, FileText, Lock, PlusCircle, Calendar, Clock, User, X, Download, CheckCircle, Leaf, TrendingUp } from 'lucide-react';
+import { Video, Activity, FileText, Lock, PlusCircle, Calendar, Clock, User, X, Download, CheckCircle, Leaf, TrendingUp, MapPin } from 'lucide-react';
 import { collection, addDoc } from 'firebase/firestore';
 import { db } from '../firebase';
-import { chatWithGemini } from '../services/gemini';
+import { chatWithGemini, mapsGrounding } from '../services/gemini';
 import ReactMarkdown from 'react-markdown';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
@@ -21,7 +21,11 @@ export default function Health() {
   const { village } = useContext(VillageContext);
   const [symptoms, setSymptoms] = useState('');
   const [diagnosis, setDiagnosis] = useState('');
+  const [mapLinks, setMapLinks] = useState<any[]>([]);
   const [loading, setLoading] = useState(false);
+  const [locationInput, setLocationInput] = useState('');
+  const [coordinates, setCoordinates] = useState<{lat: number, lng: number} | null>(null);
+  const [detectingLocation, setDetectingLocation] = useState(false);
 
   // Prototyping State
   const [showBookingModal, setShowBookingModal] = useState(false);
@@ -47,22 +51,47 @@ export default function Health() {
     return reports.filter(report => report.village === village);
   }, [reports, village]);
 
+  const handleDetectLocation = async () => {
+    setDetectingLocation(true);
+    try {
+      const position = await new Promise<GeolocationPosition>((resolve, reject) => {
+        navigator.geolocation.getCurrentPosition(resolve, reject, { timeout: 5000 });
+      });
+      setCoordinates({ lat: position.coords.latitude, lng: position.coords.longitude });
+      setLocationInput("Current Location Detected");
+    } catch (error) {
+      console.error("Could not detect location:", error);
+      alert("Could not detect location automatically. Please enter it manually.");
+    } finally {
+      setDetectingLocation(false);
+    }
+  };
+
   const handleSymptomCheck = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!symptoms.trim() || !user) return;
 
     setLoading(true);
+    setMapLinks([]);
     try {
-      const prompt = `Act as a helpful medical assistant for a tribal community. A user reports the following symptoms: "${symptoms}". Provide a brief, easy-to-understand preliminary assessment and suggest whether they should consult a doctor. Emphasize that this is not a substitute for professional medical advice.`;
+      const locationContext = locationInput ? `The user is located at or near: "${locationInput}". ` : '';
+      const prompt = `Act as a helpful medical assistant. A user reports the following symptoms: "${symptoms}". ${locationContext}First, provide a brief, easy-to-understand preliminary assessment and suggest exactly which specialist doctor they should consult. Second, find nearby hospitals and medical shops/pharmacies based on the user's location. Emphasize that this is not a substitute for professional medical advice.`;
       
-      const response = await chatWithGemini(prompt, false, true); // Use fast model
-      setDiagnosis(response);
+      let lat = coordinates?.lat;
+      let lng = coordinates?.lng;
+
+      const response = await mapsGrounding(prompt, lat, lng);
+      setDiagnosis(response.text);
+      
+      if (response.chunks) {
+        setMapLinks(response.chunks);
+      }
 
       // Save to Health Records
       await addDoc(collection(db, 'health_records'), {
         userId: user.uid,
         symptoms: symptoms,
-        aiDiagnosis: response,
+        aiDiagnosis: response.text,
         village: village === 'All' ? 'Kondakarakam' : village,
         createdAt: new Date().toISOString()
       });
@@ -227,6 +256,37 @@ export default function Health() {
                   required
                 />
               </div>
+              
+              <div>
+                <label htmlFor="location" className="block text-sm font-medium text-stone-700 mb-1">
+                  Your Location (Optional)
+                </label>
+                <div className="flex gap-2">
+                  <input
+                    id="location"
+                    type="text"
+                    className="flex-1 rounded-xl border-stone-300 shadow-sm focus:border-rose-500 focus:ring-rose-500 p-3 border"
+                    placeholder="E.g., Visakhapatnam, Andhra Pradesh"
+                    value={locationInput}
+                    onChange={(e) => {
+                      setLocationInput(e.target.value);
+                      if (e.target.value !== "Current Location Detected") {
+                        setCoordinates(null);
+                      }
+                    }}
+                  />
+                  <button
+                    type="button"
+                    onClick={handleDetectLocation}
+                    disabled={detectingLocation}
+                    className="bg-stone-100 text-stone-700 px-4 py-3 rounded-xl border border-stone-300 hover:bg-stone-200 transition-colors flex items-center gap-2 font-medium whitespace-nowrap disabled:opacity-50"
+                  >
+                    <MapPin size={18} />
+                    {detectingLocation ? 'Detecting...' : 'Detect'}
+                  </button>
+                </div>
+              </div>
+
               <button
                 type="submit"
                 disabled={loading || !symptoms.trim()}
@@ -257,6 +317,36 @@ export default function Health() {
                     {diagnosis}
                   </ReactMarkdown>
                 </div>
+                
+                {mapLinks && mapLinks.length > 0 && (
+                  <div className="mt-4 pt-4 border-t border-rose-200">
+                    <h4 className="text-sm font-bold text-rose-900 mb-2">Nearby Hospitals & Medical Shops:</h4>
+                    <ul className="space-y-2">
+                      {mapLinks.map((chunk, index) => {
+                        if (chunk.web?.uri) {
+                          return (
+                            <li key={index} className="text-sm">
+                              <a href={chunk.web.uri} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline flex items-center gap-1">
+                                📍 {chunk.web.title || chunk.web.uri}
+                              </a>
+                            </li>
+                          );
+                        }
+                        if (chunk.maps?.uri) {
+                          return (
+                            <li key={index} className="text-sm">
+                              <a href={chunk.maps.uri} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline flex items-center gap-1">
+                                📍 {chunk.maps.title || 'View on Google Maps'}
+                              </a>
+                            </li>
+                          );
+                        }
+                        return null;
+                      })}
+                    </ul>
+                  </div>
+                )}
+
                 <p className="text-xs text-rose-600 mt-5 font-medium italic border-t border-rose-200 pt-3">
                   Disclaimer: This is an AI assessment and not professional medical advice. Please consult a doctor for accurate diagnosis.
                 </p>
@@ -517,3 +607,4 @@ export default function Health() {
     </div>
   );
 }
+
