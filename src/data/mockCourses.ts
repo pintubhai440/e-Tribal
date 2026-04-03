@@ -8642,1302 +8642,987 @@ export const MOCK_COURSES = [
   {
     id: 'bus6', title: 'Negotiation Skills', category: 'Business',
     description: 'Improve your communication skills to negotiate better prices with buyers and suppliers.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/handshake,business?lock=142',
+    thumbnailUrl: 'https://kapable.club/blog/wp-content/uploads/2024/04/image-76-1024x575.png',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Win-Win Negotiation', videoUrl: 'https://www.youtube.com/embed/un5I9vMBFls', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'The Art of Negotiation', videoUrl: 'https://www.youtube.com/embed/NxsVb08vDmI', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Negotiation Skills\"?",
+            "text": "According to the video, what is the first key negotiation tactic a business owner or sales professional must do?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Drop the price immediately",
+                  "Prepare",
+                  "Argue with the customer",
+                  "Offer a free trial"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Preparation is the foundation. If you don't know your numbers before you walk in, you've already lost."
       },
       {
-            "text": "In the context of Business, why is this topic important?",
+            "text": "When does negotiation actually start, according to the speaker?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "After the customer says \"no\"",
+                  "When the contract is signed",
+                  "Even before the negotiation meeting starts",
+                  "When the competitor makes an offer"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The battle is won before it begins. Researching your client and knowing your limits happens long before you sit at the table."
       },
       {
-            "text": "Which tool or method is most commonly associated with Negotiation Skills?",
+            "text": "What does the speaker compare walking into a negotiation without preparation to?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Swimming without a life jacket",
+                  "Walking into a boxing ring without boxing gloves",
+                  "Driving a car without a steering wheel",
+                  "Running a marathon without shoes"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Business is a fight for margins. Without preparation, you have no gloves to defend yourself from price cuts."
       },
       {
-            "text": "Question 4 regarding Negotiation Skills: Which of the following is a key concept?",
+            "text": "During the preparation phase, what specific price point must you establish?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "The boundary price below which you will not take the deal",
+                  "The maximum price the customer has ever paid",
+                  "The exact price of your cheapest competitor",
+                  "The price that guarantees a 100% profit margin"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The \"Walk-Away\" price. You must know exactly where you hit rock bottom so you don't accidentally lose money."
       },
       {
-            "text": "Question 5 regarding Negotiation Skills: Which of the following is a key concept?",
+            "text": "What is the second negotiation tactic discussed in the video?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Sell price, not features",
+                  "Sell value, not price",
+                  "Always match the competitor's price",
+                  "Talk only about your company's history"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Value makes price irrelevant. If they understand how much it helps them, they won't fight over a few dollars."
       },
       {
-            "text": "Question 6 regarding Negotiation Skills: Which of the following is a key concept?",
+            "text": "What happens if a customer attacks your price and you start defending it?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "You win the negotiation easily",
+                  "The customer respects you more",
+                  "You are on the defensive and it becomes a lost battle",
+                  "The customer will immediately pay the asking price"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Explaining your costs makes you look weak. Never defend the price, shift the focus back to the value you provide."
       },
       {
-            "text": "Question 7 regarding Negotiation Skills: Which of the following is a key concept?",
+            "text": "When shifting the orbit of the conversation away from price, what should you focus on selling?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "The discounts you can offer",
+                  "The benefits and value of your product or service",
+                  "The flaws of your competitor's product",
+                  "The raw material costs"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: People buy solutions, not products. Focus on the benefit—how your product fixes their specific problem."
       },
       {
-            "text": "Question 8 regarding Negotiation Skills: Which of the following is a key concept?",
+            "text": "What is the third negotiation tactic mentioned by the speaker?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Taking",
+                  "Ignoring",
+                  "Giving",
+                  "Arguing"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Negotiation is a give-and-take. To get what you want, you must be willing to give something up."
       },
       {
-            "text": "Question 9 regarding Negotiation Skills: Which of the following is a key concept?",
+            "text": "Why is \"giving\" an important part of a negotiation?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "So you can lose money on the deal",
+                  "So the customer feels victorious, happy, and not overpowered",
+                  "Because you should always give your product away for free",
+                  "So the customer pities you"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Ego is huge in business. Giving them a small victory makes them feel powerful and happy to sign the deal."
       },
       {
-            "text": "Question 10 regarding Negotiation Skills: Which of the following is a key concept?",
+            "text": "Which of the following is an example of \"giving\" in a negotiation without necessarily dropping the core price?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Insulting the customer's budget",
+                  "Refusing to speak to the client",
+                  "Giving value-added benefits, extended warranties, or free shipping",
+                  "Canceling the meeting"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Give extras, not cash. Throwing in free shipping costs you very little but looks like a huge win to the customer."
       },
       {
-            "text": "Question 11 regarding Negotiation Skills: Which of the following is a key concept?",
+            "text": "A good negotiation is described by the speaker as one where:",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "You get everything you want and the customer gets nothing",
+                  "Giving happens on both sides",
+                  "The customer dictates all terms",
+                  "The price is cut in half immediately"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It's a two-way street. Both sides must bend slightly to reach the middle ground."
       },
       {
-            "text": "Question 12 regarding Negotiation Skills: Which of the following is a key concept?",
+            "text": "What is the fourth negotiation tactic that serves as a core principle to communicate to the customer?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Win-lose or no deal",
+                  "Lose-win or no deal",
+                  "Win-win or no deal",
+                  "Compromise at all costs"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: If both sides don't walk away happy (Win-Win), then it's better to just walk away entirely (No Deal)."
       },
       {
-            "text": "Question 13 regarding Negotiation Skills: Which of the following is a key concept?",
+            "text": "How does the \"Win-win or no deal\" philosophy help you during a negotiation?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "It allows the customer to force a massive discount",
+                  "It acts as an anchor when the customer pushes you beyond your boundary",
+                  "It automatically forces the customer to sign the contract",
+                  "It ends the relationship permanently if they say no"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It gives you a strong backbone. When they ask for too much, you can safely say, \"If I agree to that, I lose, so no deal.\""
       },
       {
-            "text": "Question 14 regarding Negotiation Skills: Which of the following is a key concept?",
+            "text": "What should you do if a deal does not meet the \"Win-win\" criteria?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Take the loss just to get the client",
+                  "Get angry at the customer",
+                  "Be willing to walk away but maintain a cordial professional relationship",
+                  "Block the customer's phone number"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Never burn bridges. Walk away politely, because they might come back when they realize your value."
       },
       {
-            "text": "Question 15 regarding Negotiation Skills: Which of the following is a key concept?",
+            "text": "What is the fifth and final negotiation tactic that protects you from unreasonable negotiation?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Firing your sales team",
+                  "Doing marketing consistently",
+                  "Changing your product every month",
+                  "Only selling to family members"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Desperation makes you lower your price. Marketing keeps your pipeline full so you are never desperate."
       },
       {
-            "text": "Question 16 regarding Negotiation Skills: Which of the following is a key concept?",
+            "text": "How does doing marketing consistently help you in a sales negotiation?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "It confuses the customer",
+                  "It generates a pipeline of leads, giving you the confidence to hold your price",
+                  "It automatically lowers your boundary price",
+                  "It removes the need to ever talk to a customer"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Abundance brings confidence. If you know you have 10 other buyers lined up, you won't let this one bully your price."
       },
       {
-            "text": "Question 17 regarding Negotiation Skills: Which of the following is a key concept?",
+            "text": "According to the speaker, when you hold your price point with the confidence of having a full pipeline, what usually happens?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Customers will all leave",
+                  "7 out of 10 customers will buy at your offered price and dare not negotiate",
+                  "The competitor will lower their price further",
+                  "You will have to close your business"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Confidence is infectious. When you don't blink on price, the customer assumes it must be worth it and agrees."
       },
       {
-            "text": "Question 18 regarding Negotiation Skills: Which of the following is a key concept?",
+            "text": "What is the overarching goal of the sales processes the speaker designs for entrepreneurs?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "To trick the customer",
+                  "To close deals in a win-win-win manner (customer wins, business owner wins, business makes money)",
+                  "To make sure the business owner wins and the customer loses",
+                  "To sell products at the lowest possible market rate"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Triple Win! The customer gets a solution, you get the sale, and the business stays profitable."
       },
       {
-            "text": "Question 19 regarding Negotiation Skills: Which of the following is a key concept?",
+            "text": "What should you have clarity on BEFORE walking into a negotiation?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "What your variables are (what you are willing to give away)",
+                  "What the customer had for breakfast",
+                  "How to manipulate the contract",
+                  "How to ignore the customer's needs"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Know your chess pieces. Know exactly what freebies or terms you can throw in to sweeten the deal without losing cash."
       },
       {
-            "text": "Question 20 regarding Negotiation Skills: Which of the following is a key concept?",
+            "text": "What is the name of the 4-hour live training program the speaker invites viewers to at the end of the video?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "The Sales Mastery Workshop",
+                  "The Marketing Genius Summit",
+                  "The Business Breakthrough Seminar",
+                  "The Negotiation Tactics Webinar"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Negotiation Skills: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Negotiation Skills: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Negotiation Skills: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Negotiation Skills: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Negotiation Skills: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: It is designed to help business owners \"break through\" their invisible limits."
       }
-] }
+    ] }
   },
   {
     id: 'bus7', title: 'Packaging and Branding', category: 'Business',
     description: 'Learn how attractive packaging and a strong brand name can increase your sales.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/packaging,box?lock=143',
+    thumbnailUrl: 'https://assets.designhill.com/design-blog/wp-content/uploads/2021/09/Brand-Packaging.png',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Importance of Good Packaging', videoUrl: 'https://www.youtube.com/embed/rwbho0CgEAE', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Power of Branding', videoUrl: 'https://www.youtube.com/embed/_mgThv5cGBk', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Packaging and Branding\"?",
+            "text": "What is the primary definition of branding?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Creating an attractive cover for a product",
+                  "Creating a unique name, logo, and image to grasp customer attention",
+                  "Protecting the product from physical damage",
+                  "Transporting the product safely"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Branding gives a product its identity—a face (logo) and a name that people will remember."
       },
       {
-            "text": "In the context of Business, why is this topic important?",
+            "text": "What is the primary definition of packaging?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "The process of designing a packet or wrapper in which a product is sold",
+                  "Spreading awareness about a product through customer service",
+                  "Building long-term trust and fondness",
+                  "Establishing a unique name and sign"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Packaging is literally the physical box, bag, or wrapper that holds the item."
       },
       {
-            "text": "Which tool or method is most commonly associated with Packaging and Branding?",
+            "text": "What is the main objective of branding?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "To safeguard the product from getting damaged",
+                  "To differentiate a product from other sellers' products",
+                  "To design protective covers",
+                  "To ensure safe transportation"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: If all water bottles look the same, the 'Brand' is what makes you choose Bisleri over Aquafina."
       },
       {
-            "text": "Question 4 regarding Packaging and Branding: Which of the following is a key concept?",
+            "text": "What is the main objective of packaging?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "To differentiate the product from competitors",
+                  "To build long-term relationships",
+                  "To safeguard the product from getting damaged",
+                  "To spread awareness about the brand name"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: A glass bottle needs a strong cardboard box (packaging) so it doesn't shatter in the truck."
       },
       {
-            "text": "Question 5 regarding Packaging and Branding: Which of the following is a key concept?",
+            "text": "Which of the following is exclusively considered a component of branding?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Product description",
+                  "Protective cover",
+                  "Wrapper material",
+                  "Name and sign"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: The Nike 'Swoosh' sign and the name 'Nike' are pure branding elements."
       },
       {
-            "text": "Question 6 regarding Packaging and Branding: Which of the following is a key concept?",
+            "text": "Which of the following are mentioned as the main components of packaging?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Color, description, and logo",
+                  "Name, sign, and advertising",
+                  "Customer service and promotional items",
+                  "Name, color, and sign"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The physical box combines attractive Colors, the Brand Logo, and the Description of what is inside."
       },
       {
-            "text": "Question 7 regarding Packaging and Branding: Which of the following is a key concept?",
+            "text": "What is a key benefit of branding?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "It physically protects the product",
+                  "It creates trust and long-term relationships with customers",
+                  "It is the first physical thing a customer encounters",
+                  "It helps in transporting the product"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: People trust brands. If you like an Apple iPhone, you automatically trust an Apple laptop."
       },
       {
-            "text": "Question 8 regarding Packaging and Branding: Which of the following is a key concept?",
+            "text": "What is a key benefit of packaging?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "It builds long-term relationships",
+                  "It sets the brand's long-term expectations",
+                  "It attracts the customer's attention immediately",
+                  "It provides customer service"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: A bright, shiny wrapper on a shelf catches your eye from across the supermarket aisle."
       },
       {
-            "text": "Question 9 regarding Packaging and Branding: Which of the following is a key concept?",
+            "text": "Who is the target audience for both branding and packaging?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Wholesalers",
+                  "Manufacturers",
+                  "Customers",
+                  "Advertisers"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Everything you do in marketing is ultimately aimed at making the end Customer buy the product."
       },
       {
-            "text": "Question 10 regarding Packaging and Branding: Which of the following is a key concept?",
+            "text": "What is the common aim of both branding and packaging policies?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "To reduce manufacturing costs",
+                  "To pull customers to buy the product",
+                  "To increase the product's weight",
+                  "To eliminate the need for advertising"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: They act like magnets. A good brand and a beautiful box pull the customer's wallet out of their pocket."
       },
       {
-            "text": "Question 11 regarding Packaging and Branding: Which of the following is a key concept?",
+            "text": "Which departments are typically involved in branding?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Manufacturing and transport",
+                  "Advertising, customer service, and promotional items",
+                  "Shipping and handling",
+                  "Packaging and wrapping"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Branding is about image. Ads build the image, and customer service maintains the image."
       },
       {
-            "text": "Question 12 regarding Packaging and Branding: Which of the following is a key concept?",
+            "text": "What does the creative process of packaging focus on?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Designing protective and attractive covers",
+                  "Managing customer service complaints",
+                  "Creating promotional items",
+                  "Establishing long-term trust"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The box needs to be strong enough to survive shipping, but beautiful enough to sell on a shelf."
       },
       {
-            "text": "Question 13 regarding Packaging and Branding: Which of the following is a key concept?",
+            "text": "The focus of branding is primarily on:",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Ensuring product protection during transport",
+                  "Spreading awareness about the product",
+                  "Designing a box",
+                  "Writing the product description"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: If nobody knows your name, you have no brand. Awareness is everything."
       },
       {
-            "text": "Question 14 regarding Packaging and Branding: Which of the following is a key concept?",
+            "text": "The focus of packaging during transportation and handling is:",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Spreading brand awareness",
+                  "Ensuring the product is protected",
+                  "Building trust",
+                  "Differentiating the product from competitors"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Inside a dark delivery truck, nobody cares what the box looks like; it just needs to keep the product safe."
       },
       {
-            "text": "Question 15 regarding Packaging and Branding: Which of the following is a key concept?",
+            "text": "What leaves an impression in the customers' minds about what to expect from the company?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "The transport method",
+                  "Packaging",
+                  "Branding",
+                  "The product wrapper"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The \"Brand Promise\" sets expectations. If you buy a Rolex, the brand tells you to expect perfection."
       },
       {
-            "text": "Question 16 regarding Packaging and Branding: Which of the following is a key concept?",
+            "text": "What is described as the very first thing that customers physically encounter regarding a product?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "The brand's customer service",
+                  "The promotional items",
+                  "Packaging",
+                  "The brand's long-term relationship"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: You can't touch a brand, but you literally hold the package in your hands first."
       },
       {
-            "text": "Question 17 regarding Packaging and Branding: Which of the following is a key concept?",
+            "text": "Branding is classified as a:",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Manufacturing process",
+                  "Strategic marketing tool used for creating product awareness",
+                  "Protective measure for products",
+                  "Transportation strategy"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Branding is pure marketing strategy. It lives in the minds of consumers."
       },
       {
-            "text": "Question 18 regarding Packaging and Branding: Which of the following is a key concept?",
+            "text": "Packaging is considered an essential part of marketing because it contributes to:",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Product safety and appeal",
+                  "Creating a unique brand name",
+                  "Customer service efficiency",
+                  "Promotional giveaways"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: It acts as a silent salesman—appealing to the eye while keeping the contents safe."
       },
       {
-            "text": "Question 19 regarding Packaging and Branding: Which of the following is a key concept?",
+            "text": "Which element is shared between the components of both branding and packaging?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Sign",
+                  "Name",
+                  "Description",
+                  "Logo"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: The Logo is the heart of the brand, and it is almost always printed right on the front of the package."
       },
       {
-            "text": "Question 20 regarding Packaging and Branding: Which of the following is a key concept?",
+            "text": "In terms of business decision-making, what role does packaging play?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "It only helps with immediate sales",
+                  "It helps a business in short and long-term decision-making",
+                  "It solely determines the price of the product",
+                  "It replaces the need for branding"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Packaging and Branding: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Packaging and Branding: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Packaging and Branding: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Packaging and Branding: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Packaging and Branding: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Good packaging decisions save shipping money (short-term) and build brand recognition (long-term)."
       }
-] }
+    ] }
   },
   {
     id: 'bus8', title: 'Managing Inventory', category: 'Business',
     description: 'Keep track of your raw materials and finished goods to avoid shortages or overstocking.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/inventory,warehouse?lock=144',
+    thumbnailUrl: 'https://effivityblog.blob.core.windows.net/effivitywebsite/images/BlogV2/Blogs%20Image/What%20is%20Inventory%20Management%20System%20and%20its%20Benefits-02.webp',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Stock Keeping Units (SKUs)', videoUrl: 'https://www.youtube.com/embed/EngW7tCbLHY', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Inventory Control Basics', videoUrl: 'https://www.youtube.com/embed/0NOER-Lle-0', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Managing Inventory\"?",
+            "text": "What is the primary definition of Inventory Management?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "The process of hiring warehouse staff",
+                  "The process of tracking, controlling, and managing the stock a business holds",
+                  "The method of calculating yearly taxes for a business",
+                  "The strategy used to market finished goods to customers"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Inventory equals stock. Management equals tracking and controlling. Put them together!"
       },
       {
-            "text": "In the context of Business, why is this topic important?",
+            "text": "Why is having too much inventory considered a problem for a business?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "It increases the speed of production",
+                  "It completely eliminates the risk of stockouts",
+                  "It ties up cash and storage space",
+                  "It forces the business to lower employee wages"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Boxes sitting in a warehouse are basically stacks of cash doing nothing. You can't use that cash until the boxes sell."
       },
       {
-            "text": "Which tool or method is most commonly associated with Managing Inventory?",
+            "text": "What happens when a business experiences a \"stockout\"?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "The business runs out of inventory and cannot fulfill customer orders",
+                  "The business receives a surplus of raw materials",
+                  "The business sells its warehouse space",
+                  "The inventory is moved to a different storage location"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Stock-OUT literally means you are OUT of stock. No stock = angry customers."
       },
       {
-            "text": "Question 4 regarding Managing Inventory: Which of the following is a key concept?",
+            "text": "Which type of inventory includes basic items like wood, nails, and paint used to produce furniture?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Finished Goods",
+                  "MRO Items",
+                  "Work in Progress (WIP)",
+                  "Raw Materials"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: \"Raw\" means untouched and unprocessed. Wood and nails are the raw ingredients of furniture."
       },
       {
-            "text": "Question 5 regarding Managing Inventory: Which of the following is a key concept?",
+            "text": "What does MRO stand for in inventory management?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Management, Resources, and Operations",
+                  "Maintenance, Repair, and Operations",
+                  "Manufacturing, Revenue, and Output",
+                  "Material Requirements and Organization"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Think of the janitor's closet or the mechanic's toolbox—it holds supplies for Maintenance, Repair, and Operations."
       },
       {
-            "text": "Question 6 regarding Managing Inventory: Which of the following is a key concept?",
+            "text": "What is the purpose of \"Safety Stock\"?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "To replace all raw materials",
+                  "To keep extra stock on hand as a buffer against unexpected demand or supply chain disruptions",
+                  "To immediately sell to competitors",
+                  "To record outdated items that are no longer in demand"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It is your emergency backup pile to keep you \"safe\" if a delivery truck breaks down or a product goes viral."
       },
       {
-            "text": "Question 7 regarding Managing Inventory: Which of the following is a key concept?",
+            "text": "What is the first step in the inventory management process?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Inventory Auditing",
+                  "Receiving and Storing",
+                  "Demand Forecasting",
+                  "Managing Dead Stock"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Before you can order anything, you have to \"forecast\" or guess how much the customers will actually demand."
       },
       {
-            "text": "Question 8 regarding Managing Inventory: Which of the following is a key concept?",
+            "text": "Which formula helps businesses find the ideal order size to minimize both holding and ordering costs?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Return on Investment (ROI)",
+                  "Economic Order Quantity (EOQ)",
+                  "Just-In-Time (JIT)",
+                  "First-In, First-Out (FIFO)"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: EOQ stands for Economic Order Quantity. It answers the question: \"What is the most economic (cheapest) quantity to order?\""
       },
       {
-            "text": "Question 9 regarding Managing Inventory: Which of the following is a key concept?",
+            "text": "What term is used for unsold inventory that is no longer in demand and drains resources?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Safety Stock",
+                  "Dead Stock",
+                  "Work in Progress",
+                  "A-Items"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: If it hasn't moved in years and nobody wants to buy it, that stock is \"dead\" to the business."
       },
       {
-            "text": "Question 10 regarding Managing Inventory: Which of the following is a key concept?",
+            "text": "The \"Just-In-Time\" (JIT) technique is famous for being used by which major automotive company to minimize waste?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Ford",
+                  "General Motors",
+                  "Toyota",
+                  "Honda"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Toyota practically invented modern JIT manufacturing to save space in small Japanese factories."
       },
       {
-            "text": "Question 11 regarding Managing Inventory: Which of the following is a key concept?",
+            "text": "Which inventory technique ensures that the oldest inventory is sold first, commonly used for perishable goods?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "FIFO (First-In, First-Out)",
+                  "JIT (Just-In-Time)",
+                  "EOQ (Economic Order Quantity)",
+                  "MRO Analysis"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Think of milk at the grocery store. The First milk put IN the fridge should be the First milk taken OUT so it doesn't expire."
       },
       {
-            "text": "Question 12 regarding Managing Inventory: Which of the following is a key concept?",
+            "text": "In ABC Analysis, how are \"A items\" categorized?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Low-value items that are sold frequently",
+                  "Moderate-value and moderate-sales items",
+                  "High-value items that make up a small portion of inventory but a large portion of value",
+                  "Items that are completely obsolete"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: 'A' stands for Alpha or Top-Tier. These are the few expensive items (like diamond rings) that bring in the most money."
       },
       {
-            "text": "Question 13 regarding Managing Inventory: Which of the following is a key concept?",
+            "text": "Which technologies are commonly used by modern inventory management software to track items through the supply chain?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "GPS and Sonar",
+                  "RFID and Barcoding",
+                  "Bluetooth and NFC",
+                  "Wi-Fi and Infrared"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Supermarkets use Barcodes (lasers), and warehouses use RFID (radio tags) to instantly scan boxes without opening them."
       },
       {
-            "text": "Question 14 regarding Managing Inventory: Which of the following is a key concept?",
+            "text": "What is \"inventory shrinkage\"?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "The physical shrinking of perishable goods due to temperature",
+                  "The loss of inventory due to theft, damage, or administrative errors",
+                  "The process of reducing warehouse size",
+                  "A deliberate strategy to hold less stock"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: When your computer says you have 100 shirts, but you count 95, your inventory has \"shrunk\" due to theft or loss."
       },
       {
-            "text": "Question 15 regarding Managing Inventory: Which of the following is a key concept?",
+            "text": "How does overstocking primarily impact a business?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "It increases cash flow and flexibility",
+                  "It ties up capital and increases storage costs",
+                  "It completely eliminates supply chain disruptions",
+                  "It makes demand forecasting perfectly accurate"
             ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Managing Inventory: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Managing Inventory: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Managing Inventory: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Managing Inventory: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Managing Inventory: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Managing Inventory: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Managing Inventory: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Managing Inventory: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Managing Inventory: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Managing Inventory: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Too much stock means your capital (money) is trapped in boxes, and you are paying extra rent to store those boxes."
       }
-] }
+    ] }
   },
   {
     id: 'bus9', title: 'Accessing Government Loans', category: 'Business',
     description: 'Understand the various government schemes and loans available for rural entrepreneurs.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/bank,document?lock=145',
+    thumbnailUrl: 'https://flexiloans.com/blog/wp-content/uploads/2025/06/Government-Subsidy-Loan-for-Business.png',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Applying for Mudra Loan', videoUrl: 'https://www.youtube.com/embed/un5I9vMBFls', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'PMEGP Scheme Guide', videoUrl: 'https://www.youtube.com/embed/nTTqwV6_yxY', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Accessing Government Loans\"?",
+            "text": "What is the full form of PMEGP?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Prime Minister's Education Generation Programme",
+                  "Prime Minister's Employment Generation Programme",
+                  "Prime Minister's Economic Growth Plan",
+                  "Prime Minister's Enterprise Generation Project"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The government gives loans so you can start a business and generate \"Employment\" (jobs) for others."
       },
       {
-            "text": "In the context of Business, why is this topic important?",
+            "text": "Which ministry is responsible for managing the PMEGP loan scheme?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Ministry of Finance",
+                  "Ministry of Agriculture",
+                  "Ministry of MSME (Micro, Small and Medium Enterprises)",
+                  "Ministry of Rural Development"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Since the loan is for small businesses, it naturally falls under MSME (Micro, Small and Medium Enterprises)."
       },
       {
-            "text": "Which tool or method is most commonly associated with Accessing Government Loans?",
+            "text": "What is the minimum age required to apply for the PMEGP loan scheme?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "16 years",
+                  "18 years",
+                  "21 years",
+                  "25 years"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: 18 is the legal age to sign a financial contract or take a bank loan in India."
       },
       {
-            "text": "Question 4 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "text": "What is the maximum government subsidy provided under the PMEGP scheme for special categories (like Women, SC/ST, OBC)?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "15%",
+                  "25%",
+                  "35%",
+                  "50%"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Special categories in rural areas get a massive 35% of their loan completely forgiven (subsidy) by the government."
       },
       {
-            "text": "Question 5 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "text": "What is the minimum educational qualification required for a project costing more than Rs. 10 lakhs?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "5th Pass",
+                  "8th Pass",
+                  "10th Pass",
+                  "No educational qualification required"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: For bigger loans (over 10L), they just want basic literacy, which is passing the 8th standard."
       },
       {
-            "text": "Question 6 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "text": "What is the minimum percentage of the project cost that a special category applicant needs to invest from their own pocket?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "5%",
+                  "10%",
+                  "15%",
+                  "20%"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The government makes it incredibly easy; you only need to bring 5 rupees for every 100 rupees you borrow."
       },
       {
-            "text": "Question 7 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "text": "Which of the following business types is NOT eligible for a loan under the PMEGP scheme?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Food processing units",
+                  "Beauty parlors",
+                  "Tobacco, alcohol, or meat businesses",
+                  "Mobile repair centers"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Government employment schemes will never fund items harmful to public health or restricted goods like tobacco and alcohol."
       },
       {
-            "text": "Question 8 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "text": "What mandatory training is provided to the applicant after the project is approved and before the bank releases the loan?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Skill India Certification",
+                  "EDP (Entrepreneurship Development Programme)",
+                  "Digital Marketing Training",
+                  "Advanced Accounting Training"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: EDP trains you to be an \"Entrepreneur\" so you don't accidentally waste the loan money."
       },
       {
-            "text": "Question 9 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "text": "Which organization implements the PMEGP scheme at the national level?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "RBI (Reserve Bank of India)",
+                  "KVIC (Khadi and Village Industries Commission)",
+                  "NABARD",
+                  "LIC (Life Insurance Corporation)"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: KVIC focuses on village industries and handles the scheme from the very top."
       },
       {
-            "text": "Question 10 regarding Accessing Government Loans: Which of the following is a key concept?",
+            "text": "Is collateral (security) required to get a loan under the PMEGP scheme?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Yes, 100% collateral is required",
+                  "Yes, 50% collateral is required",
+                  "No, the loan is provided without collateral (collateral-free)",
+                  "Yes, only property documents are accepted"
             ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 11 regarding Accessing Government Loans: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 12 regarding Accessing Government Loans: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 13 regarding Accessing Government Loans: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 14 regarding Accessing Government Loans: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 15 regarding Accessing Government Loans: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Accessing Government Loans: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Accessing Government Loans: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Accessing Government Loans: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Accessing Government Loans: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Accessing Government Loans: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Accessing Government Loans: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Accessing Government Loans: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Accessing Government Loans: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Accessing Government Loans: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Accessing Government Loans: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The whole point of the scheme is to help people with no money! It is strictly collateral-free (up to a certain limit)."
       }
-] }
+    ] }
   },
   {
     id: 'bus10', title: 'Customer Service Basics', category: 'Business',
     description: 'Learn how to treat customers well to build loyalty and get repeat business.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/customer,service?lock=146',
+    thumbnailUrl: 'https://business.feefo.com/hubfs/Imported_Blog_Media/image-May-10-2024-09-57-39-5590-AM.png',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Patha Rega',
-    modules: [{ id: 'm1', title: 'Handling Complaints Gracefully', videoUrl: 'https://www.youtube.com/embed/rwbho0CgEAE', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Customer Relationship Management', videoUrl: 'https://www.youtube.com/embed/SsNfAOTZNZY', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Customer Service Basics\"?",
+            "text": "According to the video, what does a dissatisfied customer typically do?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "They complain to the manager and ask for a refund",
+                  "They never speak about the company again",
+                  "They will tell 10 other people about their negative experience",
+                  "They will only leave a bad review online"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Bad news travels fast! An angry customer acts like a loudspeaker, warning at least 10 friends to avoid your shop."
       },
       {
-            "text": "In the context of Business, why is this topic important?",
+            "text": "What does the acronym \"CRM\" stand for in customer service?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Customer Response Model",
+                  "Customer Review Management",
+                  "Customer Retention Method",
+                  "Customer Relationship Management"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Business is all about \"Relationships.\" CRM helps you \"Manage\" your \"Relationship\" with the \"Customer.\""
       },
       {
-            "text": "Which tool or method is most commonly associated with Customer Service Basics?",
+            "text": "Why is customer retention considered cheaper than customer acquisition?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Retaining customers means you don't have to hire more staff",
+                  "Retaining customers saves the business a lot of money in advertising to find new customers",
+                  "Retained customers always buy the cheapest items",
+                  "Retained customers do not require any customer service"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Buying ads to find a brand new stranger costs a fortune. Treating an old customer nicely costs nothing."
       },
       {
-            "text": "Question 4 regarding Customer Service Basics: Which of the following is a key concept?",
+            "text": "What is one proven financial benefit of delivering outstanding customer service?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Customers will stop asking questions",
+                  "Happy customers will pay more for a product or service",
+                  "The business can stop paying taxes",
+                  "The business can eliminate its marketing department"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: People happily pay a premium at luxury hotels just for the polite service. Good service justifies higher prices."
       },
       {
-            "text": "Question 5 regarding Customer Service Basics: Which of the following is a key concept?",
+            "text": "What is the FIRST essential element of great customer service mentioned in the video?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Always be welcoming, friendly, and respectful",
+                  "Having excellent product knowledge",
+                  "Asking the customer for feedback",
+                  "Responding to emails within 48 hours"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: A smile costs nothing but sets the tone for everything else. Welcome them like a guest in your home."
       },
       {
-            "text": "Question 6 regarding Customer Service Basics: Which of the following is a key concept?",
+            "text": "According to the trainer, how quickly must all customer emails be responded to?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Within 12 hours",
+                  "Within 48 hours",
+                  "Within 24 hours without exception",
+                  "As soon as time permits"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: 24 hours is the golden rule. Any longer, and the customer assumes you don't care about them."
       },
       {
-            "text": "Question 7 regarding Customer Service Basics: Which of the following is a key concept?",
+            "text": "Why is it essential to ask the customer specific questions?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "To confuse the customer so they buy more",
+                  "To waste time while waiting for a manager",
+                  "To empower yourself to determine and deliver exactly what the customer needs",
+                  "To avoid having to answer their questions"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: You can't hit a target blindfolded. Asking questions reveals exactly what the customer is hunting for."
       },
       {
-            "text": "Question 8 regarding Customer Service Basics: Which of the following is a key concept?",
+            "text": "If a customer asks a question about a product and you do NOT know the answer, what should you say?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "\"I don't know the answer to that question.\"",
+                  "\"That's not my department.\"",
+                  "\"That's a great question, I will go away and find out the answer for you.\"",
+                  "\"I'm sorry, you misheard me.\""
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Never say a dead-end \"I don't know.\" Always promise to take action and find the answer for them."
       },
       {
-            "text": "Question 9 regarding Customer Service Basics: Which of the following is a key concept?",
+            "text": "What should you do with all customer feedback, whether it is good or bad?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Throw away the bad feedback and keep the good",
+                  "Write it down and share it with your team and your manager",
+                  "Only share the good feedback with the manager",
+                  "Ignore it if it doesn't apply to your department"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Feedback is free data. Sharing it with the team ensures everyone learns from mistakes and celebrates wins."
       },
       {
-            "text": "Question 10 regarding Customer Service Basics: Which of the following is a key concept?",
+            "text": "Which of the following is a phrase you must NEVER say to a customer?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "\"Thank you for bringing this matter to our attention.\"",
+                  "\"Is there anything else I can help you with today?\"",
+                  "\"I'm sorry you feel that way.\"",
+                  "\"I'd love to understand more about your needs.\""
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: It shifts the blame onto the customer's \"feelings\" instead of apologizing for the actual mistake."
       },
       {
-            "text": "Question 11 regarding Customer Service Basics: Which of the following is a key concept?",
+            "text": "Why is the phrase \"I'm sorry you feel that way\" considered negative in customer service?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "It takes too long to say",
+                  "It is considered rather condescending",
+                  "It means the company is accepting legal liability",
+                  "It sounds too friendly"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It is a non-apology. It sounds like you are saying, \"I'm not wrong, you're just overly emotional.\""
       },
       {
-            "text": "Question 12 regarding Customer Service Basics: Which of the following is a key concept?",
+            "text": "What is a highly recommended and powerful phrase to use when a customer complains, to help diffuse the situation?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "\"I can understand how you feel; I'd feel the same as you if I were in this situation.\"",
+                  "\"As I've already told you...\"",
+                  "\"That's not my job.\"",
+                  "\"You must have misheard me.\""
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Empathy disarms anger. By putting yourself in their shoes, you stop being the enemy and become an ally."
       },
       {
-            "text": "Question 13 regarding Customer Service Basics: Which of the following is a key concept?",
+            "text": "What is the very first step in the 7-step process for dealing with customer complaints?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Show empathy and apologize",
+                  "Ask the customer questions",
+                  "Listen to the customer and give them time to speak",
+                  "Follow up with the customer"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Angry people need to vent. Let them spill everything out before you try to fix it."
       },
       {
-            "text": "Question 14 regarding Customer Service Basics: Which of the following is a key concept?",
+            "text": "What does the acronym \"L.A.S.T.\" stand for when dealing with customer complaints?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Look, Ask, Solve, Talk",
+                  "Listen, Apologize, Solve, Thank",
+                  "Listen, Act, Speak, Terminate",
+                  "Learn, Assess, Simplify, Thank"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Make the customer's anger the LAST thing on their mind: Listen to them, Apologize, Solve it, then Thank them."
       },
       {
-            "text": "Question 15 regarding Customer Service Basics: Which of the following is a key concept?",
+            "text": "Which of the following is NOT a component of good telephone etiquette in customer service?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Answering promptly",
+                  "Speaking clearly and politely",
+                  "Listening actively",
+                  "Putting the caller on hold indefinitely"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Being trapped on hold with elevator music is the number one way to infuriate a customer over the phone."
       },
       {
-            "text": "Question 16 regarding Customer Service Basics: Which of the following is a key concept?",
+            "text": "What is the ultimate aim or primary focus of good customer service?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Reducing the company's costs",
+                  "Ignoring negative feedback",
+                  "Building strong relationships with customers",
+                  "Making sure the shift ends on time"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: It's all about making friends out of buyers. Strong relationships equal repeat business."
       },
       {
-            "text": "Question 17 regarding Customer Service Basics: Which of the following is a key concept?",
+            "text": "What does \"active listening\" look like in practice during a customer complaint?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Interrupting to solve the problem faster",
+                  "Looking away while they speak",
+                  "Nodding and saying things like \"uh-huh,\" \"yes,\" and \"I understand\"",
+                  "Typing an email while they are talking"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: You have to prove you are listening by making verbal eye contact (\"uh-huh\", \"I see\")."
       },
       {
-            "text": "Question 18 regarding Customer Service Basics: Which of the following is a key concept?",
+            "text": "In a customer service interview, what is a crucial thing to remember when answering \"Tell me about yourself\"?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Talk about your childhood in great detail",
+                  "Talk about your skills, qualities, experience, and passion for working in customer service",
+                  "Complain about your previous boss",
+                  "Ask the interviewer about their life"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: They don't want your life story. They want the \"movie trailer\" of why you are perfect for this specific job."
       },
       {
-            "text": "Question 19 regarding Customer Service Basics: Which of the following is a key concept?",
+            "text": "Which of the following is a positive reason to give when asked, \"Why do you want to work in customer service?\"",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Because it is easy work and requires no effort",
+                  "Because you enjoy the job satisfaction of solving problems and making a positive difference to customers",
+                  "Because you don't like working with computers",
+                  "Because you want to argue with people"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Employers want people who get joy from helping others. Problem-solving should be your passion."
       },
       {
-            "text": "Question 20 regarding Customer Service Basics: Which of the following is a key concept?",
+            "text": "Which of the following is NOT an outcome of positive online customer reviews?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Increased search engine rankings",
+                  "Improved trust with potential customers",
+                  "Less traffic to the company's website",
+                  "Increased sales conversions"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Customer Service Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Customer Service Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Customer Service Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Customer Service Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Customer Service Basics: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Good reviews always bring MORE traffic, never less. A 5-star rating acts like a giant magnet."
       }
-] }
+    ] }
   },
 
   // --- HEALTH (10) ---
