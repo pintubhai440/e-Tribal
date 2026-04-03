@@ -9629,1302 +9629,1097 @@ export const MOCK_COURSES = [
   {
     id: 'hlt1', title: 'First Aid in the Forest', category: 'Health',
     description: 'Essential first aid skills for treating minor injuries, cuts, and sprains in remote areas.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/firstaid,forest?lock=147',
+    thumbnailUrl: 'https://ncoae.org/wp-content/uploads/2025/10/7_Wilderness_Medicine_Skills-1024x558.png',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Cleaning and Bandaging Wounds', videoUrl: 'https://www.youtube.com/embed/ea1ndCWZEDo', duration: '1:30:00' }],
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Cleaning and Bandaging Wounds', videoUrl: 'https://www.youtube.com/embed/nnUQHKZqnkw', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"First Aid in the Forest\"?",
+            "text": "According to Ted, what are the most common types of wilderness medicine issues encountered in the backcountry?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Allergic reactions and rashes",
+                  "Trauma-related (musculoskeletal and soft tissue injuries)",
+                  "Gastrointestinal illnesses",
+                  "Altitude sickness and heat exhaustion"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Hiking over rough rocks and roots naturally leads to trips, falls, and trauma to bones and skin."
       },
       {
-            "text": "In the context of Health, why is this topic important?",
+            "text": "Which of the following is NOT given as an example of a common trauma-related backcountry injury?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Burns",
+                  "Sprains",
+                  "Lacerations",
+                  "Toothaches"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: You don't usually stub your tooth on a hiking trail! Toothaches are dental issues, not physical trauma."
       },
       {
-            "text": "Which tool or method is most commonly associated with First Aid in the Forest?",
+            "text": "What common piece of clothing does Ted use to easily create a makeshift sling for an arm injury?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "A belt",
+                  "A jacket",
+                  "A pair of socks",
+                  "A bandana"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A jacket has long, strong sleeves, making it the perfect shape to tie around the neck as a sling."
       },
       {
-            "text": "Question 4 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "text": "When making a jacket sling, what position should the injured arm be placed in before rolling the jacket up?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Straight down at the side",
+                  "Extended straight out in front",
+                  "Across the chest",
+                  "Elevated above the head"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The chest acts as a natural, stable resting shelf for an injured arm to reduce pain."
       },
       {
-            "text": "Question 5 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "text": "What material is suggested to wrap around the jacket sling to tie it in place and provide extra support?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Parachute cord (P-cord)",
+                  "A shoelace",
+                  "Duct tape",
+                  "Dental floss"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: P-cord is the ultimate survival multi-tool string—strong enough to hold an arm tight against the body."
       },
       {
-            "text": "Question 6 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "text": "When splinting lower leg breaks and sprains, what specific areas must you remember to stabilize?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Only the injured bone itself",
+                  "Both the joint above and the joint below the injury",
+                  "The entire lower body",
+                  "Only the ankle joint"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: To stop a broken bone from shifting, you must completely lock the hinges (joints) on both sides of it."
       },
       {
-            "text": "Question 7 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "text": "What two components are essential when properly splinting an injury?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Heat and ice",
+                  "Elevation and compression",
+                  "Structure and padding",
+                  "Water and soap"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Structure (like sticks) keeps the limb straight, while padding (like clothes) prevents it from hurting."
       },
       {
-            "text": "Question 8 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "text": "If you use sticks from the woods to provide structure for a splint, what must you use for padding?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Dry leaves",
+                  "Dirt and mud",
+                  "Clothing",
+                  "Pine needles"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Always use your softest available gear, which is your extra clothing, to cushion the hard sticks."
       },
       {
-            "text": "Question 9 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "text": "Which piece of hiking gear works similarly to sticks for splinting, but can also help prevent injuries in the first place?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Tent stakes",
+                  "Trekking poles",
+                  "Water bottles",
+                  "A camp shovel"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Trekking poles act like extra legs while walking, and like strong artificial bones when splinting."
       },
       {
-            "text": "Question 10 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "text": "What piece of backpack gear does Ted recommend as a splint because it provides both structure and padding all in one?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "A rolled-up tent",
+                  "An empty frame pad",
+                  "A sleeping bag",
+                  "A hydration bladder"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A backpack frame pad is already stiff (for structure) and coated in foam (for padding)."
       },
       {
-            "text": "Question 11 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "text": "Where does Ted suggest storing duct tape so that it doesn't take up any extra room in your backpack?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Wrapped around a water bottle",
+                  "Folded inside your wallet",
+                  "Stuck to the bottom of your boots",
+                  "Taped to the outside of your jacket"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Rolling it tightly around a water bottle saves you from carrying the bulky cardboard roll it comes on."
       },
       {
-            "text": "Question 12 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "text": "In addition to covering wounds in a sticky situation, what common hiking problem can duct tape be used to treat (acting similarly to moleskin)?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Dehydration",
+                  "Blisters",
+                  "Sunburn",
+                  "Tick bites"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Duct tape reduces friction immediately, stopping your boots from rubbing your heels raw."
       },
       {
-            "text": "Question 13 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "text": "What chemical substance does Ted mention works quickly and efficiently to seal up a wound, though it isn't his absolute favorite method?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Iodine",
+                  "Hydrogen peroxide",
+                  "Hand sanitizer",
+                  "Superglue"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Superglue was actually used during wartime to quickly seal up battlefield wounds!"
       },
       {
-            "text": "Question 14 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "text": "What specific item does Ted consider the \"best,\" super light, and easy-to-use solution for closing a laceration?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Duct tape",
+                  "Zip Stitch",
+                  "Standard band-aids",
+                  "Liquid bandage"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It literally \"zips\" the \"stitch\" together, closing the wound without needing painful needles."
       },
       {
-            "text": "Question 15 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "text": "How does a Zip Stitch essentially function to close a wound?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Like a staple gun for the skin",
+                  "Like a heavy-duty tourniquet",
+                  "Like a butterfly bandage with little zip ties",
+                  "Like a thermal heat patch"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: It acts like miniature zip-ties attached to stickers that pull the skin perfectly closed."
       },
       {
-            "text": "Question 16 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "text": "What does a Zip Stitch come packaged with so you can prep the area before applying it?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "An alcohol pad",
+                  "Antibacterial ointment",
+                  "A sterile needle",
+                  "Saline solution"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The skin must be completely clean and oil-free, or the adhesive pads won't stick at all."
       },
       {
-            "text": "Question 17 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "text": "After applying the Zip Stitch over the wound and pulling the zip tabs tight, what is the final step?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Tape the tabs down",
+                  "Cut off the excess zip tabs",
+                  "Tie the tabs in a knot",
+                  "Fold them over the wound"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Once pulled tight, snip the long plastic tails off so they don't snag on clothing."
       },
       {
-            "text": "Question 18 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "text": "What does Ted use to tightly fasten the empty frame pad around the injured leg?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Safety pins",
+                  "Zip ties",
+                  "Parachute cord (P-cord)",
+                  "Elastic bands"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: P-cord is strong enough to wrap around the pad and lock the makeshift splint securely in place."
       },
       {
-            "text": "Question 19 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "text": "Which of the following is given as an example of a \"soft tissue\" injury in the video?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "A fractured tibia",
+                  "Altitude sickness",
+                  "Hypothermia",
+                  "A laceration"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: \"Soft tissue\" means your skin and muscles. A laceration is a deep cut into that soft tissue."
       },
       {
-            "text": "Question 20 regarding First Aid in the Forest: Which of the following is a key concept?",
+            "text": "What is the ultimate goal of utilizing these improvised wilderness first-aid tricks?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "To perform complex surgery while in the woods",
+                  "To completely heal the injury so you can keep hiking",
+                  "To make do with what is at your disposal until you can get to definitive medical care later",
+                  "To avoid ever having to pay for a real doctor"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding First Aid in the Forest: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding First Aid in the Forest: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding First Aid in the Forest: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding First Aid in the Forest: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding First Aid in the Forest: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Wilderness first aid isn't a permanent cure; it's a temporary bridge to get you safely to a real hospital."
       }
-] }
+    ] }
   },
   {
     id: 'hlt2', title: 'Maternal Health and Nutrition', category: 'Health',
     description: 'Important dietary and health guidelines for pregnant women and new mothers.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/mother,health?lock=148',
+    thumbnailUrl: 'https://www.invitra.com/en/wp-content/uploads/2022/01/breastfeeding-diet.png',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Iron-Rich Foods', videoUrl: 'https://www.youtube.com/embed/3QIfkeA6HBY', duration: '1:30:00' }],
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Healthy Diet During Pregnancy', videoUrl: 'https://www.youtube.com/embed/0BrxCY89_uQ', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Maternal Health and Nutrition\"?",
+            "text": "What is the primary topic discussed in the video?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Exercise routines during pregnancy",
+                  "Nutrition and healthy eating during pregnancy",
+                  "How to start a food business",
+                  "The benefits of taking medicine"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Nutrition fuels both the mother's energy and the growing baby's development."
       },
       {
-            "text": "In the context of Health, why is this topic important?",
+            "text": "According to the health worker, what are common symptoms a woman might experience during her first trimester?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Hair loss and blurry vision",
+                  "High fever and chills",
+                  "Nausea, vomiting, and new food cravings",
+                  "Extreme muscle growth"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The classic first trimester signs: feeling \"morning sickness\" and craving weird foods!"
       },
       {
-            "text": "Which tool or method is most commonly associated with Maternal Health and Nutrition?",
+            "text": "What specific food dish was the pregnant woman struggling to cook because the smell made her sick?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Chicken soup",
+                  "Mincemeat fat cook",
+                  "Fried fish",
+                  "Boiled eggs"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The heavy, greasy smell of cooking fat and mincemeat often triggers extreme pregnancy nausea."
       },
       {
-            "text": "Question 4 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "text": "What was the only food the pregnant woman mentioned she could sometimes stomach?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Plain chips",
+                  "Carrots",
+                  "Lentils",
+                  "Bread"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Plain, bland, and salty carbs (like chips) are often the only things that stay down during bad nausea."
       },
       {
-            "text": "Question 5 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "text": "Why does the health worker advise against eating only plain chips?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "They are too expensive",
+                  "They cause dehydration",
+                  "They don't have the many nutrients needed for the baby to grow",
+                  "They are too hard to chew"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Plain chips are just empty calories; the baby needs actual building blocks (vitamins and proteins)."
       },
       {
-            "text": "Question 6 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "text": "Where does a baby get all its nutrition from during pregnancy and breastfeeding?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "From sunlight",
+                  "From the mother's diet",
+                  "From the clinic's vaccines",
+                  "From drinking cow's milk"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The baby literally eats what the mother eats through the umbilical cord."
       },
       {
-            "text": "Question 7 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "text": "What eating habit does the health worker suggest to help prevent nausea?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Eating only one large meal a day",
+                  "Fasting for 12 hours",
+                  "Drinking milk before every meal",
+                  "Eating smaller meals throughout the day"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: An empty stomach makes nausea worse. Small, frequent bites keep the stomach settled."
       },
       {
-            "text": "Question 8 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "text": "What is the minimum recommended food intake per day for a pregnant woman according to the video?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Two meals and no snacks",
+                  "At least three meals a day plus a snack",
+                  "Five full meals a day",
+                  "Only liquids throughout the day"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: 3 main meals plus a snack ensures a steady, constant stream of energy for the baby."
       },
       {
-            "text": "Question 9 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "text": "Why do health workers regularly check a pregnant woman's weight?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "To make sure she is maintaining a healthy weight and eating enough nutritious food",
+                  "To prescribe weight-loss medication",
+                  "To see if she is exercising enough",
+                  "To record it for government statistics"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: A mother's healthy weight gain is a visible sign that the baby is growing properly inside."
       },
       {
-            "text": "Question 10 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "text": "What is the health worker's advice regarding drinking water during pregnancy?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Only drink water with meals",
+                  "Drink water whenever you are thirsty",
+                  "Avoid drinking water to prevent vomiting",
+                  "Drink exactly one glass of water a day"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Listen to your body! Thirst means you need hydration to maintain amniotic fluid."
       },
       {
-            "text": "Question 11 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "text": "Which of the following is an example of colorful fruits and vegetables mentioned in the video?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Apples and grapes",
+                  "Bananas and broccoli",
+                  "Mango, melon, carrots, pumpkin, and spinach",
+                  "Potatoes and onions"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Bright oranges, yellows, and deep greens are packed with the most essential vitamins."
       },
       {
-            "text": "Question 12 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "text": "What primary benefit do colorful fruits and vegetables provide to a pregnant mother and her baby?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "They are high in unhealthy fats",
+                  "They contain important vitamins",
+                  "They have zero calories",
+                  "They stop all food cravings"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Vitamins are the microscopic workers that build the baby's immune system and organs."
       },
       {
-            "text": "Question 13 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "text": "Which foods are given as examples of \"starchy foods\"?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Rice, pasta, bread, and mealie meal",
+                  "Spinach and melon",
+                  "Meat and chicken",
+                  "Eggs and beans"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Starch equals energy. Rice, bread, and pasta are heavy energy foods that fuel the body."
       },
       {
-            "text": "Question 14 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "text": "Which of the following foods are recommended as good sources of protein?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Carrots and pumpkin",
+                  "Rice and pasta",
+                  "Plain chips and sweets",
+                  "Eggs, meat, chicken, beans, soya, or lentils"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Protein builds muscle. Think of animal products and heavy legumes like beans and lentils."
       },
       {
-            "text": "Question 15 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "text": "What types of foods does the health worker specifically say to avoid because they lack necessary nutrients?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Boiled and steamed foods",
+                  "Fatty, fried, and salty foods",
+                  "Fresh fruits and vegetables",
+                  "Protein-rich foods"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Deep-fried and overly salty foods provide no real nutrition, just bad cholesterol and bloating."
       },
       {
-            "text": "Question 16 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "text": "Why is it necessary to take supplements from the clinic even if the mother is eating healthy foods?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Because the supplements replace all meals",
+                  "Because the mother's body is working extra hard to grow the baby",
+                  "Because the clinic forces all patients to take them",
+                  "Because they cure nausea instantly"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Growing a human takes so much iron and folic acid that normal food alone isn't always enough."
       },
       {
-            "text": "Question 17 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "text": "What is the first food safety step the pregnant woman should take before preparing her food?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Chop the vegetables",
+                  "Boil the water",
+                  "Wash her hands with soap and clean water",
+                  "Turn on the stove"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Clean hands prevent dangerous outside bacteria from ever entering the food."
       },
       {
-            "text": "Question 18 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "text": "What must be done to raw fruits and vegetables before eating them?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "They must be soaked in vinegar",
+                  "They must be washed in clean water",
+                  "They must be peeled and boiled",
+                  "They must be left in the sun to dry"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Washing removes dirt, pesticides, and harmful bugs from raw skins before you eat them."
       },
       {
-            "text": "Question 19 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "text": "How should meat, eggs, and fish be cooked to ensure safety during pregnancy?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Served raw or rare",
+                  "Cooked medium-rare",
+                  "Cooked until they are well done",
+                  "Lightly seared"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Well-done means the heat has fully penetrated the center and killed all dangerous germs."
       },
       {
-            "text": "Question 20 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
+            "text": "Why is it so important to cook meat, eggs, and fish thoroughly during pregnancy?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "To make them taste better",
+                  "To remove all the fat",
+                  "To make them easier to chew",
+                  "To prevent sickness from bacteria or worms that steal nutrients"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Maternal Health and Nutrition: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Raw meats can carry severe parasites (like worms or Salmonella) that can dangerously harm the baby."
       }
-] }
+    ] }
   },
   {
     id: 'hlt3', title: 'Identifying Medicinal Plants', category: 'Health',
-    description: 'Learn to identify and use common medicinal plants found in the Eastern Ghats.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/plant,medicine?lock=149',
+    description: 'Learn to identify and use common medicinal plants.',
+    thumbnailUrl: 'https://i.ytimg.com/vi/VvG4jr0HskE/hqdefault.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Neem and Tulsi Benefits', videoUrl: 'https://www.youtube.com/embed/LXb3EKWsInQ', duration: '1:30:00' }],
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Healing Plants Guide', videoUrl: 'https://www.youtube.com/embed/yp58geKmdYE', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Identifying Medicinal Plants\"?",
+            "text": "Which medicinal plant is widely known to help soothe burns and skin irritations, improve digestion, and support immune function?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Arnica",
+                  "Aloe Vera",
+                  "Basil",
+                  "Bay Leaves"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Aloe is the classic, cooling green jelly plant used worldwide for sunburns and cuts."
       },
       {
-            "text": "In the context of Health, why is this topic important?",
+            "text": "Which plant helps boost testosterone and fertility in men, reduces stress, and enhances brain function?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Ashwagandha",
+                  "Alfalfa",
+                  "Astragalus",
+                  "Burdock"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Ashwagandha translates to \"smell of the horse,\" representing strength, endurance, and male vitality."
       },
       {
-            "text": "Which tool or method is most commonly associated with Identifying Medicinal Plants?",
+            "text": "Which of the following plants is known to relieve premenstrual syndrome (PMS) symptoms and support healthy hormone balance?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Catnip",
+                  "Chamomile",
+                  "Chasteberry",
+                  "Calendula"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Chasteberry has been historically associated with balancing female reproductive health and cycles."
       },
       {
-            "text": "Question 4 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "text": "Cranberry is most famously used to help prevent what type of health issue?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Headaches",
+                  "Muscle cramps",
+                  "Urinary tract infections",
+                  "Skin irritations"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Cranberry juice makes the urinary tract acidic, stopping harmful bacteria from sticking to the walls."
       },
       {
-            "text": "Question 5 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "text": "Which medicinal plant helps lower blood pressure, improves cholesterol levels, and may act as an anti-inflammatory?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Garlic",
+                  "Echinacea",
+                  "Elderberry",
+                  "Eucalyptus"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Garlic keeps vampires away, and it keeps bad cholesterol away too!"
       },
       {
-            "text": "Question 6 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "text": "Which plant is commonly used to relieve nausea and vomiting, as well as improve digestion?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Ginkgo",
+                  "Ginger",
+                  "Goldenseal",
+                  "Green tea"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Ginger ale and ginger tea are the most famous remedies for an upset stomach or motion sickness."
       },
       {
-            "text": "Question 7 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "text": "Ginkgo (Ginkgo biloba) is primarily known for helping to improve which bodily function?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Muscle strength",
+                  "Lung capacity",
+                  "Memory and cognitive function",
+                  "Joint flexibility"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Ginkgo leaves look a bit like two halves of a brain, fitting perfectly for a memory booster."
       },
       {
-            "text": "Question 8 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "text": "Which plant acts as a natural antimicrobial agent, may help treat acne, and has anti-inflammatory properties?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Stevia",
+                  "Tea tree oil",
+                  "Tarragon",
+                  "St. John’s Wort"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Tea tree is a powerful natural antiseptic often dabbed directly onto acne spots to dry them out."
       },
       {
-            "text": "Question 9 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "text": "St. John’s Wort is often used to help relieve which of the following conditions?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Mild to moderate depression",
+                  "Sunburns",
+                  "Severe bone fractures",
+                  "High cholesterol"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: St. John's Wort brings the \"sunshine\" back for people struggling with mild depression."
       },
       {
-            "text": "Question 10 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "text": "Which spice helps improve insulin sensitivity, lower blood sugar levels, and may have anti-inflammatory properties?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Coriander",
+                  "Cinnamon",
+                  "Clove",
+                  "Cumin"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Cinnamon is a sweet spice that actually helps balance out blood sugar spikes after meals."
       },
       {
-            "text": "Question 11 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "text": "Feverfew is a medicinal plant primarily known for relieving which specific ailment?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Migraine headaches",
+                  "Toothaches",
+                  "Broken bones",
+                  "Hair loss"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: \"Feverfew\" naturally reduces inflammation in blood vessels, easing heavy, pounding migraines."
       },
       {
-            "text": "Question 12 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "text": "Which plant supports healthy prostate and urinary function in men?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Saw Palmetto",
+                  "Rosemary",
+                  "Sage",
+                  "Reishi"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Saw Palmetto is the most famous herbal supplement recommended for aging men's prostate health."
       },
       {
-            "text": "Question 13 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "text": "Which medicinal root helps promote relaxation, relieves anxiety, and improves sleep quality, often acting as a natural sleep aid?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Velvet bean",
+                  "Valerian",
+                  "Vanilla",
+                  "Wild yam"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Valerian root smells very earthy but acts as a powerful natural sedative to knock you out for a good sleep."
       },
       {
-            "text": "Question 14 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "text": "Which plant helps support liver function, may lower cholesterol levels, and has anti-inflammatory properties?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Milk thistle",
+                  "Maca",
+                  "Moringa",
+                  "Mullen"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The active ingredient (silymarin) in Milk Thistle acts like a shield and detoxifier for the liver."
       },
       {
-            "text": "Question 15 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "text": "Which plant can be used as a natural insecticide, relieves stress, and has a calming effect?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Vetiver",
+                  "Vervain",
+                  "Vanilla",
+                  "Witch hazel"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Known as the \"oil of tranquility\" for stress, its earthy roots are also used to repel insects."
       },
       {
-            "text": "Question 16 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "text": "Which plant, frequently used as a flavoring agent in beer, helps promote relaxation and relieve anxiety?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Hyssop",
+                  "Horsetail",
+                  "Hops",
+                  "Holy Basil"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Hops make beer bitter, but when used as a tea or supplement, they are a powerful, sleepy relaxant."
       },
       {
-            "text": "Question 17 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "text": "Which flowering plant helps relieve allergy symptoms, supports healthy kidneys, and may have anti-inflammatory properties?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Nettle",
+                  "Neem",
+                  "Mustard",
+                  "Maca"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Stinging nettle hurts to touch, but drinking it blocks histamine (allergy) reactions."
       },
       {
-            "text": "Question 18 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "text": "Which plant is used to soothe coughs and sore throats, support respiratory health, and has mild pain-relieving properties?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Maca",
+                  "Mullen",
+                  "Milk thistle",
+                  "Moringa"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Mullein leaves are soft and fuzzy, just like how it coats and soothes a scratchy, dry throat."
       },
       {
-            "text": "Question 19 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "text": "Which plant is traditionally used to relieve cold and flu symptoms and support healthy digestion?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Ylang-Ylang",
+                  "Yarrow",
+                  "Wild yam",
+                  "Witch hazel"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Legend says Achilles used Yarrow to treat his soldiers' wounds and break their fevers."
       },
       {
-            "text": "Question 20 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
+            "text": "Which golden spice is known to relieve inflammation, support healthy brain function, and may have anti-cancer properties?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Thyme",
+                  "Turmeric",
+                  "Tarragon",
+                  "Tea tree oil"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Identifying Medicinal Plants: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Turmeric contains curcumin, which is nature's strongest bright yellow anti-inflammatory."
       }
-] }
+    ] }
   },
   {
     id: 'hlt4', title: 'Clean Water and Hygiene', category: 'Health',
     description: 'Methods for purifying drinking water and maintaining personal and community hygiene.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/water,hygiene?lock=150',
+    thumbnailUrl: 'https://ars.els-cdn.com/content/image/3-s2.0-B9780323998758000215-f07-03-9780323998758.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Boiling and Filtering Water', videoUrl: 'https://www.youtube.com/embed/ea1ndCWZEDo', duration: '1:30:00' }],
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'WASH Principles', videoUrl: 'https://www.youtube.com/embed/JbuSTlyNgGM', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Clean Water and Hygiene\"?",
+            "text": "What does the acronym WASH stand for?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Water, Analysis, Safety, and Health",
+                  "Water, Sanitation, and Hygiene",
+                  "Waste, Sanitation, and Habitat",
+                  "Wellness, Action, and Hygiene"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: WASH is the global standard term for clean water initiatives: WAter, Sanitation, Hygiene."
       },
       {
-            "text": "In the context of Health, why is this topic important?",
+            "text": "According to the video, approximately how many people worldwide lack easy access to clean water?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "500 million",
+                  "1 billion",
+                  "More than 2 billion",
+                  "4 billion"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: It is a staggering number—over a quarter of the global population struggles to find safe water!"
       },
       {
-            "text": "Which tool or method is most commonly associated with Clean Water and Hygiene?",
+            "text": "Fecally contaminated water primarily causes which of the following illnesses mentioned in the video?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Respiratory infections",
+                  "Diarrheal disease",
+                  "Malaria",
+                  "Heart disease"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Bad bacteria in dirty water attacks the stomach and intestines immediately, causing severe diarrhea."
       },
       {
-            "text": "Question 4 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "text": "How many deaths per year worldwide are estimated to be caused by waterborne diarrheal diseases?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "100,000",
+                  "500,000",
+                  "1 million",
+                  "5 million"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: 1 million. It's a massive, tragic number for a completely preventable disease."
       },
       {
-            "text": "Question 5 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "text": "What is a common, but often flawed, assumption made when trying to change WASH behaviors?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "That changing behavior requires billions of dollars",
+                  "That knowing the facts and health risks is enough to change behavior",
+                  "That adults cannot learn new behaviors",
+                  "That people naturally prefer drinking boiled water"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: People know smoking is bad, but they still smoke. Facts alone don't change daily habits."
       },
       {
-            "text": "Question 6 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "text": "The science of behavior analysis studies how behavior is influenced by its:",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Genetic makeup",
+                  "Context and conditions",
+                  "Historical origins",
+                  "Geographical location"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Behavior doesn't happen in a vacuum; it is shaped by the environment and conditions around you."
       },
       {
-            "text": "Question 7 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "text": "In behavior analysis, what are the events that precede (happen before) a behavior called?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Consequences",
+                  "Reinforcers",
+                  "Antecedents",
+                  "Outcomes"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: \"Ante\" means before (like a poker ante). Antecedents are the triggers that happen before the action."
       },
       {
-            "text": "Question 8 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "text": "What are the events that follow a behavior called?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Antecedents",
+                  "Prompts",
+                  "Triggers",
+                  "Consequences"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: A consequence is simply the result that happens *after* an action is taken."
       },
       {
-            "text": "Question 9 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "text": "The antecedent-behavior-consequence relationship is also known as the:",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Three-term contingency",
+                  "WASH protocol",
+                  "Behavior triangle",
+                  "Safety algorithm"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: A -> B -> C (Antecedent, Behavior, Consequence). Three terms connected together."
       },
       {
-            "text": "Question 10 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "text": "Which of the following is an example of an \"antecedent\" that increases the chances of unsafe behavior?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Getting sick from bad water",
+                  "Seeing other people drink untreated water",
+                  "Receiving praise for washing hands",
+                  "Boiling water to kill germs"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: \"Monkey see, monkey do.\" Seeing others do it acts as a visual trigger (antecedent) to copy them."
       },
       {
-            "text": "Question 11 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "text": "What is the process of breaking down complex behaviors step-by-step to identify where problems occur called?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Risk assessment",
+                  "System evaluation",
+                  "Task analysis",
+                  "Consequence mapping"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: You are analyzing a big task by breaking it down into tiny, measurable steps."
       },
       {
-            "text": "Question 12 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "text": "Consequences that make any behavior more likely to reoccur in the future are called:",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Deterrents",
+                  "Reinforcers",
+                  "Punishments",
+                  "Antecedents"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: They \"reinforce\" or strengthen the habit so you are motivated to do it again."
       },
       {
-            "text": "Question 13 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "text": "Why are unsafe practices, like drinking untreated water, often strongly reinforced?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "They are endorsed by local governments",
+                  "They have short-term positive consequences like quenching thirst and saving time",
+                  "They require expensive equipment",
+                  "They are the only legal option"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Humans prioritize instant gratification (saving time and fixing thirst) over long-term hidden risks."
       },
       {
-            "text": "Question 14 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "text": "Why do delayed consequences, such as illness, often fail to stop unsafe water practices?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Because people enjoy being sick",
+                  "Because the delay makes them have very little immediate effect on behavior",
+                  "Because illnesses from water are generally mild",
+                  "Because the illnesses happen before the water is consumed"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: If the punishment (sickness) doesn't happen immediately, the brain ignores the connection."
       },
       {
-            "text": "Question 15 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "text": "What makes the beneficial consequences of healthy WASH behaviors difficult to see?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "The consequence is often just the avoidance of invisible dangers like viruses",
+                  "The healthy behaviors take too long to perform",
+                  "The consequences happen too quickly to notice",
+                  "Healthy behaviors always cause physical pain"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: You can't \"see\" that you didn't get sick today, so there is no immediate visible reward for boiling water."
       },
       {
-            "text": "Question 16 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "text": "How can desired healthy behaviors be quickly strengthened?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "By delivering additional reinforcers such as feedback or attention",
+                  "By threatening severe punishment",
+                  "By hiding the safe water supply",
+                  "By ignoring the behavior completely"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Positive feedback and attention give people immediate satisfaction for doing the right thing."
       },
       {
-            "text": "Question 17 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "text": "What is one way people can be encouraged to keep up good habits and identify risky situations?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "By avoiding all social contact",
+                  "By learning to collect and visualize data about their own behavior",
+                  "By drinking only rainwater",
+                  "By stopping all handwashing"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Seeing a streak on a chart (like a fitness app) makes people want to keep the good habit going."
       },
       {
-            "text": "Question 18 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "text": "To make using WASH devices more reinforcing, how should they ideally be designed?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "To be as heavy as possible",
+                  "Creatively, in a funny or useful way",
+                  "To be invisible",
+                  "To require a complex manual to operate"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: If washing hands is fun or uses a clever gadget, people will actually want to do it."
       },
       {
-            "text": "Question 19 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "text": "What is the ultimate long-term goal for maintaining healthy WASH behaviors?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "To constantly pay people to wash their hands",
+                  "For behaviors to be maintained through naturally occurring reinforcers like staying healthy",
+                  "To have field workers monitor people forever",
+                  "To rely entirely on artificial flavors in water"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The habit must eventually survive on its own without artificial rewards or monitors."
       },
       {
-            "text": "Question 20 regarding Clean Water and Hygiene: Which of the following is a key concept?",
+            "text": "What role can local WASH groups play in sustaining positive behavior?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "They can enforce strict penalties for unsafe behavior",
+                  "They can provide fun and social reinforcement",
+                  "They can build massive water treatment plants",
+                  "They can eliminate the need for clean water entirely"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Clean Water and Hygiene: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Clean Water and Hygiene: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Clean Water and Hygiene: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Clean Water and Hygiene: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Clean Water and Hygiene: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Positive peer pressure and community fun keep the momentum going."
       }
-] }
+    ] }
   },
   {
     id: 'hlt5', title: 'Child Immunization Awareness', category: 'Health',
     description: 'Understand the importance of vaccines in protecting children from deadly diseases.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/vaccine,child?lock=151',
+    thumbnailUrl: 'https://www.reanfoundation.org/wp-content/uploads/2023/04/Child-Needs-Vaccines.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
-    village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'The Vaccination Schedule', videoUrl: 'https://www.youtube.com/embed/3QIfkeA6HBY', duration: '1:30:00' }],
+    village: 'Patha Rega',
+    modules: [{ id: 'm1', title: 'Vaccines and Immunity', videoUrl: 'https://www.youtube.com/embed/uh6nhzUIw38', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Child Immunization Awareness\"?",
+            "text": "According to Dr. Ankit, what are vaccines primarily made of?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Chemical syrups that reduce fever",
+                  "Biologically active compounds containing a bacteria, virus, or part of an organism",
+                  "Pure vitamins and minerals for growth",
+                  "Antibiotics that kill existing stomach bugs"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Vaccines use a safe, dead or weakened piece of the actual germ to train your body."
       },
       {
-            "text": "In the context of Health, why is this topic important?",
+            "text": "What is the main purpose of introducing a vaccine into a child's body?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "To cure an ongoing infection immediately",
+                  "To help the child gain weight",
+                  "To help the child develop immunity against certain diseases without actually falling sick",
+                  "To permanently change the child's DNA"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: It acts like a harmless training simulator for your immune system so you don't get the real disease."
       },
       {
-            "text": "Which tool or method is most commonly associated with Child Immunization Awareness?",
+            "text": "On what principle do vaccines work inside the human body?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "The principle of immune memory",
+                  "The principle of blood dilution",
+                  "The principle of rapid cell division",
+                  "The principle of thermal regulation"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The immune system \"remembers\" the fake germ from the vaccine so it can instantly destroy the real one later."
       },
       {
-            "text": "Question 4 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "text": "When a vaccine is introduced, what does the body generate to control or kill the \"foreign invader\"?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Red blood cells",
+                  "Antibodies",
+                  "Excess sugar",
+                  "Lactic acid"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Antibodies are the microscopic soldiers your body specifically creates to fight the invader."
       },
       {
-            "text": "Question 5 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "text": "Which two main vaccination schedules are generally followed in India, according to the video?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "The WHO schedule and the FDA schedule",
+                  "The National Immunization Schedule (NIS) and the Indian Academy of Pediatrics (IAP) schedule",
+                  "The Private Hospital Schedule and the State Board Schedule",
+                  "The European standard and the Asian standard"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: NIS is the government standard, and IAP is the private pediatrician standard."
       },
       {
-            "text": "Question 6 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "text": "What is a key characteristic of the National Immunization Schedule (NIS) mentioned by the doctor?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "It contains every possible optional vaccine available in the world",
+                  "It is only for adults over 18",
+                  "It provides the bare minimum basic vaccines and is generally followed in government hospitals",
+                  "It only provides vaccines in an oral form"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The government focuses on mass survival, providing the absolutely essential, life-saving vaccines for free."
       },
       {
-            "text": "Question 7 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "text": "How does the Indian Academy of Pediatrics (IAP) schedule differ from the NIS?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "It only offers vaccines for teenagers",
+                  "It has a narrower coverage of diseases",
+                  "It provides extra and broader coverage, including both mandatory and optional vaccines",
+                  "It is completely free in all private clinics"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Private pediatricians (IAP) recommend extra layers of protection against more diseases for those who can afford it."
       },
       {
-            "text": "Question 8 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "text": "Up to what age are the vaccines in these schedules generally administered to children?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "From birth to 5 years of age",
+                  "From birth to 15 years of age",
+                  "From 5 years to 18 years of age",
+                  "Only during the first year of birth"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The core foundation of immunity is built from the day they are born until their early teens (15 yrs)."
       },
       {
-            "text": "Question 9 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "text": "Are all vaccines given strictly in the form of an injection?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Yes, oral vaccines do not exist",
+                  "No, some vaccines are available in an oral form",
+                  "Yes, but only in government hospitals",
+                  "No, vaccines are only given as skin creams"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: \"Polio drops\" are the most famous example of drinking a vaccine instead of getting a shot."
       },
       {
-            "text": "Question 10 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "text": "Which of the following is given as an example of an oral vaccine in the video?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Measles",
+                  "Tetanus",
+                  "Polio, Cholera, and Rotavirus",
+                  "Hepatitis B"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: These diseases target the gut (like cholera and rotavirus), so swallowing the vaccine is highly effective."
       },
       {
-            "text": "Question 11 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "text": "What should parents do if they miss or delay a scheduled vaccination dose for their child?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Skip that dose entirely and wait for the next year",
+                  "Inform the doctor as soon as they realize and get the missed dose administered to complete the schedule",
+                  "Start the entire vaccination schedule from the very beginning",
+                  "Double the dose on the next visit"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Better late than never! Catch-up schedules exist to get the child back on track."
       },
       {
-            "text": "Question 12 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "text": "Which of the following are mentioned as common, mild side effects of vaccination?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Hair loss and blurry vision",
+                  "Fever, pain at the injection site, irritability, swelling, or redness",
+                  "High blood pressure and weight loss",
+                  "Extreme bone pain and coughing"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: These are just normal signs that the immune system is actively practicing and building defenses."
       },
       {
-            "text": "Question 13 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "text": "According to the doctor, is there a proven link between vaccines and autism?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "Yes, vaccines are a leading cause of autism",
+                  "Yes, but only if the vaccine is delayed",
+                  "No, research has proven that there is absolutely no relation or association between vaccines and autism",
+                  "It is still completely unknown to medical science"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Countless global studies have completely debunked the vaccine-autism myth. They are safe."
       },
       {
-            "text": "Question 14 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "text": "What is one crucial thing parents must remember to take with them when visiting the pediatrician for a vaccination?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "The child's favorite toy",
+                  "The child's medical records, vaccination file, or card",
+                  "A month's supply of fever medicine",
+                  "The child's birth certificate only"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The card is the child's ultimate health passport. The doctor needs to see exactly what was given and when."
       },
       {
-            "text": "Question 15 regarding Child Immunization Awareness: Which of the following is a key concept?",
+            "text": "Under what condition might a pediatrician advise deferring (postponing) a vaccination?",
             "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
+                  "If the child is completely healthy and active",
+                  "If the child ate a heavy meal before coming",
+                  "If the child currently has a fever, infection, or recent onset illness",
+                  "If the child is crying because they are scared of the needle"
             ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Child Immunization Awareness: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Child Immunization Awareness: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Child Immunization Awareness: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Child Immunization Awareness: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Child Immunization Awareness: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Child Immunization Awareness: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Child Immunization Awareness: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Child Immunization Awareness: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Child Immunization Awareness: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Child Immunization Awareness: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Health",
-                  "Concept B related to Health",
-                  "Concept C related to Health",
-                  "Concept D related to Health"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: You don't want to give a vaccine (a training germ) to a body that is already exhausted fighting a real fever."
       }
-] }
+    ] }
   },
   {
     id: 'hlt6', title: 'Managing Common Fevers', category: 'Health',
