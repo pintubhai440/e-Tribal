@@ -95,7 +95,7 @@ export const mapsGrounding = async (query: string, lat?: number, lng?: number) =
     }
 
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-3-flash-preview",
       contents: query,
       config: config,
     });
