@@ -74,10 +74,11 @@ service cloud.firestore {
     }
 
     function isValidHealthRecord(data) {
-      return hasOnlyAllowedFields(['userId', 'symptoms', 'aiDiagnosis', 'createdAt']) &&
+      return hasOnlyAllowedFields(['userId', 'symptoms', 'aiDiagnosis', 'village', 'createdAt']) &&
              data.userId is string && data.userId.size() > 0 && data.userId.size() < 100 &&
              data.symptoms is string && data.symptoms.size() > 0 && data.symptoms.size() < 5000 &&
              data.aiDiagnosis is string && data.aiDiagnosis.size() > 0 && data.aiDiagnosis.size() < 5000 &&
+             (!('village' in data) || data.village is string) &&
              data.createdAt is string;
     }
 
