@@ -11540,4 +11540,5 @@ export const MOCK_COURSES = [
             "explanation": "Memory Hook: Heat is the ultimate weapon against biology. Cooking food thoroughly kills almost all dangerous bacteria."
       }
     ] }
-  };
+  }
+];
