@@ -288,7 +288,7 @@ export const MOCK_COURSES = [
   {
     id: 'cul2', title: 'Introduction to Kui Language', category: 'Culture',
     description: 'Learn the basics of the Kui language spoken by the Kondh tribe.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/language,learning?lock=101',
+    thumbnailUrl: 'https://i.ytimg.com/vi/qroGiugdUF4/maxresdefault.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'Basic Greetings', videoUrl: 'https://www.youtube.com/embed/jvYYBRjoFhc', duration: '1:30:00' }],
@@ -3981,7 +3981,7 @@ export const MOCK_COURSES = [
   {
     id: 'dan3', title: 'Savara Traditional Dance', category: 'Dance',
     description: 'Explore the energetic and rhythmic dance forms of the Savara tribe.',
-    thumbnailUrl: 'https://i.ytimg.com/vi/ecDg5gWKdfM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDKrDM4k_ASBqYX4ynyecbyXf5lVw',
+    thumbnailUrl: 'https://img.onmanorama.com/content/dam/mm/en/lifestyle/news/images/2020/4/19/handloom-c.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
     modules: [{ id: 'm1', title: 'Savara Dance Forms', videoUrl: 'https://www.youtube.com/embed/XAXLo6prtWo', duration: '1:30:00' }],
@@ -7547,1302 +7547,1097 @@ export const MOCK_COURSES = [
   {
     id: 'bus1', title: 'Marketing Tribal Handicrafts', category: 'Business',
     description: 'Learn how to effectively market and sell your handmade products to a wider audience.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/market,handicraft?lock=137',
+    thumbnailUrl: 'https://www.shutterstock.com/image-photo/pa-brazil-november-8-2025-260nw-2700192947.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Identifying Your Target Market', videoUrl: 'https://www.youtube.com/embed/rwbho0CgEAE', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Identifying Your Target Market', videoUrl: 'https://www.youtube.com/embed/Rp6Sn1coaKk', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Marketing Tribal Handicrafts\"?",
+            "text": "What type of handmade bag was suggested as a business idea?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Plastic Bags",
+                  "Crochet Handbags",
+                  "Paper Bags",
+                  "Aluminum Bags"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Crochet is a classic handmade skill using yarn to make beautiful, trendy bags."
       },
       {
-            "text": "In the context of Business, why is this topic important?",
+            "text": "Which of the following is a home decor business idea mentioned in the video?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Wooden Signs",
+                  "Metal Roofing",
+                  "Cement Blocks",
+                  "Plastic Siding"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Rustic wooden signs with painted quotes are wildly popular for home and farmhouse decor."
       },
       {
-            "text": "Which tool or method is most commonly associated with Marketing Tribal Handicrafts?",
+            "text": "What type of handmade jewelry was suggested as a product to sell?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Gold Watches",
+                  "Diamond Rings",
+                  "Clay Earrings",
+                  "Platinum Bands"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Polymer clay is incredibly versatile, cheap, and easy to mold for shaping custom earrings."
       },
       {
-            "text": "Question 4 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "text": "Which item was suggested for pet owners to make and sell?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Dog Houses",
+                  "Leather Collars",
+                  "Metal Chains",
+                  "Pets Toys"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Pet owners love spoiling their pets with safe, handmade toys."
       },
       {
-            "text": "Question 5 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "text": "What type of handmade bath product was mentioned as a DIY business idea?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Bath Bombs",
+                  "Plastic Sponges",
+                  "Electronic Massagers",
+                  "Rubber Ducks"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Bath bombs are fun DIY chemical reactions that people love buying for self-care."
       },
       {
-            "text": "Question 6 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "text": "Which customizable item for holding keys was listed in the video?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Lanyards",
+                  "Leather Wallets",
+                  "Personalized Keychains",
+                  "Smart Locks"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Everyone has keys, and putting a name on a keychain makes it a perfect, affordable gift."
       },
       {
-            "text": "Question 7 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "text": "What handmade painting style was highlighted as a DIY craft to sell?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Digital Painting",
+                  "Resign Paintings",
+                  "Fresco Painting",
+                  "Oil Pastels"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Resin (epoxy) creates a glossy, 3D glass-like finish that makes paintings and art pop."
       },
       {
-            "text": "Question 8 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "text": "Which clothing item was suggested to be customized with designs like \"eat sleep code repeat\"?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Leather Jackets",
+                  "Denim Pants",
+                  "Graphic T-Shirts",
+                  "Wool Sweaters"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Custom text and quotes are most easily printed on basic cotton graphic tees."
       },
       {
-            "text": "Question 9 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "text": "What type of event paper goods were recommended to make and sell?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Parking Tickets",
+                  "Wedding Invitations",
+                  "Restaurant Menus",
+                  "Tax Forms"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Weddings are huge, expensive events where people happily pay for beautiful, custom paper goods."
       },
       {
-            "text": "Question 10 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "text": "Which handmade scent product was featured for creating a relaxing atmosphere at home?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Industrial Air Fresheners",
+                  "Car Exhaust Spray",
+                  "Plastic Flowers",
+                  "Incenses"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Incense sticks burn slowly to release relaxing, aromatic smoke in the house."
       },
       {
-            "text": "Question 11 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "text": "What type of craft made from yarn was suggested for keeping warm?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Silk Ties",
+                  "Knitted Hats",
+                  "Cotton T-Shirts",
+                  "Nylon Jackets"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Knitting yarn is the traditional and warmest way to make cozy winter hats/beanies."
       },
       {
-            "text": "Question 12 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "text": "Which of the following was suggested as an idea to help organize and plan life goals?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "GPS Trackers",
+                  "Electronic Tablets",
+                  "Manifestation Planners",
+                  "Wall Clocks"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Planners help you \"manifest\" (bring into reality) your life goals by writing them down."
       },
       {
-            "text": "Question 13 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "text": "What handmade or customized item was recommended to hold coffee or tea?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Plastic Bottles",
+                  "Coffee Mugs",
+                  "Paper Cups",
+                  "Aluminum Cans"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Customized mugs are the ultimate personalized holder for your morning coffee."
       },
       {
-            "text": "Question 14 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "text": "Which craft involving melting and molding was suggested as a skincare or body product?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Plastic Containers",
+                  "Rubber Bands",
+                  "Handmade Soap",
+                  "Metal Tins"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Melting bases, mixing scents, and molding is the classic handmade soap-making process."
       },
       {
-            "text": "Question 15 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
+            "text": "What trendy DIY item was featured that is popular with kids for stretching and playing?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Wooden Blocks",
+                  "Metal Cars",
+                  "Glass Marbles",
+                  "Slime"
             ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Marketing Tribal Handicrafts: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Slime is the gooey, stretchy, colorful trend that kids go absolutely crazy over."
       }
-] }
+    ] }
   },
   {
     id: 'bus2', title: 'Pricing Your Products', category: 'Business',
     description: 'Understand how to calculate costs and set a fair and profitable price for your goods.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/money,business?lock=138',
+    thumbnailUrl: 'https://cdn.betterproposals.io/blog/2022/11/price-vs-value-1-1024x704.png',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Calculating Material and Labor Costs', videoUrl: 'https://www.youtube.com/embed/EngW7tCbLHY', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Cost Calculation', videoUrl: 'https://www.youtube.com/embed/E84R362yfHE', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Pricing Your Products\"?",
+            "text": "What college degree did the speaker (Mei) earn, which she says helps her with the \"science\" of pricing?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Fine Arts",
+                  "Actuarial Science (Math)",
+                  "Business Administration",
+                  "Marketing"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Actuaries deal strictly with deep math, statistics, and risk—perfect skills for crunching business numbers!"
       },
       {
-            "text": "In the context of Business, why is this topic important?",
+            "text": "When it comes to material costs, what major pricing mistake do many new handmade business owners make?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Buying materials at wholesale prices",
+                  "Forgetting to buy materials in bulk",
+                  "Buying materials at retail prices (like from craft stores or Amazon)",
+                  "Making all their own materials from scratch"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Buying retail means you're paying the consumer markup. You need wholesale supplier prices to make a real profit."
       },
       {
-            "text": "Which tool or method is most commonly associated with Pricing Your Products?",
+            "text": "How does the supply chain generally work for craft materials?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Manufacturer -> Consumer",
+                  "Retail Store -> Manufacturer -> Wholesaler",
+                  "Wholesaler -> Manufacturer -> Consumer",
+                  "Manufacturer -> Distributor/Wholesaler -> Retailer -> Consumer"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: The product flows naturally from the factory (maker), to the bulk buyer (distributor), to the shop (retailer), and finally to you."
       },
       {
-            "text": "Question 4 regarding Pricing Your Products: Which of the following is a key concept?",
+            "text": "What is a common requirement when buying craft materials directly from a wholesaler?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "You must have a physical retail storefront",
+                  "You must meet a minimum order requirement (e.g., $100 or more)",
+                  "You have to buy at least one item every single month",
+                  "You have to pay a monthly subscription fee"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Wholesalers give you cheap prices ONLY because they force you to buy a lot of volume at once (Minimum Order)."
       },
       {
-            "text": "Question 5 regarding Pricing Your Products: Which of the following is a key concept?",
+            "text": "Which of the following best describes the \"value of a product to the customer\"?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "The exact cost of the materials used",
+                  "The minimum wage multiplied by the hours worked",
+                  "The emotional, practical, or fashion significance the item holds for the buyer",
+                  "The shipping and handling cost of the product"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Value isn't just the raw material cost; it's how much the customer *loves*, needs, or feels connected to the item."
       },
       {
-            "text": "Question 6 regarding Pricing Your Products: Which of the following is a key concept?",
+            "text": "What example did the speaker use to demonstrate that a product can be invaluable to a specific customer?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "A handmade leather handbag",
+                  "An engagement ring shaped like a chocolate donut",
+                  "A custom painting of a childhood pet",
+                  "A hand-knitted winter scarf"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A donut ring seems weird to most, but it was absolutely priceless to the specific couple who asked for it!"
       },
       {
-            "text": "Question 7 regarding Pricing Your Products: Which of the following is a key concept?",
+            "text": "According to the speaker, how should you view your time spent making a handmade product?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Your time is free if you enjoy the craft",
+                  "Your time should be billed at exactly $5 an hour to stay competitive",
+                  "Your time is valuable and must be factored into the product cost as labor",
+                  "Your time is only counted if the customer asks for a custom order"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: You are the primary employee of your own business. You must pay yourself an hourly wage for your labor!"
       },
       {
-            "text": "Question 8 regarding Pricing Your Products: Which of the following is a key concept?",
+            "text": "What is the basic pricing formula recommended in the video?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "(Material Costs + Labor) x 4 = Retail Price",
+                  "Material Costs x 2 = Retail Price",
+                  "(Material Costs + Labor) x 2 = Retail Price",
+                  "Material Costs + Labor + Shipping = Retail Price"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The 4x multiplier ensures you cover your base costs, leave room for wholesale margins, and secure a retail profit."
       },
       {
-            "text": "Question 9 regarding Pricing Your Products: Which of the following is a key concept?",
+            "text": "When using the recommended pricing formula, the speaker says you actually get paid \"twice.\" What are these two ways?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "You get paid for materials and shipping",
+                  "You get paid a deposit upfront and the rest upon delivery",
+                  "You get paid for your labor as a maker AND you earn a profit as a business owner",
+                  "You get paid by the customer and by the wholesaler"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: You wear two hats: you get an hourly wage as the worker who builds it, and a profit cut as the boss who owns the business."
       },
       {
-            "text": "Question 10 regarding Pricing Your Products: Which of the following is a key concept?",
+            "text": "What is a common misconception handmade sellers have about lowering their prices?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Lowering prices will increase their shipping costs",
+                  "Lowering prices will attract high-end boutiques",
+                  "Lowering prices will make their brand look premium",
+                  "Lowering prices will automatically result in more sales"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Cheap prices often backfire. Buyers might suspect cheap quality, hurting sales instead of boosting them."
       },
       {
-            "text": "Question 11 regarding Pricing Your Products: Which of the following is a key concept?",
+            "text": "Based on the speaker's experience, what type of customers do lower prices tend to attract?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Customers who are extremely loyal to the brand",
+                  "Customers who value the art and craftsmanship highly",
+                  "Customers who only shop at lower prices and may not value the products as much",
+                  "Customers who leave the best feedback and reviews"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Bargain hunters care about getting a cheap deal, not about appreciating the art and effort of your craft."
       },
       {
-            "text": "Question 12 regarding Pricing Your Products: Which of the following is a key concept?",
+            "text": "How does the speaker add perceived value and convenience for her specific jewelry customers?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "By offering free overnight shipping",
+                  "By individually gift-wrapping each necklace",
+                  "By including a free pair of earrings with every order",
+                  "By sending a personalized video message"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Beautiful gift-wrapping saves the customer time and makes opening the item feel like a premium, expensive experience."
       },
       {
-            "text": "Question 13 regarding Pricing Your Products: Which of the following is a key concept?",
+            "text": "What is the fifth fact to consider when pricing your handmade products?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Your prices dictate what shipping materials you can use",
+                  "Your prices determine if you have to pay quarterly taxes",
+                  "Your prices tell a story about where you stand amongst your competitors",
+                  "Your prices should always fluctuate based on the season"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Prices tell a story: High prices scream \"luxury and quality,\" while low prices whisper \"budget and cheap.\""
       },
       {
-            "text": "Question 14 regarding Pricing Your Products: Which of the following is a key concept?",
+            "text": "If your products are priced lower than all your competitors, but your website looks unprofessional and lacks contact info, what will potential buyers likely think?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "They will buy immediately because it's a great deal",
+                  "They will assume you are a wholesaler",
+                  "They will not trust your business and might assume something is wrong",
+                  "They will email you to ask for an even bigger discount"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: \"Too good to be true\" prices combined with a bad website trigger immediate scam alerts in a buyer's mind."
       },
       {
-            "text": "Question 15 regarding Pricing Your Products: Which of the following is a key concept?",
+            "text": "How does the speaker justify having some of the highest prices in her specific niche (food-scented jewelry)?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "She uses solid gold for all her jewelry findings",
+                  "She pays for expensive celebrity endorsements",
+                  "She forces customers to buy a minimum of 3 items at a time",
+                  "She provides social proof, excellent customer service, generous policies, and a unique product feature"
             ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 16 regarding Pricing Your Products: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 17 regarding Pricing Your Products: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 18 regarding Pricing Your Products: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 19 regarding Pricing Your Products: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 20 regarding Pricing Your Products: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Pricing Your Products: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Pricing Your Products: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Pricing Your Products: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Pricing Your Products: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Pricing Your Products: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: People happily pay extra for peace of mind, strong guarantees, and top-tier customer service."
       }
-] }
+    ] }
   },
   {
     id: 'bus3', title: 'Basic Accounting for Artisans', category: 'Business',
     description: 'Keep track of your income, expenses, and profits using simple accounting methods.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/accounting,calculator?lock=139',
+    thumbnailUrl: 'https://www.accountsjunction.com/BlogImg/bookkeepingforartistsother_1764842474.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Maintaining a Ledger', videoUrl: 'https://www.youtube.com/embed/un5I9vMBFls', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Accounting Fundamentals', videoUrl: 'https://www.youtube.com/embed/vO09q2V8TGQ', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Basic Accounting for Artisans\"?",
+            "text": "Accounting is often referred to as the \"Language of Business\" because:",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "It is only used by top executives",
+                  "It communicates financial information to help users make informed decisions",
+                  "It is a complex mathematical formula",
+                  "It is only used for filing taxes"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Like learning French to speak in France, you learn Accounting to speak and understand Business."
       },
       {
-            "text": "In the context of Business, why is this topic important?",
+            "text": "Which of the following is considered an \"external user\" of accounting information?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Store Manager",
+                  "Employee",
+                  "Investor",
+                  "CEO"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Employees and managers are inside the company; investors are outside looking in before giving their money."
       },
       {
-            "text": "Which tool or method is most commonly associated with Basic Accounting for Artisans?",
+            "text": "What does GAAP stand for in the United States?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "General Accounting and Auditing Practices",
+                  "Global Accounting and Assessment Principles",
+                  "Generally Accepted Accounting Principles",
+                  "Government Approved Accounting Procedures"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: GAAP stands for the General rules that everyone Accepts and follows."
       },
       {
-            "text": "Question 4 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "Which accounting assumption states that a business is treated as completely separate from its owners?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Time period assumption",
+                  "Monetary unit assumption",
+                  "Going concern assumption",
+                  "Economic entity assumption"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: You and your business are two completely separate \"entities\" with different wallets."
       },
       {
-            "text": "Question 5 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "Recording revenues when they are earned and expenses when they are incurred, regardless of when cash changes hands, is known as the:",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Accrual basis assumption",
+                  "Cash basis assumption",
+                  "Historical cost principle",
+                  "Conservatism principle"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Accrual tracks the action, not the cash. You record the sale the moment the work is done."
       },
       {
-            "text": "Question 6 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "The principle that requires a company to record its assets at their original purchase price rather than their current market value is the:",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Matching principle",
+                  "Historical cost principle",
+                  "Objectivity principle",
+                  "Materiality principle"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It goes in the books for the \"historic\" price you actually paid on that specific day in the past."
       },
       {
-            "text": "Question 7 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "What is the fundamental Accounting Equation?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Assets = Liabilities - Equity",
+                  "Assets + Liabilities = Equity",
+                  "Assets = Liabilities + Equity",
+                  "Assets = Revenues - Expenses"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: What you own (Assets) = What you owe the bank (Liab) + What belongs to you (Eq)."
       },
       {
-            "text": "Question 8 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "Resources owned by a business, such as cash, equipment, and inventory, are classified as:",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Liabilities",
+                  "Equity",
+                  "Assets",
+                  "Expenses"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Assets are the valuable tools and cash that 'assist' your business in making money."
       },
       {
-            "text": "Question 9 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "In accounting, what do the terms \"Debit\" and \"Credit\" simply refer to?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Good and Bad",
+                  "Increase and Decrease",
+                  "Left side and Right side of an account",
+                  "Profit and Loss"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Don't overthink it. Debit is just a fancy Latin word for Left, Credit is for Right."
       },
       {
-            "text": "Question 10 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "Which types of accounts normally increase with a Debit?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Assets and Expenses",
+                  "Liabilities and Equity",
+                  "Revenues and Liabilities",
+                  "Equity and Expenses"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Think 'AE'. Assets and Expenses increase on the left side (Debit)."
       },
       {
-            "text": "Question 11 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "What is the first stage in the recording process where transactions are entered in chronological order?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "The Ledger",
+                  "The Trial Balance",
+                  "The Journal",
+                  "The Balance Sheet"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Just like a personal diary, a Journal records events day by day as they happen."
       },
       {
-            "text": "Question 12 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "The \"filing cabinet\" of accounting, where journal entries are reorganized by individual accounts (like Cash or Accounts Payable), is called the:",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Income Statement",
+                  "Ledger",
+                  "Trial Balance",
+                  "Adjusting Entry"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: A Ledger takes the messy daily journal and sorts it cleanly into individual folders."
       },
       {
-            "text": "Question 13 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "A list of all accounts and their ending balances, used to prove that total debits equal total credits, is the:",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Trial Balance",
+                  "Balance Sheet",
+                  "Journal",
+                  "Statement of Cash Flows"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: You put your math on 'trial' to prove that your left and right columns perfectly 'balance'."
       },
       {
-            "text": "Question 14 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "If a company pays $6,000 upfront for 6 months of rent, how should this be initially recorded?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "As a $6,000 Rent Expense",
+                  "As a Liability called Unearned Rent",
+                  "As an Asset called Prepaid Rent",
+                  "It is not recorded until the 6 months are over"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: You haven't used the space yet, so it's a 'prepaid' asset you get to use in the future."
       },
       {
-            "text": "Question 15 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "What is the purpose of recording Depreciation?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "To show the exact market value of an asset",
+                  "To save money on buying new equipment",
+                  "To spread the cost of a long-term asset over its useful life",
+                  "To record the daily repair costs of machinery"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Depreciation slowly \"depreciates\" or spreads the massive cost of a machine over the many years you use it."
       },
       {
-            "text": "Question 16 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "Which of the following is considered a \"Temporary Account\" that must be closed at the end of the accounting period?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Cash",
+                  "Accounts Payable",
+                  "Retained Earnings",
+                  "Revenue"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Revenues and expenses reset to zero every single year to start fresh, so they are temporary."
       },
       {
-            "text": "Question 17 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "During the closing process, revenue and expense accounts are first closed into which temporary account?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Retained Earnings",
+                  "Income Summary",
+                  "Dividends",
+                  "Common Stock"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It 'summarizes' your total income before transferring the final profit to your permanent retained earnings."
       },
       {
-            "text": "Question 18 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "Which financial statement reports a company's revenues and expenses over a period of time to show net income or net loss?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Balance Sheet",
+                  "Statement of Cash Flows",
+                  "Income Statement",
+                  "Statement of Retained Earnings"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: It literally \"states\" your \"income\" (Revenue minus Expenses)."
       },
       {
-            "text": "Question 19 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "Which financial statement acts as a \"snapshot\" of the company's financial position at a single point in time?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Income Statement",
+                  "Balance Sheet",
+                  "Statement of Cash Flows",
+                  "Trial Balance"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It takes a freeze-frame snapshot of your exact balances on one specific day."
       },
       {
-            "text": "Question 20 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "What is the formula for calculating ending Retained Earnings?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Beginning Retained Earnings + Net Income - Dividends",
+                  "Beginning Retained Earnings + Assets - Liabilities",
+                  "Revenues - Expenses - Dividends",
+                  "Net Income + Cash Flow - Liabilities"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Old money + New money made - Money given away = Ending money kept."
       },
       {
-            "text": "Question 21 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "On the Statement of Cash Flows, buying or selling long-term assets like equipment is classified under:",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Operating activities",
+                  "Financing activities",
+                  "Investing activities",
+                  "Non-cash activities"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Buying a 10-year machine isn't a daily operation, it is an \"investment\" in the company's future."
       },
       {
-            "text": "Question 22 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "In a merchandising company, what formula is used to calculate the Cost of Goods Sold (COGS)?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Sales Revenue - Operating Expenses",
+                  "Beginning Inventory + Purchases - Ending Inventory",
+                  "Current Assets - Current Liabilities",
+                  "Net Income / Average Equity"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: What you started with + what you bought - what's left = what you actually sold."
       },
       {
-            "text": "Question 23 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "Which liquidity ratio is calculated by dividing Current Assets by Current Liabilities?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Debt-to-Equity Ratio",
+                  "Return on Equity (ROE)",
+                  "Gross Profit Margin",
+                  "Current Ratio"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 3,
+            "explanation": "Memory Hook: Current divided by Current equals the Current Ratio."
       },
       {
-            "text": "Question 24 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "What does a high Debt-to-Equity ratio indicate about a business?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "It relies heavily on borrowed money (debt) compared to the owner's invested money",
+                  "It has no liabilities",
+                  "It has very high current assets",
+                  "It is generating a very high return for its owners"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: High Debt-to-Equity means the Debt number is much bigger than the Equity number."
       },
       {
-            "text": "Question 25 regarding Basic Accounting for Artisans: Which of the following is a key concept?",
+            "text": "Return on Equity (ROE) is a measure of profitability calculated by dividing:",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Current Assets by Current Liabilities",
+                  "Total Liabilities by Total Equity",
+                  "Net Income by Average Equity",
+                  "Gross Profit by Net Sales"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Return (Net Income) ON Equity (divided by Average Equity)."
       }
-] }
+    ] }
   },
   {
     id: 'bus4', title: 'Starting a Cooperative', category: 'Business',
     description: 'Learn the benefits and steps to form a cooperative society with fellow villagers.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/team,business?lock=140',
+    thumbnailUrl: 'https://fitsmallbusiness.com/wp-content/uploads/2025/04/cooperative-steps.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Power of Collective Bargaining', videoUrl: 'https://www.youtube.com/embed/rwbho0CgEAE', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Cooperative Framework', videoUrl: 'https://www.youtube.com/embed/BltIkYrjXig', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"Starting a Cooperative\"?",
+            "text": "What is the primary objective of forming a cooperative society?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Earning maximum profit",
+                  "Mutual help and serving its members",
+                  "Establishing a monopoly in the market",
+                  "Competing with multinational corporations"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: \"Co-operate\" means to work together. The main goal is mutual help, not greedy profits."
       },
       {
-            "text": "In the context of Business, why is this topic important?",
+            "text": "Which principle does a cooperative society primarily work on?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "Survival of the fittest",
+                  "Maximum profit for the owner",
+                  "Each for all and all for each",
+                  "Divide and rule"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: This is the ultimate teamwork motto—everyone supports everyone."
       },
       {
-            "text": "Which tool or method is most commonly associated with Starting a Cooperative?",
+            "text": "Under which act must a cooperative society be registered in India?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Companies Act, 2013",
+                  "Partnership Act, 1932",
+                  "Cooperative Societies Act, 1912",
+                  "Societies Registration Act, 1860"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: 1912 is the historic year India formalized cooperative laws to help farmers and workers."
       },
       {
-            "text": "Question 4 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "text": "What is the minimum number of adult persons required to form a cooperative society?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "2",
+                  "7",
+                  "10",
+                  "20"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: It takes a solid group to cooperate. A perfect 10 people are needed to officially start a group."
       },
       {
-            "text": "Question 5 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "text": "What is the minimum age requirement for a person to join a cooperative society?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "16 years",
+                  "18 years",
+                  "21 years",
+                  "25 years"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: You must be a legal adult (18+) to sign legally binding cooperative contracts."
       },
       {
-            "text": "Question 6 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "text": "Which of the following is true regarding the transferability of shares in a cooperative society?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Members can easily sell their shares in the stock market",
+                  "Members can transfer their shares to any other person",
+                  "Members can withdraw their capital but cannot transfer their shares",
+                  "Shares are permanently locked and cannot be withdrawn"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: You can take your money and leave, but you can't sell your spot to a stranger who doesn't share the group's goals."
       },
       {
-            "text": "Question 7 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "text": "What kind of legal status does a cooperative society acquire after registration?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "It is considered the same as its individual members",
+                  "It becomes a distinct legal body independent of its members",
+                  "It becomes a government-owned entity",
+                  "It becomes a sole proprietorship"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Registration gives it a separate legal identity, acting like a protective shield for its members."
       },
       {
-            "text": "Question 8 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "text": "What is the nature of liability for members of a cooperative society?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Unlimited liability",
+                  "No liability at all",
+                  "Limited to the extent of shares subscribed or capital contributed by them",
+                  "Joint and several liability"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Your personal house is safe. You only lose what you directly invested in the society."
       },
       {
-            "text": "Question 9 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "text": "How are voting rights determined in a cooperative society?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "One vote per share held",
+                  "One man, one vote (equal voting rights)",
+                  "Voting power is based on the capital invested",
+                  "Only the managing committee can vote"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Pure democracy. It doesn't matter if you are rich or poor, everyone gets exactly one vote."
       },
       {
-            "text": "Question 10 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "text": "What portion of the cooperative society's surplus profit is strictly transferred to the general reserve?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "One-half",
+                  "One-third",
+                  "One-fourth",
+                  "One-fifth"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: By law, 25% (1/4th) of profits must be saved for the society's rainy days."
       },
       {
-            "text": "Question 11 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "text": "Which type of cooperative society purchases goods directly from manufacturers and wholesalers to eliminate middlemen?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Producers' Cooperative Society",
+                  "Marketing Cooperative Society",
+                  "Consumers' Cooperative Society",
+                  "Credit Cooperative Society"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Everyday \"consumers\" band together to buy direct and cut out the retail middleman's profit."
       },
       {
-            "text": "Question 12 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "text": "The Indian Coffee House (ICH) is a classic example of which type of cooperative society?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Workers' Cooperative Society",
+                  "Consumers' Cooperative Society",
+                  "Housing Cooperative Society",
+                  "Farmers' Cooperative Society"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: The famous coffee house is completely owned, managed, and run by the waiters and \"workers\" themselves."
       },
       {
-            "text": "Question 13 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "text": "Which type of cooperative society is formed by small producers to sell their output at remunerative prices via a centralized agency?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Credit Cooperative Society",
+                  "Marketing Cooperative Society",
+                  "Consumers' Cooperative Society",
+                  "Housing Cooperative Society"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Small producers team up to collectively 'market' and sell their goods at better prices."
       },
       {
-            "text": "Question 14 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "text": "Amul is a well-known example of which type of cooperative society?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Workers' Cooperative Society",
+                  "Marketing Cooperative Society",
+                  "Housing Cooperative Society",
+                  "Credit Cooperative Society"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Amul collects milk from millions of tiny farmers and 'markets' it nationwide under one brand."
       },
       {
-            "text": "Question 15 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "text": "What is the main purpose of a Farmers' Cooperative Society?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "To build houses in urban areas",
+                  "To gain economies of scale in large-scale farming and supply quality inputs",
+                  "To eliminate wholesalers from the retail market",
+                  "To provide jobs to unemployed urban youth"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Farmers combine their buying power to get cheap seeds, tractors, and fertilizers (economies of scale)."
       },
       {
-            "text": "Question 16 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "text": "Which cooperative society is set up to provide financial aid at nominal rates and protect members from exploitation by moneylenders?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Housing Cooperative Society",
+                  "Marketing Cooperative Society",
+                  "Credit Cooperative Society",
+                  "Producers' Cooperative Society"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: They provide 'credit' (cheap loans) so poor members can escape greedy moneylenders."
       },
       {
-            "text": "Question 17 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "text": "What are the \"bylaws\" of a cooperative society?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "The legal penalties for breaking the law",
+                  "The government taxes imposed on the society",
+                  "The rules and regulations that govern its functioning",
+                  "The financial statements submitted to the bank"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: \"By-laws\" are simply the rulebook BY which the society functions."
       },
       {
-            "text": "Question 18 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "text": "To whom must the application be submitted to get a cooperative society registered?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "The Prime Minister",
+                  "The Registrar of Cooperative Societies of the state",
+                  "The local Police Station",
+                  "The Reserve Bank of India"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Every state has a specific \"Registrar\" official whose only job is to handle these societies."
       },
       {
-            "text": "Question 19 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "text": "Who holds the power to take decisions and manage the cooperative society?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "The wealthiest member of the society",
+                  "The government-appointed officer",
+                  "An elected managing committee",
+                  "The original founder only"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Members vote for a committee to handle the day-to-day operations and management."
       },
       {
-            "text": "Question 20 regarding Starting a Cooperative: Which of the following is a key concept?",
+            "text": "How are the members of the managing committee appointed?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Through direct voting by the members at the Annual General Meeting",
+                  "They are appointed by the Registrar",
+                  "They are selected based on the number of shares they own",
+                  "They are randomly selected every year"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding Starting a Cooperative: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding Starting a Cooperative: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding Starting a Cooperative: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding Starting a Cooperative: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding Starting a Cooperative: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Democracy in action—members vote them into power at the Annual General Meeting (AGM)."
       }
-] }
+    ] }
   },
   {
     id: 'bus5', title: 'E-commerce for Rural Business', category: 'Business',
     description: 'Step-by-step guide to listing and selling your products online.',
-    thumbnailUrl: 'https://loremflickr.com/640/360/ecommerce,laptop?lock=141',
+    thumbnailUrl: 'https://www.yo-kart.com/blog/wp-content/uploads/2016/12/Ecommerce-in-rural-india.jpg',
     instructorSignatureUrl: 'https://lh3.googleusercontent.com/d/1yac9x_xMYwsIoBPdLkiKxA5lVZLmCe7_',
     village: 'Kondakarakam',
-    modules: [{ id: 'm1', title: 'Setting up an Online Store', videoUrl: 'https://www.youtube.com/embed/EngW7tCbLHY', duration: '1:30:00' }],
+    modules: [{ id: 'm1', title: 'Getting Started Online', videoUrl: 'https://www.youtube.com/embed/X2HbdiKm_Xc', duration: '1:30:00' }],
     quiz: { questions: [
       {
-            "text": "What is the primary focus of the course \"E-commerce for Rural Business\"?",
+            "text": "According to the video, what are the two main ways to start an e-commerce business?",
             "options": [
-                  "Understanding the basics",
-                  "Advanced techniques",
-                  "Historical context",
-                  "Practical application"
+                  "Opening a physical shop and running social media ads",
+                  "Selling on marketplaces like Amazon/Flipkart/Meesho or creating your own e-commerce website",
+                  "Selling door-to-door or making YouTube videos",
+                  "Doing wholesale business or retail business exclusively"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: You can either rent a stall in a big online mall (Amazon) or build your own separate store (Website)."
       },
       {
-            "text": "In the context of Business, why is this topic important?",
+            "text": "What is a major disadvantage mentioned about creating your own e-commerce website from scratch?",
             "options": [
-                  "Cultural preservation",
-                  "Economic growth",
-                  "Skill development",
-                  "All of the above"
+                  "It requires buying domain, hosting, creating the website, and spending heavily on marketing and promotion.",
+                  "Amazon and Flipkart will block your brand.",
+                  "You can only sell digital products.",
+                  "You are not allowed to run ads."
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: Building a website is like building a shop in a desert; you have to pay a lot for ads just to bring people there."
       },
       {
-            "text": "Which tool or method is most commonly associated with E-commerce for Rural Business?",
+            "text": "Why does the speaker recommend starting by listing products on Amazon and Flipkart?",
             "options": [
-                  "Traditional methods",
-                  "Modern technology",
-                  "Hybrid approach",
-                  "None of the above"
+                  "Because they give you free inventory to sell",
+                  "Because you will get organic orders gradually, which you can scale later with ads",
+                  "Because you don't need any documents to sell on them",
+                  "Because they do not charge any commission"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Amazon already has millions of visitors, so you get free \"organic\" traffic just by being listed."
       },
       {
-            "text": "Question 4 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "text": "If you do not have a shop or an existing product, what is the very first step you must take?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Create an Instagram account",
+                  "Open a current bank account",
+                  "Do market research and product research to find a good product",
+                  "Register your brand name"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Before you sell, you need to research what people actually want to buy!"
       },
       {
-            "text": "Question 5 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "text": "How many primary documents/requirements are strictly needed to sell on online marketplaces?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "2",
+                  "3",
+                  "5",
+                  "7"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Just 3 main things: GST, PAN, and a Bank Account."
       },
       {
-            "text": "Question 6 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "text": "Which of the following is the FIRST mandatory document required to start selling on platforms like Amazon or Flipkart?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Passport",
+                  "GST Certificate",
+                  "Driving License",
+                  "Ration Card"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The government needs to track your sales tax (Goods and Services Tax) before letting you sell."
       },
       {
-            "text": "Question 7 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "text": "According to the speaker, what is the estimated normal fee a professional might charge to help you create a GST account?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Around 10,000 to 15,000 Rupees",
+                  "Free of cost",
+                  "Around 400 to 500 Rupees",
+                  "Around 5,000 Rupees"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: It's a simple online process, so agents only charge a small 400-500 rupee processing fee."
       },
       {
-            "text": "Question 8 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "text": "What is the SECOND mandatory document you need to start an online e-commerce business?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "PAN Card",
+                  "Aadhar Card",
+                  "Electricity Bill",
+                  "Voter ID"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: PAN tracks your income tax, which is mandatory for running a business in India."
       },
       {
-            "text": "Question 9 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "text": "What type of bank account is required to receive payments from e-commerce marketplaces?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Savings Account",
+                  "Current Account",
+                  "Fixed Deposit Account",
+                  "Salary Account"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: 'Savings' is for personal hoarding; 'Current' is the standard high-flow account for businesses."
       },
       {
-            "text": "Question 10 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "text": "Which marketplace does the speaker recommend keeping as a \"third preference\" in the initial stages?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Amazon",
+                  "Flipkart",
+                  "Meesho",
+                  "eBay"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Meesho is great, but lower margins and high returns make it better as a 3rd choice initially."
       },
       {
-            "text": "Question 11 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "text": "Why does the speaker suggest starting with Amazon and Flipkart before moving to Meesho?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Meesho charges a very high joining fee",
+                  "Meesho requires a specialized warehouse",
+                  "Meesho tends to have a higher issue with product returns in the initial stage",
+                  "Meesho only sells electronics"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Meesho targets a demographic with very high return rates, which can burn a new seller."
       },
       {
-            "text": "Question 12 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "text": "If you register on Amazon using the specific affiliate link mentioned by the speaker, what is one of the free services you receive regarding product listing?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Listing support for up to 100 products",
+                  "Listing support within 30 days of launch for up to 15 ASINs",
+                  "Free professional photo shoot for all products",
+                  "Lifetime free listing"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: The link gets you an Amazon expert to help list your first 15 products for free within a month."
       },
       {
-            "text": "Question 13 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "text": "What monetary benefit does the speaker's special Amazon registration link provide to new sellers?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "5,000 Rupees cashback",
+                  "2,000 Rupees in free ad credits",
+                  "Zero commission for the first year",
+                  "Free shipping for a month"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: You get a free 2000 Rs budget to run ads and boost your products to page 1!"
       },
       {
-            "text": "Question 14 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "text": "What does the \"Easy Ship\" option mean on Amazon?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "The seller uses their own courier partner to ship the product",
+                  "The Amazon team picks up the packaged product from the seller and delivers it to the customer",
+                  "The customer has to come to the seller's house to pick up the product",
+                  "The product is delivered digitally"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: It is \"Easy\" because Amazon's delivery boys do all the running around and shipping for you."
       },
       {
-            "text": "Question 15 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "text": "If you choose the \"Self Ship\" option, what restriction applies to the types of orders you receive?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "You will only receive Cash on Delivery (COD) orders",
+                  "You will only receive Prepaid orders (no COD)",
+                  "You can only ship within your own city",
+                  "You cannot ship items weighing over 100 grams"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Since you aren't using Amazon's cash-collection network, you can only safely accept online prepayments."
       },
       {
-            "text": "Question 16 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "text": "How are invoices generated for the orders you receive on these platforms?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "You have to manually type them out in Microsoft Word",
+                  "You have to hire an accountant to make them",
+                  "They are automatically generated by the marketplace portals",
+                  "The delivery boy writes them by hand"
             ],
-            "correctAnswerIndex": 0
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The portals do the math and create the legal bill for you automatically upon order."
       },
       {
-            "text": "Question 17 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "text": "What should you do with the generated invoice before handing the package to the delivery executive?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Email it to the customer only",
+                  "Keep it in your personal file and do not send it",
+                  "Attach it to the outside of the polybag/packaging",
+                  "Tear it up for security reasons"
             ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: The delivery boy needs to scan the barcode on the invoice, so it must be on the outside."
       },
       {
-            "text": "Question 18 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "text": "Where does the speaker suggest you can easily buy packaging materials like polybags?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Directly from the Amazon and Flipkart platforms themselves",
+                  "Only from local wholesale hardware markets",
+                  "From the post office",
+                  "You have to manufacture them yourself"
             ],
-            "correctAnswerIndex": 2
+            "correctAnswerIndex": 0,
+            "explanation": "Memory Hook: They sell their own branded packaging materials right on their seller portals for convenience."
       },
       {
-            "text": "Question 19 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "text": "What is the usual payment cycle (time taken to receive money in your account) when selling on Amazon?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "1 to 2 days",
+                  "7 to 10 days",
+                  "30 to 45 days",
+                  "Once a year"
             ],
-            "correctAnswerIndex": 3
+            "correctAnswerIndex": 1,
+            "explanation": "Memory Hook: Amazon holds the money for about a week to ensure the customer doesn't return the item."
       },
       {
-            "text": "Question 20 regarding E-commerce for Rural Business: Which of the following is a key concept?",
+            "text": "What is the usual payment cycle when selling on Flipkart?",
             "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
+                  "Immediate transfer upon order",
+                  "2 to 3 days",
+                  "10 to 15 days",
+                  "60 days"
             ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 21 regarding E-commerce for Rural Business: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
-      },
-      {
-            "text": "Question 22 regarding E-commerce for Rural Business: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 2
-      },
-      {
-            "text": "Question 23 regarding E-commerce for Rural Business: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 3
-      },
-      {
-            "text": "Question 24 regarding E-commerce for Rural Business: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 0
-      },
-      {
-            "text": "Question 25 regarding E-commerce for Rural Business: Which of the following is a key concept?",
-            "options": [
-                  "Concept A related to Business",
-                  "Concept B related to Business",
-                  "Concept C related to Business",
-                  "Concept D related to Business"
-            ],
-            "correctAnswerIndex": 1
+            "correctAnswerIndex": 2,
+            "explanation": "Memory Hook: Flipkart takes slightly longer (about 2 weeks) to process seller payouts."
       }
-] }
+    ] }
   },
   {
     id: 'bus6', title: 'Negotiation Skills', category: 'Business',
