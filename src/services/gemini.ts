@@ -1,6 +1,6 @@
 import { GoogleGenAI, Type, ThinkingLevel } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
 
 export const analyzeImage = async (base64Image: string, mimeType: string, prompt: string) => {
   try {
@@ -80,7 +80,7 @@ export const searchGrounding = async (query: string) => {
 export const mapsGrounding = async (query: string, lat?: number, lng?: number) => {
   try {
     const config: any = {
-      tools: [{ googleMaps: {} }],
+      tools: [{ googleSearch: {} }],
     };
     
     if (lat && lng) {
